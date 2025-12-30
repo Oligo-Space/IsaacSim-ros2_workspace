@@ -30,7 +30,7 @@ launch_args = [
     
     DeclareLaunchArgument('use_internal_libs', default_value='true', description='Set to true if you wish to use internal ROS libraries shipped with Isaac Sim.'),
     
-    DeclareLaunchArgument('dds_type', default_value='fastdds', description='Set to "fastdds" or "cyclonedds" (Cyclone only supported for ROS 2 Humble and ROS 2 Jazzy) to run Isaac Sim with a specific dds type.'),
+    DeclareLaunchArgument('dds_type', default_value='fastdds', description='Set to "fastdds" or "cyclonedds" (Cyclone only supported for ROS 2 Humble) to run Isaac Sim with a specific dds type.'),
     
     DeclareLaunchArgument('gui', default_value='', description='Provide the path to a usd file to open it when starting Isaac Sim in standard gui mode. If left empty, Isaac Sim will open an empty stage in standard gui mode.'),
     
@@ -38,7 +38,7 @@ launch_args = [
     
     DeclareLaunchArgument('play_sim_on_start', default_value='false', description='If enabled and Isaac Sim will start playing the scene after it is loaded. (Only applicable when in standard gui mode and loading a scene)'),
     
-    DeclareLaunchArgument('ros_distro', default_value='humble', description='Provide ROS version to use. Only Humble and Jazzy is supported.'),
+    DeclareLaunchArgument('ros_distro', default_value='humble', description='Provide ROS version to use. Only Humble is supported.'),
     
     DeclareLaunchArgument('ros_installation_path', default_value='', description='Comma-separated list of ROS installation paths. If ROS is installed in a non-default location (as in not under /opt/ros/), provide the path to your main setup.bash file for your ROS install. (/path/to/custom/ros/install/setup.bash). Similarly add the path to your local_setup.bash file for your workspace installation. (/path/to/custom_ros_workspace/install/local_setup.bash)'),
 
