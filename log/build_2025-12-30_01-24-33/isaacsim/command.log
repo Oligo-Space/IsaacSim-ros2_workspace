@@ -1,0 +1,6 @@
+Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaacsim
+Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaacsim
+Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaacsim -- -j32 -l32
+Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaacsim -- -j32 -l32
+Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaacsim
+Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaacsim

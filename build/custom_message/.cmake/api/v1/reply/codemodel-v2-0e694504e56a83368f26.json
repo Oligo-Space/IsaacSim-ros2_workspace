@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8d6bdb216bc21b3cf4ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "custom_message__py",
+					"jsonFile" : "directory-custom_message__py-9608fba7dc3f06b2ad0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/IsaacSim-ros2_workspace/build/custom_message/custom_message__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_message",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_message_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_message_egg-020f8115252f031e651d.json",
+					"name" : "ament_cmake_python_build_custom_message_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_message-a4a676ac1abf704778df.json",
+					"name" : "ament_cmake_python_copy_custom_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message-514cf0ee7767597f13f8.json",
+					"name" : "custom_message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__cpp-5f51b1e8cbfb0239e711.json",
+					"name" : "custom_message__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_message__py::@e99d0364fd9ef503c8b7",
+					"jsonFile" : "target-custom_message__py-dae6ead9ba7521d73cf8.json",
+					"name" : "custom_message__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_generator_c-a83cdcdbc2e317f05bee.json",
+					"name" : "custom_message__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_generator_py-cc299ae1404e13f90a2a.json",
+					"name" : "custom_message__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_generator_type_description-52cedb5c2c1127ce81fc.json",
+					"name" : "custom_message__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_c-89bb9c909ac578b2de05.json",
+					"name" : "custom_message__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_cpp-b0d8f9eaecfc460dfd0e.json",
+					"name" : "custom_message__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_fastrtps_c-d6dfccd673fdcd060c1f.json",
+					"name" : "custom_message__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_fastrtps_cpp-b850c4cbd6c48193e09e.json",
+					"name" : "custom_message__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_introspection_c-7a7360387b85fff42020.json",
+					"name" : "custom_message__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message__rosidl_typesupport_introspection_cpp-9de1033b6b74bf095451.json",
+					"name" : "custom_message__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message_s__rosidl_typesupport_c-5250b247345221792346.json",
+					"name" : "custom_message_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message_s__rosidl_typesupport_fastrtps_c-c6e22ddc34b1f6bc6a4f.json",
+					"name" : "custom_message_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message_s__rosidl_typesupport_introspection_c-7052dad99db6c080979f.json",
+					"name" : "custom_message_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_message_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_message_uninstall-0cb0be7903532a60e99d.json",
+					"name" : "custom_message_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-12a547b4579e6abb1d1b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/IsaacSim-ros2_workspace/build/custom_message",
+		"source" : "/root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

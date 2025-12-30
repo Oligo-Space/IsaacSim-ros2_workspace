@@ -1,0 +1,55 @@
+[0.136s] Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaac_tutorials
+[0.201s] -- The C compiler identification is GNU 13.3.0
+[0.369s] -- The CXX compiler identification is GNU 13.3.0
+[0.523s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.643s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.643s] -- Detecting C compile features
+[0.644s] -- Detecting C compile features - done
+[0.672s] -- Detecting CXX compiler ABI info
+[0.771s] -- Detecting CXX compiler ABI info - done
+[0.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.776s] -- Detecting CXX compile features
+[0.776s] -- Detecting CXX compile features - done
+[0.777s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.859s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.922s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.979s] -- Configuring done (0.8s)
+[0.984s] -- Generating done (0.0s)
+[0.987s] -- Build files have been written to: /root/IsaacSim-ros2_workspace/build/isaac_tutorials
+[0.994s] Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaac_tutorials
+[0.995s] Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaac_tutorials -- -j32 -l32
+[1.025s] Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaac_tutorials -- -j32 -l32
+[1.026s] Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaac_tutorials
+[1.039s] -- Install configuration: ""
+[1.039s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2
+[1.039s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2/turtle_stereo.rviz
+[1.040s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2/rtx_lidar.rviz
+[1.040s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2/carter_stereo.rviz
+[1.040s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_lidar.rviz
+[1.041s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/rviz2/camera_manual.rviz
+[1.042s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts
+[1.042s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_ackermann_publisher.py
+[1.042s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_multi_mode.py
+[1.042s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_object_id_subscriber.py
+[1.042s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher_test.py
+[1.043s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/scripts/ros2_publisher.py
+[1.043s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/isaac_tutorials/ros2_publisher.py
+[1.044s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/isaac_tutorials/ros2_ackermann_publisher.py
+[1.044s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/isaac_tutorials/ros2_object_id_subscriber.py
+[1.045s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/ament_index/resource_index/package_run_dependencies/isaac_tutorials
+[1.045s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/ament_index/resource_index/parent_prefix_path/isaac_tutorials
+[1.045s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.sh
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/environment/ament_prefix_path.dsv
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/environment/path.sh
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/environment/path.dsv
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/local_setup.bash
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/local_setup.sh
+[1.046s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/local_setup.zsh
+[1.047s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/local_setup.dsv
+[1.048s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.dsv
+[1.048s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/ament_index/resource_index/packages/isaac_tutorials
+[1.048s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig.cmake
+[1.048s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/cmake/isaac_tutorialsConfig-version.cmake
+[1.048s] -- Installing: /root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.xml
+[1.049s] Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaac_tutorials

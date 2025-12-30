@@ -1,0 +1,49 @@
+[0.145s] Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/iw_hub_navigation
+[0.203s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.529s] -- Detecting C compiler ABI info
+[0.634s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.639s] -- Detecting C compile features
+[0.639s] -- Detecting C compile features - done
+[0.667s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.773s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.774s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.857s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.969s] -- Configuring done (0.8s)
+[0.973s] -- Generating done (0.0s)
+[0.975s] -- Build files have been written to: /root/IsaacSim-ros2_workspace/build/iw_hub_navigation
+[0.979s] Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/iw_hub_navigation
+[0.980s] Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/iw_hub_navigation -- -j32 -l32
+[1.001s] Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/iw_hub_navigation -- -j32 -l32
+[1.002s] Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/iw_hub_navigation
+[1.006s] -- Install configuration: ""
+[1.006s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/launch
+[1.007s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation.launch.py
+[1.007s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/launch/iw_hub_navigation_isaacsim.launch.py
+[1.008s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/params
+[1.008s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/params/iw_hub_navigation_params.yaml
+[1.008s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/maps
+[1.008s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.png
+[1.009s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/maps/iw_hub_warehouse_navigation.yaml
+[1.009s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/rviz2
+[1.009s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/rviz2/iw_hub_navigation.rviz
+[1.010s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/ament_index/resource_index/package_run_dependencies/iw_hub_navigation
+[1.011s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/ament_index/resource_index/parent_prefix_path/iw_hub_navigation
+[1.012s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.sh
+[1.012s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/environment/ament_prefix_path.dsv
+[1.012s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.sh
+[1.012s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/environment/path.dsv
+[1.013s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.bash
+[1.013s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.sh
+[1.013s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.zsh
+[1.013s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/local_setup.dsv
+[1.014s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.dsv
+[1.014s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/ament_index/resource_index/packages/iw_hub_navigation
+[1.014s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig.cmake
+[1.014s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/cmake/iw_hub_navigationConfig-version.cmake
+[1.014s] -- Installing: /root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.xml
+[1.024s] Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/iw_hub_navigation

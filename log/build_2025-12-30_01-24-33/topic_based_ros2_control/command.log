@@ -1,0 +1,1 @@
+Invoking command in '/root/IsaacSim-ros2_workspace/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/topic_based_ros2_control

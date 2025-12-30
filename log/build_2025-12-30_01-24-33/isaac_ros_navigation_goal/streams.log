@@ -1,0 +1,60 @@
+[0.618s] Invoking command in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/isaac_ros_navigation_goal build --build-base /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build install --record /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[0.744s] running egg_info
+[0.744s] creating ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info
+[0.752s] writing ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/requires.txt
+[0.753s] writing top-level names to ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/top_level.txt
+[0.753s] writing manifest file '../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.771s] reading manifest file '../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] creating /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build
+[0.772s] creating /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib
+[0.772s] creating /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.772s] copying isaac_ros_navigation_goal/obstacle_map.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.772s] copying isaac_ros_navigation_goal/set_goal.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.772s] copying isaac_ros_navigation_goal/__init__.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.772s] creating /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.773s] copying isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.773s] copying isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.773s] copying isaac_ros_navigation_goal/goal_generators/__init__.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.773s] copying isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.773s] running install
+[0.777s] running install_lib
+[0.785s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.786s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/obstacle_map.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.786s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/set_goal.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.786s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/__init__.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.787s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.787s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.787s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.788s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/__init__.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.788s] copying /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.788s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/obstacle_map.py to obstacle_map.cpython-312.pyc
+[0.788s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/set_goal.py to set_goal.cpython-312.pyc
+[0.789s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/__init__.py to __init__.cpython-312.pyc
+[0.790s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/goal_reader.py to goal_reader.cpython-312.pyc
+[0.791s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/goal_generator.py to goal_generator.cpython-312.pyc
+[0.791s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/__init__.py to __init__.cpython-312.pyc
+[0.791s] byte-compiling /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py to random_goal_generator.cpython-312.pyc
+[0.792s] running install_data
+[0.792s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/ament_index
+[0.792s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/ament_index/resource_index
+[0.793s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.793s] copying resource/isaac_ros_navigation_goal -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.793s] copying package.xml -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal
+[0.793s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.794s] copying launch/isaac_ros_navigation_goal.launch.py -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.794s] creating /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.794s] copying assets/goals.txt -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.794s] copying assets/carter_warehouse_navigation.yaml -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.794s] copying assets/carter_warehouse_navigation.png -> /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.794s] running install_egg_info
+[0.802s] Copying ../../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info to /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal-0.0.1-py3.12.egg-info
+[0.803s] running install_scripts
+[0.860s] Installing SetNavigationGoal script to /root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[0.860s] writing list of installed files to '/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/install.log'
+[0.891s] Invoked command in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/isaac_ros_navigation_goal build --build-base /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build install --record /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data

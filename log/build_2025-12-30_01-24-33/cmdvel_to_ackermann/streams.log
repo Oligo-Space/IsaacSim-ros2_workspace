@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/root/IsaacSim-ros2_workspace/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann
+[0.212s] -- The C compiler identification is GNU 13.3.0
+[0.374s] -- The CXX compiler identification is GNU 13.3.0
+[0.524s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.637s] -- Detecting C compile features
+[0.637s] -- Detecting C compile features - done
+[0.665s] -- Detecting CXX compiler ABI info
+[0.760s] -- Detecting CXX compiler ABI info - done
+[0.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.765s] -- Detecting CXX compile features
+[0.765s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.847s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.907s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.361s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.361s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.361s]   project has asked CMake to find a package configuration file provided by
+[1.361s]   "ackermann_msgs", but CMake did not find one.
+[1.361s] 
+[1.361s]   Could not find a package configuration file provided by "ackermann_msgs"
+[1.361s]   with any of the following names:
+[1.361s] 
+[1.361s]     ackermann_msgsConfig.cmake
+[1.361s]     ackermann_msgs-config.cmake
+[1.361s] 
+[1.361s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[1.361s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[1.361s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[1.361s]   has been installed.
+[1.361s] 
+[1.361s] [0m
+[1.361s] -- Configuring incomplete, errors occurred!
+[1.366s] Invoked command in '/root/IsaacSim-ros2_workspace/build/cmdvel_to_ackermann' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann

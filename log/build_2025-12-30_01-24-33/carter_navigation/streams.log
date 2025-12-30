@@ -1,0 +1,66 @@
+[0.027s] Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/carter_navigation
+[0.213s] -- The C compiler identification is GNU 13.3.0
+[0.387s] -- The CXX compiler identification is GNU 13.3.0
+[0.544s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.669s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.669s] -- Detecting C compile features
+[0.669s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.810s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.815s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.817s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.901s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.020s] -- Configuring done (1.0s)
+[1.026s] -- Generating done (0.0s)
+[1.027s] -- Build files have been written to: /root/IsaacSim-ros2_workspace/build/carter_navigation
+[1.048s] Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/carter_navigation
+[1.049s] Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/carter_navigation -- -j32 -l32
+[1.072s] Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/carter_navigation -- -j32 -l32
+[1.073s] Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/carter_navigation
+[1.076s] -- Install configuration: ""
+[1.076s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch
+[1.077s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/multiple_robot_carter_navigation_hospital.launch.py
+[1.077s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/carter_navigation.launch.py
+[1.077s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/carter_navigation_isaacsim.launch.py
+[1.077s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/nova_carter_description_isaac_sim.launch.py
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/carter_navigation_individual.launch.py
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/launch/multiple_robot_carter_navigation_office.launch.py
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/carter_navigation_params.yaml
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/office
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_1.yaml
+[1.078s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_2.yaml
+[1.079s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/office/multi_robot_carter_navigation_params_3.yaml
+[1.079s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/hospital
+[1.079s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_1.yaml
+[1.080s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_2.yaml
+[1.080s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/params/hospital/multi_robot_carter_navigation_params_3.yaml
+[1.080s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps
+[1.080s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_hospital_navigation.yaml
+[1.081s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_office_navigation.png
+[1.081s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_warehouse_navigation.yaml
+[1.081s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_hospital_navigation.png
+[1.081s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_office_navigation.yaml
+[1.081s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/maps/carter_warehouse_navigation.png
+[1.082s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/rviz2
+[1.082s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/rviz2/carter_navigation_namespaced.rviz
+[1.083s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/rviz2/carter_navigation.rviz
+[1.083s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/ament_index/resource_index/package_run_dependencies/carter_navigation
+[1.084s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/ament_index/resource_index/parent_prefix_path/carter_navigation
+[1.084s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/environment/ament_prefix_path.sh
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/environment/ament_prefix_path.dsv
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/environment/path.sh
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/environment/path.dsv
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/local_setup.bash
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/local_setup.sh
+[1.086s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/local_setup.zsh
+[1.087s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/local_setup.dsv
+[1.087s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.dsv
+[1.087s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/ament_index/resource_index/packages/carter_navigation
+[1.087s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/cmake/carter_navigationConfig.cmake
+[1.087s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/cmake/carter_navigationConfig-version.cmake
+[1.088s] -- Installing: /root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.xml
+[1.094s] Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/carter_navigation

@@ -1,0 +1,1 @@
+Invoking command in '/root/IsaacSim-ros2_workspace/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/custom_message

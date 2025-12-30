@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/root/IsaacSim-ros2_workspace/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/topic_based_ros2_control
+[0.220s] -- The CXX compiler identification is GNU 13.3.0
+[0.393s] -- Detecting CXX compiler ABI info
+[0.504s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.509s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.611s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.693s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[0.698s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.802s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.814s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.931s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.934s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.003s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.080s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.615s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[1.615s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[1.615s]   project has asked CMake to find a package configuration file provided by
+[1.615s]   "hardware_interface", but CMake did not find one.
+[1.615s] 
+[1.615s]   Could not find a package configuration file provided by
+[1.615s]   "hardware_interface" with any of the following names:
+[1.615s] 
+[1.615s]     hardware_interfaceConfig.cmake
+[1.615s]     hardware_interface-config.cmake
+[1.615s] 
+[1.615s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[1.615s]   set "hardware_interface_DIR" to a directory containing one of the above
+[1.615s]   files.  If "hardware_interface" provides a separate development package or
+[1.615s]   SDK, be sure it has been installed.
+[1.615s] 
+[1.615s] [0m
+[1.615s] -- Configuring incomplete, errors occurred!

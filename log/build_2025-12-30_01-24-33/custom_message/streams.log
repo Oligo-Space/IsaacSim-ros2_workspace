@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/root/IsaacSim-ros2_workspace/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/custom_message
+[0.210s] -- The C compiler identification is GNU 13.3.0
+[0.396s] -- The CXX compiler identification is GNU 13.3.0
+[0.541s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.652s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.652s] -- Detecting C compile features
+[0.653s] -- Detecting C compile features - done
+[0.681s] -- Detecting CXX compiler ABI info
+[0.780s] -- Detecting CXX compiler ABI info - done
+[0.785s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.786s] -- Detecting CXX compile features
+[0.786s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.867s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.927s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.006s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.011s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.046s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.058s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.376s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.921s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.996s] -- Found PythonExtra: /usr/bin/python3  
+[2.284s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.309s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.323s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.325s] -- Added test 'lint_cmake' to check CMake code style
+[2.326s] -- Added test 'xmllint' to check XML markup files
+[2.328s] -- Configuring done (2.3s)
+[2.365s] -- Generating done (0.0s)
+[2.375s] -- Build files have been written to: /root/IsaacSim-ros2_workspace/build/custom_message

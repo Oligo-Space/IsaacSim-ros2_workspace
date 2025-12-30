@@ -1,0 +1,795 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7bd4f7371040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bd4f7370a10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bd4f7370a10>>, mixin_verb=('build',))
+[0.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/IsaacSim-ros2_workspace'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/ackermann_control/cmdvel_to_ackermann' with type 'ros.ament_cmake' and name 'cmdvel_to_ackermann'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/custom_message' with type 'ros.ament_cmake' and name 'custom_message'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['cmake', 'python']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller' with type 'ros.ament_cmake' and name 'h1_fullbody_controller'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaac_ros2_messages' with type 'ros.ament_cmake' and name 'isaac_ros2_messages'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaac_tutorials' with type 'ros.ament_cmake' and name 'isaac_tutorials'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaacsim' with type 'ros.ament_cmake' and name 'isaacsim'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/isaac_moveit' with type 'ros.ament_cmake' and name 'isaac_moveit'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/moveit_resources' with type 'ros.ament_cmake' and name 'moveit_resources'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/panda_description' with type 'ros.ament_cmake' and name 'moveit_resources_panda_description'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/panda_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_panda_moveit_config'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/topic_based_ros2_control' with type 'ros.ament_cmake' and name 'topic_based_ros2_control'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/carter_navigation' with type 'ros.ament_cmake' and name 'carter_navigation'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/isaac_ros_navigation_goal' with type 'ros.ament_python' and name 'isaac_ros_navigation_goal'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/iw_hub_navigation' with type 'ros.ament_cmake' and name 'iw_hub_navigation'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_args' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_target' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'carter_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.160s] DEBUG:colcon.colcon_core.verb:Building package 'carter_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/carter_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/carter_navigation', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_args' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_target' from command line to 'None'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'cmdvel_to_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'cmdvel_to_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/cmdvel_to_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann', 'symlink_install': False, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'custom_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/custom_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/custom_message', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message', 'symlink_install': False, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'h1_fullbody_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'h1_fullbody_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller', 'symlink_install': False, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros2_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros2_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/isaac_ros2_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/isaac_ros2_messages', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_ros2_messages', 'symlink_install': False, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'isaac_ros_navigation_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_ros_navigation_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaac_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/isaac_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/isaac_tutorials', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'isaacsim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'isaacsim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/isaacsim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/isaacsim', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'iw_hub_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'iw_hub_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.162s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_description', 'symlink_install': False, 'test_result_base': None}
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.162s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'topic_based_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/topic_based_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/topic_based_ros2_control', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources_panda_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources_panda_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_moveit_config', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'isaac_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/isaac_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/isaac_moveit', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/isaac_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'moveit_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IsaacSim-ros2_workspace/build/moveit_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IsaacSim-ros2_workspace/install/moveit_resources', 'merge_install': False, 'path': '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/moveit_resources', 'symlink_install': False, 'test_result_base': None}
+[0.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_description' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_description'
+[0.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation' with build type 'ament_cmake'
+[0.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation'
+[0.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann' with build type 'ament_cmake'
+[0.178s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message' with build type 'ament_cmake'
+[0.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message'
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller' with build type 'ament_cmake'
+[0.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller'
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_ros2_messages' with build type 'ament_cmake'
+[0.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_ros2_messages'
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal' with build type 'ament_python'
+[0.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros_navigation_goal', 'ament_prefix_path')
+[0.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.ps1'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.dsv'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/ament_prefix_path.sh'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.188s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials' with build type 'ament_cmake'
+[0.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials'
+[0.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim' with build type 'ament_cmake'
+[0.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation'
+[0.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description
+[0.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/topic_based_ros2_control -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/topic_based_ros2_control
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/carter_navigation
+[0.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/cmdvel_to_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann
+[0.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/custom_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/custom_message
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_ros2_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_ros2_messages -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaac_ros2_messages
+[0.320s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaac_tutorials
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaacsim
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/iw_hub_navigation
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/isaac_ros_navigation_goal build --build-base /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build install --record /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/isaac_ros_navigation_goal build --build-base /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/build install --record /root/IsaacSim-ros2_workspace/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/pkgconfig/isaac_ros_navigation_goal.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/lib/python3.12/site-packages'
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_ros_navigation_goal', 'pythonpath')
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/hook/pythonpath.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/bin'
+[1.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_ros_navigation_goal)
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/package.zsh'
+[1.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/isaac_ros_navigation_goal/share/colcon-core/packages/isaac_ros_navigation_goal)
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaacsim -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaacsim
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaacsim -- -j32 -l32
+[1.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/iw_hub_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/iw_hub_navigation
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/iw_hub_navigation -- -j32 -l32
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaacsim -- -j32 -l32
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaacsim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaacsim
+[1.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/isaac_tutorials -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/isaac_tutorials
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaac_tutorials -- -j32 -l32
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/iw_hub_navigation -- -j32 -l32
+[1.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/iw_hub_navigation
+[1.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaacsim)
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim' for CMake module files
+[1.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaacsim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaacsim
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim' for CMake config files
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaacsim', 'cmake_prefix_path')
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.sh'
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/bin'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib/pkgconfig/isaacsim.pc'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib/python3.12/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/bin'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.sh'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.bash'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.zsh'
+[1.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/isaacsim/share/colcon-core/packages/isaacsim)
+[1.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaacsim)
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim' for CMake module files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim' for CMake config files
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaacsim', 'cmake_prefix_path')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/hook/cmake_prefix_path.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib/pkgconfig/isaacsim.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/lib/python3.12/site-packages'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaacsim/bin'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaacsim/share/isaacsim/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/isaacsim/share/colcon-core/packages/isaacsim)
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/isaac_tutorials -- -j32 -l32
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaac_tutorials
+[1.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iw_hub_navigation)
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation' for CMake module files
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/iw_hub_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/iw_hub_navigation
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation' for CMake config files
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('iw_hub_navigation', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/lib/pkgconfig/iw_hub_navigation.pc'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/lib/python3.12/site-packages'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/bin'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.bash'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/colcon-core/packages/iw_hub_navigation)
+[1.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iw_hub_navigation)
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation' for CMake module files
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation' for CMake config files
+[1.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('iw_hub_navigation', 'cmake_prefix_path')
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/hook/cmake_prefix_path.sh'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/bin'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/lib/pkgconfig/iw_hub_navigation.pc'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/lib/python3.12/site-packages'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/bin'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/iw_hub_navigation/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/iw_hub_navigation/share/colcon-core/packages/iw_hub_navigation)
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/carter_navigation
+[1.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/carter_navigation -- -j32 -l32
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_tutorials)
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials' for CMake module files
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials' for CMake config files
+[1.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'cmake_prefix_path')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.ps1'
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description -- -j32 -l32
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.dsv'
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/isaac_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/isaac_tutorials
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.sh'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/bin'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/pkgconfig/isaac_tutorials.pc'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/python3.12/site-packages'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/bin'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.zsh'
+[1.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/colcon-core/packages/isaac_tutorials)
+[1.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_tutorials)
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials' for CMake module files
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials' for CMake config files
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_tutorials', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/bin'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/pkgconfig/isaac_tutorials.pc'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/lib/python3.12/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/bin'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.bash'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/isaac_tutorials/package.zsh'
+[1.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/isaac_tutorials/share/colcon-core/packages/isaac_tutorials)
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/carter_navigation -- -j32 -l32
+[1.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/carter_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/carter_navigation
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description -- -j32 -l32
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description
+[1.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carter_navigation)
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation' for CMake module files
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/carter_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/carter_navigation
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation' for CMake config files
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('carter_navigation', 'cmake_prefix_path')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.sh'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/bin'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/lib/pkgconfig/carter_navigation.pc'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/lib/python3.12/site-packages'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/bin'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.ps1'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.sh'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.bash'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.zsh'
+[1.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/carter_navigation/share/colcon-core/packages/carter_navigation)
+[1.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carter_navigation)
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation' for CMake module files
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation' for CMake config files
+[1.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('carter_navigation', 'cmake_prefix_path')
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/hook/cmake_prefix_path.sh'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/bin'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/lib/pkgconfig/carter_navigation.pc'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/lib/python3.12/site-packages'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/carter_navigation/bin'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.bash'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/carter_navigation/share/carter_navigation/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/carter_navigation/share/colcon-core/packages/carter_navigation)
+[1.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description' for CMake module files
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/moveit_resources_panda_description
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description' for CMake config files
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/bin'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/lib/python3.12/site-packages'
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/bin'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[1.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[1.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_resources_panda_description)
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description' for CMake module files
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description' for CMake config files
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_resources_panda_description', 'cmake_prefix_path')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/lib/python3.12/site-packages'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/bin'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.sh'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.bash'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.zsh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description/share/colcon-core/packages/moveit_resources_panda_description)
+[1.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_moveit_config' with build type 'ament_cmake'
+[1.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_moveit_config'
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/moveit/moveit_resources/panda_moveit_config -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/moveit_resources_panda_moveit_config
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/h1_fullbody_controller -- -j32 -l32
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/IsaacSim-ros2_workspace/build/h1_fullbody_controller -- -j32 -l32
+[1.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/h1_fullbody_controller
+[1.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_fullbody_controller)
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller' for CMake module files
+[1.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/h1_fullbody_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/IsaacSim-ros2_workspace/build/h1_fullbody_controller
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller' for CMake config files
+[1.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_fullbody_controller', 'cmake_prefix_path')
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.dsv'
+[1.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib/pkgconfig/h1_fullbody_controller.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib/python3.12/site-packages'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/bin'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.zsh'
+[1.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/colcon-core/packages/h1_fullbody_controller)
+[1.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_fullbody_controller)
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller' for CMake module files
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_fullbody_controller', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/hook/cmake_prefix_path.sh'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/bin'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib/pkgconfig/h1_fullbody_controller.pc'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/lib/python3.12/site-packages'
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/bin'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.sh'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.bash'
+[1.353s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/h1_fullbody_controller/package.zsh'
+[1.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/h1_fullbody_controller/share/colcon-core/packages/h1_fullbody_controller)
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IsaacSim-ros2_workspace/build/cmdvel_to_ackermann' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/IsaacSim-ros2_workspace/jazzy_ws/src/ackermann_control/cmdvel_to_ackermann -DCMAKE_INSTALL_PREFIX=/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann
+[1.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmdvel_to_ackermann)
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann' for CMake module files
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann' for CMake config files
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/lib/pkgconfig/cmdvel_to_ackermann.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/lib/python3.12/site-packages'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/bin'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.sh'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/cmdvel_to_ackermann/package.zsh'
+[1.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IsaacSim-ros2_workspace/install/cmdvel_to_ackermann/share/colcon-core/packages/cmdvel_to_ackermann)
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.628s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.628s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.653s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.710s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.710s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IsaacSim-ros2_workspace/install/local_setup.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/IsaacSim-ros2_workspace/install/_local_setup_util_ps1.py'
+[2.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IsaacSim-ros2_workspace/install/setup.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IsaacSim-ros2_workspace/install/local_setup.sh'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/IsaacSim-ros2_workspace/install/_local_setup_util_sh.py'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IsaacSim-ros2_workspace/install/setup.sh'
+[2.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IsaacSim-ros2_workspace/install/local_setup.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IsaacSim-ros2_workspace/install/setup.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IsaacSim-ros2_workspace/install/local_setup.zsh'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IsaacSim-ros2_workspace/install/setup.zsh'

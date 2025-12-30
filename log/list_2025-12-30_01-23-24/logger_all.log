@@ -1,0 +1,289 @@
+[0.065s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71928441c5c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7192845d71d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7192845d71d0>>, mixin_verb=('list',))
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/IsaacSim-ros2_workspace'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(dockerfiles) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'ros'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['cmake', 'python']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'cmake'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'python'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extensions ['python_setup_py']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control) by extension 'python_setup_py'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/ackermann_control/cmdvel_to_ackermann) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/ackermann_control/cmdvel_to_ackermann' with type 'ros.ament_cmake' and name 'cmdvel_to_ackermann'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/custom_message) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/custom_message' with type 'ros.ament_cmake' and name 'custom_message'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'ros'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['cmake', 'python']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'cmake'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'python'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extensions ['python_setup_py']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example) by extension 'python_setup_py'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller' with type 'ros.ament_cmake' and name 'h1_fullbody_controller'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_ros2_messages) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaac_ros2_messages' with type 'ros.ament_cmake' and name 'isaac_ros2_messages'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaac_tutorials) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaac_tutorials' with type 'ros.ament_cmake' and name 'isaac_tutorials'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/isaacsim) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/isaacsim' with type 'ros.ament_cmake' and name 'isaacsim'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/isaac_moveit) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/isaac_moveit' with type 'ros.ament_cmake' and name 'isaac_moveit'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'ros'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['cmake', 'python']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'cmake'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'python'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extensions ['python_setup_py']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources) by extension 'python_setup_py'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/moveit_resources) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/moveit_resources' with type 'ros.ament_cmake' and name 'moveit_resources'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_description) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/panda_description' with type 'ros.ament_cmake' and name 'moveit_resources_panda_description'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/moveit_resources/panda_moveit_config) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/moveit_resources/panda_moveit_config' with type 'ros.ament_cmake' and name 'moveit_resources_panda_moveit_config'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/moveit/topic_based_ros2_control) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/moveit/topic_based_ros2_control' with type 'ros.ament_cmake' and name 'topic_based_ros2_control'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'ros'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['cmake', 'python']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'cmake'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'python'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extensions ['python_setup_py']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation) by extension 'python_setup_py'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/carter_navigation) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/carter_navigation' with type 'ros.ament_cmake' and name 'carter_navigation'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/isaac_ros_navigation_goal) by extension 'ros'
+[0.106s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/isaac_ros_navigation_goal' with type 'ros.ament_python' and name 'isaac_ros_navigation_goal'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ignore_ament_install'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['colcon_pkg']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'colcon_pkg'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['colcon_meta']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'colcon_meta'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(jazzy_ws/src/navigation/iw_hub_navigation) by extension 'ros'
+[0.107s] DEBUG:colcon.colcon_core.package_identification:Package 'jazzy_ws/src/navigation/iw_hub_navigation' with type 'ros.ament_cmake' and name 'iw_hub_navigation'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
