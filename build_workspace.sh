@@ -26,13 +26,12 @@ function display_help {
   echo "Build a specific ROS2 workspace using colcon."
   echo ""
   echo "Arguments:"
-  echo "  workspace    Specify which workspace to build: 'humble' or 'jazzy' (required)"
+  echo "  workspace    Specify which workspace to build: 'jazzy' (required)"
   echo "  colcon-args  Additional arguments to pass to colcon build"
   echo ""
   echo "Examples:"
-  echo "  $0 humble                    # Build humble_ws"
   echo "  $0 jazzy                     # Build jazzy_ws"
-  echo "  $0 humble --packages-select pkg1 pkg2  # Build specific packages in humble_ws"
+  echo "  $0 jazzy --packages-select pkg1 pkg2  # Build specific packages in jazzy_ws"
   echo ""
 }
 
@@ -46,9 +45,9 @@ WORKSPACE=$1
 shift  # Remove first argument, rest are colcon args
 
 # Validate workspace
-if [ "$WORKSPACE" != "humble" ] && [ "$WORKSPACE" != "jazzy" ]; then
+if [ "$WORKSPACE" != "jazzy" ]; then
   echo "Error: Invalid workspace '$WORKSPACE'"
-  echo "Valid workspaces are: humble, jazzy"
+  echo "Valid workspace is: jazzy"
   exit 1
 fi
 

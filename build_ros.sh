@@ -25,16 +25,15 @@ function display_help {
   echo "Build the ROS2 workspace using Docker."
   echo ""
   echo "Options:"
-  echo "  -d DISTRO     Specify ROS2 distro (humble or jazzy)"
+  echo "  -d DISTRO     Specify ROS2 distro (jazzy)"
   echo "  -v VERSION    Specify Ubuntu version (22.04 or 24.04)"
   echo "  -h            Display this help message"
   echo ""
   echo "Supported combinations:"
-  echo "  - humble: Ubuntu 22.04"
   echo "  - jazzy:  Ubuntu 22.04 or 24.04"
   echo ""
   echo "If no options are specified, the script will detect your current Ubuntu version"
-  echo "and select: Ubuntu 22.04 -> Humble, Ubuntu 24.04 -> Jazzy"
+  echo "and default to Jazzy"
 }
 
 # Add command-line arguments
@@ -68,45 +67,34 @@ fi
 
 # Set default ROS distro based on Ubuntu version if not specified
 if [ -z "$ROS_DISTRO" ]; then
-    if [ "$UBUNTU_VERSION" = "22.04" ]; then
-        ROS_DISTRO="humble"
-    elif [ "$UBUNTU_VERSION" = "24.04" ]; then
+    if [ "$UBUNTU_VERSION" = "22.04" ] || [ "$UBUNTU_VERSION" = "24.04" ]; then
         ROS_DISTRO="jazzy"
     else
         echo "Unsupported Ubuntu version: $UBUNTU_VERSION"
         echo "Supported versions are: 22.04, 24.04"
         exit 1
     fi
-    echo "No ROS distro specified, defaulting to $ROS_DISTRO based on Ubuntu version"
+    echo "No ROS distro specified, defaulting to $ROS_DISTRO"
 fi
 
 # Validate the combination of Ubuntu version and ROS distro
-if [ "$ROS_DISTRO" = "humble" ] && [ "$UBUNTU_VERSION" != "22.04" ]; then
-    echo "Error: ROS Humble is only supported on Ubuntu 22.04"
+if [ "$ROS_DISTRO" != "jazzy" ]; then
+    echo "Error: Only ROS Jazzy is supported"
     exit 1
 fi
 
-if [ "$ROS_DISTRO" = "jazzy" ] && [ "$UBUNTU_VERSION" != "22.04" ] && [ "$UBUNTU_VERSION" != "24.04" ]; then
+if [ "$UBUNTU_VERSION" != "22.04" ] && [ "$UBUNTU_VERSION" != "24.04" ]; then
     echo "Error: ROS Jazzy is only supported on Ubuntu 22.04 or 24.04"
     exit 1
 fi
 
 # Select the appropriate Docker file
-if [ "$ROS_DISTRO" = "humble" ]; then
-    DOCKERFILE="dockerfiles/ubuntu_22_humble_python_312_minimal.dockerfile"
-    echo "Using Ubuntu 22.04 with ROS Humble"
-elif [ "$ROS_DISTRO" = "jazzy" ]; then
-    if [ "$UBUNTU_VERSION" = "22.04" ]; then
-        DOCKERFILE="dockerfiles/ubuntu_22_jazzy_python_312_minimal.dockerfile"
-        echo "Using Ubuntu 22.04 with ROS Jazzy"
-    elif [ "$UBUNTU_VERSION" = "24.04" ]; then
-        DOCKERFILE="dockerfiles/ubuntu_24_jazzy_python_312_minimal.dockerfile" 
-        echo "Using Ubuntu 24.04 with ROS Jazzy"
-    fi
-else
-    echo "Unsupported ROS distro: $ROS_DISTRO"
-    echo "Supported distros are: humble, jazzy"
-    exit 1
+if [ "$UBUNTU_VERSION" = "22.04" ]; then
+    DOCKERFILE="dockerfiles/ubuntu_22_jazzy_python_312_minimal.dockerfile"
+    echo "Using Ubuntu 22.04 with ROS Jazzy"
+elif [ "$UBUNTU_VERSION" = "24.04" ]; then
+    DOCKERFILE="dockerfiles/ubuntu_24_jazzy_python_312_minimal.dockerfile" 
+    echo "Using Ubuntu 24.04 with ROS Jazzy"
 fi
 
 # Build the Docker image
