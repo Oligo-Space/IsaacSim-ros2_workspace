@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'es165_moveit_moveit_config'
+package_name = 'simple_es165_test'
 
 setup(
     name=package_name,
@@ -12,15 +12,19 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'),
+            glob('launch/*')),
+        (os.path.join('share', package_name, 'urdf'),
+            glob('urdf/*')),
         (os.path.join('share', package_name, 'config'),
             glob('config/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='oligo',
-    maintainer_email='phillip@oligo.space',
-    description='Sets up the configuration for moveit',
-    license='',
+    maintainer_email='kguo@oligo.space',
+    description='Simplified single-joint ES165 test robot package',
+    license='TODO: License declaration',
     extras_require={
         'test': [
             'pytest',

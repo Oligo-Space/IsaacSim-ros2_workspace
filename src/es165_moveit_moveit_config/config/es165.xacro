@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<!-- Defines references and sets up the main xacro and ros2 controllers -->
 <robot name="es165d" xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:arg name="joint_velocities_file" default="$(find es165_moveit)/config/joint_velocities_dx100.yaml"/>
 
@@ -6,7 +7,7 @@
 
   <!-- ros2 control setup -->
   <xacro:include filename="$(find es165_moveit)/urdf/es_165.ros2_control.xacro" />
-  <xacro:es165_ros2_control name="arm_controller"/>
+  <xacro:es165_ros2_control name="es165_arm"/>
   <!---->
-  <xacro:es165_moveit prefix="" joint_velocities_file="$(arg joint_velocities_file)"/>
+  <xacro:motoman_es165 prefix="" joint_velocities_file="$(arg joint_velocities_file)"/>
 </robot>

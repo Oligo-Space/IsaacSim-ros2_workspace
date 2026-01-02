@@ -1,4 +1,3 @@
-# Sets up the overall controller manager for MoveIt
 trajectory_execution:
   allowed_execution_duration_scaling: 1.2
   allowed_goal_duration_margin: 0.5
@@ -12,14 +11,10 @@ moveit_simple_controller_manager:
   controller_names:
     - arm_controller
 
-  arm_controller: #Sets up the ROS2 action space
+  arm_controller:
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
-      - joint_1_s
-      - joint_2_l
-      - joint_3_u
-      - joint_4_r
-      - joint_5_b
-      - joint_6_t
+      - joint_1
+

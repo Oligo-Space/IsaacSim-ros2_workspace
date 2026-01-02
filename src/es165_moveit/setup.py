@@ -12,28 +12,39 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Find all files and put them in the share directory under the same folder name
         (os.path.join('share', package_name, 'launch'),
-            glob('launch/*.py')),
+            glob('launch/*')),
         (os.path.join('share', package_name, 'urdf'),
             glob('urdf/*')),
-        (os.path.join('share', package_name, 'meshes'),
-            [f for f in glob('meshes/**/*',recursive=True) if os.path.isfile(f)]),
+        (os.path.join('share', package_name, 'rviz'),
+            glob('rviz/*')),
+        
+        #Finds all files in folder and subfolders
         (os.path.join('share', package_name, 'config'),
             [f for f in glob('config/**/*',recursive=True) if os.path.isfile(f)]),
+
+        # Parse between visual and collision meshes as they have the same underlying names
+        # Xacro file uses the visual meshes & collision_meshes shared folders to launch
+        (os.path.join('share', package_name, 'visual_meshes'),
+            [f for f in glob('meshes/visual/*',recursive=True) if os.path.isfile(f)]),
+        (os.path.join('share', package_name, 'collision_meshes'),
+            [f for f in glob('meshes/collision/*',recursive=True) if os.path.isfile(f)]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='oligo',
-    maintainer_email='kguo@oligo.space',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='phillip@oligo.space',
+    description='Arm Visualization and Interface with IsaacSim',
+    license='',
     extras_require={
         'test': [
             'pytest',
         ],
-    },
+    }, 
     entry_points={
         'console_scripts': [
+            'joint_state_bridge = es165_moveit.joint_state_bridge:main',
         ],
     },
 )

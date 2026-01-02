@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 import os
 from glob import glob
 
-package_name = 'es165_moveit_moveit_config'
+package_name = 'simple_es165_test_moveit_config'
 
 setup(
     name=package_name,
@@ -18,9 +18,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='oligo',
-    maintainer_email='phillip@oligo.space',
-    description='Sets up the configuration for moveit',
-    license='',
+    maintainer_email='kguo@oligo.space',
+    description='MoveIt configuration package for simplified single-joint ES165 test robot',
+    license='TODO: License declaration',
     extras_require={
         'test': [
             'pytest',
@@ -31,3 +31,4 @@ setup(
         ],
     },
 )
+

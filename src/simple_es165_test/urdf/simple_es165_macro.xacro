@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="simple_es165" params="prefix joint_velocities_file">
+    <!-- Simplified single joint robot -->
+    <!-- link list -->
+    <link name="${prefix}base_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.2 0.2 0.2"/>
+        </geometry>
+        <material name="blue">
+          <color rgba="0 0 1 1"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.2 0.2 0.2"/>
+        </geometry>
+      </collision>
+    </link>
+    
+    <link name="${prefix}link_1">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.1" length="0.5"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <cylinder radius="0.1" length="0.5"/>
+        </geometry>
+      </collision>
+    </link>
+    
+    <!-- end of link list -->
+
+    <!-- joint list -->
+    <xacro:property name="velocities" value="${xacro.load_yaml(joint_velocities_file)}" />
+
+    <joint name="${prefix}joint_1" type="revolute">
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <parent link="${prefix}base_link"/>
+      <child link="${prefix}link_1"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="${radians(-180)}" upper="${radians(180)}" effort="0" velocity="${radians(velocities['joint_1'])}"/>
+    </joint>
+    <!-- end of joint list -->
+
+    <!-- Tool frame -->
+    <link name="${prefix}tool0"/>
+    <joint name="${prefix}link_1-tool0" type="fixed">
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <parent link="${prefix}link_1"/>
+      <child link="${prefix}tool0"/>
+    </joint>
+    
+  </xacro:macro>
+</robot>
+

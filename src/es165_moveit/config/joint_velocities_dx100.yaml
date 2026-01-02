@@ -1,3 +1,4 @@
+# This contains the velocity commands for the joints
 joint_1_s: 90.0
 joint_2_l: 85.0
 joint_3_u: 85.0

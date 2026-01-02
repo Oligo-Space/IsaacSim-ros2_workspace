@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://ros.org/wiki/xacro" name="es165d">
-  <xacro:macro name="es165_moveit" params="prefix joint_velocities_file">
+<!-- Sourced from es165 github repo 
+Mesh paths updated to reflect the ROS2 build structure-->
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="motoman_es165" params="prefix joint_velocities_file">
     <!-- link list -->
     <link name="${prefix}base_link">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://es165_moveit/meshes/base_link.stl"/>
+            <mesh filename="package://es165_moveit/visual_meshes/base_link.stl"/>
           </geometry>
           <material name="blue">
             <color rgba="0 0 1 1"/>
@@ -14,7 +16,7 @@
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/base_link.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/base_link.stl"/>
         </geometry>
         <material name="yellow">
           <color rgba="0 1 1 1"/>
@@ -25,14 +27,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_s.stl"/>
+          <mesh filename="package://es165_moveit/visual_meshes/link_s.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_s.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_s.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -41,14 +43,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_l.stl"/>
+          <mesh filename="package://es165_moveit/visual_meshes/link_l.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_l.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_l.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -57,14 +59,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_u.stl"/>
+          <mesh filename="package://es165_moveit/visual_meshes/link_u.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_u.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_u.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -73,14 +75,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://es165_moveit/meshes/link_r.stl"/>
+        <mesh filename="package://es165_moveit/visual_meshes/link_r.stl"/>
       </geometry>
       <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_r.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_r.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -89,14 +91,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_b.stl"/>
+          <mesh filename="package://es165_moveit/visual_meshes/link_b.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_b.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_b.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -105,7 +107,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://es165_moveit/meshes/link_t.stl"/>
+            <mesh filename="package://es165_moveit/visual_meshes/link_t.stl"/>
           </geometry>
           <material name="black">
             <color rgba="0 0 0 1"/>
@@ -114,13 +116,11 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/link_t.stl"/>
+          <mesh filename="package://es165_moveit/collision_meshes/link_t.stl"/>
         </geometry>
         <material name="black"/>
       </collision>
     </link>
-    <link name="${prefix}tool0"/>
-
     <!--
 
       Balancer and rod are disabled as without a mimic joint they will not update
@@ -132,14 +132,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/balancer_piston.stl"/>
+          <mesh filename="package://es165_moveit/balancer_piston.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/balancer_piston.stl"/>
+          <mesh filename="package://es165_moveit/collision/balancer_piston.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -148,7 +148,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/balancer_rod.stl"/>
+          <mesh filename="package://es165_moveit/balancer_rod.stl"/>
         </geometry>
         <material name="blue">
           <color rgba="1 1 1 1"/>
@@ -157,7 +157,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/meshes/balancer_rod.stl"/>
+          <mesh filename="package://es165_moveit/collision/balancer_rod.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -210,11 +210,6 @@
       <axis xyz="0 0 1"/>
       <limit lower="${radians(-360)}" upper="${radians(360)}" effort="0" velocity="${radians(velocities['joint_6_t'])}"/>
     </joint>
-    <joint name="${prefix}joint_t-tool0" type="fixed">
-      <origin xyz="0 0 0" rpy="0 ${pi} 0"/>
-      <parent link="${prefix}link_t"/>
-      <child link="${prefix}tool0"/>
-    </joint>
 
     <!--
 
@@ -233,7 +228,6 @@
     -->
     <!-- end of joint list -->
 
-
     <!-- ROS base_link to Robot Manufacturer World Coordinates transform -->
     <link name="${prefix}base" />
     <joint name="${prefix}base_link-base" type="fixed">
@@ -241,6 +235,22 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}base"/>
     </joint>
+
+    <!-- ROS-Industrial 'flange' frame: attachment point for EEF models -->
+    <link name="${prefix}flange"/>
+    <joint name="${prefix}link_t-flange" type="fixed">
+      <origin xyz="0 0 0" rpy="0 ${radians(90)} 0"/>
+      <parent link="${prefix}link_t"/>
+      <child link="${prefix}flange"/>
+    </joint>
+
+    <!-- ROS-Industrial 'tool0' frame: all-zeros tool frame -->
+    <link name="${prefix}tool0"/>
+    <joint name="${prefix}flange-tool0" type="fixed">
+      <origin xyz="0 0 0" rpy="${radians(180)} ${radians(-90)} 0"/>
+      <parent link="${prefix}flange"/>
+      <child link="${prefix}tool0"/>
+    </joint>
+    
   </xacro:macro>
-  <!-- <xacro:es165_moveit prefix="" joint_velocities_file="$(find es165_moveit)/config/joint_velocities_dx100.yaml"/> -->
 </robot>
