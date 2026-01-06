@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<!-- Sourced from es165 github repo 
-Mesh paths updated to reflect the ROS2 build structure-->
+
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:macro name="motoman_es165" params="prefix joint_velocities_file">
     <!-- link list -->

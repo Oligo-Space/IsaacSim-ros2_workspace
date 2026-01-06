@@ -3,13 +3,20 @@ from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument, RegisterEventHandler
 from launch.event_handlers import OnProcessStart, OnProcessExit
 from launch.substitutions import LaunchConfiguration
+from rclpy.impl.implementation_singleton import package
 from moveit_configs_utils import MoveItConfigsBuilder
 from ament_index_python.packages import get_package_share_directory
+from launch_param_builder import ParameterBuilder
 import os
 
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "ERROR"
 
 def generate_launch_description():
+    '''
+    Launches the robot to interface with MoveIt2 Servo
+    Relies on /torque_input being published for robot control
+    Only handles attitude control, no linear transformations
+    '''
 
     # ROS2 Controller setup
     ros2_controllers_path = os.path.join(
@@ -19,7 +26,8 @@ def generate_launch_description():
     )
 
     moveit_config = (
-        MoveItConfigsBuilder("es165_moveit") #This references the es165_moveit_moveit_config package, local files there
+        MoveItConfigsBuilder(
+            robot_name="es165_arm",package_name="es165_moveit_moveit_config") #This references the es165_moveit_moveit_config package, local files there
         .robot_description(
             file_path="config/es165.xacro",
         )
@@ -33,6 +41,14 @@ def generate_launch_description():
         )
         .to_moveit_configs()
     )
+
+    servo_params = {
+        "moveit_servo": ParameterBuilder("es165_moveit_moveit_config")
+        .yaml("config/servo_params.yaml")
+        .to_dict()
+    }
+ 
+    planning_group_name = {"planning_group_name": "arm"}
 
     # Declare use_sim_time argument, this allows the robot to interface with the Isaac Sim sim time publisher
     sim_time = DeclareLaunchArgument(
@@ -116,11 +132,41 @@ def generate_launch_description():
         arguments=["--ros-args", "--log-level", LaunchConfiguration("log_level")],
     )
 
+    servo_node = Node(
+        package="moveit_servo",
+        executable="servo_node_main",
+        name="servo_node",
+        parameters=[
+            servo_params,
+            planning_group_name,
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+            moveit_config.joint_limits,
+            {"use_sim_time": LaunchConfiguration("use_sim_time")},
+        ],
+        arguments=[
+            "--ros-args",
+            "--log-level", LaunchConfiguration("log_level"),
+        ],
+        output="screen",
+    )
+
     # RViz config file path
     rviz_config_path = os.path.join(
         get_package_share_directory("es165_moveit"),
         "rviz",
         "default.rviz",
+    )
+
+    # Zero-G MoveIt Controller
+    zero_g_controller = Node(
+        package="es165_moveit",
+        executable="zero_g_servo",
+        output="both",
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
     )
 
     # RViz
@@ -157,6 +203,33 @@ def generate_launch_description():
         )
     )
 
+    # Spawn zero_g_controller after arm_controller finishes loading
+    spawn_zero_g_after_arm = RegisterEventHandler(
+        OnProcessExit(
+            target_action=spawn_arm_controller,
+            on_exit=[zero_g_controller],
+        )
+    )
+
+
+
+    # Test Control Node
+    test_control = Node(
+        package="es165_moveit",
+        executable="test_control",
+        output="both",
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
+    )
+
+    torque_pub = RegisterEventHandler(
+        OnProcessStart(
+            target_action=zero_g_controller,
+            on_start=[test_control],
+        )
+    )
+
     return LaunchDescription([
         sim_time,
         log_level,
@@ -165,5 +238,8 @@ def generate_launch_description():
         spawn_jsb_on_start,
         spawn_arm_after_jsb,
         moveit_group,
-        rviz2,
+        servo_node,
+        spawn_zero_g_after_arm,
+        torque_pub,
+        # rviz2,
     ])

@@ -18,6 +18,9 @@
         <command_interface name="position">
           <param name="initial_value">0.0</param>
         </command_interface>
+        <command_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
         </state_interface>
@@ -31,6 +34,9 @@
 
       <joint name="joint_2_l">
         <command_interface name="position">
+          <param name="initial_value">0.0</param>
+        </command_interface>
+        <command_interface name="velocity">
           <param name="initial_value">0.0</param>
         </command_interface>
         <state_interface name="position">
@@ -48,6 +54,9 @@
         <command_interface name="position">
           <param name="initial_value">0.0</param>
         </command_interface>
+        <command_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
         </state_interface>
@@ -61,6 +70,9 @@
 
       <joint name="joint_4_r">
         <command_interface name="position">
+          <param name="initial_value">0.0</param>
+        </command_interface>
+        <command_interface name="velocity">
           <param name="initial_value">0.0</param>
         </command_interface>
         <state_interface name="position">
@@ -78,6 +90,9 @@
         <command_interface name="position">
           <param name="initial_value">0.0</param>
         </command_interface>
+        <command_interface name="velocity">
+          <param name="initial_value">0.0</param>
+        </command_interface>
         <state_interface name="position">
           <param name="initial_value">0.0</param>
         </state_interface>
@@ -91,6 +106,9 @@
 
       <joint name="joint_6_t">
         <command_interface name="position">
+          <param name="initial_value">0.0</param>
+        </command_interface>
+        <command_interface name="velocity">
           <param name="initial_value">0.0</param>
         </command_interface>
         <state_interface name="position">
