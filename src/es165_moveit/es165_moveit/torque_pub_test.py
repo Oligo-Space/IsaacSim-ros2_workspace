@@ -17,7 +17,7 @@ class TestControl(Node):
         )
         self.start = False
         self.create_subscription(Bool,"/start_pub",self.toggle_test,10)
-        self.create_subscription(Float32MultiArray,"/torque_input",self.update_torque,10)
+        self.create_subscription(Float32MultiArray,"/torque_update",self.update_torque,10)
 
         hz = 20
 

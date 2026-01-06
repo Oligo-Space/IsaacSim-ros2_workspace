@@ -45,10 +45,8 @@ setup(
     entry_points={
         'console_scripts': [
             'joint_state_bridge = es165_moveit.joint_state_bridge:main',
-            'zero_g_controller = es165_moveit.zero_g_controller:main',
             'zero_g_servo = es165_moveit.zero_g_servo:main',
-            'intercept_and_timestamp = es165_moveit.intercept_and_timestamp:main',
-            'test_control = es165_moveit.test_control:main',
+            'torque_publisher = es165_moveit.torque_pub_test:main',
         ],
     },
 )

@@ -216,7 +216,7 @@ def generate_launch_description():
     # Test Control Node
     test_control = Node(
         package="es165_moveit",
-        executable="test_control",
+        executable="torque_publisher",
         output="both",
         parameters=[
             {'use_sim_time': LaunchConfiguration('use_sim_time')},
