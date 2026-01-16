@@ -10,6 +10,7 @@ from launch_param_builder import ParameterBuilder
 import os
 
 LOG_LEVEL = "ERROR"
+UPDATE_RATE = 30 #Hz
 
 def generate_launch_description():
     '''
@@ -159,6 +160,21 @@ def generate_launch_description():
         "default.rviz",
     )
 
+    # Helpful but deprecated - I wrote some cpp code to publish the Jacobian but found out that I do not 
+    # need it
+    jacobian_publisher = Node(
+        package="moveit2_tutorials",
+        executable="robot_model_and_robot_state_tutorial",
+        output="screen",
+        parameters=[
+            moveit_config.robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+            moveit_config.joint_limits,
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
+    )
+
     # Zero-G MoveIt Controller
     zero_g_controller = Node(
         package="es165_moveit",
@@ -166,6 +182,16 @@ def generate_launch_description():
         output="both",
         parameters=[
             {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
+    )
+
+    zero_g_position_controller = Node(
+        package="es165_moveit",
+        executable="zero_g_position_controller",
+        output="both",
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+            {'hz': UPDATE_RATE},
         ],
     )
 
@@ -220,6 +246,7 @@ def generate_launch_description():
         output="both",
         parameters=[
             {'use_sim_time': LaunchConfiguration('use_sim_time')},
+            {'hz': UPDATE_RATE},
         ],
     )
 
@@ -234,6 +261,7 @@ def generate_launch_description():
         sim_time,
         log_level,
         robot_state_publisher,
+        # jacobian_publisher,
         ros2_control,
         spawn_jsb_on_start,
         spawn_arm_after_jsb,

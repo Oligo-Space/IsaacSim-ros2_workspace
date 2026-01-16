@@ -163,11 +163,21 @@ def generate_launch_description():
         )
     )
 
+    point_move = Node(
+        package="es165_moveit",
+        executable="point_move",
+        output="screen",
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
+    )
+
     return LaunchDescription([
         sim_time,
         log_level,
         robot_state_publisher,
         ros2_control,
+        point_move,
         spawn_jsb_on_start,
         spawn_arm_after_jsb,
         moveit_group,

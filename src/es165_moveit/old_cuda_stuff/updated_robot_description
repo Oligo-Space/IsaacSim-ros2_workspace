@@ -1,0 +1,46 @@
+format: "xrdf"
+
+format_version: 1.0
+
+default_joint_positions: 
+  joint_1_s: 0.0
+  joint_2_l: 0.0003
+  joint_3_u: 0.0
+  joint_4_r: 0.0
+  joint_5_b: 0.0
+  joint_6_t: 0.0
+
+cspace: 
+  joint_names: []
+  acceleration_limits: []
+  jerk_limits: []
+
+collision: 
+  geometry: "auto_generated_collision_sphere_group"
+
+self_collision: 
+  geometry: "auto_generated_collision_sphere_group"
+  ignore: 
+    base_link: 
+      - "link_s"
+    link_s: 
+      - "link_l"
+    link_l: 
+      - "link_u"
+    link_u: 
+      - "link_r"
+    link_r: 
+      - "link_b"
+    link_b: 
+      - "link_t"
+    link_t: 
+      - "ee_base_link"
+
+geometry: 
+  auto_generated_collision_sphere_group: 
+    spheres: 
+      link_s: 
+        - center: [0.006, 0.159, 0.044]
+          radius: 0.2877
+        - center: [0.778, 0.004, -0.014]
+          radius: 0.2822

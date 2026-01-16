@@ -4,6 +4,10 @@
   <xacro:macro name="motoman_es165" params="prefix joint_velocities_file">
     <!-- link list -->
     <link name="${prefix}base_link">
+      <inertial>
+        <mass value="305"/>
+        <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
@@ -23,6 +27,10 @@
       </collision>
     </link>
     <link name="${prefix}link_s">
+      <inertial>
+        <mass value="422.18"/>
+        <inertia ixx="14.17" iyy="38.48" izz="40.88" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -39,6 +47,10 @@
       </collision>
     </link>
     <link name="${prefix}link_l">
+      <inertial>
+        <mass value="259.5"/>
+        <inertia ixx="3.57" iyy="31.35" izz="32.24" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -55,6 +67,10 @@
       </collision>
     </link>
     <link name="${prefix}link_u">
+      <inertial>
+        <mass value="258.7"/>
+        <inertia ixx="5.59" iyy="25.03" izz="27.08" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -71,6 +87,10 @@
       </collision>
     </link>
     <link name="${prefix}link_r">
+      <inertial>
+        <mass value="13.02"/>
+        <inertia ixx="0.03" iyy="0.1" izz="0.1" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -87,6 +107,10 @@
       </collision>
     </link>
     <link name="${prefix}link_b">
+      <inertial>
+        <mass value="27.436"/>
+        <inertia ixx="0.19" iyy="0.28" izz="0.35" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
@@ -103,6 +127,10 @@
       </collision>
     </link>
     <link name="${prefix}link_t">
+      <inertial>
+        <mass value="2.16"/>
+        <inertia ixx="0.001" iyy="0.001" izz="0.01" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
@@ -118,6 +146,99 @@
           <mesh filename="package://es165_moveit/collision_meshes/link_t.stl"/>
         </geometry>
         <material name="black"/>
+      </collision>
+    </link>
+    <link name="${prefix}ee_base_link">
+      <inertial>
+        <mass value="30.24"/>
+        <inertia ixx="0.669" iyy="2.609" izz="3.261" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/visual_meshes/ee_base_link.stl"/>
+        </geometry>
+        <material name="grey">
+          <color rgba="0.7 0.7 0.7 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/collision_meshes/ee_base_link.stl"/>
+        </geometry>
+      </collision>
+    </link>
+    <link name="${prefix}rw1">
+      <inertial>
+        <mass value="0.490"/>
+        <inertia izz="0.0003" ixx="0.001" iyy="0.001" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw1_visual.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw1_collision.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </collision>
+    </link>
+    <link name="${prefix}rw2">
+      <inertial>
+        <mass value="0.490"/>
+        <inertia izz="0.0003" ixx="0.001" iyy="0.001" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw2_visual.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw2_collision.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </collision>
+    </link>
+    <link name="${prefix}rw3">
+      <inertial>
+        <mass value="0.490"/>
+        <inertia izz="0.0003" ixx="0.001" iyy="0.001" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw3_visual.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw3_collision.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </collision>
+    </link>
+    <link name="${prefix}rw4">
+      <inertial>
+        <mass value="0.490"/>
+        <inertia izz="0.0003" ixx="0.001" iyy="0.001" ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+      <visual>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw4_visual.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="package://es165_moveit/urdf/rw4_collision.stl" scale="1.00000 1.00000 1.00000"/>
+        </geometry>
       </collision>
     </link>
     <!--
@@ -209,7 +330,36 @@
       <axis xyz="0 0 1"/>
       <limit lower="${radians(-360)}" upper="${radians(360)}" effort="0" velocity="${radians(velocities['joint_6_t'])}"/>
     </joint>
+    <joint name="ee_base_link_joint" type="fixed">
+      <origin xyz="0.004513 0 -0.0745" rpy="1.570796 0 0" />
+      <parent link="link_t" />
+      <child link="ee_base_link" />
+    </joint>
+    <joint name="${prefix}rw1_joint" type="continuous">
+      <origin xyz="0.000974 -0.055246 0.001299" rpy="1.570797 0 0" />
+      <parent link="ee_base_link" />
+      <child link="rw1" />
+      <axis xyz="0 0 1" />
+    </joint>
+    <joint name="${prefix}rw3_joint" type="continuous">
+      <origin xyz="0.118956 -0.105533 0.001298" rpy="1.570796 0 -1.570796" />
+      <parent link="ee_base_link" />
+      <child link="rw3" />
+      <axis xyz="0 0 1" />
+    </joint>
+    <joint name="${prefix}rw2_joint" type="continuous">
+      <origin xyz="-0.127511 -0.105533 0.001298" rpy="1.570796 0 1.570796" />
+      <parent link="ee_base_link" />
+      <child link="rw2" />
+      <axis xyz="0 0 1" />
+    </joint>
+    <joint name="${prefix}rw4_joint" type="continuous">
+      <origin xyz="0.000974 -0.115515 0.131297" rpy="3.141592 0 0" />
+      <parent link="ee_base_link" />
+      <child link="rw4" />
+      <axis xyz="0 0 1" />
 
+    </joint>
     <!--
 
       See earlier comment about balancer and piston.
@@ -250,6 +400,7 @@
       <parent link="${prefix}flange"/>
       <child link="${prefix}tool0"/>
     </joint>
-    
+
+    <!-- End Effector attached to tool0 -->
   </xacro:macro>
 </robot>

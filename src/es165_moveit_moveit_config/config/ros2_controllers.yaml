@@ -1,7 +1,7 @@
 #Sets up the individual controllers for the robot arm
 controller_manager:
   ros__parameters:
-    update_rate: 200  # Hz
+    update_rate: 100  # Hz
     use_sim_time: true
 
     joint_state_broadcaster:
@@ -9,7 +9,18 @@ controller_manager:
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
+
+    rw1_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
     
+    rw2_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    rw3_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    rw4_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
 
 
 joint_state_broadcaster:
@@ -39,3 +50,67 @@ arm_controller:
     # Interpolation for smooth commands
     interpolate_at_configured_rate: true
     allow_partial_joints_goal: true
+
+rw1_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - rw1_joint
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    # Open-loop control - trust the trajectory, don't fight current state
+    open_loop_control: false
+    # Allow non-zero velocity at trajectory start
+    allow_nonzero_velocity_at_trajectory_start: true
+
+rw2_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - rw2_joint
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    # Open-loop control - trust the trajectory, don't fight current state
+    open_loop_control: false
+    # Allow non-zero velocity at trajectory start
+    allow_nonzero_velocity_at_trajectory_start: true
+
+rw3_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - rw3_joint
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    # Open-loop control - trust the trajectory, don't fight current state
+    open_loop_control: false
+    # Allow non-zero velocity at trajectory start
+    allow_nonzero_velocity_at_trajectory_start: true
+
+rw4_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - rw4_joint
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+    # Open-loop control - trust the trajectory, don't fight current state
+    open_loop_control: false
+    # Allow non-zero velocity at trajectory start
+    allow_nonzero_velocity_at_trajectory_start: true

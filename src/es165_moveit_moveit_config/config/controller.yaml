@@ -11,6 +11,10 @@ moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControll
 moveit_simple_controller_manager:
   controller_names:
     - arm_controller
+    - rw1_controller
+    - rw2_controller
+    - rw3_controller
+    - rw4_controller
 
   arm_controller: #Sets up the ROS2 action space
     action_ns: follow_joint_trajectory
@@ -23,3 +27,31 @@ moveit_simple_controller_manager:
       - joint_4_r
       - joint_5_b
       - joint_6_t
+
+  rw1_controller: #Sets up the ROS2 action space
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - rw1_joint
+
+  rw2_controller: #Sets up the ROS2 action space
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - rw2_joint
+
+  rw3_controller: #Sets up the ROS2 action space
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - rw3_joint
+
+  rw4_controller: #Sets up the ROS2 action space
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - rw4_joint

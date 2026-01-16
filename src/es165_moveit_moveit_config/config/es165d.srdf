@@ -17,8 +17,17 @@
         <joint name="joint_5_b"/>
         <joint name="joint_6_t"/>
     </group>
-    <group name="end_effector">
-        <joint name="flange-tool0"/>
+    <group name="rw1_ctrl">
+        <joint name="rw1_joint"/>
+    </group>
+    <group name="rw2_ctrl">
+        <joint name="rw2_joint"/>
+    </group>
+    <group name="rw3_ctrl">
+        <joint name="rw3_joint"/>
+    </group>
+    <group name="rw4_ctrl">
+        <joint name="rw4_joint"/>
     </group>
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="arm_ready" group="arm">
@@ -37,8 +46,6 @@
         <joint name="joint_5_b" value="0"/>
         <joint name="joint_6_t" value="0"/>
     </group_state>
-    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="endeffector" parent_link="link_t" group="end_effector" parent_group="arm"/>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="base_link"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
@@ -52,4 +59,27 @@
     <disable_collisions link1="link_r" link2="link_t" reason="Never"/>
     <disable_collisions link1="link_r" link2="link_u" reason="Adjacent"/>
     <disable_collisions link1="link_t" link2="link_u" reason="Never"/>
+    <!-- End effector collision exclusions (adjacent links) -->
+    <disable_collisions link1="ee_base_link" link2="link_t" reason="Adjacent"/>
+    <disable_collisions link1="ee_base_link" link2="link_b" reason="Never"/>
+    <disable_collisions link1="rw1" link2="ee_base_link" reason="Adjacent"/>
+    <disable_collisions link1="rw2" link2="ee_base_link" reason="Adjacent"/>
+    <disable_collisions link1="rw3" link2="ee_base_link" reason="Adjacent"/>
+    <disable_collisions link1="rw4" link2="ee_base_link" reason="Adjacent"/>
+
+      <!-- Add static collision objects -->
+  <collision_object id="ground_plane">
+    <header>
+      <frame_id>world</frame_id>
+    </header>
+    <primitives>
+      <box>
+        <dimensions>6.0 6.0 0.01</dimensions>
+      </box>
+    </primitives>
+    <primitive_poses>
+      <pose>0 0 -0.005 0 0 0 1</pose>
+    </primitive_poses>
+  </collision_object>
+
 </robot>

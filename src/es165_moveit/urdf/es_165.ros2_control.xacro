@@ -27,9 +27,6 @@
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
-        <state_interface name="effort">
-          <param name="initial_value">0.0</param>
-        </state_interface>
       </joint>
 
       <joint name="joint_2_l">
@@ -43,9 +40,6 @@
           <param name="initial_value">0.0</param>
         </state_interface>
         <state_interface name="velocity">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="effort">
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
@@ -63,9 +57,6 @@
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
-        <state_interface name="effort">
-          <param name="initial_value">0.0</param>
-        </state_interface>
       </joint>
 
       <joint name="joint_4_r">
@@ -79,9 +70,6 @@
           <param name="initial_value">0.0</param>
         </state_interface>
         <state_interface name="velocity">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="effort">
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
@@ -99,9 +87,6 @@
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
-        <state_interface name="effort">
-          <param name="initial_value">0.0</param>
-        </state_interface>
       </joint>
 
       <joint name="joint_6_t">
@@ -117,11 +102,65 @@
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
-        <state_interface name="effort">
-          <param name="initial_value">0.0</param>
-        </state_interface>
       </joint>
-
+    
+    <!-- RW joints-->
+    <joint name="rw1_joint">
+      <command_interface name="position">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <command_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="rw3_joint">
+      <command_interface name="position">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <command_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="rw2_joint">
+      <command_interface name="position">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <command_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="rw4_joint">
+      <command_interface name="position">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <command_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
     </ros2_control>
   </xacro:macro>
 </robot>

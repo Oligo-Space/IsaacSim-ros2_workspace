@@ -9,4 +9,6 @@ src/isaac_tutorials/
 src/isaacsim/
 src/moveit/
 src/navigation/
+src/es165_moveit/urdf
+src/es165_moveit/usd
 .vscode/

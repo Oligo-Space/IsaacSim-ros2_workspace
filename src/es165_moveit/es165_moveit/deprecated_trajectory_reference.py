@@ -15,7 +15,10 @@ from geometry_msgs.msg import Pose, PoseStamped
 from tf2_ros import Buffer, TransformListener
 from tf2_msgs.msg import TFMessage
 from tf_transformations import euler_from_quaternion, quaternion_from_euler
-import numpy as np
+import numpy as np  
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+from builtin_interfaces.msg import Duration
+from std_msgs.msg import Bool
 
 class ZeroGController(Node):
     def __init__(self):
@@ -28,6 +31,11 @@ class ZeroGController(Node):
 
         self.create_subscription(TFMessage, '/tf', self.update_pose, 10)
         self.create_subscription(Float32MultiArray, '/torque_input', self.update_goal, 10)
+        self.create_subscription(Float32MultiArray,"/point_test",self.test_point,10)
+        self.create_subscription(Bool, '/reset', self.reset_position, 10)
+
+        self.init_position_publisher = self.create_publisher(JointTrajectory, "/arm_controller/joint_trajectory", 10)
+        self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
 
         self.last_t = None
         self.last_planning_t = None
@@ -37,6 +45,43 @@ class ZeroGController(Node):
         self.og_pose = None
 
         self.moving = False
+
+    def test_point(self,msg):
+        pose = PoseStamped()
+        pose.header.stamp = self.get_clock().now().to_msg()
+        pose.header.frame_id = "base_link"
+        pose.pose.position.x = self.current_joint_state[0]
+        pose.pose.position.y = self.current_joint_state[1]
+        pose.pose.position.z = self.current_joint_state[2]
+        pose.pose.orientation.x = msg.data[3]
+        pose.pose.orientation.y = msg.data[4]
+        pose.pose.orientation.z = msg.data[5]
+        pose.pose.orientation.w = msg.data[6]
+        self.move_to_pose(pose, "ee_base_link")
+        
+    def reset_position(self,msg):
+        if isinstance(msg, Float32MultiArray):
+            self.init_position(msg.data)
+        if msg.data:
+            self.init_position()
+
+    def init_position(self,pos=None):
+        '''
+        Initializes robot to non-zero state
+        '''
+        if pos is not None:
+            self.start_pos_deg = np.rad2deg(pos)
+
+        msg = JointTrajectory()
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.header.frame_id = "base_link"
+        msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
+        msg.points = [
+            JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
+        ]
+        self.init_position_publisher.publish(msg)
+    
+
     def update_pose(self,msg):
         '''
         Pose of the end effector in the inertial frame
@@ -50,8 +95,8 @@ class ZeroGController(Node):
         roll, pitch, yaw = np.array(euler_from_quaternion(q))
         self.og_pose = np.array([x,y,z,roll,pitch,yaw])
         
-        # DEBUG: Log Isaac Sim's tool0 orientation (uncomment to debug)
-        # self.get_logger().info(f"Isaac Sim tool0: roll={np.degrees(roll):.1f}° pitch={np.degrees(pitch):.1f}° yaw={np.degrees(yaw):.1f}°")
+        # DEBUG: Log Isaac Sim's ee_base_link orientation (uncomment to debug)
+        # self.get_logger().info(f"Isaac Sim ee_base_link: roll={np.degrees(roll):.1f}° pitch={np.degrees(pitch):.1f}° yaw={np.degrees(yaw):.1f}°")
         
         if self.last_t is not None:
             dt = t - self.last_t
@@ -109,11 +154,11 @@ class ZeroGController(Node):
             pose_update.header.stamp = self.get_clock().now().to_msg()
             pose_update.header.frame_id = "base_link"  # Position is in base_link frame!
             if not self.moving:
-                self.move_to_pose(pose_update, "tool0")
+                self.move_to_pose(pose_update, "ee_base_link")
         else:
             self.last_planning_t = t
     
-    def move_to_pose(self, pose_goal: PoseStamped, end_effector_link: str = "tool0"):
+    def move_to_pose(self, pose_goal: PoseStamped, end_effector_link: str = "ee_base_link"):
         """
         Move to a Cartesian pose goal.
         
@@ -128,8 +173,8 @@ class ZeroGController(Node):
         
         # Set planning group
         req.group_name = "arm"
-        req.num_planning_attempts = 100
-        req.allowed_planning_time = 0.1
+        req.num_planning_attempts = 30
+        req.allowed_planning_time = 1.0
         
         # Start state = current state (empty means use current)
         # req.start_state is left empty to use current state
@@ -170,7 +215,7 @@ class ZeroGController(Node):
         
         # Primitive pose: WHERE the sphere is (position only, identity orientation)
         sphere_pose = Pose()
-        sphere_pose.position = pose_goal.pose.position  # Current tool0 position
+        sphere_pose.position = pose_goal.pose.position  # Current ee_base_link position
         sphere_pose.orientation.w = 1.0  # Identity quaternion (sphere doesn't need orientation)
         bounding_volume.primitive_poses.append(sphere_pose)
         
@@ -193,7 +238,7 @@ class ZeroGController(Node):
         path_position_constraint.target_point_offset.z = 0.0
         
         
-        # Same bounding volume - keep tool0 within 1cm sphere throughout motion
+        # Same bounding volume - keep ee_base_link within 1cm sphere throughout motion
         path_bounding_volume = BoundingVolume()
         path_primitive = SolidPrimitive()
         path_primitive.type = SolidPrimitive.SPHERE

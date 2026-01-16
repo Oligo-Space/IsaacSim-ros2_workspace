@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Float32MultiArray, Bool
+from std_msgs.msg import Float32MultiArray, Bool, String
 from rclpy.action import ActionClient
 from moveit_msgs.action import MoveGroup
 from geometry_msgs.msg import Pose, PoseStamped
@@ -9,24 +9,30 @@ from tf2_msgs.msg import TFMessage
 from tf_transformations import euler_from_quaternion, quaternion_from_euler
 from geometry_msgs.msg import TwistStamped
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+from sensor_msgs.msg import JointState
 from builtin_interfaces.msg import Duration
 from rclpy.task import Future
 from std_srvs.srv import Trigger
 from threading import Lock
 import numpy as np
+import time
 
 class ZeroGController(Node):
     def __init__(self):
         super().__init__("zero_g_controller")
         
         #Subscribers
-        self.create_subscription(TFMessage, '/tf', self.update_pose, 10)
         self.create_subscription(Float32MultiArray, '/torque_input', self.update_goal, 10)
         self.create_subscription(Bool, '/reset', self.reset_position, 10)
+        self.create_subscription(Float32MultiArray, "/update_position", self.reset_position,10)
+        self.create_subscription(JointState, '/joint_states', self.check_joint_states, 10)
+        # self.create_subscription(Float32MultiArray, '/jacobian',self.update_jacobian, 5)
 
         #Publishers
         self.twist_publisher = self.create_publisher(TwistStamped, "/servo_node/delta_twist_cmds", 10)
         self.init_position_publisher = self.create_publisher(JointTrajectory, "/arm_controller/joint_trajectory", 10)
+        self.arm_initialized_pub = self.create_publisher(Bool, '/arm_initialized', 10)
+
 
         #Services
         self.start_service = self.create_client(
@@ -41,21 +47,50 @@ class ZeroGController(Node):
 
 
         # Globals
-        self.current_joint_state = None
+        self.curr_velocity = None
         self.last_t = None
         self.last_planning_t = None
+        self.is_enabled = False
         self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
         self.move_lock = Lock()
-        self.is_enabled = True
+        self.arm_initialized = True
+        self.jacobian = None
 
-        self.init_position()
+        self.ee_inertia = np.array(
+            [
+                [0.669, 0.0, 0.0],
+                [0.0, 2.609, 0.0],
+                [0.0, 0.0, 3.261]
+            ]
+        )
+        # self.ee_inertia = np.eye(3)
+
         self.start_servo()
+        self.dt = 1/30
+        self.create_timer(0.5, self.check_servo_status)
+        self.init_position()
 
     def __del__(self):
         '''
         Called when node is destroyed, stops the servo client
         '''
         self.stop_servo()
+    
+    def check_joint_states(self, msg):
+        # self.get_logger().info(f"Joint states: {msg.position}")
+        if not self.arm_initialized:
+            if np.linalg.norm(np.array(msg.position) - np.array(self.start_pos_deg)) > 0.01:
+                self.init_position()
+            else:
+                self.arm_initialized = True
+                self.arm_initialized_pub.publish(Bool(data=True))
+
+    def check_servo_status(self):
+        if not self.is_enabled:
+            self.get_logger().info("Servo is not enabled, starting servo")
+            self.start_servo()
+        else:
+            return
 
     def start_servo(self):
         future = self.start_service.call_async(Trigger.Request())
@@ -82,13 +117,18 @@ class ZeroGController(Node):
             self.get_logger().error(f"Servo stop failed: {e}")
 
     def reset_position(self,msg):
+        if isinstance(msg, Float32MultiArray):
+            self.init_position(msg.data)
         if msg.data:
             self.init_position()
 
-    def init_position(self):
+    def init_position(self,pos=None):
         '''
         Initializes robot to non-zero state
         '''
+        if pos is not None:
+            self.start_pos_deg = np.rad2deg(pos)
+
         msg = JointTrajectory()
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.header.frame_id = "base_link"
@@ -96,62 +136,37 @@ class ZeroGController(Node):
         msg.points = [
             JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
         ]
-        self.init_position_publisher.publish(msg)
+        for i in range(10):
+            self.init_position_publisher.publish(msg)
+            time.sleep(0.1)
+        self.create_timer(self.dt,lambda: self.update_goal(None))
 
-    def update_pose(self,msg):
-        '''
-        Pose of the end effector in the inertial frame
-        '''
-
-        transform = msg.transforms[0] #Only one arm so take first transform in tree
-        t = transform.header.stamp.nanosec/1e9 #Use timestamp of message to ensure accurate sync
-        x,y,z = (transform.transform.translation.x, transform.transform.translation.y, transform.transform.translation.z)
-        q = [transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w]
-        roll, pitch, yaw = np.array(euler_from_quaternion(q))
-        
-        #Update pose
-        if self.last_t is not None and self.current_joint_state is not None:
-            dt = t - self.last_t
-            wx, wy, wz = (np.array([roll,pitch,yaw]) - self.current_joint_state[3:6]) / (dt+1e-12)
-            self.current_joint_state = np.array([x,y,z,roll,pitch,yaw,wx,wy,wz])
-            self.last_t = t
-        else:
-            self.current_joint_state = np.array([x,y,z,roll,pitch,yaw,0,0,0])
-            self.last_t = t
 
     def update_goal(self, msg):
         t = self.get_clock().now().nanoseconds/1e9
         if not self.is_enabled:
             self.get_logger().error("Servo is not enabled, skipping move request")
             return
-            
-        with self.move_lock:
-            torque = np.array(msg.data,dtype=np.float64) #tx, ty, tz in the end effector body frame
 
-            if self.last_planning_t is not None and self.current_joint_state is not None:
-                dt = t - self.last_planning_t
-                self.last_planning_t = t
-                # Simple step-wise integration (dt will be based on update rate of the torque subscriber)
-                # In the future, this might want to be constant if the torque publisher does not publish consistently
-                angular_velocity = (torque*dt + self.current_joint_state[6:9]).astype(np.float64) #angular velocity  
-                
-                # Publish twist command in the end effector body frame
-                # This will propogate using the IK plugin and ensure proper servo motion
-                twist = TwistStamped()
-                twist.header.stamp = self.get_clock().now().to_msg()
-                twist.header.frame_id = "tool0"
-                twist.twist.angular.x = angular_velocity[0]
-                twist.twist.angular.y = angular_velocity[1]
-                twist.twist.angular.z = angular_velocity[2]
-                # Keep linear velocity 0 so ee stays in place
-                twist.twist.linear.x = 0.0
-                twist.twist.linear.y = 0.0
-                twist.twist.linear.z = 0.0
-                self.twist_publisher.publish(twist)
+        if self.curr_velocity is None:
+            self.curr_velocity = np.zeros(3)
+        if msg:
+            self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ msg.data*self.dt + self.curr_velocity)
+        
+        # Publish twist command in the end effector body frame
+        # This will propogate using the IK plugin and ensure proper servo motion
+        twist = TwistStamped()
+        twist.header.stamp = self.get_clock().now().to_msg() #timestamp of current time
+        twist.header.frame_id = "base_link"
+        twist.twist.angular.x = self.curr_velocity[0]
+        twist.twist.angular.y = self.curr_velocity[1]
+        twist.twist.angular.z = self.curr_velocity[2]
+        # Keep linear velocity 0 so ee stays in place
+        twist.twist.linear.x = 0.0
+        twist.twist.linear.y = 0.0
+        twist.twist.linear.z = 0.0
+        self.twist_publisher.publish(twist)
 
-            else:
-                self.last_planning_t = t
-    
 def main(args=None):
     rclpy.init(args=args)
     node = ZeroGController()
@@ -165,7 +180,6 @@ def main(args=None):
             rclpy.shutdown()
         except Exception:
             pass
-    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
