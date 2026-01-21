@@ -161,19 +161,19 @@ def generate_launch_description():
     )
 
     # Helpful but deprecated - I wrote some cpp code to publish the Jacobian but found out that I do not 
-    # need it
-    jacobian_publisher = Node(
-        package="moveit2_tutorials",
-        executable="robot_model_and_robot_state_tutorial",
-        output="screen",
-        parameters=[
-            moveit_config.robot_description,
-            moveit_config.robot_description_semantic,
-            moveit_config.robot_description_kinematics,
-            moveit_config.joint_limits,
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-        ],
-    )
+    # need it, the cpp code is gone
+    # jacobian_publisher = Node(
+    #     package="moveit2_tutorials",
+    #     executable="robot_model_and_robot_state_tutorial",
+    #     output="screen",
+    #     parameters=[
+    #         moveit_config.robot_description,
+    #         moveit_config.robot_description_semantic,
+    #         moveit_config.robot_description_kinematics,
+    #         moveit_config.joint_limits,
+    #         {'use_sim_time': LaunchConfiguration('use_sim_time')},
+    #     ],
+    # )
 
     # Zero-G MoveIt Controller
     zero_g_controller = Node(
@@ -261,7 +261,6 @@ def generate_launch_description():
         sim_time,
         log_level,
         robot_state_publisher,
-        # jacobian_publisher,
         ros2_control,
         spawn_jsb_on_start,
         spawn_arm_after_jsb,

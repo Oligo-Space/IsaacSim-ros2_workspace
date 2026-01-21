@@ -18,6 +18,10 @@ import numpy as np
 import time
 
 class ZeroGController(Node):
+    '''
+    Uses basic servo control to move the arm to a desired position
+    based on the torque input.
+    '''
     def __init__(self):
         super().__init__("zero_g_controller")
         
@@ -26,7 +30,6 @@ class ZeroGController(Node):
         self.create_subscription(Bool, '/reset', self.reset_position, 10)
         self.create_subscription(Float32MultiArray, "/update_position", self.reset_position,10)
         self.create_subscription(JointState, '/joint_states', self.check_joint_states, 10)
-        # self.create_subscription(Float32MultiArray, '/jacobian',self.update_jacobian, 5)
 
         #Publishers
         self.twist_publisher = self.create_publisher(TwistStamped, "/servo_node/delta_twist_cmds", 10)
@@ -52,9 +55,11 @@ class ZeroGController(Node):
         self.last_planning_t = None
         self.is_enabled = False
         self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
-        self.move_lock = Lock()
         self.arm_initialized = True
-        self.jacobian = None
+        
+        # Thread lock
+        self.move_lock = Lock()
+
 
         self.ee_inertia = np.array(
             [
@@ -63,7 +68,6 @@ class ZeroGController(Node):
                 [0.0, 0.0, 3.261]
             ]
         )
-        # self.ee_inertia = np.eye(3)
 
         self.start_servo()
         self.dt = 1/30
@@ -77,6 +81,9 @@ class ZeroGController(Node):
         self.stop_servo()
     
     def check_joint_states(self, msg):
+        '''
+        Not in use - checks if the arm has reached the initial start position
+        '''
         # self.get_logger().info(f"Joint states: {msg.position}")
         if not self.arm_initialized:
             if np.linalg.norm(np.array(msg.position) - np.array(self.start_pos_deg)) > 0.01:
@@ -86,6 +93,10 @@ class ZeroGController(Node):
                 self.arm_initialized_pub.publish(Bool(data=True))
 
     def check_servo_status(self):
+        '''
+        Checks if the servo is enabled and starts it if it is not
+        Runs on a timer
+        '''
         if not self.is_enabled:
             self.get_logger().info("Servo is not enabled, starting servo")
             self.start_servo()
@@ -93,10 +104,16 @@ class ZeroGController(Node):
             return
 
     def start_servo(self):
+        '''
+        Starts the servo client
+        '''
         future = self.start_service.call_async(Trigger.Request())
         future.add_done_callback(self.start_servo_callback)
 
     def start_servo_callback(self, future):
+        '''
+        Callback for the start servo service
+        '''
         try:
             response = future.result()
             self.get_logger().info(f"Servo started: {response.message}")
@@ -105,10 +122,16 @@ class ZeroGController(Node):
             self.get_logger().error(f"Servo start failed: {e}")
 
     def stop_servo(self):
+        '''
+        Stops the servo client
+        '''
         future = self.stop_service.call_async(Trigger.Request())
         future.add_done_callback(self.stop_servo_callback)
 
     def stop_servo_callback(self, future):
+        '''
+        Callback for the stop servo service
+        '''
         try:
             response = future.result()
             self.get_logger().info(f"Servo stopped: {response.message}")
@@ -117,37 +140,47 @@ class ZeroGController(Node):
             self.get_logger().error(f"Servo stop failed: {e}")
 
     def reset_position(self,msg):
+        '''
+        Resets the position of the arm to the initial start position
+        or a custom position based on the msg value (Bool vs. Array)
+        '''
         if isinstance(msg, Float32MultiArray):
             self.init_position(msg.data)
-        if msg.data:
+        elif msg.data:
             self.init_position()
 
     def init_position(self,pos=None):
         '''
         Initializes robot to non-zero state
         '''
-        if pos is not None:
-            self.start_pos_deg = np.rad2deg(pos)
+        with self.move_lock:
+            if pos is not None:
+                self.start_pos_deg = np.rad2deg(pos)
 
-        msg = JointTrajectory()
-        msg.header.stamp = self.get_clock().now().to_msg()
-        msg.header.frame_id = "base_link"
-        msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
-        msg.points = [
-            JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
-        ]
-        for i in range(10):
-            self.init_position_publisher.publish(msg)
-            time.sleep(0.1)
-        self.create_timer(self.dt,lambda: self.update_goal(None))
+            msg = JointTrajectory()
+            msg.header.stamp = self.get_clock().now().to_msg()
+            msg.header.frame_id = "base_link"
+            msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
+            msg.points = [
+                JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
+            ]
+            for i in range(1,10): # Do this multiple times to ensure that the message gets published
+                msg.points = [
+                    JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), \
+                        velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
+                ]
+                self.init_position_publisher.publish(msg)
+                time.sleep(0.1)
+            self.create_timer(self.dt,lambda: self.update_goal(None))
+            time.sleep(1.0)
 
 
     def update_goal(self, msg):
-        t = self.get_clock().now().nanoseconds/1e9
         if not self.is_enabled:
             self.get_logger().error("Servo is not enabled, skipping move request")
             return
 
+        # update current velocity based on torque
         if self.curr_velocity is None:
             self.curr_velocity = np.zeros(3)
         if msg:

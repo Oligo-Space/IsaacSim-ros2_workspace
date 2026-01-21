@@ -12,3 +12,6 @@ src/navigation/
 src/es165_moveit/urdf
 src/es165_moveit/usd
 .vscode/
+src/es165_moveit/es165_moveit/reachable_poses.txt
+src/es165_moveit/es165_moveit/reachable_joints.txt
+src/es165_moveit/es165_moveit/unreachable_poses.txt

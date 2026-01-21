@@ -13,7 +13,7 @@ UPDATE_RATE = 30 #Hz
 
 def generate_launch_description():
     '''
-    Launches the robot to interface with MoveIt2 Servo
+    Launches the robot to interface with MoveIt2 Servo, Visualizes reaction wheels spinning (not accurate currently)
     Relies on /torque_input being published for robot control
     Only handles attitude control, no linear transformations
     '''
@@ -369,7 +369,7 @@ def generate_launch_description():
         spawn_arm_controller,
         angle_intercepter,
         angular_acc_pub,
-        # torque_publisher,
+        torque_publisher,
         rw_controller_action,
         # rviz2,
     ])

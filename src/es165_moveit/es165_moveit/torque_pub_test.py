@@ -5,7 +5,7 @@ from std_msgs.msg import Bool, Float32MultiArray
 
 class TestControl(Node):
     '''
-    Publishes torque commands to test that control is accurate
+    Publishes torque commands to test that control is accurate, used for testing basic arm movement
     '''
     def __init__(self):
         super().__init__("test_control")

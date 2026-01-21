@@ -4,6 +4,10 @@ from trajectory_msgs.msg import JointTrajectory
 import numpy as np
 
 class AngleIntercepter(Node):
+    '''
+    This node intercepts the joint trajectory messages from the reaction wheels
+    to wrap them between -2pi and 2pi.
+    '''
     def __init__(self):
         super().__init__('angle_intercepter')
         self.angle_publishers = {}
@@ -14,7 +18,7 @@ class AngleIntercepter(Node):
     def joint_trajectory_callback(self, msg):
         wheel = msg.joint_names[0].split('_')[0]
         p = msg.points[0].positions[0]
-        self.get_logger().info(f"Wheel: {wheel}, Position before: {p}")
+        # self.get_logger().info(f"Wheel: {wheel}, Position before: {p}")
         
         two_pi = 2 * np.pi
         while p < -two_pi:
@@ -22,7 +26,7 @@ class AngleIntercepter(Node):
         while p > two_pi:
             p -= two_pi        
 
-        self.get_logger().info(f"Wheel: {wheel}, Position after: {p}")
+        # self.get_logger().info(f"Wheel: {wheel}, Position after: {p}")
         msg.points[0].positions[0] = p
         self.angle_publishers[wheel].publish(msg)
 

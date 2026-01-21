@@ -5,6 +5,12 @@ from std_msgs.msg import Float32MultiArray, Bool
 import numpy as np
 
 class TorqueFromRW(Node):
+    '''
+    Uses basic I*alpha to calculate the torque based on the change in angular velocity of the 
+    reaction wheels.
+
+    Inertia is a cylindrical approximation based on the datasheet for the CW1200 reaction wheel.
+    '''
     def __init__(self):
         super().__init__("torque_from_rw")
 
@@ -24,7 +30,7 @@ class TorqueFromRW(Node):
             [1, 0, 0],
             [-1, 0, 0],
             [0,1,0]
-        ])
+        ]) #axis along which the torque acts
 
     def initialized(self, msg):
         self.initialized = msg.data

@@ -55,6 +55,7 @@ setup(
             'pub_angular_acc = es165_moveit.pub_angular_acc:main',
             'torque_from_rw = es165_moveit.torque_from_rw:main',
             'angle_intercepter = es165_moveit.angle_intercepter:main',
+            'visualize_pcd = es165_moveit.visualize_pcd:main',
         ],
     },
 )

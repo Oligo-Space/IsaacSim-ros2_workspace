@@ -26,6 +26,15 @@ import torch
 import numpy as np
 
 class ZeroGPositionController(Node):
+    '''
+    Deprecated but functionality is interesting,
+    Uses cuRobo to trtajectory plan faster than moveit2 for point-to-point control
+    rather than servo control
+
+    I (Phillip) could not get this to function cleanly and it works worse than the 
+    servo control, but it is a closer representation of the actual arm control loop (i.e. based on point translation)
+    so worth keeping track of
+    '''
     def __init__(self):
         super().__init__("zero_g_position_controller")
         self.get_logger().info("ZeroGPositionController initialized")
