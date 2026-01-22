@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+from rclpy.executors import MultiThreadedExecutor
 from std_msgs.msg import Float32MultiArray, Bool, String
 from rclpy.action import ActionClient
 from moveit_msgs.action import MoveGroup
@@ -13,8 +14,9 @@ from sensor_msgs.msg import JointState
 from builtin_interfaces.msg import Duration
 from rclpy.task import Future
 from std_srvs.srv import Trigger
-from threading import Lock
+import threading
 import numpy as np
+from collections import deque
 import time
 
 class ZeroGController(Node):
@@ -26,7 +28,7 @@ class ZeroGController(Node):
         super().__init__("zero_g_controller")
         
         #Subscribers
-        self.create_subscription(Float32MultiArray, '/torque_input', self.update_goal, 10)
+        self.create_subscription(Float32MultiArray, '/torque_input', self.update_speed, 10)
         self.create_subscription(Bool, '/reset', self.reset_position, 10)
         self.create_subscription(Float32MultiArray, "/update_position", self.reset_position,10)
         self.create_subscription(JointState, '/joint_states', self.check_joint_states, 10)
@@ -62,17 +64,19 @@ class ZeroGController(Node):
 
 
         # Globals
-        self.curr_velocity = None
+        self.curr_velocity = np.zeros(3)
         self.last_planning_t = None
         self.is_enabled = False
         self.arm_initialized = True
+        self.lock = threading.Lock()
+        self.apply = deque([])
         
         self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
         self.start_pos_transform = np.array([2.628, -0.488, 1.304])
         self.dt = 1/30
+        self.apply_time = 0.1
 
         self.halt_timer = False
-        self.lock = Lock()
 
         self.ee_inertia = np.array(
             [
@@ -214,34 +218,46 @@ class ZeroGController(Node):
                         velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
                 ]
                 self.init_position_publisher.publish(msg)
+                # self.get_clock().sleep_for(rclpy.duration.Duration(seconds=0,nanoseconds=int(1e8)))
                 time.sleep(0.1)
             
-
-            self.create_timer(self.dt,lambda: self.update_goal(None))
-            time.sleep(1.0)
+            self.create_timer(self.dt,self.update_vis)
             self.halt_timer = False
             if not self.is_enabled:
                 self.start_servo()
 
+    def update_speed(self,msg):
+        # update current velocity based on torque
+        self.get_logger().info(f'{msg}')
+        if len(msg.data) == 4:
+            torque = msg.data[:3]
+            apply_time = msg.data[-1]
+        else:
+            torque = msg.data
+            apply_time = self.apply_time
+        
+        self.apply.extend([torque]*int(apply_time/self.dt))
 
-    def update_goal(self, msg):
+    def update_vis(self):
         if not self.is_enabled or self.halt_timer:
             self.get_logger().error("Servo is not enabled, skipping move request")
             return
-        # update current velocity based on torque
-        if self.curr_velocity is None:
-            self.curr_velocity = np.zeros(3)
-        if msg:
-            self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ msg.data*self.dt + self.curr_velocity)
-        
         # Publish twist command in the end effector body frame
         # This will propogate using the IK plugin and ensure proper servo motion
+        with self.lock:
+            speed = self.curr_velocity
+            if len(self.apply)>0:
+                torque = self.apply.popleft()
+            else:
+                torque = np.zeros(3)
+        
+        self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ torque*self.dt + self.curr_velocity)
         twist = TwistStamped()
         twist.header.stamp = self.get_clock().now().to_msg() #timestamp of current time
         twist.header.frame_id = "base_link"
-        twist.twist.angular.x = self.curr_velocity[0]
-        twist.twist.angular.y = self.curr_velocity[1]
-        twist.twist.angular.z = self.curr_velocity[2]
+        twist.twist.angular.x = speed[0]
+        twist.twist.angular.y = speed[1]
+        twist.twist.angular.z = speed[2]
         # Keep linear velocity 0 so ee stays in place
         twist.twist.linear.x = 0.0
         twist.twist.linear.y = 0.0
@@ -251,8 +267,11 @@ class ZeroGController(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = ZeroGController()
+
+    executor = MultiThreadedExecutor()
+    executor.add_node(node)
     try:
-        rclpy.spin(node)
+        executor.spin()
     except KeyboardInterrupt:
         pass
     finally:

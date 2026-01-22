@@ -196,6 +196,12 @@ def generate_launch_description():
         output="screen"
     )
 
+    gui = Node(
+        package="es165_moveit",
+        executable="gui",
+        output="screen"
+    )
+
     return LaunchDescription([
         sim_time,
         log_level,
@@ -207,4 +213,5 @@ def generate_launch_description():
         servo_node,
         spawn_zero_g_after_arm,
         torque_profile_pub,
+        gui,
     ])

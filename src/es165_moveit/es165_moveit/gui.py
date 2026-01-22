@@ -1,13 +1,15 @@
-import sys
-from numpy import atleast_1d
 import rclpy
 from rclpy.node import Node
+from ament_index_python.packages import get_package_share_directory
 from std_msgs.msg import Bool, Float32MultiArray, Int8, String
 from sensor_msgs.msg import JointState
 
+import sys
 import numpy as np
+from pathlib import Path
+import os
 
-from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit, QHBoxLayout, QTabWidget
+from PyQt6.QtWidgets import QApplication, QComboBox, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QLineEdit, QHBoxLayout, QTabWidget
 from PyQt6.QtCore import QThread, pyqtSignal, QObject
 
 class GuiPublisher(Node):
@@ -24,6 +26,7 @@ class GuiPublisher(Node):
         self.reset_speed = self.create_publisher(Bool, '/reset_speed', 10)
         self.torque_profile_pub = self.create_publisher(String, "/profile_path", 10)
         self.torque_start_profile = self.create_publisher(Bool, "/start_profile",10)
+        self.torque_stop_profile_pub = self.create_publisher(Bool, "/stop_profile",10)
 
         self.create_subscription(JointState, '/joint_states', self.update_joint_telem, 10)
         self.create_subscription(Float32MultiArray, '/rw_speed', self.update_rw_telem, 10)
@@ -46,7 +49,8 @@ class GuiPublisher(Node):
     
     def profile_loaded(self,msg):
         self.qt.loaded=msg.data
-        self.load_box.setStyleSheet("color: green;")
+        if self.load_box is not None:
+            self.load_box.setStyleSheet("color: green;")
 
     def set_joint_boxes(self,boxes):
         self.joint_state_qt_objects = boxes
@@ -62,6 +66,9 @@ class GuiPublisher(Node):
     
     def set_servo_status_box(self,box):
         self.servo_status_box = box
+
+    def stop_torque_profile(self):
+        self.torque_stop_profile_pub.publish(Bool(data=True))
 
     def update_ee_pose(self,msg):
         if self.ee_pose_state_qt_objects is not None:
@@ -124,11 +131,15 @@ class MainWindow(QMainWindow):
     def reset_speed(self):
         self.ros_node.reset_speed.publish(Bool(data=True))
     
+    def update_text_color(self,box):
+        box.setStyleSheet("color: white;")
+
     def load_torque_profile(self,box):
         self.loaded = False
         box.setStyleSheet("color: red;")
         self.ros_node.load_box = box
-        self.ros_node.torque_profile_pub.publish(String(data=box.text()))
+        path = box.currentText()
+        self.ros_node.torque_profile_pub.publish(String(data=path))
     
     def send_torque_profile(self):
         self.ros_node.torque_start_profile.publish(Bool(data=True))
@@ -254,20 +265,33 @@ class MainWindow(QMainWindow):
         arm_label.setStyleSheet("padding: 0px; margin: 0px;")
         container.addWidget(arm_label)
 
-        input_ = QLineEdit()
-        input_.setPlaceholderText("Input Profile Path")
-        input_.setFixedWidth(300)
-        container.addWidget(input_)
+        # input_ = QLineEdit()
+        # input_.setPlaceholderText("Input Profile Path")
+        # input_.setFixedWidth(300)
+        # container.addWidget(input_)
+        dropdown = QComboBox()
+        share_dir = get_package_share_directory("es165_moveit")
+        config_path = Path(os.path.join(share_dir,"config/"))
+        for profile in config_path.glob("*.profile"):
+            dropdown.addItem(str(profile).split("/")[-1])
+        dropdown.currentTextChanged.connect(lambda goobermcgee: self.update_text_color(dropdown))
+        container.addWidget(dropdown)
 
         load_button = QPushButton("Load")
         load_button.setFixedWidth(50)
-        load_button.clicked.connect(lambda goober: self.load_torque_profile(input_))
+        load_button.clicked.connect(lambda goober: self.load_torque_profile(dropdown))
         container.addWidget(load_button)
 
         send_button = QPushButton("Start")
         send_button.setFixedWidth(50)
         send_button.clicked.connect(self.send_torque_profile)
         container.addWidget(send_button)
+        control_tab_layout.addLayout(container)
+
+        stop_button = QPushButton("Stop")
+        stop_button.setFixedWidth(50)
+        stop_button.clicked.connect(self.ros_node.stop_torque_profile)
+        container.addWidget(stop_button)
         control_tab_layout.addLayout(container)
 
         ########## Joint Telemetry ################
