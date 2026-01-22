@@ -401,7 +401,7 @@ if __name__ == "__main__":
     position_bounds = {
         'x': (-4.0, 4.0),
         'y': (-4.0, 4.0),
-        'z': (1.0, 4.0),
+        'z': (0.0, 4.0),
     }
 
     orientation_bounds = {
@@ -412,8 +412,8 @@ if __name__ == "__main__":
     # Coarser default steps for faster initial analysis
     # Adjust these for finer resolution (but more compute time)
     position_steps = {
-        'x': 0.25,   # 25cm steps
-        'y': 0.25,
+        'x': 0.1,   # 25cm steps
+        'y': 0.1,
         'z': 0.25,
     }
 

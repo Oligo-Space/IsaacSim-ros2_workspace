@@ -56,9 +56,8 @@ class ZeroGController(Node):
         self.is_enabled = False
         self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
         self.arm_initialized = True
-        
-        # Thread lock
-        self.move_lock = Lock()
+
+        self.halt_timer = False
 
 
         self.ee_inertia = np.array(
@@ -153,30 +152,31 @@ class ZeroGController(Node):
         '''
         Initializes robot to non-zero state
         '''
-        with self.move_lock:
-            if pos is not None:
-                self.start_pos_deg = np.rad2deg(pos)
+        if pos is not None:
+            self.start_pos_deg = np.rad2deg(pos)
 
-            msg = JointTrajectory()
-            msg.header.stamp = self.get_clock().now().to_msg()
-            msg.header.frame_id = "base_link"
-            msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
+        self.halt_timer = True
+        msg = JointTrajectory()
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.header.frame_id = "base_link"
+        msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
+        msg.points = [
+            JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
+        ]
+        for i in range(1,10): # Do this multiple times to ensure that the message gets published
             msg.points = [
-                JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
+                JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), \
+                    velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
             ]
-            for i in range(1,10): # Do this multiple times to ensure that the message gets published
-                msg.points = [
-                    JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), \
-                        velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
-                ]
-                self.init_position_publisher.publish(msg)
-                time.sleep(0.1)
-            self.create_timer(self.dt,lambda: self.update_goal(None))
-            time.sleep(1.0)
+            self.init_position_publisher.publish(msg)
+            time.sleep(0.1)
+        self.create_timer(self.dt,lambda: self.update_goal(None))
+        time.sleep(1.0)
+        self.halt_timer = False
 
 
     def update_goal(self, msg):
-        if not self.is_enabled:
+        if not self.is_enabled or self.halt_timer:
             self.get_logger().error("Servo is not enabled, skipping move request")
             return
 

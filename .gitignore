@@ -15,3 +15,7 @@ src/es165_moveit/usd
 src/es165_moveit/es165_moveit/reachable_poses.txt
 src/es165_moveit/es165_moveit/reachable_joints.txt
 src/es165_moveit/es165_moveit/unreachable_poses.txt
+plot_pcd.py
+output.*
+pt_map.pkl
+plot_env/
