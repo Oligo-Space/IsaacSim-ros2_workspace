@@ -4,10 +4,10 @@ from std_msgs.msg import Float32MultiArray, Bool, String
 from rclpy.action import ActionClient
 from moveit_msgs.action import MoveGroup
 from geometry_msgs.msg import Pose, PoseStamped
-from tf2_ros import Buffer
+from tf2_ros import Buffer, TransformBroadcaster
 from tf2_msgs.msg import TFMessage
 from tf_transformations import euler_from_quaternion, quaternion_from_euler
-from geometry_msgs.msg import TwistStamped
+from geometry_msgs.msg import TwistStamped, TransformStamped
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from sensor_msgs.msg import JointState
 from builtin_interfaces.msg import Duration
@@ -30,12 +30,19 @@ class ZeroGController(Node):
         self.create_subscription(Bool, '/reset', self.reset_position, 10)
         self.create_subscription(Float32MultiArray, "/update_position", self.reset_position,10)
         self.create_subscription(JointState, '/joint_states', self.check_joint_states, 10)
+        self.create_subscription(Bool, "reset_speed", self.reset_speed, 10)
+
+        # Telemetry subcriber
+        self.create_subscription(TFMessage, '/tf_sim', self.update_ee_pose, 10)
 
         #Publishers
         self.twist_publisher = self.create_publisher(TwistStamped, "/servo_node/delta_twist_cmds", 10)
         self.init_position_publisher = self.create_publisher(JointTrajectory, "/arm_controller/joint_trajectory", 10)
         self.arm_initialized_pub = self.create_publisher(Bool, '/arm_initialized', 10)
+        self.joint_state_publisher = self.create_publisher(JointState, "/isaac_joint_commands", 10)
 
+        # Telemetry Publisher
+        self.ee_pose_pub = self.create_publisher(Float32MultiArray, '/ee_pose', 10)
 
         #Services
         self.start_service = self.create_client(
@@ -48,17 +55,24 @@ class ZeroGController(Node):
             "/servo_node/stop_servo",
         )
 
+        # Telemetry tracking
+        self.last_t = None
+        self.last_ee_poses = []
+        self.window_size = 10
+
 
         # Globals
         self.curr_velocity = None
-        self.last_t = None
         self.last_planning_t = None
         self.is_enabled = False
-        self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
         self.arm_initialized = True
+        
+        self.start_pos_deg = np.array([-11,-61,19,-8,-46,109])
+        self.start_pos_transform = np.array([2.628, -0.488, 1.304])
+        self.dt = 1/30
 
         self.halt_timer = False
-
+        self.lock = Lock()
 
         self.ee_inertia = np.array(
             [
@@ -68,10 +82,9 @@ class ZeroGController(Node):
             ]
         )
 
+        self.init_position()    
         self.start_servo()
-        self.dt = 1/30
-        self.create_timer(0.5, self.check_servo_status)
-        self.init_position()
+        self.create_timer(0.1, self.check_servo_status)
 
     def __del__(self):
         '''
@@ -96,7 +109,7 @@ class ZeroGController(Node):
         Checks if the servo is enabled and starts it if it is not
         Runs on a timer
         '''
-        if not self.is_enabled:
+        if not self.is_enabled and not self.halt_timer:
             self.get_logger().info("Servo is not enabled, starting servo")
             self.start_servo()
         else:
@@ -147,6 +160,34 @@ class ZeroGController(Node):
             self.init_position(msg.data)
         elif msg.data:
             self.init_position()
+    
+    def reset_speed(self,msg):
+        '''
+        Resets the speed of the arm to the initial start speed
+        '''
+        if msg.data:
+            self.curr_velocity = np.zeros(3)
+
+    def update_ee_pose(self, msg):
+        '''
+        Updates the EE pose
+        '''
+
+        transform = msg.transforms[0]
+        x,y,z = (transform.transform.translation.x, transform.transform.translation.y, transform.transform.translation.z)
+        r,p,y = euler_from_quaternion([transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w])
+        t = msg.transforms[0].header.stamp.sec + msg.transforms[0].header.stamp.nanosec/1e9
+        if self.last_t and len(self.last_ee_poses) < self.window_size and len(self.last_ee_poses) > 0:
+            dt = t - self.last_t
+            vx,vy,vz,wx,wy,wz = (self.last_ee_poses[-1][:6] - np.array([x,y,z,r,p,y])) / dt
+            self.last_ee_poses.append(np.array([x,y,z,r,p,y,vx,vy,vz,wx,wy,wz]))
+        elif len(self.last_ee_poses) == self.window_size:
+            self.ee_pose_pub.publish(Float32MultiArray(data=np.mean(self.last_ee_poses, axis=0)))
+            self.last_ee_poses = []
+        else:
+            self.last_ee_poses.append(np.array([x,y,z,r,p,y,0,0,0,0,0,0]))
+        self.last_t = t
+
 
     def init_position(self,pos=None):
         '''
@@ -154,32 +195,39 @@ class ZeroGController(Node):
         '''
         if pos is not None:
             self.start_pos_deg = np.rad2deg(pos)
-
-        self.halt_timer = True
-        msg = JointTrajectory()
-        msg.header.stamp = self.get_clock().now().to_msg()
-        msg.header.frame_id = "base_link"
-        msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
-        msg.points = [
-            JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
-        ]
-        for i in range(1,10): # Do this multiple times to ensure that the message gets published
+        with self.lock:
+            if self.is_enabled:
+                # Servo needs to stop otherwise it will overwrite the reset
+                self.stop_servo()
+                self.is_enabled = False
+            self.halt_timer = True
+            msg = JointTrajectory()
+            msg.header.stamp = self.get_clock().now().to_msg()
+            msg.header.frame_id = "base_link"
+            msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
             msg.points = [
-                JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), \
-                    velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
+                JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
             ]
-            self.init_position_publisher.publish(msg)
-            time.sleep(0.1)
-        self.create_timer(self.dt,lambda: self.update_goal(None))
-        time.sleep(1.0)
-        self.halt_timer = False
+            for i in range(1,10): # Do this multiple times to ensure that the message gets published
+                msg.points = [
+                    JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), \
+                        velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
+                ]
+                self.init_position_publisher.publish(msg)
+                time.sleep(0.1)
+            
+
+            self.create_timer(self.dt,lambda: self.update_goal(None))
+            time.sleep(1.0)
+            self.halt_timer = False
+            if not self.is_enabled:
+                self.start_servo()
 
 
     def update_goal(self, msg):
         if not self.is_enabled or self.halt_timer:
             self.get_logger().error("Servo is not enabled, skipping move request")
             return
-
         # update current velocity based on torque
         if self.curr_velocity is None:
             self.curr_velocity = np.zeros(3)

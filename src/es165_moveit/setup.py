@@ -56,6 +56,7 @@ setup(
             'visualize_pcd = es165_moveit.visualize_pcd:main',
             'gui = es165_moveit.gui:main',
             'publish_scene_mesh = es165_moveit.publish_scene_mesh:main',
+            'publish_torque_profile = es165_moveit.publish_torque_profile:main'
         ],
     },
 )

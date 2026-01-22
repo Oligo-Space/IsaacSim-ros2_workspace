@@ -153,27 +153,6 @@ def generate_launch_description():
         output="screen",
     )
 
-    # RViz config file path
-    rviz_config_path = os.path.join(
-        get_package_share_directory("es165_moveit"),
-        "rviz",
-        "default.rviz",
-    )
-
-    # Helpful but deprecated - I wrote some cpp code to publish the Jacobian but found out that I do not 
-    # need it, the cpp code is gone
-    # jacobian_publisher = Node(
-    #     package="moveit2_tutorials",
-    #     executable="robot_model_and_robot_state_tutorial",
-    #     output="screen",
-    #     parameters=[
-    #         moveit_config.robot_description,
-    #         moveit_config.robot_description_semantic,
-    #         moveit_config.robot_description_kinematics,
-    #         moveit_config.joint_limits,
-    #         {'use_sim_time': LaunchConfiguration('use_sim_time')},
-    #     ],
-    # )
 
     # Zero-G MoveIt Controller
     zero_g_controller = Node(
@@ -183,33 +162,6 @@ def generate_launch_description():
         parameters=[
             {'use_sim_time': LaunchConfiguration('use_sim_time')},
         ],
-    )
-
-    zero_g_position_controller = Node(
-        package="es165_moveit",
-        executable="zero_g_position_controller",
-        output="both",
-        parameters=[
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-            {'hz': UPDATE_RATE},
-        ],
-    )
-
-    # RViz
-    rviz2 = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen',
-        parameters=[
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-            moveit_config.robot_description,
-            moveit_config.robot_description_semantic,
-            moveit_config.robot_description_kinematics,
-            moveit_config.planning_pipelines,
-            moveit_config.joint_limits,
-        ],
-        arguments=["-d", rviz_config_path, "--ros-args", "--log-level", LaunchConfiguration("log_level")],
     )
 
     # Spawn joint_state_broadcaster after ros2_control starts
@@ -238,24 +190,6 @@ def generate_launch_description():
     )
 
 
-
-    # Test Control Node
-    test_control = Node(
-        package="es165_moveit",
-        executable="torque_publisher",
-        output="both",
-        parameters=[
-            {'use_sim_time': LaunchConfiguration('use_sim_time')},
-            {'hz': UPDATE_RATE},
-        ],
-    )
-
-    # torque_pub = RegisterEventHandler(
-    #     OnProcessStart(
-    #         target_action=zero_g_controller,
-    #         on_start=[test_control],
-    #     )
-    # )
     torque_profile_pub = Node(
         package="es165_moveit",
         executable="publish_torque_profile",
@@ -273,5 +207,4 @@ def generate_launch_description():
         servo_node,
         spawn_zero_g_after_arm,
         torque_profile_pub,
-        # rviz2,
     ])
