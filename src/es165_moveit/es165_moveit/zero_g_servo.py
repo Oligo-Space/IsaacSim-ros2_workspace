@@ -179,17 +179,17 @@ class ZeroGController(Node):
 
         transform = msg.transforms[0]
         x,y,z = (transform.transform.translation.x, transform.transform.translation.y, transform.transform.translation.z)
-        r,p,y = euler_from_quaternion([transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w])
+        r,p,yaw = euler_from_quaternion([transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w])
         t = msg.transforms[0].header.stamp.sec + msg.transforms[0].header.stamp.nanosec/1e9
         if self.last_t and len(self.last_ee_poses) < self.window_size and len(self.last_ee_poses) > 0:
             dt = t - self.last_t
-            vx,vy,vz,wx,wy,wz = (self.last_ee_poses[-1][:6] - np.array([x,y,z,r,p,y])) / dt
-            self.last_ee_poses.append(np.array([x,y,z,r,p,y,vx,vy,vz,wx,wy,wz]))
+            vx,vy,vz,wx,wy,wz = (self.last_ee_poses[-1][:6] - np.array([x,y,z,r,p,yaw])) / dt
+            self.last_ee_poses.append(np.array([x,y,z,r,p,yaw,vx,vy,vz,wx,wy,wz]))
         elif len(self.last_ee_poses) == self.window_size:
             self.ee_pose_pub.publish(Float32MultiArray(data=np.mean(self.last_ee_poses, axis=0)))
             self.last_ee_poses = []
         else:
-            self.last_ee_poses.append(np.array([x,y,z,r,p,y,0,0,0,0,0,0]))
+            self.last_ee_poses.append(np.array([x,y,z,r,p,yaw,0,0,0,0,0,0]))
         self.last_t = t
 
 

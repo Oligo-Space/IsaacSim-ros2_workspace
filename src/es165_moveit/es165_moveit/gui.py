@@ -35,6 +35,18 @@ class GuiPublisher(Node):
         self.create_subscription(Int8, '/servo_node/status', self.update_servo_status, 10)
         self.create_subscription(Bool, "/profile_loaded", self.profile_loaded, 10)
 
+        self.status_codes = \
+        {
+            -1: "INVALID",
+            0: "NO WARNING",
+            1: "DECELERATE FOR APPROACHING SINGULARITY",
+            2: "HALT FOR SINGULARITY",
+            3: "DECELERATE FOR COLLISION",
+            4: "HALT FOR COLLISION",
+            5: "JOINT BOUND",
+            6: "DECELERATE FOR LEAVING SINGULARITY"
+        }
+
 
         self.qt = None
         self.joint_state_qt_objects = None
@@ -64,8 +76,8 @@ class GuiPublisher(Node):
     def set_ee_pose_boxes(self,boxes):
         self.ee_pose_state_qt_objects = boxes
     
-    def set_servo_status_box(self,box):
-        self.servo_status_box = box
+    def set_servo_status_box(self,box,lookup_box):
+        self.servo_status_box = (box,lookup_box)
 
     def stop_torque_profile(self):
         self.torque_stop_profile_pub.publish(Bool(data=True))
@@ -93,7 +105,9 @@ class GuiPublisher(Node):
 
     def update_servo_status(self,msg):
         if self.servo_status_box is not None:
-            self.servo_status_box.setText(f"{msg.data}")
+            box,lookup = self.servo_status_box
+            box.setText(f"{msg.data}")
+            lookup.setText(self.status_codes[msg.data])
 
 # Threads the ros node within Qt to not block GUI function
 class RosWorker(QObject):
@@ -405,9 +419,10 @@ class MainWindow(QMainWindow):
         ###################################################
 
         ########## Servo Status ################
+        nb = QHBoxLayout()
         arm_label = QLabel("Servo Status:")
         arm_label.setStyleSheet("padding: 0px; margin: 0px;")
-        box.addWidget(arm_label)
+        nb.addWidget(arm_label)
 
         telemetry_tab_layout.addWidget(arm_label)
         arm_box = QHBoxLayout()
@@ -420,13 +435,16 @@ class MainWindow(QMainWindow):
             at1.setFixedWidth(50)
             arm_box.addWidget(at1)
 
-        box.addLayout(arm_box)
-
+        nb.addLayout(arm_box)
+        status_lookup = QLabel("")
+        # status_lookup.setReadOnly(True)
+        status_lookup.setFixedWidth(200)
+        nb.addWidget(status_lookup)
         # box.setSpacing(0)
         # box.setContentsMargins(0, 0, 0, 0)
-        box.addStretch()
-        self.ros_node.set_servo_status_box(state_boxes[0])
-        telemetry_tab_layout.addLayout(box)
+        nb.addStretch()
+        self.ros_node.set_servo_status_box(state_boxes[0],status_lookup)
+        telemetry_tab_layout.addLayout(nb)
         ###################################################
 
         control_tab.setLayout(control_tab_layout)
