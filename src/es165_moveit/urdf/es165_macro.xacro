@@ -11,7 +11,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://es165_moveit/visual_meshes/base_link.stl"/>
+            <mesh filename="package://es165_moveit/urdf/base_link_visual.stl"/>
           </geometry>
           <material name="blue">
             <color rgba="0 0 1 1"/>
@@ -19,7 +19,7 @@
       </visual>
       <collision>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/base_link.stl"/>
+          <mesh filename="package://es165_moveit/urdf/base_link_collision.stl"/>
         </geometry>
         <material name="yellow">
           <color rgba="0 1 1 1"/>
@@ -34,14 +34,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/visual_meshes/link_s.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_s_visual.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_s.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_s_collision.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -54,14 +54,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/visual_meshes/link_l.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_l_visual.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_l.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_l_collision.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -74,14 +74,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/visual_meshes/link_u.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_u_visual.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_u.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_u_collision.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -94,14 +94,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://es165_moveit/visual_meshes/link_r.stl"/>
+        <mesh filename="package://es165_moveit/urdf/link_r_visual.stl"/>
       </geometry>
       <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_r.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_r_collision.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -114,14 +114,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/visual_meshes/link_b.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_b_visual.stl"/>
         </geometry>
         <material name="blue"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_b.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_b_collision.stl"/>
         </geometry>
         <material name="yellow"/>
       </collision>
@@ -134,7 +134,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="package://es165_moveit/visual_meshes/link_t.stl"/>
+            <mesh filename="package://es165_moveit/urdf/link_t_visual.stl"/>
           </geometry>
           <material name="black">
             <color rgba="0 0 0 1"/>
@@ -143,7 +143,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/link_t.stl"/>
+          <mesh filename="package://es165_moveit/urdf/link_t_collision.stl"/>
         </geometry>
         <material name="black"/>
       </collision>
@@ -156,7 +156,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/visual_meshes/ee_base_link.stl"/>
+          <mesh filename="package://es165_moveit/urdf/ee_base_link_visual.stl"/>
         </geometry>
         <material name="grey">
           <color rgba="0.7 0.7 0.7 1"/>
@@ -165,7 +165,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://es165_moveit/collision_meshes/ee_base_link.stl"/>
+          <mesh filename="package://es165_moveit/urdf/ee_base_link_collision.stl"/>
         </geometry>
       </collision>
     </link>
