@@ -218,8 +218,7 @@ class ZeroGController(Node):
                         velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=i*100000000))
                 ]
                 self.init_position_publisher.publish(msg)
-                # self.get_clock().sleep_for(rclpy.duration.Duration(seconds=0,nanoseconds=int(1e8)))
-                time.sleep(0.1)
+                time.sleep(0.1) #sleeping with rclpy clock kills the node since there is a timer running i think
             
             self.create_timer(self.dt,self.update_vis)
             self.halt_timer = False
