@@ -3,17 +3,7 @@ import matplotlib.pyplot as plt
 '''
 Literally just read timstamp + torque and make a profile
 '''
-data = pd.read_csv('data.csv',usecols=["Time (s)", "Torque X (Nm)", "Torque Y (Nm)", "Torque Z (Nm)"])
-# print(data)
-plt.title("Torque")
-plt.xlabel("Time (s)")
-plt.ylabel("Torque (Nm)")
-plt.plot(data["Time (s)"], data["Torque X (Nm)"])
-plt.plot(data["Time (s)"], data["Torque Y (Nm)"])
-plt.plot(data["Time (s)"], data["Torque Z (Nm)"])
-plt.legend(["X", "Y", "Z"])
-plt.grid(True)
-plt.show()
+data = pd.read_csv('data_zerosum.csv',usecols=["Time (s)", "Torque X (Nm)", "Torque Y (Nm)", "Torque Z (Nm)"])
 wf = open('profile.txt', 'w')
 last_t = None
 for index, row in data.iterrows():
