@@ -9,6 +9,7 @@ src/isaac_tutorials/
 src/isaacsim/
 src/moveit/
 src/navigation/
+src/es165_moveit/urdf/es165_blender/configuration/es165_blender_base.usd
 .vscode/
 src/es165_moveit/es165_moveit/reachable_poses.txt
 src/es165_moveit/es165_moveit/reachable_joints.txt
