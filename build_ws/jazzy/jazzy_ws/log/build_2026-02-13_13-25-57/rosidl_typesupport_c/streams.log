@@ -1,0 +1,138 @@
+[0.074s] Invoking command in '/workspace/jazzy_ws/build/rosidl_typesupport_c': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rosidl_typesupport/rosidl_typesupport_c -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.103s] -- The C compiler identification is GNU 13.3.0
+[0.133s] -- The CXX compiler identification is GNU 13.3.0
+[0.142s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.321s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.370s] -- Found rcpputils: 2.11.3 (/workspace/jazzy_ws/install/share/rcpputils/cmake)
+[0.375s] -- Found rosidl_runtime_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake)
+[0.437s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.540s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.541s] -- Found Threads: TRUE  
+[0.544s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[0.623s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.626s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.626s] -- Configured cppcheck include dirs: /workspace/jazzy_ws/install/include;$<BUILD_INTERFACE:/workspace/jazzy_ws/src/rosidl_typesupport/rosidl_typesupport_c/include>
+[0.626s] -- Configured cppcheck exclude dirs and/or files: 
+[0.628s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.628s] -- Configured cpplint exclude dirs and/or files: 
+[0.629s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.629s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.629s] -- Added test 'lint_cmake' to check CMake code style
+[0.630s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.632s] -- Added test 'uncrustify' to check C / C++ code style
+[0.632s] -- Configured uncrustify additional arguments: 
+[0.632s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done (0.6s)
+[0.641s] -- Generating done (0.0s)
+[0.644s] -- Build files have been written to: /workspace/jazzy_ws/build/rosidl_typesupport_c
+[0.649s] Invoked command in '/workspace/jazzy_ws/build/rosidl_typesupport_c' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rosidl_typesupport/rosidl_typesupport_c -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.649s] Invoking command in '/workspace/jazzy_ws/build/rosidl_typesupport_c': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rosidl_typesupport_c -- -j24 -l24
+[0.678s] [  5%] Building C object CMakeFiles/rosidl_typesupport_c.dir/src/identifier.c.o
+[0.679s] [ 11%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.679s] [ 22%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.679s] [ 22%] Building CXX object CMakeFiles/rosidl_typesupport_c.dir/src/service_type_support_dispatch.cpp.o
+[0.679s] [ 27%] Building CXX object CMakeFiles/rosidl_typesupport_c.dir/src/message_type_support_dispatch.cpp.o
+[0.683s] [ 27%] Built target ament_cmake_python_copy_rosidl_typesupport_c_setup
+[0.683s] [ 27%] Built target ament_cmake_python_copy_rosidl_typesupport_c
+[0.778s] running egg_info
+[0.783s] creating rosidl_typesupport_c.egg-info
+[0.783s] writing rosidl_typesupport_c.egg-info/PKG-INFO
+[0.783s] writing dependency_links to rosidl_typesupport_c.egg-info/dependency_links.txt
+[0.783s] writing entry points to rosidl_typesupport_c.egg-info/entry_points.txt
+[0.783s] writing top-level names to rosidl_typesupport_c.egg-info/top_level.txt
+[0.783s] writing manifest file 'rosidl_typesupport_c.egg-info/SOURCES.txt'
+[0.796s] reading manifest file 'rosidl_typesupport_c.egg-info/SOURCES.txt'
+[0.797s] writing manifest file 'rosidl_typesupport_c.egg-info/SOURCES.txt'
+[0.808s] [ 33%] Linking CXX shared library librosidl_typesupport_c.so
+[0.813s] [ 33%] Built target ament_cmake_python_build_rosidl_typesupport_c_egg
+[0.850s] [ 33%] Built target rosidl_typesupport_c
+[0.861s] [ 50%] Building C object CMakeFiles/rosidl_typesupport_c__test_type_support2.dir/test/test_type_support.c.o
+[0.861s] [ 50%] Building C object CMakeFiles/rosidl_typesupport_c__test_type_support1.dir/test/test_type_support.c.o
+[0.861s] [ 50%] Building CXX object CMakeFiles/benchmark_type_support_dispatch.dir/test/benchmark/benchmark_type_support_dispatch.cpp.o
+[0.877s] [ 61%] Linking C shared library librosidl_typesupport_c__test_type_support1.so
+[0.877s] [ 61%] Linking C shared library librosidl_typesupport_c__test_type_support2.so
+[0.896s] [ 61%] Built target rosidl_typesupport_c__test_type_support2
+[0.896s] [ 61%] Built target rosidl_typesupport_c__test_type_support1
+[1.075s] [ 66%] Linking CXX static library libgtest_main.a
+[1.093s] [ 66%] Built target gtest_main
+[1.192s] [ 72%] Linking CXX executable benchmark_type_support_dispatch
+[1.237s] [ 72%] Built target benchmark_type_support_dispatch
+[2.399s] [ 77%] Linking CXX static library libgtest.a
+[2.430s] [ 77%] Built target gtest
+[2.440s] [ 88%] Building CXX object CMakeFiles/test_message_type_support.dir/test/test_message_type_support_dispatch.cpp.o
+[2.440s] [ 88%] Building CXX object CMakeFiles/test_service_type_support.dir/test/test_service_type_support_dispatch.cpp.o
+[2.997s] [ 94%] Linking CXX executable test_service_type_support
+[3.017s] [100%] Linking CXX executable test_message_type_support
+[3.060s] [100%] Built target test_service_type_support
+[3.082s] [100%] Built target test_message_type_support
+[3.088s] Invoked command in '/workspace/jazzy_ws/build/rosidl_typesupport_c' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rosidl_typesupport_c -- -j24 -l24
+[3.088s] Invoking command in '/workspace/jazzy_ws/build/rosidl_typesupport_c': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rosidl_typesupport_c
+[3.092s] -- Install configuration: ""
+[3.092s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/pythonpath.sh
+[3.093s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/pythonpath.dsv
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info/PKG-INFO
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info/SOURCES.txt
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info/top_level.txt
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info/entry_points.txt
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c-3.2.2-py3.12.egg-info/dependency_links.txt
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c/cli.py
+[3.093s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py
+[3.114s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c'...
+[3.114s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py'...
+[3.114s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c/cli.py'...
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/library_path.sh
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/library_path.dsv
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_typesupport_c
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_c
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_c
+[3.117s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/ament_prefix_path.sh
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/ament_prefix_path.dsv
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/path.sh
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/environment/path.dsv
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/local_setup.bash
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/local_setup.sh
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/local_setup.zsh
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/local_setup.dsv
+[3.118s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/package.dsv
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rosidl_typesupport_c
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cExport.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cExport-noconfig.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/ament_cmake_export_libraries-extras.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/ament_cmake_export_targets-extras.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig-version.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/package.xml
+[3.119s] -- Installing: /workspace/jazzy_ws/install/lib/rosidl_typesupport_c/rosidl_typesupport_c
+[3.119s] -- Up-to-date: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource
+[3.119s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
+[3.120s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
+[3.120s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
+[3.120s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/action__type_support.c.em
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c/service_type_support_dispatch.h
+[3.120s] -- Installing: /workspace/jazzy_ws/install/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h
+[3.120s] -- Installing: /workspace/jazzy_ws/install/lib/librosidl_typesupport_c.so
+[3.120s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librosidl_typesupport_c.so" to ""
+[3.121s] Invoked command in '/workspace/jazzy_ws/build/rosidl_typesupport_c' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rosidl_typesupport_c

@@ -1,0 +1,79 @@
+-- Setting build type to 'Release' as none was specified.
+-- Tests not compiled by default
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring Fast CDR
+-- Version: 2.2.7
+-- Performing Test SUPPORTS_NOTFOUND
+-- Performing Test SUPPORTS_NOTFOUND - Success
+-- Enforced cxx_std_11 CMake feature
+-- Looking for C++ include sys/types.h
+-- Looking for C++ include sys/types.h - found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for C++ include stddef.h
+-- Looking for C++ include stddef.h - found
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of __float128
+-- Check size of __float128 - done
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/fastcdr
+[ 20%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/CdrSizeCalculator.cpp.o
+[ 20%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o
+[ 50%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o
+[ 50%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadOptionalAccessException.cpp.o
+[ 60%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o
+[ 60%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o
+[ 80%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o
+[ 80%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/LockedExternalAccessException.cpp.o
+[ 90%] Building CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o
+[100%] Linking CXX shared library libfastcdr.so
+[100%] Built target fastcdr
+-- Install configuration: "Release"
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/detail
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/detail/container_recursive_inspector.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/cdr
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/cdr/fixed_size_string.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/FastBuffer.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/FastCdr.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/fastcdr_dll.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/eProsima_auto_link.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/Cdr.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/CdrSizeCalculator.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions/LockedExternalAccessException.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions/Exception.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions/BadParamException.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions/NotEnoughMemoryException.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/exceptions/BadOptionalAccessException.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr/detail
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr/detail/optional.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr/MemberId.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr/external.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/xcdr/optional.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/config
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/config/doxygen_modules.h
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/CdrEncoding.hpp
+-- Installing: /workspace/jazzy_ws/install/include/fastcdr/config.h
+-- Installing: /workspace/jazzy_ws/install/lib/libfastcdr.so.2.2.7
+-- Installing: /workspace/jazzy_ws/install/lib/libfastcdr.so.2
+-- Installing: /workspace/jazzy_ws/install/lib/libfastcdr.so
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/fastcdr/fastcdr-shared-targets.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/fastcdr/fastcdr-shared-targets-release.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/fastcdr/fastcdr-config.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/fastcdr/fastcdr-config-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/fastcdr/LICENSE

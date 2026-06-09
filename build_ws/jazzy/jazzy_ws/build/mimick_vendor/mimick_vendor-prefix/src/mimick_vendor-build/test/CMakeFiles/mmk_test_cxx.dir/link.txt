@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mmk_test_cxx.dir/test.cpp.o -o mmk_test_cxx  -Wl,-rpath,/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-build/test ../libmimick.a libfoo.so 

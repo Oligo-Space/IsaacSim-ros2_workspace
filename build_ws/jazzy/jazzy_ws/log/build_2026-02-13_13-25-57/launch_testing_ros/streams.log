@@ -1,0 +1,71 @@
+[0.530s] Invoking command in '/workspace/jazzy_ws/src/launch_ros/launch_testing_ros': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/launch_testing_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /workspace/jazzy_ws/build/launch_testing_ros/build install --record /workspace/jazzy_ws/build/launch_testing_ros/install.log --single-version-externally-managed install_data
+[0.633s] running egg_info
+[0.638s] creating ../../../build/launch_testing_ros/launch_testing_ros.egg-info
+[0.638s] writing ../../../build/launch_testing_ros/launch_testing_ros.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/entry_points.txt
+[0.638s] writing requirements to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/requires.txt
+[0.638s] writing top-level names to ../../../build/launch_testing_ros/launch_testing_ros.egg-info/top_level.txt
+[0.638s] writing manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.649s] reading manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.650s] writing manifest file '../../../build/launch_testing_ros/launch_testing_ros.egg-info/SOURCES.txt'
+[0.650s] running build
+[0.650s] running build_py
+[0.650s] creating /workspace/jazzy_ws/build/launch_testing_ros/build/lib
+[0.650s] copying launch_testing_ros_pytest_entrypoint.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib
+[0.650s] creating /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.650s] copying launch_testing_ros/__init__.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.650s] copying launch_testing_ros/data_republisher.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.650s] copying launch_testing_ros/message_pump.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.650s] copying launch_testing_ros/test_runner.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.650s] copying launch_testing_ros/wait_for_topics.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros
+[0.651s] creating /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.651s] copying launch_testing_ros/pytest/hooks.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.651s] copying launch_testing_ros/pytest/__init__.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest
+[0.651s] creating /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.651s] copying launch_testing_ros/tools/__init__.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.651s] copying launch_testing_ros/tools/output.py -> /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools
+[0.651s] running install
+[0.652s] running install_lib
+[0.657s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.657s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/pytest
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest/hooks.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/pytest
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/pytest/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/pytest
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/data_republisher.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/message_pump.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/test_runner.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.658s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/wait_for_topics.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros
+[0.659s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/tools
+[0.659s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/tools
+[0.659s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros/tools/output.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/tools
+[0.659s] copying /workspace/jazzy_ws/build/launch_testing_ros/build/lib/launch_testing_ros_pytest_entrypoint.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/pytest/hooks.py to hooks.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/pytest/__init__.py to __init__.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/__init__.py to __init__.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/data_republisher.py to data_republisher.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/message_pump.py to message_pump.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/test_runner.py to test_runner.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/wait_for_topics.py to wait_for_topics.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/tools/__init__.py to __init__.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros/tools/output.py to output.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros_pytest_entrypoint.py to launch_testing_ros_pytest_entrypoint.cpython-312.pyc
+[0.661s] running install_data
+[0.661s] copying resource/launch_testing_ros -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.661s] copying package.xml -> /workspace/jazzy_ws/install/share/launch_testing_ros
+[0.661s] creating /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.661s] copying test/examples/check_node_launch_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.661s] copying test/examples/set_param_launch_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.661s] copying test/examples/wait_for_topic_launch_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.661s] copying test/examples/talker_listener_launch_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/listener.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/wait_for_topic_inject_trigger_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/repeater.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/talker.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/parameter_blackboard.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] copying test/examples/check_msgs_launch_test.py -> /workspace/jazzy_ws/install/share/launch_testing_ros/examples
+[0.662s] running install_egg_info
+[0.667s] Copying ../../../build/launch_testing_ros/launch_testing_ros.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_testing_ros-0.26.11-py3.12.egg-info
+[0.667s] running install_scripts
+[0.678s] writing list of installed files to '/workspace/jazzy_ws/build/launch_testing_ros/install.log'
+[0.689s] Invoked command in '/workspace/jazzy_ws/src/launch_ros/launch_testing_ros' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/launch_testing_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /workspace/jazzy_ws/build/launch_testing_ros/build install --record /workspace/jazzy_ws/build/launch_testing_ros/install.log --single-version-externally-managed install_data

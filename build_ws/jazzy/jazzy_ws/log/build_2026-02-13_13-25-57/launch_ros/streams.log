@@ -1,0 +1,172 @@
+[0.518s] Invoking command in '/workspace/jazzy_ws/src/launch_ros/launch_ros': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /workspace/jazzy_ws/build/launch_ros/build install --record /workspace/jazzy_ws/build/launch_ros/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.624s] creating ../../../build/launch_ros/launch_ros.egg-info
+[0.624s] writing ../../../build/launch_ros/launch_ros.egg-info/PKG-INFO
+[0.624s] writing dependency_links to ../../../build/launch_ros/launch_ros.egg-info/dependency_links.txt
+[0.624s] writing entry points to ../../../build/launch_ros/launch_ros.egg-info/entry_points.txt
+[0.624s] writing requirements to ../../../build/launch_ros/launch_ros.egg-info/requires.txt
+[0.624s] writing top-level names to ../../../build/launch_ros/launch_ros.egg-info/top_level.txt
+[0.625s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.635s] reading manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.636s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[0.636s] running build
+[0.636s] running build_py
+[0.636s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] copying launch_ros/parameters_type.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] copying launch_ros/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] copying launch_ros/ros_adapters.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] copying launch_ros/remap_rule_type.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] copying launch_ros/parameter_descriptions.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.636s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.636s] copying launch_ros/actions/ros_timer.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.636s] copying launch_ros/actions/set_parameter.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/node.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/set_remap.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/load_composable_nodes.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/set_use_sim_time.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/lifecycle_node.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/push_ros_namespace.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/set_ros_log_dir.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/set_parameters_from_file.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/lifecycle_transition.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] copying launch_ros/actions/composable_node_container.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions
+[0.637s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events
+[0.637s] copying launch_ros/events/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events
+[0.637s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.637s] copying launch_ros/descriptions/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.637s] copying launch_ros/descriptions/composable_node.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.637s] copying launch_ros/descriptions/composable_lifecycle_node.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[0.637s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.637s] copying launch_ros/utilities/namespace_utils.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/lifecycle_event_manager.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/normalize_parameters.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/to_parameters_list.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/normalize_remap_rule.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/evaluate_parameters.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/track_node_names.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] copying launch_ros/utilities/plugin_support.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities
+[0.638s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.638s] copying launch_ros/substitutions/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.638s] copying launch_ros/substitutions/find_package.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.638s] copying launch_ros/substitutions/executable_in_package.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.638s] copying launch_ros/substitutions/parameter.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[0.638s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.638s] copying launch_ros/event_handlers/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.638s] copying launch_ros/event_handlers/on_state_transition.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[0.638s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.638s] copying launch_ros/events/lifecycle/change_state.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.638s] copying launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.638s] copying launch_ros/events/lifecycle/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.638s] copying launch_ros/events/lifecycle/state_transition.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[0.638s] creating /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[0.638s] copying launch_ros/events/matchers/__init__.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[0.638s] copying launch_ros/events/matchers/matches_node_name.py -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[0.638s] copying launch_ros/py.typed -> /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros
+[0.639s] running install
+[0.641s] running install_lib
+[0.646s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.646s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/ros_timer.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/set_parameter.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/node.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/set_remap.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/load_composable_nodes.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/set_use_sim_time.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/lifecycle_node.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/push_ros_namespace.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/set_ros_log_dir.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/set_parameters_from_file.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/lifecycle_transition.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/actions/composable_node_container.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/parameters_type.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.646s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events
+[0.646s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events
+[0.647s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/change_state.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/state_transition.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[0.647s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/matchers
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/matchers/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/matchers
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/events/matchers/matches_node_name.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/matchers
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.647s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions/composable_node.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/descriptions/composable_lifecycle_node.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions
+[0.647s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/namespace_utils.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/lifecycle_event_manager.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_parameters.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/to_parameters_list.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_remap_rule.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.647s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/evaluate_parameters.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/track_node_names.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/utilities/plugin_support.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities
+[0.648s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions/find_package.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions/executable_in_package.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/substitutions/parameter.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/ros_adapters.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/remap_rule_type.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/parameter_descriptions.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/py.typed -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros
+[0.648s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/event_handlers
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/event_handlers/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/event_handlers
+[0.648s] copying /workspace/jazzy_ws/build/launch_ros/build/lib/launch_ros/event_handlers/on_state_transition.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/event_handlers
+[0.648s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/ros_timer.py to ros_timer.cpython-312.pyc
+[0.648s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/set_parameter.py to set_parameter.cpython-312.pyc
+[0.649s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/node.py to node.cpython-312.pyc
+[0.651s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/set_remap.py to set_remap.cpython-312.pyc
+[0.651s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/__init__.py to __init__.cpython-312.pyc
+[0.651s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/load_composable_nodes.py to load_composable_nodes.cpython-312.pyc
+[0.652s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/set_use_sim_time.py to set_use_sim_time.cpython-312.pyc
+[0.653s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/lifecycle_node.py to lifecycle_node.cpython-312.pyc
+[0.653s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/push_ros_namespace.py to push_ros_namespace.cpython-312.pyc
+[0.653s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/set_ros_log_dir.py to set_ros_log_dir.cpython-312.pyc
+[0.653s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/set_parameters_from_file.py to set_parameters_from_file.cpython-312.pyc
+[0.653s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/lifecycle_transition.py to lifecycle_transition.cpython-312.pyc
+[0.654s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/actions/composable_node_container.py to composable_node_container.cpython-312.pyc
+[0.654s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/parameters_type.py to parameters_type.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/__init__.py to __init__.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle/change_state.py to change_state.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle/lifecycle_node_matchers.py to lifecycle_node_matchers.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle/__init__.py to __init__.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/lifecycle/state_transition.py to state_transition.cpython-312.pyc
+[0.655s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/matchers/__init__.py to __init__.cpython-312.pyc
+[0.656s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/events/matchers/matches_node_name.py to matches_node_name.cpython-312.pyc
+[0.656s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/__init__.py to __init__.cpython-312.pyc
+[0.656s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions/__init__.py to __init__.cpython-312.pyc
+[0.656s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions/composable_node.py to composable_node.cpython-312.pyc
+[0.656s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/descriptions/composable_lifecycle_node.py to composable_lifecycle_node.cpython-312.pyc
+[0.657s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/namespace_utils.py to namespace_utils.cpython-312.pyc
+[0.657s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/lifecycle_event_manager.py to lifecycle_event_manager.cpython-312.pyc
+[0.657s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/normalize_parameters.py to normalize_parameters.cpython-312.pyc
+[0.658s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/to_parameters_list.py to to_parameters_list.cpython-312.pyc
+[0.658s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/normalize_remap_rule.py to normalize_remap_rule.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/__init__.py to __init__.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/evaluate_parameters.py to evaluate_parameters.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/track_node_names.py to track_node_names.cpython-312.pyc
+[0.659s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/utilities/plugin_support.py to plugin_support.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions/__init__.py to __init__.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions/find_package.py to find_package.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions/executable_in_package.py to executable_in_package.cpython-312.pyc
+[0.660s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/substitutions/parameter.py to parameter.cpython-312.pyc
+[0.661s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/ros_adapters.py to ros_adapters.cpython-312.pyc
+[0.661s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/remap_rule_type.py to remap_rule_type.cpython-312.pyc
+[0.661s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/parameter_descriptions.py to parameter_descriptions.cpython-312.pyc
+[0.662s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/event_handlers/__init__.py to __init__.cpython-312.pyc
+[0.662s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros/event_handlers/on_state_transition.py to on_state_transition.cpython-312.pyc
+[0.662s] running install_data
+[0.662s] copying package.xml -> /workspace/jazzy_ws/install/share/launch_ros
+[0.663s] copying resource/launch_ros -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.663s] running install_egg_info
+[0.668s] Copying ../../../build/launch_ros/launch_ros.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_ros-0.26.11-py3.12.egg-info
+[0.668s] running install_scripts
+[0.679s] writing list of installed files to '/workspace/jazzy_ws/build/launch_ros/install.log'
+[0.690s] Invoked command in '/workspace/jazzy_ws/src/launch_ros/launch_ros' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /workspace/jazzy_ws/build/launch_ros/build install --record /workspace/jazzy_ws/build/launch_ros/install.log --single-version-externally-managed install_data

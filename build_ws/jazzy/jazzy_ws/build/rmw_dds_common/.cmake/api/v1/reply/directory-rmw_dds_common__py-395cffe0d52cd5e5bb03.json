@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rmw_dds_common__py",
+		"source" : "/workspace/jazzy_ws/build/rmw_dds_common/rmw_dds_common__py"
+	}
+}

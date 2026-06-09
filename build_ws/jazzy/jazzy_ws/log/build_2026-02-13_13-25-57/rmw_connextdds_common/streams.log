@@ -1,0 +1,101 @@
+[0.957s] Invoking command in '/workspace/jazzy_ws/build/rmw_connextdds_common': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rmw_connextdds/rmw_connextdds_common -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[1.056s] -- The C compiler identification is GNU 13.3.0
+[1.182s] -- The CXX compiler identification is GNU 13.3.0
+[1.218s] -- Detecting C compiler ABI info
+[1.442s] -- Detecting C compiler ABI info - done
+[1.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.473s] -- Detecting C compile features
+[1.473s] -- Detecting C compile features - done
+[1.492s] -- Detecting CXX compiler ABI info
+[1.709s] -- Detecting CXX compiler ABI info - done
+[1.739s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.739s] -- Detecting CXX compile features
+[1.739s] -- Detecting CXX compile features - done
+[1.743s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[1.979s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.089s] -- Found rcutils: 6.7.5 (/workspace/jazzy_ws/install/share/rcutils/cmake)
+[2.105s] -- Found rcpputils: 2.11.3 (/workspace/jazzy_ws/install/share/rcpputils/cmake)
+[2.115s] -- Found rmw: 7.3.3 (/workspace/jazzy_ws/install/share/rmw/cmake)
+[2.132s] -- Found rmw_dds_common: 3.1.1 (/workspace/jazzy_ws/install/share/rmw_dds_common/cmake)
+[2.153s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[2.195s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[2.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.304s] -- Found tracetools: 8.2.5 (/workspace/jazzy_ws/install/share/tracetools/cmake)
+[2.330s] -- Found rti_connext_dds_cmake_module: 0.22.3 (/workspace/jazzy_ws/install/share/rti_connext_dds_cmake_module/cmake)
+[2.330s] -- Loaded RTI Connext DDS environment:
+[2.330s] -- - RTI Connext DDS Professional:
+[2.330s] --   - Found: false
+[2.330s] --   - Version: 
+[2.330s] --   - Directory: 
+[2.330s] --   - Architecture: 
+[2.330s] -- - RTI Connext DDS Micro:
+[2.330s] --   - Found: false
+[2.330s] --   - Version: 
+[2.331s] --   - Directory: 
+[2.331s] --   - Architecture: 
+[2.331s] -- no CONNEXTDDS_DIR nor NDDSHOME specified
+[2.331s] -- Invalid CONNEXTDDS_DIR = ''
+[2.331s] -- RTI Connext DDS Professional not found. Skipping library rmw_connextdds_common_pro
+[2.331s] -- Invalid CONNEXTDDS_DIR = ''
+[2.331s] -- Invalid RTIMEHOME = ''
+[2.331s] -- RTIMEHOME not found
+[2.331s] -- RTI Connext DDS Micro not found. Skipping library rmw_connextdds_common_micro
+[2.331s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[2.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.583s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.583s] -- Configured cppcheck include dirs: 
+[2.583s] -- Configured cppcheck exclude dirs and/or files: 
+[2.602s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.602s] -- Configured cpplint exclude dirs and/or files: 
+[2.604s] -- Added test 'lint_cmake' to check CMake code style
+[2.634s] -- Added test 'uncrustify' to check C / C++ code style
+[2.634s] -- Configured uncrustify additional arguments: 
+[2.634s] -- Added test 'xmllint' to check XML markup files
+[2.641s] -- Configuring done (1.7s)
+[2.650s] -- Generating done (0.0s)
+[2.650s] -- Build files have been written to: /workspace/jazzy_ws/build/rmw_connextdds_common
+[2.663s] Invoked command in '/workspace/jazzy_ws/build/rmw_connextdds_common' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rmw_connextdds/rmw_connextdds_common -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.663s] Invoking command in '/workspace/jazzy_ws/build/rmw_connextdds_common': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rmw_connextdds_common -- -j24 -l24
+[2.729s] Invoked command in '/workspace/jazzy_ws/build/rmw_connextdds_common' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rmw_connextdds_common -- -j24 -l24
+[2.729s] Invoking command in '/workspace/jazzy_ws/build/rmw_connextdds_common': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rmw_connextdds_common
+[2.736s] -- Install configuration: "Release"
+[2.737s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[2.737s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds
+[2.737s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/discovery.hpp
+[2.737s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/rmw_api_impl.hpp
+[2.738s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/demangle.hpp
+[2.738s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/dds_api_rtime.hpp
+[2.738s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/visibility_control.h
+[2.738s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/dds_api.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/resource_limits.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/graph_cache.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/context.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/rmw_waitset_std.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/rmw_impl.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/custom_sql_filter.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/namespace_prefix.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/rtime_ext.h
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/static_config.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/type_support.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/scope_exit.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/log.hpp
+[2.740s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/typecode.hpp
+[2.741s] -- Installing: /workspace/jazzy_ws/install/include/rmw_connextdds/dds_api_ndds.hpp
+[2.741s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rmw_connextdds_common
+[2.741s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rmw_connextdds_common
+[2.741s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/environment/ament_prefix_path.sh
+[2.747s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/environment/ament_prefix_path.dsv
+[2.747s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/environment/path.sh
+[2.747s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/environment/path.dsv
+[2.747s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/local_setup.bash
+[2.747s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/local_setup.sh
+[2.748s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/local_setup.zsh
+[2.748s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/local_setup.dsv
+[2.748s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/package.dsv
+[2.748s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rmw_connextdds_common
+[2.751s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.751s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/cmake/rmw_connextdds_commonConfig.cmake
+[2.752s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/cmake/rmw_connextdds_commonConfig-version.cmake
+[2.752s] -- Installing: /workspace/jazzy_ws/install/share/rmw_connextdds_common/package.xml
+[2.752s] Invoked command in '/workspace/jazzy_ws/build/rmw_connextdds_common' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rmw_connextdds_common

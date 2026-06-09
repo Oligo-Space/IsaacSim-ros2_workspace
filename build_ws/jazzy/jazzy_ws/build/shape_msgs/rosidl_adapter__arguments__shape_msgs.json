@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

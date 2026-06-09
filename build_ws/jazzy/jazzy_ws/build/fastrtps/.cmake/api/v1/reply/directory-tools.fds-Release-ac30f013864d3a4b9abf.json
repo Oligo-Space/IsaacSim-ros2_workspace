@@ -1,0 +1,96 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/fds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "discovery",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/fds/fast-discovery-server-1.0.1"
+			],
+			"targetId" : "fast-discovery-server::@23e66d161d9fc6ae77c4",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "cmake",
+			"destination" : "share/fastrtps/cmake",
+			"exportName" : "fast-discovery-server-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fast-discovery-server::@23e66d161d9fc6ae77c4",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"tools/fds/CMakeFiles/Export/c96f171e5a3ff9214735fc841243948a/fast-discovery-server-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cmake",
+			"destination" : "share",
+			"paths" : 
+			[
+				"tools/fds/../../resources/xsd/fastRTPS_profiles.xsd"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "discovery",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/fds",
+		"source" : "tools/fds"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "package_name": "std_srvs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/common_interfaces/std_srvs:srv/Empty.srv",
+    "/workspace/jazzy_ws/src/common_interfaces/std_srvs:srv/SetBool.srv",
+    "/workspace/jazzy_ws/src/common_interfaces/std_srvs:srv/Trigger.srv"
+  ]
+}

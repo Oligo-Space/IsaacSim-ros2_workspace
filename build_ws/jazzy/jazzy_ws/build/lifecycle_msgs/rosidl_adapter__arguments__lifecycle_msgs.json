@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

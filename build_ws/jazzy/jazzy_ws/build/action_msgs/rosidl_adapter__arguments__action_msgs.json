@@ -1,0 +1,9 @@
+{
+  "package_name": "action_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+  ]
+}

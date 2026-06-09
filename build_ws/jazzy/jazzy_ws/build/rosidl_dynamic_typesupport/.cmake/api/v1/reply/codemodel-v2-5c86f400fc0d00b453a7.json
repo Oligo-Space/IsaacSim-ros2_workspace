@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f6bad54b230b4c0ba31f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosidl_dynamic_typesupport",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_dynamic_typesupport::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_dynamic_typesupport-877ddbc78d266beddcf8.json",
+					"name" : "rosidl_dynamic_typesupport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_dynamic_typesupport_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_dynamic_typesupport_uninstall-53a7ba25bfabfba9f04d.json",
+					"name" : "rosidl_dynamic_typesupport_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f3a8b6b71a67392964f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/rosidl_dynamic_typesupport",
+		"source" : "/workspace/jazzy_ws/src/rosidl_dynamic_typesupport"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

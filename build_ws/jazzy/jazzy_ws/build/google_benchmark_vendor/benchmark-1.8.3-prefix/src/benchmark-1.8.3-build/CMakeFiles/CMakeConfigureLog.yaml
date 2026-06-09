@@ -1,0 +1,1168 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.17.0-14-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_667ae/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_667ae.dir/build.make CMakeFiles/cmTC_667ae.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj'
+        Building CXX object CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_667ae.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEaAUpc.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/'
+         as -v --64 -o CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEaAUpc.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_667ae
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_667ae.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_667ae 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_667ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_667ae.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBHBoVb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_667ae /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_667ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_667ae.'
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_667ae/fast]
+        ignore line: [gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_667ae.dir/build.make CMakeFiles/cmTC_667ae.dir/build]
+        ignore line: [gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wxsyIj']
+        ignore line: [Building CXX object CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_667ae.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEaAUpc.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEaAUpc.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_667ae]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_667ae.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_667ae ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_667ae' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_667ae.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBHBoVb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_667ae /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccBHBoVb.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_667ae] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_667ae.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:125 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a25d8/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a25d8.dir/build.make CMakeFiles/cmTC_a25d8.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW'
+        Building CXX object CMakeFiles/cmTC_a25d8.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_a25d8.dir/CheckFunctionExists.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a25d8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25d8.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_a25d8.dir/CheckFunctionExists.cxx.o -o cmTC_a25d8  -lrt 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bTqOxW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:174 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38f49/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_38f49.dir/build.make CMakeFiles/cmTC_38f49.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT'
+        Building CXX object CMakeFiles/cmTC_38f49.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11   -Wall -o CMakeFiles/cmTC_38f49.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT/src.cxx
+        Linking CXX executable cmTC_38f49
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f49.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall CMakeFiles/cmTC_38f49.dir/src.cxx.o -o cmTC_38f49 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-MCHcvT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de9e5/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de9e5.dir/build.make CMakeFiles/cmTC_de9e5.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt'
+        Building CXX object CMakeFiles/cmTC_de9e5.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11   -Wextra -o CMakeFiles/cmTC_de9e5.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt/src.cxx
+        Linking CXX executable cmTC_de9e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de9e5.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_de9e5.dir/src.cxx.o -o cmTC_de9e5 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-bmEyIt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c50bc/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c50bc.dir/build.make CMakeFiles/cmTC_c50bc.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl'
+        Building CXX object CMakeFiles/cmTC_c50bc.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11   -Wshadow -o CMakeFiles/cmTC_c50bc.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl/src.cxx
+        Linking CXX executable cmTC_c50bc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50bc.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_c50bc.dir/src.cxx.o -o cmTC_c50bc 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-4iqgrl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:177 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a497/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a497.dir/build.make CMakeFiles/cmTC_6a497.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT'
+        Building CXX object CMakeFiles/cmTC_6a497.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11   -Wfloat-equal -o CMakeFiles/cmTC_6a497.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT/src.cxx
+        Linking CXX executable cmTC_6a497
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a497.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_6a497.dir/src.cxx.o -o cmTC_6a497 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-jP3TDT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:178 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b11de/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b11de.dir/build.make CMakeFiles/cmTC_b11de.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am'
+        Building CXX object CMakeFiles/cmTC_b11de.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11   -Wold-style-cast -o CMakeFiles/cmTC_b11de.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am/src.cxx
+        Linking CXX executable cmTC_b11de
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11de.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_b11de.dir/src.cxx.o -o cmTC_b11de 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-THS2Am'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:180 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d63e/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0d63e.dir/build.make CMakeFiles/cmTC_0d63e.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw'
+        Building CXX object CMakeFiles/cmTC_0d63e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11   -Werror -o CMakeFiles/cmTC_0d63e.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw/src.cxx
+        Linking CXX executable cmTC_0d63e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d63e.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror CMakeFiles/cmTC_0d63e.dir/src.cxx.o -o cmTC_0d63e 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-p9v5qw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fa986/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fa986.dir/build.make CMakeFiles/cmTC_fa986.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7'
+        Building CXX object CMakeFiles/cmTC_fa986.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override -std=c++11   -Wsuggest-override -o CMakeFiles/cmTC_fa986.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7/src.cxx
+        Linking CXX executable cmTC_fa986
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa986.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override CMakeFiles/cmTC_fa986.dir/src.cxx.o -o cmTC_fa986 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-KGACi7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:186 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c2b64/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c2b64.dir/build.make CMakeFiles/cmTC_c2b64.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a'
+        Building CXX object CMakeFiles/cmTC_c2b64.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic -std=c++11   -pedantic -o CMakeFiles/cmTC_c2b64.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a/src.cxx
+        Linking CXX executable cmTC_c2b64
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b64.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_c2b64.dir/src.cxx.o -o cmTC_c2b64 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-rUAW8a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:187 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1417c/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1417c.dir/build.make CMakeFiles/cmTC_1417c.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg'
+        Building CXX object CMakeFiles/cmTC_1417c.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++11   -pedantic-errors -o CMakeFiles/cmTC_1417c.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg/src.cxx
+        Linking CXX executable cmTC_1417c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1417c.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_1417c.dir/src.cxx.o -o cmTC_1417c 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-sT3Uyg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:188 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0822/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a0822.dir/build.make CMakeFiles/cmTC_a0822.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8'
+        Building CXX object CMakeFiles/cmTC_a0822.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11   -Wshorten-64-to-32 -o CMakeFiles/cmTC_a0822.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8/src.cxx
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        gmake[4]: *** [CMakeFiles/cmTC_a0822.dir/build.make:78: CMakeFiles/cmTC_a0822.dir/src.cxx.o] Error 1
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8'
+        gmake[3]: *** [Makefile:127: cmTC_a0822/fast] Error 2
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-fCtlA8'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:189 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3a67/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a3a67.dir/build.make CMakeFiles/cmTC_a3a67.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE'
+        Building CXX object CMakeFiles/cmTC_a3a67.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11   -fstrict-aliasing -o CMakeFiles/cmTC_a3a67.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE/src.cxx
+        Linking CXX executable cmTC_a3a67
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a67.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_a3a67.dir/src.cxx.o -o cmTC_a3a67 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-XeREfE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:192 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_487b9/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_487b9.dir/build.make CMakeFiles/cmTC_487b9.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P'
+        Building CXX object CMakeFiles/cmTC_487b9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11   -Wno-deprecated-declarations -o CMakeFiles/cmTC_487b9.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P/src.cxx
+        Linking CXX executable cmTC_487b9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_487b9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_487b9.dir/src.cxx.o -o cmTC_487b9 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-nBD66P'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b736/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0b736.dir/build.make CMakeFiles/cmTC_0b736.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD'
+        Building CXX object CMakeFiles/cmTC_0b736.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11   -Wno-deprecated -o CMakeFiles/cmTC_0b736.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD/src.cxx
+        Linking CXX executable cmTC_0b736
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b736.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_0b736.dir/src.cxx.o -o cmTC_0b736 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-avaGZD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:210 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b423b/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b423b.dir/build.make CMakeFiles/cmTC_b423b.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq'
+        Building CXX object CMakeFiles/cmTC_b423b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11   -Wstrict-aliasing -o CMakeFiles/cmTC_b423b.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq/src.cxx
+        Linking CXX executable cmTC_b423b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b423b.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_b423b.dir/src.cxx.o -o cmTC_b423b 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-eJXXUq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:215 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d9311/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d9311.dir/build.make CMakeFiles/cmTC_d9311.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT'
+        Building CXX object CMakeFiles/cmTC_d9311.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11   -wd654 -o CMakeFiles/cmTC_d9311.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT/src.cxx
+        c++: error: unrecognized command-line option '-wd654'
+        c++: error: unrecognized command-line option '-wd654'
+        gmake[4]: *** [CMakeFiles/cmTC_d9311.dir/build.make:78: CMakeFiles/cmTC_d9311.dir/src.cxx.o] Error 1
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT'
+        gmake[3]: *** [Makefile:127: cmTC_d9311/fast] Error 2
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-wPRNJT'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:216 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93bde/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_93bde.dir/build.make CMakeFiles/cmTC_93bde.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc'
+        Building CXX object CMakeFiles/cmTC_93bde.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11   -Wthread-safety -o CMakeFiles/cmTC_93bde.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        gmake[4]: *** [CMakeFiles/cmTC_93bde.dir/build.make:78: CMakeFiles/cmTC_93bde.dir/src.cxx.o] Error 1
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc'
+        gmake[3]: *** [Makefile:127: cmTC_93bde/fast] Error 2
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-px6NKc'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:267 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e227/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e227.dir/build.make CMakeFiles/cmTC_3e227.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy'
+        Building CXX object CMakeFiles/cmTC_3e227.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11   --coverage -o CMakeFiles/cmTC_3e227.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy/src.cxx
+        Linking CXX executable cmTC_3e227
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e227.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_3e227.dir/src.cxx.o -o cmTC_3e227 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-S7e7Oy'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "CMakeLists.txt:297 (cxx_feature_check)"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1fcb8/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1fcb8.dir/build.make CMakeFiles/cmTC_1fcb8.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_1fcb8.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_1fcb8.dir/std_regex.cpp.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/std_regex.cpp
+        Linking CXX executable cmTC_1fcb8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fcb8.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_1fcb8.dir/std_regex.cpp.o -o cmTC_1fcb8 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "CMakeLists.txt:298 (cxx_feature_check)"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3de19/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3de19.dir/build.make CMakeFiles/cmTC_3de19.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3de19.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_3de19.dir/gnu_posix_regex.cpp.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/gnu_posix_regex.cpp
+        /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[4]: *** [CMakeFiles/cmTC_3de19.dir/build.make:78: CMakeFiles/cmTC_3de19.dir/gnu_posix_regex.cpp.o] Error 1
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        gmake[3]: *** [Makefile:127: cmTC_3de19/fast] Error 2
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "CMakeLists.txt:299 (cxx_feature_check)"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_518bb/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_518bb.dir/build.make CMakeFiles/cmTC_518bb.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_518bb.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_518bb.dir/posix_regex.cpp.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_518bb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518bb.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_518bb.dir/posix_regex.cpp.o -o cmTC_518bb 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "CMakeLists.txt:308 (cxx_feature_check)"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a382e/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a382e.dir/build.make CMakeFiles/cmTC_a382e.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_a382e.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_a382e.dir/steady_clock.cpp.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_a382e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a382e.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_a382e.dir/steady_clock.cpp.o -o cmTC_a382e 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:311 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d7570/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d7570.dir/build.make CMakeFiles/cmTC_d7570.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2'
+        Building CXX object CMakeFiles/cmTC_d7570.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_d7570.dir/src.cxx.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2/src.cxx
+        Linking CXX executable cmTC_d7570
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7570.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_d7570.dir/src.cxx.o -o cmTC_d7570 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeScratch/TryCompile-B1uuq2'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+      binary: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/Modules;/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a94ba/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a94ba.dir/build.make CMakeFiles/cmTC_a94ba.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_a94ba.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -o CMakeFiles/cmTC_a94ba.dir/pthread_affinity.cpp.o -c /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_a94ba
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a94ba.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_a94ba.dir/pthread_affinity.cpp.o -o cmTC_a94ba 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+      exitCode: 0
+...

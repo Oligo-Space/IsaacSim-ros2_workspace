@@ -1,0 +1,34 @@
+[0.545s] Invoking command in '/workspace/jazzy_ws/src/rpyutils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpyutils build --build-base /workspace/jazzy_ws/build/rpyutils/build install --record /workspace/jazzy_ws/build/rpyutils/install.log --single-version-externally-managed install_data
+[0.865s] running egg_info
+[0.884s] creating ../../build/rpyutils/rpyutils.egg-info
+[0.884s] writing ../../build/rpyutils/rpyutils.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../../build/rpyutils/rpyutils.egg-info/dependency_links.txt
+[0.884s] writing requirements to ../../build/rpyutils/rpyutils.egg-info/requires.txt
+[0.885s] writing top-level names to ../../build/rpyutils/rpyutils.egg-info/top_level.txt
+[0.885s] writing manifest file '../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[0.921s] reading manifest file '../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[0.921s] adding license file 'LICENSE'
+[0.922s] writing manifest file '../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.924s] creating /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils
+[0.925s] copying rpyutils/add_dll_directories.py -> /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils
+[0.925s] copying rpyutils/__init__.py -> /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils
+[0.925s] copying rpyutils/import_c_library.py -> /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils
+[0.925s] running install
+[0.936s] running install_lib
+[0.953s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils
+[0.960s] copying /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils/add_dll_directories.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils
+[0.963s] copying /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils
+[0.963s] copying /workspace/jazzy_ws/build/rpyutils/build/lib/rpyutils/import_c_library.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils
+[0.964s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils/add_dll_directories.py to add_dll_directories.cpython-312.pyc
+[0.964s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils/__init__.py to __init__.cpython-312.pyc
+[0.964s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils/import_c_library.py to import_c_library.cpython-312.pyc
+[0.964s] running install_data
+[0.964s] copying package.xml -> /workspace/jazzy_ws/install/share/rpyutils
+[0.964s] copying resource/rpyutils -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.964s] running install_egg_info
+[0.976s] Copying ../../build/rpyutils/rpyutils.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/rpyutils-0.4.2-py3.12.egg-info
+[0.979s] running install_scripts
+[1.016s] writing list of installed files to '/workspace/jazzy_ws/build/rpyutils/install.log'
+[1.130s] Invoked command in '/workspace/jazzy_ws/src/rpyutils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rpyutils build --build-base /workspace/jazzy_ws/build/rpyutils/build install --record /workspace/jazzy_ws/build/rpyutils/install.log --single-version-externally-managed install_data

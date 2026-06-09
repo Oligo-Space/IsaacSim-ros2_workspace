@@ -1,0 +1,32 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_vendor_package: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_vendor_package/cmake)
+-- Performing Test HAS_FLTO_AUTO
+-- Performing Test HAS_FLTO_AUTO - Success
+-- Skipping vendor package build for 'pybind11_vendor', which is already satisfied
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/pybind11_vendor
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/pybind11_vendor
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/pybind11_vendor
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/pybind11_vendor
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/cmake/pybind11_vendor-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/cmake/pybind11_vendorConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/cmake/pybind11_vendorConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/pybind11_vendor/package.xml

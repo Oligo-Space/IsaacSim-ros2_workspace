@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_gtest: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_gtest/cmake)
+-- Create new version file for version 2.5.5
+-- Create new version file for version 2.5.5
+-- Create new version file for version 2.5.5
+-- Create new version file for version 2.5.5
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/ament_cmake_gen_version_h
+[  8%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 16%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 25%] Generating ament_generate_version_header/version.hpp
+[ 25%] Built target ament_generate_version_header__some_lib
+[ 33%] Linking CXX static library libgtest_main.a
+[ 33%] Built target gtest_main
+[ 41%] Linking CXX static library libgtest.a
+[ 41%] Built target gtest
+[ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_custom.cpp.o
+[ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version2_h.cpp.o
+[ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version1_h.cpp.o
+[ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_h.cpp.o
+[ 83%] Building CXX object CMakeFiles/test_ament_generate_version_header.dir/test/test_version_hpp.cpp.o
+[ 91%] Linking CXX executable test_ament_generate_version_header
+[100%] Linking CXX executable test_ament_cmake_gen_version_h
+[100%] Built target test_ament_generate_version_header
+[100%] Built target test_ament_cmake_gen_version_h
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/package.xml
+-- Up-to-date: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/version.h.in
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake

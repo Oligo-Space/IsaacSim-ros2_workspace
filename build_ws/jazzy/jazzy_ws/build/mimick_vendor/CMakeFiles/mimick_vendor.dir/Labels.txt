@@ -1,0 +1,13 @@
+# Target labels
+ mimick_vendor
+# Source files and their labels
+/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor
+/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor.rule
+/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor-complete.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-build.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-configure.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-download.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-install.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-mkdir.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-patch_disconnected.rule
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-update_disconnected.rule

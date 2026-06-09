@@ -1,0 +1,320 @@
+[0.292s] Invoking command in '/workspace/jazzy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcutils -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.353s] -- The C compiler identification is GNU 13.3.0
+[0.415s] -- The CXX compiler identification is GNU 13.3.0
+[0.434s] -- Detecting C compiler ABI info
+[0.547s] -- Detecting C compiler ABI info - done
+[0.549s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.553s] -- Detecting C compile features
+[0.553s] -- Detecting C compile features - done
+[0.570s] -- Detecting CXX compiler ABI info
+[0.714s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.724s] -- Detecting CXX compile features
+[0.724s] -- Detecting CXX compile features - done
+[0.725s] -- Found ament_cmake_python: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_python/cmake)
+[0.727s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.902s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.230s] -- Performing Test USES_GLIBC
+[1.316s] -- Performing Test USES_GLIBC - Success
+[1.317s] -- Looking for __atomic_load_8 in atomic
+[1.410s] -- Looking for __atomic_load_8 in atomic - found
+[1.410s] -- Found performance_test_fixture: 0.2.1 (/workspace/jazzy_ws/install/share/performance_test_fixture/cmake)
+[1.537s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[1.661s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.836s] -- Found PythonExtra: /usr/bin/python3  
+[1.842s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.842s] -- Found Threads: TRUE  
+[1.843s] -- Found gmock sources under '/workspace/jazzy_ws/install/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.862s] -- Performing Test is_no_as_needed_supported
+[2.064s] -- Performing Test is_no_as_needed_supported - Success
+[2.096s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[2.103s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.116s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.116s] -- Configured cpplint exclude dirs and/or files: 
+[2.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.116s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.123s] -- Added test 'lint_cmake' to check CMake code style
+[2.123s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.135s] -- Added test 'uncrustify' to check C / C++ code style
+[2.135s] -- Configured uncrustify additional arguments: 
+[2.135s] -- Added test 'xmllint' to check XML markup files
+[2.139s] -- Configuring done (1.8s)
+[2.226s] -- Generating done (0.1s)
+[2.254s] -- Build files have been written to: /workspace/jazzy_ws/build/rcutils
+[2.265s] Invoked command in '/workspace/jazzy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcutils -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.265s] Invoking command in '/workspace/jazzy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcutils -- -j24 -l24
+[2.315s] [  1%] Expanding logging_macros.h.em
+[2.333s] [  2%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[2.337s] [  2%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[2.337s] [  3%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[2.338s] [  4%] Building CXX object gmock/CMakeFiles/gmock.dir/workspace/jazzy_ws/install/src/gtest_vendor/src/gtest-all.cc.o
+[2.338s] [  5%] Building C object CMakeFiles/dummy_shared_library_in_run_paths.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[2.340s] [  5%] Built target ament_cmake_python_copy_rcutils
+[2.341s] [  6%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[2.342s] [  7%] Building C object CMakeFiles/dummy_shared_library_preloaded.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[2.347s] [  7%] Building C object CMakeFiles/dummy_shared_library_in_load_paths.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[2.375s] [  7%] Linking C shared library test_libraries/libdummy_shared_library_preloaded.so
+[2.382s] [  8%] Linking C shared library libdummy_shared_library_in_run_paths.so
+[2.391s] [  9%] Linking C shared library test_libraries/libdummy_shared_library_in_load_paths.so
+[2.431s] [  9%] Built target dummy_shared_library_preloaded
+[2.435s] [  9%] Built target dummy_shared_library_in_run_paths
+[2.445s] [  9%] Built target dummy_shared_library_in_load_paths
+[2.459s] [ 10%] Building C object CMakeFiles/rcutils.dir/src/allocator.c.o
+[2.464s] [ 10%] Building C object CMakeFiles/rcutils.dir/src/char_array.c.o
+[2.502s] [ 11%] Building C object CMakeFiles/rcutils.dir/src/array_list.c.o
+[2.502s] [ 12%] Building C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.o
+[2.502s] [ 13%] Building C object CMakeFiles/rcutils.dir/src/env.c.o
+[2.502s] [ 14%] Building C object CMakeFiles/rcutils.dir/src/filesystem.c.o
+[2.502s] [ 15%] Building C object CMakeFiles/rcutils.dir/src/error_handling.c.o
+[2.504s] [ 16%] Building C object CMakeFiles/rcutils.dir/src/find.c.o
+[2.504s] [ 17%] Building C object CMakeFiles/rcutils.dir/src/process.c.o
+[2.504s] [ 18%] Building C object CMakeFiles/rcutils.dir/src/format_string.c.o
+[2.504s] [ 19%] Building C object CMakeFiles/rcutils.dir/src/hash_map.c.o
+[2.504s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/sha256.c.o
+[2.504s] [ 21%] Building C object CMakeFiles/rcutils.dir/src/shared_library.c.o
+[2.504s] [ 16%] Building C object CMakeFiles/rcutils.dir/src/logging.c.o
+[2.506s] [ 21%] Building C object CMakeFiles/rcutils.dir/src/qsort.c.o
+[2.510s] [ 22%] Building C object CMakeFiles/rcutils.dir/src/repl_str.c.o
+[2.510s] [ 23%] Building C object CMakeFiles/rcutils.dir/src/split.c.o
+[2.510s] [ 23%] Building C object CMakeFiles/rcutils.dir/src/snprintf.c.o
+[2.528s] [ 24%] Building C object CMakeFiles/rcutils.dir/src/strdup.c.o
+[2.533s] [ 25%] Building C object CMakeFiles/rcutils.dir/src/strcasecmp.c.o
+[2.533s] [ 26%] Building C object CMakeFiles/rcutils.dir/src/strerror.c.o
+[2.537s] [ 26%] Building C object CMakeFiles/rcutils.dir/src/string_array.c.o
+[2.546s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/string_map.c.o
+[2.554s] [ 28%] Building C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.o
+[2.554s] [ 29%] Building C object CMakeFiles/rcutils.dir/src/time.c.o
+[2.566s] [ 29%] Building C object CMakeFiles/rcutils.dir/src/time_unix.c.o
+[2.567s] [ 30%] Building C object CMakeFiles/rcutils.dir/src/uint8_array.c.o
+[2.634s] running egg_info
+[2.651s] creating rcutils.egg-info
+[2.651s] writing rcutils.egg-info/PKG-INFO
+[2.651s] writing dependency_links to rcutils.egg-info/dependency_links.txt
+[2.651s] writing top-level names to rcutils.egg-info/top_level.txt
+[2.651s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.664s] [ 31%] Linking C shared library librcutils.so
+[2.687s] reading manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.687s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.711s] [ 31%] Built target rcutils
+[2.732s] [ 32%] Building C object CMakeFiles/test_logging_macros_c.dir/test/test_logging_macros.c.o
+[2.735s] [ 33%] Building CXX object CMakeFiles/benchmark_logging.dir/test/benchmark/benchmark_logging.cpp.o
+[2.736s] [ 34%] Building CXX object CMakeFiles/test_logging_long_messages.dir/test/test_logging_long_messages.cpp.o
+[2.739s] [ 34%] Building CXX object CMakeFiles/benchmark_err_handle.dir/test/benchmark/benchmark_error_handling.cpp.o
+[2.745s] [ 35%] Building C object CMakeFiles/test_atomics_executable.dir/test/test_atomics.c.o
+[2.750s] [ 35%] Built target ament_cmake_python_build_rcutils_egg
+[2.816s] [ 36%] Linking C executable test_logging_macros_c
+[2.830s] [ 37%] Linking C executable test_atomics_executable
+[2.861s] [ 37%] Built target test_logging_macros_c
+[2.878s] [ 37%] Built target test_atomics_executable
+[2.952s] [ 37%] Linking CXX executable test_logging_long_messages
+[3.041s] [ 37%] Linking CXX static library libgtest_main.a
+[3.071s] [ 37%] Built target test_logging_long_messages
+[3.086s] [ 37%] Built target gtest_main
+[3.180s] [ 38%] Linking CXX executable benchmark_err_handle
+[3.243s] [ 39%] Linking CXX static library libgmock_main.a
+[3.272s] [ 40%] Linking CXX executable benchmark_logging
+[3.281s] [ 40%] Built target benchmark_err_handle
+[3.281s] [ 40%] Built target gmock_main
+[3.365s] [ 40%] Built target benchmark_logging
+[5.381s] [ 41%] Linking CXX static library libgtest.a
+[5.438s] [ 41%] Built target gtest
+[5.456s] [ 42%] Building CXX object CMakeFiles/test_allocator.dir/test/test_allocator.cpp.o
+[5.458s] [ 43%] Building CXX object CMakeFiles/test_logging.dir/test/test_logging.cpp.o
+[5.461s] [ 43%] Building CXX object CMakeFiles/test_char_array.dir/test/test_char_array.cpp.o
+[5.461s] [ 44%] Building CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o
+[5.471s] [ 45%] Building CXX object CMakeFiles/test_string_array.dir/test/test_string_array.cpp.o
+[5.471s] [ 46%] Building CXX object CMakeFiles/test_find.dir/test/test_find.cpp.o
+[5.471s] [ 46%] Building CXX object CMakeFiles/test_strerror.dir/test/test_strerror.cpp.o
+[5.471s] [ 47%] Building CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o
+[5.484s] [ 48%] Building CXX object CMakeFiles/test_shared_library_in_run_paths.dir/test/test_shared_library.cpp.o
+[5.484s] [ 49%] Building CXX object CMakeFiles/test_shared_library_in_load_paths.dir/test/test_shared_library.cpp.o
+[5.484s] [ 49%] Building CXX object CMakeFiles/test_filesystem.dir/test/test_filesystem.cpp.o
+[5.490s] [ 49%] Building CXX object CMakeFiles/test_format_string.dir/test/test_format_string.cpp.o
+[5.490s] [ 50%] Building CXX object CMakeFiles/test_string_map.dir/test/test_string_map.cpp.o
+[5.491s] [ 50%] Building CXX object CMakeFiles/test_repl_str.dir/test/test_repl_str.cpp.o
+[5.491s] [ 51%] Building CXX object CMakeFiles/test_isalnum_no_locale.dir/test/test_isalnum_no_locale.cpp.o
+[5.492s] [ 52%] Building CXX object CMakeFiles/test_strdup.dir/test/test_strdup.cpp.o
+[5.501s] [ 53%] Building CXX object CMakeFiles/test_strcasecmp.dir/test/test_strcasecmp.cpp.o
+[5.502s] [ 53%] Building CXX object CMakeFiles/test_snprintf.dir/test/test_snprintf.cpp.o
+[5.502s] [ 54%] Building CXX object CMakeFiles/test_shared_library_preloaded.dir/test/test_shared_library.cpp.o
+[5.503s] [ 55%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[5.503s] [ 56%] Building CXX object CMakeFiles/test_sha256.dir/test/test_sha256.cpp.o
+[5.517s] [ 56%] Building CXX object CMakeFiles/test_array_list.dir/test/test_array_list.cpp.o
+[5.518s] [ 57%] Building CXX object CMakeFiles/test_uint8_array.dir/test/test_uint8_array.cpp.o
+[6.212s] [ 58%] Linking CXX static library libgmock.a
+[6.231s] [ 59%] Linking CXX executable test_format_string
+[6.318s] [ 59%] Built target gmock
+[6.337s] [ 60%] Building CXX object CMakeFiles/test_hash_map.dir/test/test_hash_map.cpp.o
+[6.539s] [ 61%] Linking CXX executable test_strerror
+[6.546s] [ 62%] Linking CXX executable test_strcasecmp
+[6.603s] [ 62%] Built target test_format_string
+[6.642s] [ 63%] Building CXX object CMakeFiles/test_cmdline_parser.dir/test/test_cmdline_parser.cpp.o
+[6.725s] [ 63%] Built target test_strerror
+[6.732s] [ 63%] Built target test_strcasecmp
+[6.744s] [ 64%] Linking CXX executable test_shared_library_in_run_paths
+[6.755s] [ 64%] Linking CXX executable test_shared_library_preloaded
+[6.758s] [ 65%] Building CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o
+[6.765s] [ 66%] Building CXX object CMakeFiles/test_logging_custom_env.dir/test/test_logging_custom_env.cpp.o
+[6.948s] [ 66%] Built target test_shared_library_preloaded
+[6.988s] [ 66%] Building CXX object CMakeFiles/test_logging_custom_env2.dir/test/test_logging_custom_env.cpp.o
+[6.988s] [ 66%] Built target test_shared_library_in_run_paths
+[7.018s] [ 67%] Linking CXX executable test_allocator
+[7.038s] [ 68%] Building CXX object CMakeFiles/test_logging_bad_env.dir/test/test_logging_bad_env.cpp.o
+[7.043s] [ 69%] Linking CXX executable test_time
+[7.267s] [ 69%] Built target test_allocator
+[7.286s] [ 69%] Built target test_time
+[7.308s] [ 70%] Building CXX object CMakeFiles/test_logging_bad_env2.dir/test/test_logging_bad_env.cpp.o
+[7.315s] [ 71%] Building CXX object CMakeFiles/test_logging_bad_env3.dir/test/test_logging_bad_env.cpp.o
+[7.382s] [ 71%] Linking CXX executable test_string_map
+[7.409s] [ 71%] Linking CXX executable test_env
+[7.516s] [ 72%] Linking CXX executable test_char_array
+[7.516s] [ 73%] Linking CXX executable test_repl_str
+[7.521s] [ 73%] Linking CXX executable test_isalnum_no_locale
+[7.564s] [ 74%] Linking CXX executable test_find
+[7.573s] [ 75%] Linking CXX executable test_uint8_array
+[7.600s] [ 76%] Linking CXX executable test_snprintf
+[7.641s] [ 76%] Built target test_string_map
+[7.647s] [ 77%] Linking CXX executable test_split
+[7.647s] [ 77%] Built target test_env
+[7.677s] [ 78%] Building CXX object CMakeFiles/test_logging_enable_for.dir/test/test_logging_enable_for.cpp.o
+[7.684s] [ 78%] Building CXX object CMakeFiles/test_logging_console_output_handler.dir/test/test_logging_console_output_handler.cpp.o
+[7.704s] [ 79%] Linking CXX executable test_process
+[7.707s] [ 80%] Linking CXX executable test_logging_custom_env
+[7.727s] [ 80%] Built target test_char_array
+[7.775s] [ 80%] Built target test_repl_str
+[7.778s] [ 80%] Building CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o
+[7.778s] [ 80%] Built target test_isalnum_no_locale
+[7.812s] [ 81%] Building CXX object CMakeFiles/test_logging_macros.dir/test/test_logging_macros.cpp.o
+[7.814s] [ 82%] Building CXX object CMakeFiles/test_error_handling.dir/test/test_error_handling.cpp.o
+[7.826s] [ 82%] Built target test_find
+[7.830s] [ 83%] Linking CXX executable test_strdup
+[7.839s] [ 83%] Built target test_snprintf
+[7.847s] [ 83%] Built target test_uint8_array
+[7.866s] [ 84%] Building CXX object CMakeFiles/test_error_handling_helpers.dir/test/test_error_handling_helpers.cpp.o
+[7.916s] [ 85%] Linking CXX executable test_sha256
+[7.916s] [ 85%] Built target test_split
+[7.933s] [ 85%] Linking CXX executable test_logging_bad_env
+[7.938s] [ 85%] Linking CXX executable test_shared_library_in_load_paths
+[7.974s] [ 86%] Linking CXX executable test_logging_custom_env2
+[8.000s] [ 86%] Built target test_logging_custom_env
+[8.027s] [ 87%] Linking CXX executable test_string_array
+[8.032s] [ 87%] Built target test_process
+[8.077s] [ 87%] Built target test_strdup
+[8.087s] [ 87%] Built target test_shared_library_in_load_paths
+[8.114s] [ 87%] Built target test_sha256
+[8.117s] [ 88%] Linking CXX executable test_logging_bad_env2
+[8.170s] [ 88%] Built target test_logging_custom_env2
+[8.176s] [ 88%] Built target test_logging_bad_env
+[8.203s] [ 88%] Built target test_string_array
+[8.230s] [ 89%] Linking CXX executable test_array_list
+[8.314s] [ 89%] Built target test_logging_bad_env2
+[8.325s] [ 90%] Linking CXX executable test_logging
+[8.379s] [ 90%] Built target test_array_list
+[8.389s] [ 91%] Linking CXX executable test_filesystem
+[8.432s] [ 91%] Built target test_logging
+[8.536s] [ 91%] Built target test_filesystem
+[8.620s] [ 92%] Linking CXX executable test_logging_enable_for
+[8.632s] [ 93%] Linking CXX executable test_cmdline_parser
+[8.680s] [ 94%] Linking CXX executable test_hash_map
+[8.704s] [ 94%] Built target test_cmdline_parser
+[8.733s] [ 95%] Linking CXX executable test_logging_console_output_handler
+[8.749s] [ 96%] Linking CXX executable test_macros
+[8.788s] [ 97%] Built target test_logging_enable_for
+[8.788s] [ 97%] Linking CXX executable test_logging_bad_env3
+[8.833s] [ 97%] Built target test_hash_map
+[8.855s] [ 97%] Built target test_logging_console_output_handler
+[8.865s] [ 97%] Built target test_macros
+[9.000s] [ 97%] Built target test_logging_bad_env3
+[9.182s] [ 98%] Linking CXX executable test_error_handling_helpers
+[9.366s] [ 98%] Built target test_error_handling_helpers
+[9.569s] [ 99%] Linking CXX executable test_error_handling
+[9.638s] [100%] Linking CXX executable test_logging_macros
+[9.691s] [100%] Built target test_error_handling
+[9.804s] [100%] Built target test_logging_macros
+[9.816s] Invoked command in '/workspace/jazzy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcutils -- -j24 -l24
+[9.816s] Invoking command in '/workspace/jazzy_ws/build/rcutils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcutils
+[9.824s] -- Install configuration: ""
+[9.829s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/pythonpath.sh
+[9.829s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/pythonpath.dsv
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils-6.7.5-py3.12.egg-info
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils-6.7.5-py3.12.egg-info/PKG-INFO
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils-6.7.5-py3.12.egg-info/SOURCES.txt
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils-6.7.5-py3.12.egg-info/top_level.txt
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils-6.7.5-py3.12.egg-info/dependency_links.txt
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils/logging.py
+[9.829s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils/__init__.py
+[9.867s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils'...
+[9.867s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils/__init__.py'...
+[9.867s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rcutils/logging.py'...
+[9.873s] -- Installing: /workspace/jazzy_ws/install/lib/librcutils.so
+[9.875s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/library_path.sh
+[9.875s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/library_path.dsv
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/ament_prefix_path.sh
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/ament_prefix_path.dsv
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/path.sh
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/environment/path.dsv
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/local_setup.bash
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/local_setup.sh
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/local_setup.zsh
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/local_setup.dsv
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/package.dsv
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcutils
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsExport.cmake
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsExport-noconfig.cmake
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.878s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+[9.879s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+[9.879s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.879s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsConfig.cmake
+[9.879s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+[9.879s] -- Installing: /workspace/jazzy_ws/install/share/rcutils/package.xml
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/snprintf.h
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/allocator.h
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper/gcc
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper/win32
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/macros.h
+[9.879s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/stdatomic_helper.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/time.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/strcasecmp.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/env.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/split.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/find.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types.h
+[9.880s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/process.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/visibility_control.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/shared_library.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/strdup.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/logging.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/error_handling.h
+[9.881s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/testing
+[9.882s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/testing/fault_injection.h
+[9.882s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/qsort.h
+[9.882s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/filesystem.h
+[9.883s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/visibility_control_macros.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/format_string.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/strerror.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/cmdline_parser.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/isalnum_no_locale.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/repl_str.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/sha256.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/array_list.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/hash_map.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/rcutils_ret.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/uint8_array.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/char_array.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/string_array.h
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/types/string_map.h
+[9.885s] -- Up-to-date: /workspace/jazzy_ws/install/include/rcutils
+[9.885s] -- Up-to-date: /workspace/jazzy_ws/install/include/rcutils/rcutils
+[9.885s] -- Installing: /workspace/jazzy_ws/install/include/rcutils/rcutils/logging_macros.h
+[9.886s] Invoked command in '/workspace/jazzy_ws/build/rcutils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcutils

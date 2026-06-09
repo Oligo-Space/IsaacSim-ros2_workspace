@@ -1,0 +1,23 @@
+{
+  "package_name": "rmw_dds_common",
+  "output_dir": "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_typesupport_fastrtps_cpp/rmw_dds_common",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common:msg/Gid.idl",
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common:msg/NodeEntitiesInfo.idl",
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common:msg/ParticipantEntitiesInfo.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common/msg/Gid.idl",
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common/msg/NodeEntitiesInfo.idl",
+    "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_adapter/rmw_dds_common/msg/ParticipantEntitiesInfo.idl"
+  ]
+}

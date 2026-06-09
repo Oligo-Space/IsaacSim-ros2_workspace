@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: ros2topic
+Version: 0.32.8
+Summary: The topic command for ROS 2 command line tools.
+Home-page: https://github.com/ros2/ros2cli/tree/master/ros2topic
+Download-URL: https://github.com/ros2/ros2cli/releases
+Author: Dirk Thomas
+Author-email: dthomas@osrfoundation.org
+Maintainer: Audrow Nash, Geoffrey Biggs
+Maintainer-email: audrow@openrobotics.org, geoff@openrobotics.org
+License: Apache License, Version 2.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Requires-Dist: ros2cli
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+The package provides the topic command for the ROS 2 command line tools.

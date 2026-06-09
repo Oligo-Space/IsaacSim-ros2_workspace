@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0416e6fc79071c31707f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "type_description_interfaces__py",
+					"jsonFile" : "directory-type_description_interfaces__py-3ae4b6503e909522bc98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/jazzy_ws/build/type_description_interfaces/type_description_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "type_description_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_type_description_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_type_description_interfaces_egg-6f2b2dc2c0e627f00d54.json",
+					"name" : "ament_cmake_python_build_type_description_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_type_description_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_type_description_interfaces-f5362398142c2e3d96fb.json",
+					"name" : "ament_cmake_python_copy_type_description_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces-d4ff65eb11b0222b6262.json",
+					"name" : "type_description_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__cpp-4728b90a4325a9050892.json",
+					"name" : "type_description_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "type_description_interfaces__py::@625a71c458d0e6148dd0",
+					"jsonFile" : "target-type_description_interfaces__py-eaf16fda118f2256ba3b.json",
+					"name" : "type_description_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_c-fa158ea9ffa4e590595d.json",
+					"name" : "type_description_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_py-e6773f1a6635502c4030.json",
+					"name" : "type_description_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_generator_type_description-ec0c70c724aa17ea500e.json",
+					"name" : "type_description_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_c-88ea7c1368f9182c20c2.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_cpp-963db78b3ac65f233087.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_fastrtps_c-998658300df1e65be90f.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_fastrtps_cpp-fa4d8cff058e2a607548.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_introspection_c-b2664effd9dc211e5488.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces__rosidl_typesupport_introspection_cpp-b8bbc956b47fa6d70a31.json",
+					"name" : "type_description_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_c-8e175fadfe16fb7a1a50.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_fastrtps_c-8255a15c9390688e57de.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_s__rosidl_typesupport_introspection_c-83d115b7673d41426710.json",
+					"name" : "type_description_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_description_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_description_interfaces_uninstall-e672f7830c6a0462046f.json",
+					"name" : "type_description_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-99dc4882f2aadda65cd9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/type_description_interfaces",
+		"source" : "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

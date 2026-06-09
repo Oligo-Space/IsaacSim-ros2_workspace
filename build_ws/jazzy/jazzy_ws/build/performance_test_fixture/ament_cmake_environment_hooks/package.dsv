@@ -1,0 +1,4 @@
+source;share/performance_test_fixture/local_setup.bash
+source;share/performance_test_fixture/local_setup.dsv
+source;share/performance_test_fixture/local_setup.sh
+source;share/performance_test_fixture/local_setup.zsh

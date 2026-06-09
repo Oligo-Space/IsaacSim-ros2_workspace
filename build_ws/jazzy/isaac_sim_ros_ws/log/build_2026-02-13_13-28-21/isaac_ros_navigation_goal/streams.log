@@ -1,0 +1,58 @@
+[0.501s] Invoking command in '/workspace/build_ws/src/navigation/isaac_ros_navigation_goal': PYTHONPATH=/workspace/build_ws/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /workspace/build_ws/build/isaac_ros_navigation_goal/build install --record /workspace/build_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data
+[0.577s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.577s]   warnings.warn(msg)
+[0.609s] running egg_info
+[0.614s] creating ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info
+[0.614s] writing ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/PKG-INFO
+[0.614s] writing dependency_links to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/dependency_links.txt
+[0.614s] writing entry points to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/entry_points.txt
+[0.614s] writing requirements to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/requires.txt
+[0.614s] writing top-level names to ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/top_level.txt
+[0.615s] writing manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.626s] reading manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.626s] writing manifest file '../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info/SOURCES.txt'
+[0.626s] running build
+[0.626s] running build_py
+[0.627s] creating /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.627s] copying isaac_ros_navigation_goal/set_goal.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.627s] copying isaac_ros_navigation_goal/__init__.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.627s] copying isaac_ros_navigation_goal/obstacle_map.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal
+[0.627s] creating /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.627s] copying isaac_ros_navigation_goal/goal_generators/__init__.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.627s] copying isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.627s] copying isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.627s] copying isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators
+[0.627s] running install
+[0.630s] running install_lib
+[0.635s] creating /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.635s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/set_goal.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.635s] creating /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.635s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/__init__.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.636s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.636s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_reader.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.636s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/goal_generators/goal_generator.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators
+[0.636s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/__init__.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.636s] copying /workspace/build_ws/build/isaac_ros_navigation_goal/build/lib/isaac_ros_navigation_goal/obstacle_map.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal
+[0.636s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/set_goal.py to set_goal.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/__init__.py to __init__.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/random_goal_generator.py to random_goal_generator.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/goal_reader.py to goal_reader.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/goal_generators/goal_generator.py to goal_generator.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/__init__.py to __init__.cpython-312.pyc
+[0.637s] byte-compiling /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal/obstacle_map.py to obstacle_map.cpython-312.pyc
+[0.638s] running install_data
+[0.638s] creating /workspace/build_ws/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.638s] copying resource/isaac_ros_navigation_goal -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/ament_index/resource_index/packages
+[0.638s] copying package.xml -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal
+[0.638s] creating /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.638s] copying launch/isaac_ros_navigation_goal.launch.py -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/launch
+[0.638s] creating /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.638s] copying assets/carter_warehouse_navigation.yaml -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.638s] copying assets/carter_warehouse_navigation.png -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.639s] copying assets/goals.txt -> /workspace/build_ws/install/isaac_ros_navigation_goal/share/isaac_ros_navigation_goal/assets
+[0.639s] running install_egg_info
+[0.644s] Copying ../../../build/isaac_ros_navigation_goal/isaac_ros_navigation_goal.egg-info to /workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages/isaac_ros_navigation_goal-0.0.1-py3.12.egg-info
+[0.645s] running install_scripts
+[0.656s] Installing SetNavigationGoal script to /workspace/build_ws/install/isaac_ros_navigation_goal/lib/isaac_ros_navigation_goal
+[0.657s] writing list of installed files to '/workspace/build_ws/build/isaac_ros_navigation_goal/install.log'
+[0.670s] Invoked command in '/workspace/build_ws/src/navigation/isaac_ros_navigation_goal' returned '0': PYTHONPATH=/workspace/build_ws/build/isaac_ros_navigation_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/build_ws/install/isaac_ros_navigation_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/isaac_ros_navigation_goal build --build-base /workspace/build_ws/build/isaac_ros_navigation_goal/build install --record /workspace/build_ws/build/isaac_ros_navigation_goal/install.log --single-version-externally-managed install_data

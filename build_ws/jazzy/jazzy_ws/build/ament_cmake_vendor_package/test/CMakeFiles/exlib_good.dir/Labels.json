@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/exlib_good"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/exlib_good.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/exlib_good-complete.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-build.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-configure.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-download.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-install.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-patch_disconnected.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-stamp/exlib_good-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"exlib_good"
+		],
+		"name" : "exlib_good"
+	}
+}

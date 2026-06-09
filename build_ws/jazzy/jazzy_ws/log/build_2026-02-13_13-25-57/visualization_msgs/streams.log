@@ -1,0 +1,661 @@
+[0.090s] Invoking command in '/workspace/jazzy_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.118s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.157s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.347s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.414s] -- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+[0.432s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.439s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.495s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.502s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.504s] -- Found sensor_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/sensor_msgs/cmake)
+[1.001s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[1.002s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[1.003s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[1.005s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.784s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.851s] -- Found PythonExtra: /usr/bin/python3  
+[2.168s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.215s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.216s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.221s] -- Configuring done (2.1s)
+[2.262s] -- Generating done (0.0s)
+[2.272s] -- Build files have been written to: /workspace/jazzy_ws/build/visualization_msgs
+[2.278s] Invoked command in '/workspace/jazzy_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.278s] Invoking command in '/workspace/jazzy_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/visualization_msgs -- -j24 -l24
+[2.307s] [  0%] Generating type hashes for ROS interfaces
+[2.312s] [  0%] Built target ament_cmake_python_copy_visualization_msgs
+[2.408s] running egg_info
+[2.413s] creating visualization_msgs.egg-info
+[2.413s] writing visualization_msgs.egg-info/PKG-INFO
+[2.414s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[2.414s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[2.414s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[2.429s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[2.429s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[2.445s] [  0%] Built target ament_cmake_python_build_visualization_msgs_egg
+[2.967s] [  0%] Built target visualization_msgs__rosidl_generator_type_description
+[2.974s] [  0%] Generating C code for ROS interfaces
+[2.979s] [  0%] Generating C++ code for ROS interfaces
+[3.800s] [  0%] Built target visualization_msgs__cpp
+[3.924s] [  2%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__type_support.c.o
+[3.924s] [  3%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o
+[3.924s] [  4%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o
+[3.924s] [  4%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__description.c.o
+[3.924s] [  5%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__description.c.o
+[3.924s] [  5%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__description.c.o
+[3.924s] [  5%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o
+[3.924s] [  6%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o
+[3.924s] [  7%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o
+[3.926s] [  7%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o
+[3.926s] [  9%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__description.c.o
+[3.926s] [  9%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__description.c.o
+[3.926s] [  9%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o
+[3.926s] [ 10%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o
+[3.926s] [ 10%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o
+[3.926s] [ 11%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__description.c.o
+[3.926s] [ 11%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o
+[3.927s] [ 12%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o
+[3.927s] [ 13%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__description.c.o
+[3.947s] [ 13%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o
+[3.947s] [ 14%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__type_support.c.o
+[3.947s] [ 15%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o
+[3.947s] [ 15%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o
+[3.948s] [ 16%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__description.c.o
+[3.950s] [ 16%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o
+[3.952s] [ 17%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o
+[3.955s] [ 19%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o
+[3.955s] [ 19%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__description.c.o
+[3.955s] [ 19%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o
+[3.955s] [ 20%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__description.c.o
+[3.956s] [ 20%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o
+[3.956s] [ 21%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o
+[3.956s] [ 22%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__description.c.o
+[3.959s] [ 23%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__type_support.c.o
+[3.960s] [ 24%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o
+[3.963s] [ 24%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__description.c.o
+[3.963s] [ 24%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o
+[3.963s] [ 25%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o
+[3.967s] [ 26%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__description.c.o
+[4.006s] [ 26%] Linking C shared library libvisualization_msgs__rosidl_generator_c.so
+[4.031s] [ 26%] Built target visualization_msgs__rosidl_generator_c
+[4.037s] [ 30%] Generating C++ type support dispatch for ROS interfaces
+[4.038s] [ 30%] Generating C type support dispatch for ROS interfaces
+[4.038s] [ 30%] Generating C introspection for ROS interfaces
+[4.038s] [ 30%] Generating C++ type support for eProsima Fast-RTPS
+[4.038s] [ 30%] Generating C type support for eProsima Fast-RTPS
+[4.038s] [ 31%] Generating C++ introspection for ROS interfaces
+[4.810s] [ 34%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o
+[4.810s] [ 36%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o
+[4.810s] [ 38%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o
+[4.810s] [ 38%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o
+[4.810s] [ 40%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o
+[4.810s] [ 39%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o
+[4.810s] [ 37%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o
+[4.810s] [ 40%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o
+[4.811s] [ 42%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o
+[4.812s] [ 42%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o
+[4.812s] [ 42%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o
+[4.812s] [ 43%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o
+[4.812s] [ 44%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o
+[4.841s] [ 45%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o
+[4.841s] [ 45%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o
+[4.841s] [ 45%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o
+[4.841s] [ 46%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o
+[4.841s] [ 46%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o
+[4.841s] [ 47%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o
+[4.876s] [ 48%] Linking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so
+[4.910s] [ 48%] Built target visualization_msgs__rosidl_typesupport_c
+[4.910s] [ 51%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o
+[4.910s] [ 51%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o
+[4.910s] [ 51%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o
+[4.910s] [ 51%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o
+[4.910s] [ 51%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o
+[4.914s] [ 52%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o
+[4.914s] [ 52%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o
+[4.917s] [ 53%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o
+[4.917s] [ 53%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o
+[4.957s] [ 54%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o
+[4.957s] [ 55%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o
+[4.985s] [ 55%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o
+[4.988s] [ 55%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o
+[4.995s] [ 56%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o
+[5.005s] [ 57%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o
+[5.006s] [ 58%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o
+[5.032s] [ 58%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o
+[5.040s] [ 59%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o
+[5.043s] [ 59%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o
+[5.044s] [ 60%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o
+[5.044s] [ 61%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o
+[5.046s] [ 62%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o
+[5.057s] [ 62%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o
+[5.077s] [ 64%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o
+[5.077s] [ 64%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o
+[5.084s] [ 64%] Building C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o
+[5.105s] [ 65%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o
+[5.105s] [ 65%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o
+[5.105s] [ 66%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o
+[5.105s] [ 67%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o
+[5.105s] [ 67%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o
+[5.108s] [ 68%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o
+[5.111s] [ 69%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o
+[5.128s] [ 69%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o
+[5.137s] [ 71%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o
+[5.137s] [ 70%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o
+[5.141s] [ 72%] Linking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[5.143s] [ 72%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o
+[5.169s] [ 72%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[5.170s] [ 73%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o
+[5.176s] [ 73%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o
+[5.241s] [ 74%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o
+[5.251s] [ 75%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o
+[5.253s] [ 76%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o
+[5.258s] [ 77%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o
+[5.322s] [ 78%] Linking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so
+[5.351s] [ 78%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o
+[5.376s] [ 79%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o
+[5.408s] [ 79%] Built target visualization_msgs__rosidl_typesupport_cpp
+[5.412s] [ 79%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o
+[5.416s] [ 80%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o
+[5.434s] [ 81%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o
+[5.436s] [ 81%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o
+[5.481s] [ 82%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o
+[5.498s] [ 83%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o
+[5.501s] [ 83%] Building CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o
+[5.603s] [ 84%] Linking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[5.687s] [ 84%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[5.809s] [ 84%] Linking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[5.861s] [ 84%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[5.995s] [ 85%] Linking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.053s] [ 85%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[6.064s] [ 85%] Built target visualization_msgs
+[6.075s] [ 86%] Generating Python code for ROS interfaces
+[7.551s] [ 86%] Built target visualization_msgs__py
+[7.563s] [ 87%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o
+[7.563s] [ 88%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o
+[7.563s] [ 89%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o
+[7.563s] [ 89%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o
+[7.563s] [ 90%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o
+[7.563s] [ 90%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o
+[7.563s] [ 91%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o
+[7.564s] [ 92%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o
+[7.564s] [ 93%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o
+[7.564s] [ 93%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o
+[7.564s] [ 93%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o
+[7.565s] [ 95%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o
+[7.565s] [ 95%] Building C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o
+[7.656s] [ 96%] Linking C shared library libvisualization_msgs__rosidl_generator_py.so
+[7.688s] [ 96%] Built target visualization_msgs__rosidl_generator_py
+[7.698s] [ 97%] Building C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[7.698s] [ 97%] Building C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o
+[7.698s] [ 98%] Building C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[7.774s] [ 99%] Linking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[7.778s] [ 99%] Linking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.783s] [100%] Linking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[7.791s] [100%] Built target visualization_msgs_s__rosidl_typesupport_c
+[7.798s] [100%] Built target visualization_msgs_s__rosidl_typesupport_fastrtps_c
+[7.807s] [100%] Built target visualization_msgs_s__rosidl_typesupport_introspection_c
+[7.813s] Invoked command in '/workspace/jazzy_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/visualization_msgs -- -j24 -l24
+[7.814s] Invoking command in '/workspace/jazzy_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/visualization_msgs
+[7.819s] -- Install configuration: ""
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/ImageMarker.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarker.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerControl.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerFeedback.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerInit.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerPose.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerUpdate.json
+[7.819s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/Marker.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MarkerArray.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MenuEntry.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MeshFile.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/UVCoordinate.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/srv/GetInteractiveMarkers.json
+[7.820s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.820s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[7.821s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__description.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__description.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__description.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__description.c
+[7.822s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__description.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__description.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__description.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[7.823s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__description.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__description.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__description.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[7.824s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__description.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__description.c
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/marker.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[7.825s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__description.c
+[7.826s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[7.826s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/library_path.sh
+[7.826s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/library_path.dsv
+[7.826s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_generator_c.so
+[7.827s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[7.827s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.827s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.827s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[7.827s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.828s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.828s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[7.828s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[7.828s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.828s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.828s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.828s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[7.828s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[7.829s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[7.830s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[7.831s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[7.832s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.832s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[7.832s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.832s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.832s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[7.832s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.833s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.833s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[7.833s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[7.833s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.833s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.833s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.834s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.834s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[7.834s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[7.835s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.836s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.836s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[7.836s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[7.836s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.836s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[7.836s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[7.836s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs
+[7.836s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg
+[7.836s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[7.836s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[7.837s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[7.838s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv
+[7.838s] -- Up-to-date: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail
+[7.838s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[7.838s] -- Installing: /workspace/jazzy_ws/install/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[7.838s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[7.838s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.838s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[7.838s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[7.838s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/pythonpath.sh
+[7.839s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/pythonpath.dsv
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[7.839s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file_s.c
+[7.840s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/__init__.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+[7.841s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[7.879s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/__init__.py'...
+[7.879s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py'...
+[7.879s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py'...
+[7.879s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+[7.883s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.883s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.883s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[7.883s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[7.883s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[7.883s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so" to ""
+[7.883s] -- Installing: /workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_generator_py.so
+[7.883s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/ImageMarker.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarker.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/Marker.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MarkerArray.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MenuEntry.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MeshFile.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/UVCoordinate.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/ImageMarker.msg
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarker.msg
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[7.884s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/Marker.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MarkerArray.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MenuEntry.msg
+[7.885s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/MeshFile.msg
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/msg/UVCoordinate.msg
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/ament_prefix_path.sh
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/ament_prefix_path.dsv
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/path.sh
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/environment/path.dsv
+[7.888s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/local_setup.bash
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/local_setup.sh
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/local_setup.zsh
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/local_setup.dsv
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/package.dsv
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/visualization_msgs
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.889s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.890s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.891s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.891s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[7.891s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[7.891s] -- Installing: /workspace/jazzy_ws/install/share/visualization_msgs/package.xml
+[7.891s] Invoked command in '/workspace/jazzy_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/visualization_msgs

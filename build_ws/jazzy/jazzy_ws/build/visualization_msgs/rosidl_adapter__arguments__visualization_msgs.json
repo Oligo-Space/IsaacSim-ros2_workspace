@@ -1,0 +1,18 @@
+{
+  "package_name": "visualization_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/ImageMarker.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarker.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarkerControl.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarkerFeedback.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarkerInit.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarkerPose.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/InteractiveMarkerUpdate.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/Marker.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/MarkerArray.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/MenuEntry.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/MeshFile.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:msg/UVCoordinate.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/visualization_msgs:srv/GetInteractiveMarkers.srv"
+  ]
+}

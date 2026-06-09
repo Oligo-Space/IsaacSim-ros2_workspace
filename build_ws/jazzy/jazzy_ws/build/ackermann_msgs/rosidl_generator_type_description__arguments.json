@@ -1,0 +1,12 @@
+{
+  "package_name": "ackermann_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/ackermann_msgs/rosidl_generator_type_description/ackermann_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl",
+    "/workspace/jazzy_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDriveStamped.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,600 @@
+[0.004s] Invoking command in '/workspace/jazzy_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.033s] -- The C compiler identification is GNU 13.3.0
+[0.042s] -- Detecting C compiler ABI info
+[0.084s] -- Detecting C compiler ABI info - done
+[0.089s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.089s] -- Detecting C compile features
+[0.089s] -- Detecting C compile features - done
+[0.090s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[0.092s] -- Looking for getopt.h
+[0.136s] -- Looking for getopt.h - found
+[0.162s] -- Building with OpenSSL support
+[0.166s] -- Looking for stdint.h
+[0.206s] -- Looking for stdint.h - found
+[0.206s] -- Looking for inttypes.h
+[0.249s] -- Looking for inttypes.h - found
+[0.249s] -- Looking for sys/types.h
+[0.293s] -- Looking for sys/types.h - found
+[0.293s] -- Looking for stdint.h
+[0.334s] -- Looking for stdint.h - found
+[0.335s] -- Looking for stddef.h
+[0.375s] -- Looking for stddef.h - found
+[0.375s] -- Check size of intmax_t
+[0.418s] -- Check size of intmax_t - done
+[0.418s] -- Looking for stpcpy
+[0.461s] -- Looking for stpcpy - found
+[0.461s] -- Looking for strlcpy
+[0.502s] -- Looking for strlcpy - found
+[0.502s] -- Looking for strlcat
+[0.543s] -- Looking for strlcat - found
+[0.544s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.584s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.585s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.625s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[0.626s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.665s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.669s] -- Looking for gethostname
+[0.711s] -- Looking for gethostname - found
+[0.711s] -- Looking for inet_ntop
+[0.756s] -- Looking for inet_ntop - found
+[0.756s] -- Looking for inet_pton
+[0.799s] -- Looking for inet_pton - found
+[0.799s] -- Looking for getaddrinfo
+[0.842s] -- Looking for getaddrinfo - found
+[0.842s] -- Looking for gethostbyname_r
+[0.883s] -- Looking for gethostbyname_r - found
+[0.883s] -- Check size of struct sockaddr_in6
+[0.926s] -- Check size of struct sockaddr_in6 - done
+[0.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.971s] -- Found Threads: TRUE  
+[0.971s] -- Looking for clock_gettime in c
+[1.012s] -- Looking for clock_gettime in c - found
+[1.140s] -- Configuring done (1.1s)
+[1.176s] -- Generating done (0.0s)
+[1.182s] -- Build files have been written to: /workspace/jazzy_ws/build/cyclonedds
+[1.185s] Invoked command in '/workspace/jazzy_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[1.186s] Invoking command in '/workspace/jazzy_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/cyclonedds -- -j24 -l24
+[1.204s] [  0%] Generating src/md5.c
+[1.204s] [  1%] Generating include/idl/attributes.h
+[1.204s] [  2%] Generating include/idl/misc.h
+[1.204s] [  2%] Generating include/idl/md5.h
+[1.204s] [  2%] Generating include/idl/endian.h
+[1.209s] [  3%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o
+[1.209s] [  3%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o
+[1.209s] [  4%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o
+[1.209s] [  4%] Built target _confgen
+[1.209s] [  5%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o
+[1.210s] [  5%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o
+[1.210s] [  6%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o
+[1.210s] [  6%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o
+[1.210s] [  6%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o
+[1.211s] [  6%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o
+[1.211s] [  6%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o
+[1.211s] [  6%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o
+[1.212s] [  6%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o
+[1.212s] [  7%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o
+[1.212s] [  7%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o
+[1.213s] [  7%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o
+[1.213s] [  8%] Building C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o
+[1.214s] [  9%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o
+[1.215s] [ 10%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o
+[1.220s] [ 10%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o
+[1.220s] [ 10%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o
+[1.220s] [ 11%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o
+[1.221s] [ 11%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o
+[1.222s] [ 11%] Building C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o
+[1.230s] [ 12%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o
+[1.233s] [ 12%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o
+[1.243s] [ 13%] Building C object src/idl/CMakeFiles/idl.dir/src/directive.c.o
+[1.243s] [ 13%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o
+[1.244s] [ 14%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o
+[1.246s] [ 14%] Building C object src/idl/CMakeFiles/idl.dir/src/expression.c.o
+[1.250s] [ 14%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o
+[1.256s] [ 14%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o
+[1.262s] [ 14%] Building C object src/idl/CMakeFiles/idl.dir/src/file.c.o
+[1.264s] [ 15%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o
+[1.272s] [ 15%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o
+[1.272s] [ 16%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o
+[1.272s] [ 16%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o
+[1.282s] [ 17%] Building C object src/idl/CMakeFiles/idl.dir/src/processor.c.o
+[1.293s] [ 17%] Building C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o
+[1.296s] [ 18%] Building C object src/idl/CMakeFiles/idl.dir/src/string.c.o
+[1.297s] [ 18%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o
+[1.309s] [ 18%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o
+[1.311s] [ 19%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o
+[1.312s] [ 19%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o
+[1.330s] [ 19%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o
+[1.343s] [ 19%] Building C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o
+[1.345s] [ 20%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o
+[1.369s] [ 20%] Building C object src/idl/CMakeFiles/idl.dir/src/scope.c.o
+[1.382s] [ 20%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o
+[1.383s] [ 20%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o
+[1.387s] [ 22%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o
+[1.387s] [ 22%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o
+[1.388s] [ 22%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o
+[1.401s] [ 22%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o
+[1.401s] [ 22%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o
+[1.417s] [ 23%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o
+[1.417s] [ 24%] Building C object src/idl/CMakeFiles/idl.dir/src/tree.c.o
+[1.419s] [ 25%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o
+[1.424s] [ 25%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o
+[1.432s] [ 25%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o
+[1.438s] [ 26%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o
+[1.450s] [ 26%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o
+[1.459s] [ 26%] Building C object src/idl/CMakeFiles/idl.dir/src/visit.c.o
+[1.460s] [ 27%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o
+[1.467s] [ 27%] Building C object src/idl/CMakeFiles/idl.dir/src/print.c.o
+[1.478s] [ 27%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o
+[1.486s] [ 27%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o
+[1.494s] [ 28%] Building C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o
+[1.496s] [ 28%] Building C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o
+[1.497s] [ 28%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o
+[1.498s] [ 29%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o
+[1.501s] [ 29%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o
+[1.503s] [ 30%] Building C object src/idl/CMakeFiles/idl.dir/src/parser.c.o
+[1.506s] [ 31%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o
+[1.510s] [ 31%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o
+[1.510s] [ 31%] Building C object src/idl/CMakeFiles/idl.dir/src/md5.c.o
+[1.520s] [ 32%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o
+[1.523s] [ 32%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o
+[1.523s] [ 32%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o
+[1.526s] [ 33%] Building C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o
+[1.531s] [ 33%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o
+[1.532s] [ 34%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o
+[1.541s] [ 34%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o
+[1.545s] [ 35%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o
+[1.545s] [ 35%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o
+[1.551s] [ 35%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o
+[1.558s] [ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o
+[1.566s] [ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o
+[1.580s] [ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o
+[1.585s] [ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o
+[1.590s] [ 36%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o
+[1.594s] [ 37%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o
+[1.601s] [ 38%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o
+[1.601s] [ 38%] Linking C static library ../../lib/libddsrt-internal.a
+[1.603s] [ 38%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o
+[1.603s] [ 39%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o
+[1.609s] [ 39%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o
+[1.609s] [ 39%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o
+[1.610s] [ 40%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o
+[1.619s] [ 40%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o
+[1.619s] [ 41%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o
+[1.629s] [ 41%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o
+[1.634s] [ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o
+[1.637s] [ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o
+[1.637s] [ 42%] Built target ddsrt-internal
+[1.637s] [ 42%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o
+[1.648s] [ 43%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o
+[1.648s] [ 43%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o
+[1.652s] [ 43%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o
+[1.664s] [ 44%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o
+[1.669s] [ 44%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o
+[1.681s] [ 44%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o
+[1.684s] [ 45%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o
+[1.684s] [ 46%] Linking C static library ../../../lib/libidlpp.a
+[1.717s] [ 46%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o
+[1.725s] [ 47%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o
+[1.728s] [ 47%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o
+[1.747s] [ 47%] Built target idlpp
+[1.758s] [ 47%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o
+[1.763s] [ 48%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o
+[1.763s] [ 48%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o
+[1.793s] [ 49%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o
+[1.799s] [ 49%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o
+[1.846s] [ 49%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o
+[1.859s] [ 50%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o
+[1.871s] [ 50%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o
+[1.871s] [ 50%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o
+[1.930s] [ 51%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o
+[1.968s] [ 51%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o
+[2.040s] [ 52%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o
+[2.045s] [ 52%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o
+[2.064s] [ 52%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o
+[2.069s] [ 53%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o
+[2.082s] [ 53%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o
+[2.088s] [ 53%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o
+[2.090s] [ 54%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o
+[2.114s] [ 54%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o
+[2.127s] [ 55%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o
+[2.132s] [ 55%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o
+[2.140s] [ 55%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o
+[2.167s] [ 56%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o
+[2.182s] [ 56%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o
+[2.187s] [ 57%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o
+[2.187s] [ 57%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o
+[2.188s] [ 57%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o
+[2.195s] [ 58%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_shm_transport.c.o
+[2.201s] [ 58%] Building C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o
+[2.203s] [ 58%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o
+[2.239s] [ 59%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o
+[2.239s] [ 59%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o
+[2.252s] [ 60%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o
+[2.271s] [ 60%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o
+[2.304s] [ 60%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o
+[2.307s] [ 61%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o
+[2.341s] [ 61%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o
+[2.344s] [ 61%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o
+[2.427s] [ 62%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o
+[2.430s] [ 62%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o
+[2.441s] [ 62%] Linking C shared library ../../lib/libcycloneddsidl.so
+[2.454s] [ 63%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o
+[2.463s] [ 63%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o
+[2.480s] [ 63%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o
+[2.501s] [ 64%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o
+[2.526s] [ 64%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o
+[2.540s] [ 64%] Built target idl
+[2.553s] [ 65%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o
+[2.554s] [ 65%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o
+[2.575s] [ 65%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o
+[2.582s] [ 66%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o
+[2.595s] [ 66%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o
+[2.659s] [ 66%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o
+[2.678s] [ 67%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o
+[2.708s] [ 67%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o
+[2.710s] [ 68%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o
+[2.724s] [ 68%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o
+[2.725s] [ 68%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o
+[2.775s] [ 69%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o
+[2.802s] [ 70%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o
+[2.804s] [ 70%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o
+[2.807s] [ 70%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o
+[2.825s] [ 70%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o
+[2.838s] [ 71%] Building C object src/core/CMakeFiles/ddsc.dir/ddsc/src/shm_monitor.c.o
+[2.853s] [ 71%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o
+[2.859s] [ 71%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o
+[2.899s] [ 71%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o
+[2.899s] [ 72%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o
+[2.945s] [ 73%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o
+[2.955s] [ 73%] Building C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o
+[2.955s] [ 73%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o
+[2.972s] [ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o
+[2.988s] [ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o
+[3.002s] [ 74%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o
+[3.002s] [ 75%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o
+[3.006s] [ 75%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o
+[3.021s] [ 76%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o
+[3.027s] [ 76%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o
+[3.032s] [ 76%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o
+[3.049s] [ 77%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o
+[3.050s] [ 77%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o
+[3.051s] [ 78%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o
+[3.064s] [ 78%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o
+[3.064s] [ 78%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o
+[3.081s] [ 78%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o
+[3.089s] [ 79%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o
+[3.108s] [ 79%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o
+[3.112s] [ 80%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o
+[3.115s] [ 80%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o
+[3.122s] [ 81%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o
+[3.126s] [ 81%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o
+[3.126s] [ 81%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o
+[3.155s] [ 81%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o
+[3.156s] [ 81%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o
+[3.159s] [ 82%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o
+[3.161s] [ 83%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o
+[3.161s] [ 83%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o
+[3.181s] [ 84%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o
+[3.198s] [ 84%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o
+[3.205s] [ 84%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o
+[3.223s] [ 85%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o
+[3.229s] [ 85%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o
+[3.236s] [ 86%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o
+[3.236s] [ 86%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o
+[3.237s] [ 86%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o
+[3.238s] [ 87%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o
+[3.245s] [ 87%] Building C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o
+[3.626s] [ 87%] Linking C shared library ../../lib/libddsc.so
+[3.734s] [ 87%] Built target ddsc
+[3.747s] [ 89%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o
+[3.747s] [ 89%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o
+[3.747s] [ 89%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o
+[3.747s] [ 90%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o
+[3.747s] [ 91%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o
+[3.747s] [ 92%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o
+[3.747s] [ 92%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o
+[3.747s] [ 92%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o
+[3.747s] [ 92%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o
+[3.747s] [ 92%] Building C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o
+[3.748s] [ 92%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o
+[3.748s] [ 93%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o
+[3.748s] [ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o
+[3.748s] [ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o
+[3.748s] [ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o
+[3.748s] [ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o
+[3.749s] [ 94%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o
+[3.749s] [ 94%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o
+[3.750s] [ 94%] Building C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o
+[3.750s] [ 94%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o
+[3.751s] [ 95%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o
+[3.754s] [ 95%] Building C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o
+[3.754s] [ 95%] Building C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o
+[4.037s] [ 96%] Linking C shared library ../../../../lib/libdds_security_crypto.so
+[4.055s] [ 97%] Linking C shared library ../../../../lib/libdds_security_ac.so
+[4.079s] [ 97%] Built target dds_security_crypto
+[4.095s] [ 97%] Built target dds_security_ac
+[4.112s] [ 97%] Linking C shared library ../../../../lib/libdds_security_auth.so
+[4.150s] [ 97%] Built target dds_security_auth
+[4.150s] [ 97%] Linking C executable ../../../bin/idlc
+[4.209s] [ 97%] Built target idlc
+[4.219s] [ 97%] Generating ddsperf_types.c, ddsperf_types.h
+[4.232s] [ 97%] Built target ddsperf_types_generate
+[4.242s] [ 97%] Building C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o
+[4.242s] [ 98%] Building C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o
+[4.242s] [ 98%] Building C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o
+[4.242s] [ 98%] Building C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o
+[4.242s] [ 99%] Building C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o
+[4.642s] [ 99%] Linking C executable ../../../bin/ddsperf
+[4.694s] [100%] Built target ddsperf
+[4.701s] Invoked command in '/workspace/jazzy_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/cyclonedds -- -j24 -l24
+[4.701s] Invoking command in '/workspace/jazzy_ws/build/cyclonedds': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/cyclonedds
+[4.722s] -- Install configuration: "RelWithDebInfo"
+[4.722s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+[4.722s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake
+[4.722s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+[4.722s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+[4.722s] -- Installing: /workspace/jazzy_ws/install/lib/pkgconfig/CycloneDDS.pc
+[4.722s] -- Installing: /workspace/jazzy_ws/install/include/idlc
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/idlc/generator.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/idlc/options.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/bin/idlc
+[4.723s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/bin/idlc" to "$ORIGIN/../lib"
+[4.723s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/CycloneDDS/idlc/Generate.cmake
+[4.723s] -- Installing: /workspace/jazzy_ws/install/bin/ddsperf
+[4.723s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/bin/ddsperf" to "$ORIGIN/../lib"
+[4.723s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/environ.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/static_assert.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/string.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/time.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/time
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/time/freertos.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/types.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/process.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sockets.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/log.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/heap.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/md5.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/strtod.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/retcode.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/xmlparser.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sync
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sync/freertos.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sync/windows.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sync/posix.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/fibheap.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/io.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/arch.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/iovec.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/bswap.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/expand_vars.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/threads
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/threads/freertos.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/threads/windows.h
+[4.723s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/threads/posix.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sockets
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sockets/windows.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sockets/posix.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/mh3.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/random.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/misc.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sched.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/netstat.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/attributes.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/align.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/filesystem.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/countargs.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/dynlib.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/avl.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/filesystem
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/filesystem/windows.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/filesystem/posix.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/ifaddrs.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/cdtors.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/circlist.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/sync.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics/gcc.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics/msvc.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics/sun.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/atomics/arm.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/endian.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/rusage.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/strtol.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/hopscotch.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/threads.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/types
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/types/vxworks.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/types/windows.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsrt/types/posix.h
+[4.724s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.724s] -- Up-to-date: /workspace/jazzy_ws/install/include/dds
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/version.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/config.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/dds/features.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/string.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/visit.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/symbol.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/retcode.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/scope.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/stream.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/processor.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/file.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/expression.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/print.h
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/tree.h
+[4.724s] -- Up-to-date: /workspace/jazzy_ws/install/include/idl
+[4.724s] -- Installing: /workspace/jazzy_ws/install/include/idl/md5.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/idl/version.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/idl/misc.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/idl/attributes.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/idl/export.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/idl/endian.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libcycloneddsidl.so.0.10.5
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libcycloneddsidl.so.0
+[4.725s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libcycloneddsidl.so.0.10.5" to "$ORIGIN/../lib"
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libcycloneddsidl.so
+[4.725s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.725s] -- Up-to-date: /workspace/jazzy_ws/install/include/dds
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_authentication.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_access_control.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_types.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_cryptography.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_defs.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/dds_security_api_err.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core/
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//shared_secret.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_fsm.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_timed_cb.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_types.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_serialize.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_utils.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/security/core//dds_security_plugins.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libdds_security_ac.so
+[4.725s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libdds_security_auth.so
+[4.725s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+[4.725s] -- Installing: /workspace/jazzy_ws/install/lib/libdds_security_crypto.so
+[4.725s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+[4.725s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.725s] -- Up-to-date: /workspace/jazzy_ws/install/include/dds
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_proxy_endpoint.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_ssl.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_log.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_proxy_participant.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_tran.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_guid.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_ownip.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_locator.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_plist_generic.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_lease.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/sysdeps.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_unused.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_cfgelems.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_handshake.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_endpoint.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_entity_index.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_udp.h
+[4.725s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_threadmon.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_serdata_pserop.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_serdata_default.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_lifespan.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_participant.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_init.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typelookup.idl
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_raweth.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_pcap.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_typewrap.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_typelib.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_xmsg.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_protocol.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_radmin.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_deadline.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_keyhash.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_security_exchange.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_misc.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_list_genptr.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_portmapping.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_time.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_xevent.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_inverse_uint32_set.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_impl.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_plist.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_sockwaitset.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_vnet.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_ddsi_discovery.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_typelookup.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_serdata_plist.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typemap.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_deliver_locally.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_pmd.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typemap.idl
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_acknack.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typelookup.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_bitset.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_tkmap.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xt_typeinfo.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_qosmatch.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_statistics.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_xqos.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_sertype.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_whc.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_transmit.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_sertopic.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_iid.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_typebuilder.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_gc.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_tcp.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_security_util.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_security_omg.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_feature_check.h
+[4.726s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_topic.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_rhc.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_shm_transport.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_rtps.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_serdata.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_vendor.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_cfgunits.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_ipaddr.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_addrset.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_config_impl.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_config.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_cdrstream.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_bswap.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_entity.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_thread.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_wraddrset.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_lat_estim.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_mcgroup.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_security_msg.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_builtin_topic_if.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_entity_match.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_freelist.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_receive.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_hbcontrol.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_list_tmpl.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/q_debmon.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsi/ddsi_domaingv.h
+[4.727s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/ddsc
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/ddsc/dds.h
+[4.727s] -- Up-to-date: /workspace/jazzy_ws/install/include/dds
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_qosdefs.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_loan_api.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_internal_api.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_qos.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_impl.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_alloc.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_data_allocator.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_error.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_listener.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_opcodes.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_rhc.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_statistics.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_basic_types.h
+[4.727s] -- Installing: /workspace/jazzy_ws/install/include/dds/ddsc/dds_public_status.h
+[4.728s] -- Installing: /workspace/jazzy_ws/install/include/dds/dds.h
+[4.728s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[4.728s] -- Up-to-date: /workspace/jazzy_ws/install/include/dds
+[4.728s] -- Installing: /workspace/jazzy_ws/install/include/dds/export.h
+[4.728s] -- Installing: /workspace/jazzy_ws/install/lib/libddsc.so.0.10.5
+[4.728s] -- Installing: /workspace/jazzy_ws/install/lib/libddsc.so.0
+[4.728s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libddsc.so.0.10.5" to "$ORIGIN/../lib"
+[4.728s] -- Installing: /workspace/jazzy_ws/install/lib/libddsc.so
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/CONTRIBUTING.md
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/LICENSE
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/NOTICE.md
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/README.md
+[4.728s] -- Installing: /workspace/jazzy_ws/install/share/doc/CycloneDDS/CHANGELOG.rst
+[4.728s] Invoked command in '/workspace/jazzy_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/cyclonedds

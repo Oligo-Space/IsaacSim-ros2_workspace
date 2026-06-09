@@ -1,0 +1,16 @@
+/workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_default_runtime
+/workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_default_runtime
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/environment/ament_prefix_path.sh
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/environment/ament_prefix_path.dsv
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/environment/path.sh
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/environment/path.dsv
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/local_setup.bash
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/local_setup.sh
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/local_setup.zsh
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/local_setup.dsv
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/package.dsv
+/workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rosidl_default_runtime
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/cmake/ament_cmake_export_dependencies-extras.cmake
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig.cmake
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/cmake/rosidl_default_runtimeConfig-version.cmake
+/workspace/jazzy_ws/install/share/rosidl_default_runtime/package.xml

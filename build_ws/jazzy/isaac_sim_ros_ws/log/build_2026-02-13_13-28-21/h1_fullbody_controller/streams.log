@@ -1,0 +1,55 @@
+[0.216s] Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake /workspace/build_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/h1_fullbody_controller
+[0.334s] -- The C compiler identification is GNU 13.3.0
+[0.334s] -- The CXX compiler identification is GNU 13.3.0
+[0.334s] -- Detecting C compiler ABI info
+[0.334s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.394s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.399s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.470s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.528s] -- Found rclpy: 7.1.10 (/workspace/jazzy_ws/install/share/rclpy/cmake)
+[0.529s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.543s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.549s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.556s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found sensor_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/sensor_msgs/cmake)
+[0.658s] -- Configuring done (0.4s)
+[0.659s] -- Generating done (0.0s)
+[0.660s] -- Build files have been written to: /workspace/build_ws/build/h1_fullbody_controller
+[0.664s] Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake /workspace/build_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/h1_fullbody_controller
+[0.665s] Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake --build /workspace/build_ws/build/h1_fullbody_controller -- -j24 -l24
+[0.688s] Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake --build /workspace/build_ws/build/h1_fullbody_controller -- -j24 -l24
+[0.689s] Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake --install /workspace/build_ws/build/h1_fullbody_controller
+[0.696s] -- Install configuration: ""
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/__init__.py
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/scripts/h1_fullbody_controller.py
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/launch
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/launch/h1_fullbody_controller.launch.py
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/policy
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_policy.pt
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/policy/h1_env.yaml
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/lib/h1_fullbody_controller/h1_fullbody_controller.py
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/ament_index/resource_index/package_run_dependencies/h1_fullbody_controller
+[0.696s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/ament_index/resource_index/parent_prefix_path/h1_fullbody_controller
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.sh
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/ament_prefix_path.dsv
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.sh
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/environment/path.dsv
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.bash
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.sh
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.zsh
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/local_setup.dsv
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/package.dsv
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/ament_index/resource_index/packages/h1_fullbody_controller
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig.cmake
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/cmake/h1_fullbody_controllerConfig-version.cmake
+[0.697s] -- Installing: /workspace/build_ws/install/h1_fullbody_controller/share/h1_fullbody_controller/package.xml
+[0.697s] Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake --install /workspace/build_ws/build/h1_fullbody_controller

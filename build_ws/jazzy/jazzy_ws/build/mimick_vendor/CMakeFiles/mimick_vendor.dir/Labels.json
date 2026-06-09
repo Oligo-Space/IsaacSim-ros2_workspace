@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/CMakeFiles/mimick_vendor-complete.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-build.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-configure.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-download.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-install.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-patch_disconnected.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-stamp/mimick_vendor-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mimick_vendor"
+		],
+		"name" : "mimick_vendor"
+	}
+}

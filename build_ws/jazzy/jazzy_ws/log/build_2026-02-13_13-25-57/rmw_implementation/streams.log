@@ -1,0 +1,101 @@
+[0.123s] Invoking command in '/workspace/jazzy_ws/build/rmw_implementation': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rmw_implementation -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.157s] -- The C compiler identification is GNU 13.3.0
+[0.194s] -- The CXX compiler identification is GNU 13.3.0
+[0.204s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.340s] -- Detecting CXX compile features - done
+[0.341s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.478s] -- Found rmw: 7.3.3 (/workspace/jazzy_ws/install/share/rmw/cmake)
+[0.490s] -- Found rmw_implementation_cmake: 7.3.3 (/workspace/jazzy_ws/install/share/rmw_implementation_cmake/cmake)
+[0.491s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 8.4.3 (/workspace/jazzy_ws/install/share/rmw_fastrtps_cpp/cmake)
+[0.626s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.694s] -- Found FastRTPS: /workspace/jazzy_ws/install/include (Required is at least version "2.13") 
+[0.710s] -- 
+[0.710s] -- Default rmw implementation: 'rmw_fastrtps_cpp'
+[0.710s] -- 
+[0.710s] -- Runtime selection of RMW enabled
+[0.710s] -- Found ament_index_cpp: 1.8.3 (/workspace/jazzy_ws/install/share/ament_index_cpp/cmake)
+[0.713s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.715s] -- Found Threads: TRUE  
+[0.724s] -- Creating API tests for 'rmw_cyclonedds_cpp'
+[0.725s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[0.727s] -- Creating API tests for 'rmw_fastrtps_cpp'
+[0.744s] -- Creating API tests for 'rmw_fastrtps_dynamic_cpp'
+[0.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.748s] -- Configured cppcheck include dirs: /workspace/jazzy_ws/install/include
+[0.748s] -- Configured cppcheck exclude dirs and/or files: 
+[0.750s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.750s] -- Configured cpplint exclude dirs and/or files: 
+[0.750s] -- Added test 'lint_cmake' to check CMake code style
+[0.753s] -- Added test 'uncrustify' to check C / C++ code style
+[0.753s] -- Configured uncrustify additional arguments: 
+[0.753s] -- Added test 'xmllint' to check XML markup files
+[0.755s] -- Configuring done (0.6s)
+[0.764s] -- Generating done (0.0s)
+[0.767s] -- Build files have been written to: /workspace/jazzy_ws/build/rmw_implementation
+[0.772s] Invoked command in '/workspace/jazzy_ws/build/rmw_implementation' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rmw_implementation -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.773s] Invoking command in '/workspace/jazzy_ws/build/rmw_implementation': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rmw_implementation -- -j24 -l24
+[0.803s] [ 21%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.804s] [ 21%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.804s] [ 21%] Building CXX object CMakeFiles/rmw_implementation.dir/src/functions.cpp.o
+[1.303s] [ 28%] Linking CXX shared library librmw_implementation.so
+[1.381s] [ 28%] Built target rmw_implementation
+[1.403s] [ 35%] Building CXX object CMakeFiles/benchmark_symbols__rmw_cyclonedds_cpp.dir/test/benchmark/benchmark_symbols.cpp.o
+[1.408s] [ 42%] Building CXX object CMakeFiles/benchmark_symbols__rmw_fastrtps_cpp.dir/test/benchmark/benchmark_symbols.cpp.o
+[1.426s] [ 50%] Building CXX object CMakeFiles/benchmark_symbols__rmw_fastrtps_dynamic_cpp.dir/test/benchmark/benchmark_symbols.cpp.o
+[1.601s] [ 57%] Linking CXX static library libgtest_main.a
+[1.625s] [ 57%] Built target gtest_main
+[2.061s] [ 64%] Linking CXX executable benchmark_symbols__rmw_fastrtps_cpp
+[2.073s] [ 71%] Linking CXX executable benchmark_symbols__rmw_cyclonedds_cpp
+[2.083s] [ 78%] Linking CXX executable benchmark_symbols__rmw_fastrtps_dynamic_cpp
+[2.132s] [ 78%] Built target benchmark_symbols__rmw_fastrtps_cpp
+[2.145s] [ 78%] Built target benchmark_symbols__rmw_cyclonedds_cpp
+[2.152s] [ 78%] Built target benchmark_symbols__rmw_fastrtps_dynamic_cpp
+[4.423s] [ 85%] Linking CXX static library libgtest.a
+[4.525s] [ 85%] Built target gtest
+[4.563s] [ 92%] Building CXX object CMakeFiles/test_functions.dir/test/test_functions.cpp.o
+[6.850s] [100%] Linking CXX executable test_functions
+[7.046s] [100%] Built target test_functions
+[7.067s] Invoked command in '/workspace/jazzy_ws/build/rmw_implementation' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rmw_implementation -- -j24 -l24
+[7.067s] Invoking command in '/workspace/jazzy_ws/build/rmw_implementation': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rmw_implementation
+[7.078s] -- Install configuration: ""
+[7.084s] -- Installing: /workspace/jazzy_ws/install/lib/librmw_implementation.so
+[7.084s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librmw_implementation.so" to ""
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rmw_typesupport_c/rmw_implementation
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_implementation
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rmw_typesupport/rmw_implementation
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rmw_implementation
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rmw_implementation
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/environment/ament_prefix_path.sh
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/environment/ament_prefix_path.dsv
+[7.084s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/environment/path.sh
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/environment/path.dsv
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/local_setup.bash
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/local_setup.sh
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/local_setup.zsh
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/local_setup.dsv
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/package.dsv
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rmw_implementation
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/export_rmw_implementationExport.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/export_rmw_implementationExport-noconfig.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/rmw_implementation-extras.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/ament_cmake_export_targets-extras.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/rmw_implementationConfig.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/cmake/rmw_implementationConfig-version.cmake
+[7.085s] -- Installing: /workspace/jazzy_ws/install/share/rmw_implementation/package.xml
+[7.086s] Invoked command in '/workspace/jazzy_ws/build/rmw_implementation' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rmw_implementation

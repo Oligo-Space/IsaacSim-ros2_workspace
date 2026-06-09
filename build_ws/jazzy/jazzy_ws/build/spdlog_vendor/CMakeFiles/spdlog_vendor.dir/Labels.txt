@@ -1,0 +1,13 @@
+# Target labels
+ spdlog_vendor
+# Source files and their labels
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor.rule
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor-complete.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-build.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-configure.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-download.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-install.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-mkdir.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-patch_disconnected.rule
+/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-update_disconnected.rule

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tf2_msgs/srv/FrameGraph_Response",
+      "fields": [
+        {
+          "name": "frame_yaml",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tf2_msgs/srv/FrameGraph_Response",
+      "hash_string": "RIHS01_e33d5473ce0fac04c66203779f2b719a9de0f8388b248852d3a47a019e62e36d"
+    }
+  ]
+}

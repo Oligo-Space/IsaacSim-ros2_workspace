@@ -1,0 +1,1454 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.17.0-14-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b01f/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b01f.dir/build.make CMakeFiles/cmTC_7b01f.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ'
+        Building C object CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7b01f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccK7kjUq.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o /tmp/ccK7kjUq.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_7b01f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b01f.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -o cmTC_7b01f 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b01f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7b01f.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmQTSGW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7b01f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b01f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7b01f.'
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b01f/fast]
+        ignore line: [gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7b01f.dir/build.make CMakeFiles/cmTC_7b01f.dir/build]
+        ignore line: [gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-w39ZOZ']
+        ignore line: [Building C object CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7b01f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccK7kjUq.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o /tmp/ccK7kjUq.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_7b01f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b01f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -o cmTC_7b01f ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b01f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7b01f.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmQTSGW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7b01f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccmQTSGW.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7b01f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_7b01f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1c4c/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1c4c.dir/build.make CMakeFiles/cmTC_e1c4c.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE'
+        Building CXX object CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e1c4c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIUQzcQ.s
+        GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIUQzcQ.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e1c4c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c4c.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e1c4c 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1c4c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1c4c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcyRy3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1c4c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1c4c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1c4c.'
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1c4c/fast]
+        ignore line: [gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e1c4c.dir/build.make CMakeFiles/cmTC_e1c4c.dir/build]
+        ignore line: [gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-YgSNyE']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e1c4c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccIUQzcQ.s]
+        ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccIUQzcQ.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_e1c4c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c4c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e1c4c ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1c4c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e1c4c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXcyRy3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e1c4c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXcyRy3.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e1c4c] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_e1c4c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wall"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f0ab/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f0ab.dir/build.make CMakeFiles/cmTC_3f0ab.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95'
+        Building CXX object CMakeFiles/cmTC_3f0ab.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wall  -Wall -o CMakeFiles/cmTC_3f0ab.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95/src.cxx
+        Linking CXX executable cmTC_3f0ab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0ab.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_3f0ab.dir/src.cxx.o -o cmTC_3f0ab 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-UNkO95'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wextra"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4475/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4475.dir/build.make CMakeFiles/cmTC_d4475.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S'
+        Building CXX object CMakeFiles/cmTC_d4475.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wextra  -Wall    -Wextra -o CMakeFiles/cmTC_d4475.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S/src.cxx
+        Linking CXX executable cmTC_d4475
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4475.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall  CMakeFiles/cmTC_d4475.dir/src.cxx.o -o cmTC_d4475 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-RK0R3S'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wshadow"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb23a/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fb23a.dir/build.make CMakeFiles/cmTC_fb23a.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE'
+        Building CXX object CMakeFiles/cmTC_fb23a.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wshadow  -Wall -Wextra    -Wshadow -o CMakeFiles/cmTC_fb23a.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE/src.cxx
+        Linking CXX executable cmTC_fb23a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb23a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra  CMakeFiles/cmTC_fb23a.dir/src.cxx.o -o cmTC_fb23a 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-DCwkSE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wpointer_arith"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wpointer_arith"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_acece/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_acece.dir/build.make CMakeFiles/cmTC_acece.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39'
+        Building CXX object CMakeFiles/cmTC_acece.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wpointer_arith  -Wall -Wextra -Wshadow    -Wpointer-arith -o CMakeFiles/cmTC_acece.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39/src.cxx
+        Linking CXX executable cmTC_acece
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acece.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow  CMakeFiles/cmTC_acece.dir/src.cxx.o -o cmTC_acece 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-4YQC39'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wcast_qual"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wcast_qual"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6e9fe/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6e9fe.dir/build.make CMakeFiles/cmTC_6e9fe.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj'
+        Building CXX object CMakeFiles/cmTC_6e9fe.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wcast_qual  -Wall -Wextra -Wshadow -Wpointer-arith    -Wcast-qual -o CMakeFiles/cmTC_6e9fe.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj/src.cxx
+        Linking CXX executable cmTC_6e9fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e9fe.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith  CMakeFiles/cmTC_6e9fe.dir/src.cxx.o -o cmTC_6e9fe 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s3ctlj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wcast_align"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wcast_align"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f415a/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f415a.dir/build.make CMakeFiles/cmTC_f415a.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT'
+        Building CXX object CMakeFiles/cmTC_f415a.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wcast_align  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual    -Wcast-align -o CMakeFiles/cmTC_f415a.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT/src.cxx
+        Linking CXX executable cmTC_f415a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f415a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual  CMakeFiles/cmTC_f415a.dir/src.cxx.o -o cmTC_f415a 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-O2fALT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:50 (CHECK_CXX_COMPILER_FLAG)"
+    checks:
+      - "Performing Test CXXFLAG_Wc_11_extensions"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CXXFLAG_Wc_11_extensions"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5aa60/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5aa60.dir/build.make CMakeFiles/cmTC_5aa60.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w'
+        Building CXX object CMakeFiles/cmTC_5aa60.dir/src.cxx.o
+        /usr/bin/c++ -DCXXFLAG_Wc_11_extensions  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align    -Wc++11-extensions -o CMakeFiles/cmTC_5aa60.dir/src.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w/src.cxx
+        Linking CXX executable cmTC_5aa60
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa60.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align  CMakeFiles/cmTC_5aa60.dir/src.cxx.o -o cmTC_5aa60 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-MOJD9w'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include inttypes.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bcb18/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bcb18.dir/build.make CMakeFiles/cmTC_bcb18.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW'
+        Building CXX object CMakeFiles/cmTC_bcb18.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_bcb18.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_bcb18
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcb18.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_bcb18.dir/CheckIncludeFile.cxx.o -o cmTC_bcb18 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-pvwMPW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include memory.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_43849/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_43849.dir/build.make CMakeFiles/cmTC_43849.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG'
+        Building CXX object CMakeFiles/cmTC_43849.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_43849.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_43849
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43849.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_43849.dir/CheckIncludeFile.cxx.o -o cmTC_43849 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-o7OYUG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3a24/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f3a24.dir/build.make CMakeFiles/cmTC_f3a24.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ'
+        Building CXX object CMakeFiles/cmTC_f3a24.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_f3a24.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_f3a24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a24.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_f3a24.dir/CheckIncludeFile.cxx.o -o cmTC_f3a24 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-dUzxeZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include stdlib.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfaf4/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cfaf4.dir/build.make CMakeFiles/cmTC_cfaf4.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb'
+        Building CXX object CMakeFiles/cmTC_cfaf4.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_cfaf4.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_cfaf4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfaf4.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_cfaf4.dir/CheckIncludeFile.cxx.o -o cmTC_cfaf4 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-cpNjdb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include strings.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ea591/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ea591.dir/build.make CMakeFiles/cmTC_ea591.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT'
+        Building CXX object CMakeFiles/cmTC_ea591.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_ea591.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_ea591
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea591.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_ea591.dir/CheckIncludeFile.cxx.o -o cmTC_ea591 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-y6BsZT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include string.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b80b8/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b80b8.dir/build.make CMakeFiles/cmTC_b80b8.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh'
+        Building CXX object CMakeFiles/cmTC_b80b8.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_b80b8.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_b80b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b80b8.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_b80b8.dir/CheckIncludeFile.cxx.o -o cmTC_b80b8 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-9zbTZh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/stat.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b7ee1/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b7ee1.dir/build.make CMakeFiles/cmTC_b7ee1.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9'
+        Building CXX object CMakeFiles/cmTC_b7ee1.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_b7ee1.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_b7ee1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7ee1.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_b7ee1.dir/CheckIncludeFile.cxx.o -o cmTC_b7ee1 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-mg2JK9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51381/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_51381.dir/build.make CMakeFiles/cmTC_51381.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj'
+        Building CXX object CMakeFiles/cmTC_51381.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_51381.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_51381
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51381.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_51381.dir/CheckIncludeFile.cxx.o -o cmTC_51381 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-s7uGNj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include unistd.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_714d3/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_714d3.dir/build.make CMakeFiles/cmTC_714d3.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3'
+        Building CXX object CMakeFiles/cmTC_714d3.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_714d3.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_714d3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_714d3.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_714d3.dir/CheckIncludeFile.cxx.o -o cmTC_714d3 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-0XDOx3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "CMakeLists.txt:103 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include utime.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_UTIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e15d/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5e15d.dir/build.make CMakeFiles/cmTC_5e15d.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K'
+        Building CXX object CMakeFiles/cmTC_5e15d.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_5e15d.dir/CheckIncludeFile.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_5e15d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e15d.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_5e15d.dir/CheckIncludeFile.cxx.o -o cmTC_5e15d 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-g4fI6K'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36c0f/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_36c0f.dir/build.make CMakeFiles/cmTC_36c0f.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB'
+        Building C object CMakeFiles/cmTC_36c0f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_36c0f.dir/CheckIncludeFile.c.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB/CheckIncludeFile.c
+        Linking C executable cmTC_36c0f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36c0f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_36c0f.dir/CheckIncludeFile.c.o -o cmTC_36c0f 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yCPrgB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for memset"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_MEMSET"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4284f/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4284f.dir/build.make CMakeFiles/cmTC_4284f.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV'
+        Building CXX object CMakeFiles/cmTC_4284f.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_4284f.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_4284f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4284f.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_4284f.dir/CheckSymbolExists.cxx.o -o cmTC_4284f 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-CODoiV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee36b/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ee36b.dir/build.make CMakeFiles/cmTC_ee36b.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW'
+        Building CXX object CMakeFiles/cmTC_ee36b.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_ee36b.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_ee36b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee36b.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_ee36b.dir/CheckSymbolExists.cxx.o -o cmTC_ee36b 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-yzKXfW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strchr"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRCHR"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_59e8e/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_59e8e.dir/build.make CMakeFiles/cmTC_59e8e.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q'
+        Building CXX object CMakeFiles/cmTC_59e8e.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_59e8e.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q/CheckSymbolExists.cxx
+        /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q/CheckSymbolExists.cxx:17:18: error: address of overloaded function with no contextual type information
+           17 |   return ((int*)(&strchr))[argc];
+              |                 ~^~~~~~~~
+        gmake[4]: *** [CMakeFiles/cmTC_59e8e.dir/build.make:78: CMakeFiles/cmTC_59e8e.dir/CheckSymbolExists.cxx.o] Error 1
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q'
+        gmake[3]: *** [Makefile:127: cmTC_59e8e/fast] Error 2
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-tt8g8Q'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6294/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c6294.dir/build.make CMakeFiles/cmTC_c6294.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4'
+        Building CXX object CMakeFiles/cmTC_c6294.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_c6294.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_c6294
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6294.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_c6294.dir/CheckSymbolExists.cxx.o -o cmTC_c6294 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-lYTHv4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d60e5/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d60e5.dir/build.make CMakeFiles/cmTC_d60e5.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo'
+        Building CXX object CMakeFiles/cmTC_d60e5.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_d60e5.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d60e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d60e5.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_d60e5.dir/CheckSymbolExists.cxx.o -o cmTC_d60e5 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-78w6jo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strtol"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRTOL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_64253/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_64253.dir/build.make CMakeFiles/cmTC_64253.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP'
+        Building CXX object CMakeFiles/cmTC_64253.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_64253.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_64253
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64253.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_64253.dir/CheckSymbolExists.cxx.o -o cmTC_64253 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-8z0wSP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSymbolExists.cmake:72 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:126 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for strtoul"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STRTOUL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3f73/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f3f73.dir/build.make CMakeFiles/cmTC_f3f73.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW'
+        Building CXX object CMakeFiles/cmTC_f3f73.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  -o CMakeFiles/cmTC_f3f73.dir/CheckSymbolExists.cxx.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_f3f73
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f73.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions  CMakeFiles/cmTC_f3f73.dir/CheckSymbolExists.cxx.o -o cmTC_f3f73 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-uCnJOW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:134 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21b3c/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_21b3c.dir/build.make CMakeFiles/cmTC_21b3c.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ'
+        Building C object CMakeFiles/cmTC_21b3c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_21b3c.dir/CheckIncludeFile.c.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ/CheckIncludeFile.c
+        Linking C executable cmTC_21b3c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21b3c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_21b3c.dir/CheckIncludeFile.c.o -o cmTC_21b3c 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-XOUYxQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:134 (check_type_size)"
+    checks:
+      - "Check size of _Bool"
+    directories:
+      source: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz"
+      binary: "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE__BOOL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_65172/fast
+        gmake[3]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_65172.dir/build.make CMakeFiles/cmTC_65172.dir/build
+        gmake[4]: Entering directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz'
+        Building C object CMakeFiles/cmTC_65172.dir/_BOOL.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_65172.dir/_BOOL.c.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz/_BOOL.c
+        Linking C executable cmTC_65172
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65172.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_65172.dir/_BOOL.c.o -o cmTC_65172 
+        gmake[4]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz'
+        gmake[3]: Leaving directory '/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/CMakeFiles/CMakeScratch/TryCompile-QsloJz'
+        
+      exitCode: 0
+...

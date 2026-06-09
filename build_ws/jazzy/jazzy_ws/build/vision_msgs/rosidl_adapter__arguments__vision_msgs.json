@@ -1,0 +1,21 @@
+{
+  "package_name": "vision_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/BoundingBox2D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/BoundingBox2DArray.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/BoundingBox3D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/BoundingBox3DArray.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Classification.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Detection2DArray.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Detection2D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Detection3DArray.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Detection3D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/LabelInfo.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/ObjectHypothesis.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/ObjectHypothesisWithPose.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/VisionClass.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Point2D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/Pose2D.msg",
+    "/workspace/jazzy_ws/src/vision_msgs/vision_msgs:msg/VisionInfo.msg"
+  ]
+}

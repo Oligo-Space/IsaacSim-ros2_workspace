@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tf2_msgs/action/LookupTransform_Feedback",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tf2_msgs/action/LookupTransform_Feedback",
+      "hash_string": "RIHS01_2da0b02f990f04404ab8c98a2a68cf5bbc773ae747f96911f2d55499cfb51542"
+    }
+  ]
+}

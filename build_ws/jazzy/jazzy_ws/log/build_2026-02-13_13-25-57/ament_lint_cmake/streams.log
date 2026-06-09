@@ -1,0 +1,50 @@
+[0.736s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_lint_cmake': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_lint_cmake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /workspace/jazzy_ws/build/ament_lint_cmake/build install --record /workspace/jazzy_ws/build/ament_lint_cmake/install.log --single-version-externally-managed install_data
+[0.815s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.816s]   warnings.warn(msg)
+[0.823s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.824s] !!
+[0.824s] 
+[0.824s]         ********************************************************************************
+[0.824s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.824s] 
+[0.824s]         License :: OSI Approved :: Apache Software License
+[0.824s] 
+[0.824s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.824s]         ********************************************************************************
+[0.824s] 
+[0.824s] !!
+[0.824s]   self._finalize_license_expression()
+[0.840s] running egg_info
+[0.844s] creating ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info
+[0.844s] writing ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/dependency_links.txt
+[0.844s] writing entry points to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/entry_points.txt
+[0.844s] writing requirements to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/requires.txt
+[0.844s] writing top-level names to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/top_level.txt
+[0.844s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[0.868s] reading manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[0.868s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.868s] creating /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[0.869s] copying ament_lint_cmake/main.py -> /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[0.869s] copying ament_lint_cmake/__init__.py -> /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[0.869s] copying ament_lint_cmake/cmakelint.py -> /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[0.869s] running install
+[0.869s] running install_lib
+[0.869s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake
+[0.869s] copying /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake
+[0.869s] copying /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake
+[0.869s] copying /workspace/jazzy_ws/build/ament_lint_cmake/build/lib/ament_lint_cmake/cmakelint.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake
+[0.869s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake/main.py to main.cpython-312.pyc
+[0.869s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake/__init__.py to __init__.cpython-312.pyc
+[0.869s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake/cmakelint.py to cmakelint.cpython-312.pyc
+[0.869s] running install_data
+[0.869s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_lint_cmake
+[0.869s] copying resource/ament_lint_cmake -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.869s] running install_egg_info
+[0.872s] Copying ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_lint_cmake-0.17.4-py3.12.egg-info
+[0.872s] running install_scripts
+[0.879s] Installing ament_lint_cmake script to /workspace/jazzy_ws/install/bin
+[0.879s] writing list of installed files to '/workspace/jazzy_ws/build/ament_lint_cmake/install.log'
+[0.913s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_lint_cmake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /workspace/jazzy_ws/build/ament_lint_cmake/build install --record /workspace/jazzy_ws/build/ament_lint_cmake/install.log --single-version-externally-managed install_data

@@ -1,0 +1,148 @@
+running egg_info
+creating ../../../build/ros2pkg/ros2pkg.egg-info
+writing ../../../build/ros2pkg/ros2pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2pkg/ros2pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2pkg/ros2pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2pkg/ros2pkg.egg-info/requires.txt
+writing top-level names to ../../../build/ros2pkg/ros2pkg.egg-info/top_level.txt
+writing manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg
+copying ros2pkg/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/create.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/executables.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/list.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/prefix.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/xml.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+copying ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+copying ros2pkg/command/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+copying ros2pkg/command/pkg.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+copying ros2pkg/api/create.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+copying ros2pkg/api/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+copying ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+copying ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+copying ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+copying ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+copying ros2pkg/resource/package_environment/package.xml.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+copying ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+copying ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/visibility_control.h.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/main.cpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/header.hpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/library.cpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+copying ros2pkg/resource/ament_cargo/Cargo.toml.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+copying ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+copying ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+copying ros2pkg/resource/rust/main.rs.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+copying ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+copying ros2pkg/resource/cmake/Config.cmake.in.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/ament_python/main.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/setup.cfg.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_pep257.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/init.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/resource_file.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_flake8.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/setup.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_copyright.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+running install
+running install_lib
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/create.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/executables.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/list.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/prefix.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/xml.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment/package.xml.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/visibility_control.h.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/main.cpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/header.hpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/library.cpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo/Cargo.toml.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust/main.rs.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/Config.cmake.in.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/main.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.cfg.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_pep257.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/init.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/resource_file.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_flake8.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_copyright.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command/pkg.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api/create.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/create.py to create.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/executables.py to executables.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/list.py to list.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/prefix.py to prefix.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/xml.py to xml.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command/pkg.py to pkg.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api/create.py to create.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /workspace/jazzy_ws/install/share/ros2pkg
+copying resource/ros2pkg -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/ros2pkg/ros2pkg.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg-0.32.8-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspace/jazzy_ws/build/ros2pkg/install.log'

@@ -1,0 +1,42 @@
+[0.047s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_ros': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake_ros/ament_cmake_ros -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.055s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.134s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.188s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.250s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.252s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.252s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.252s] -- Added test 'lint_cmake' to check CMake code style
+[0.253s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.254s] -- Added test 'xmllint' to check XML markup files
+[0.256s] -- Configuring done (0.2s)
+[0.257s] -- Generating done (0.0s)
+[0.257s] -- Build files have been written to: /workspace/jazzy_ws/build/ament_cmake_ros
+[0.259s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake_ros/ament_cmake_ros -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.260s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_ros': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_ros -- -j24 -l24
+[0.298s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_ros -- -j24 -l24
+[0.298s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_ros': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_ros
+[0.303s] -- Install configuration: ""
+[0.303s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_ros
+[0.303s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_ros
+[0.303s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/environment/ament_prefix_path.sh
+[0.303s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/environment/ament_prefix_path.dsv
+[0.303s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/environment/path.sh
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/environment/path.dsv
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/local_setup.bash
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/local_setup.sh
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/local_setup.zsh
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/local_setup.dsv
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/package.dsv
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_cmake_ros
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_rosConfig-version.cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/package.xml
+[0.304s] -- Up-to-date: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/run_test_isolated.py
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/build_shared_libs.cmake
+[0.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gmock.cmake
+[0.305s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gtest.cmake
+[0.305s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_add_ros_isolated_pytest.cmake
+[0.305s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_ros' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_ros

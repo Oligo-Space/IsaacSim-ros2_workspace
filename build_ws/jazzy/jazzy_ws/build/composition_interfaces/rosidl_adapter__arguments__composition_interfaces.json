@@ -1,0 +1,8 @@
+{
+  "package_name": "composition_interfaces",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/composition_interfaces:srv/LoadNode.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/composition_interfaces:srv/ListNodes.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/composition_interfaces:srv/UnloadNode.srv"
+  ]
+}

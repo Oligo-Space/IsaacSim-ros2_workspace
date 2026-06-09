@@ -1,0 +1,40 @@
+{
+  "package_name": "builtin_interfaces",
+  "output_dir": "/workspace/jazzy_ws/build/builtin_interfaces/rosidl_generator_c/builtin_interfaces",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Duration.idl",
+    "/workspace/jazzy_ws/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Time.idl"
+  ],
+  "ros_interface_files": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/builtin_interfaces/msg/Duration.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/builtin_interfaces/msg/Time.msg"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/workspace/jazzy_ws/build/builtin_interfaces/rosidl_adapter/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/build/builtin_interfaces/rosidl_adapter/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Duration.idl:/workspace/jazzy_ws/build/builtin_interfaces/rosidl_generator_type_description/builtin_interfaces/msg/Duration.json",
+    "msg/Time.idl:/workspace/jazzy_ws/build/builtin_interfaces/rosidl_generator_type_description/builtin_interfaces/msg/Time.json"
+  ]
+}

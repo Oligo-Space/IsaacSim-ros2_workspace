@@ -1,0 +1,185 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/google_benchmark_vendor
+[ 12%] Creating directories for 'benchmark-1.8.3'
+[ 25%] Performing download step (git clone) for 'benchmark-1.8.3'
+[ 37%] No update step for 'benchmark-1.8.3'
+[ 50%] Performing patch step for 'benchmark-1.8.3'
+[ 62%] Performing configure step for 'benchmark-1.8.3'
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Failed to find LLVM FileCheck
+-- Found Git: /usr/bin/git (found version "2.43.0") 
+-- git version: v1.8.3-dirty normalized to 1.8.3
+-- Google Benchmark version: 1.8.3
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Compiling and running to test HAVE_STD_REGEX
+-- Performing Test HAVE_STD_REGEX -- success
+-- Compiling and running to test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Compiling and running to test HAVE_POSIX_REGEX
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Compiling and running to test HAVE_STEADY_CLOCK
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Compiling and running to test HAVE_PTHREAD_AFFINITY
+-- Performing Test HAVE_PTHREAD_AFFINITY -- success
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build
+[ 75%] Performing build step for 'benchmark-1.8.3'
+[  4%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[  9%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[ 13%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[ 18%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[ 22%] Building CXX object src/CMakeFiles/benchmark.dir/check.cc.o
+[ 27%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[ 31%] Building CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[ 36%] Building CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[ 40%] Building CXX object src/CMakeFiles/benchmark.dir/counter.cc.o
+[ 50%] Building CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[ 50%] Building CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[ 54%] Building CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[ 59%] Building CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o
+[ 63%] Building CXX object src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[ 68%] Building CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o
+[ 72%] Building CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o
+[ 77%] Building CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o
+[ 81%] Building CXX object src/CMakeFiles/benchmark.dir/timers.cc.o
+[ 86%] Building CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[ 90%] Linking CXX shared library libbenchmark.so
+[ 90%] Built target benchmark
+[ 95%] Building CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[100%] Linking CXX shared library libbenchmark_main.so
+[100%] Built target benchmark_main
+[ 87%] Performing install step for 'benchmark-1.8.3'
+[ 90%] Built target benchmark
+[100%] Built target benchmark_main
+Install the project...
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.8.3
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3" to ""
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/export.h
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/index.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/releasing.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/perf_counters.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/platform_specific_build_instructions.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/dependencies.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/_config.yml
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/user_guide.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/random_interleaving.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/AssemblyTests.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.png
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.xcf
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.xcf
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.png
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/python_bindings.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/reducing_variance.md
+-- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/tools.md
+[100%] Completed 'benchmark-1.8.3'
+[100%] Built target benchmark-1.8.3
+-- Install configuration: ""
+-- Up-to-date: /workspace/jazzy_ws/install
+-- Up-to-date: /workspace/jazzy_ws/install/lib
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so.1
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so
+-- Up-to-date: /workspace/jazzy_ws/install/lib/cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkTargets.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so.1.8.3
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so.1
+-- Installing: /workspace/jazzy_ws/install/lib/pkgconfig
+-- Installing: /workspace/jazzy_ws/install/lib/pkgconfig/benchmark.pc
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so.1.8.3
+-- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so
+-- Up-to-date: /workspace/jazzy_ws/install/share
+-- Up-to-date: /workspace/jazzy_ws/install/share/doc
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/index.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/releasing.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/perf_counters.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/platform_specific_build_instructions.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/dependencies.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/_config.yml
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/user_guide.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/random_interleaving.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/AssemblyTests.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon_black.png
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon_black.xcf
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon.xcf
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon.png
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/python_bindings.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/reducing_variance.md
+-- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/tools.md
+-- Up-to-date: /workspace/jazzy_ws/install/include
+-- Installing: /workspace/jazzy_ws/install/include/benchmark
+-- Installing: /workspace/jazzy_ws/install/include/benchmark/benchmark.h
+-- Installing: /workspace/jazzy_ws/install/include/benchmark/export.h
+-- Installing: /workspace/jazzy_ws/install/share/google_benchmark_vendor/package.xml

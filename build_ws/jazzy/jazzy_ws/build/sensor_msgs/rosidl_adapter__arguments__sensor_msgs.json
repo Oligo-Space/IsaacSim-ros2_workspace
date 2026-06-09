@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

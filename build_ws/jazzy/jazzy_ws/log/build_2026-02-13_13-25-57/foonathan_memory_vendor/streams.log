@@ -1,0 +1,199 @@
+[0.014s] Invoking command in '/workspace/jazzy_ws/build/foonathan_memory_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/foonathan_memory_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.151s] -- The C compiler identification is GNU 13.3.0
+[0.151s] -- The CXX compiler identification is GNU 13.3.0
+[0.151s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.434s] -- Configuring done (0.4s)
+[0.438s] -- Generating done (0.0s)
+[0.438s] -- Build files have been written to: /workspace/jazzy_ws/build/foonathan_memory_vendor
+[0.445s] Invoked command in '/workspace/jazzy_ws/build/foonathan_memory_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/foonathan_memory_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.445s] Invoking command in '/workspace/jazzy_ws/build/foonathan_memory_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/foonathan_memory_vendor -- -j24 -l24
+[0.481s] [ 12%] Creating directories for 'foo_mem-ext'
+[0.499s] [ 25%] Performing download step (git clone) for 'foo_mem-ext'
+[0.516s] Cloning into 'foo_mem-ext'...
+[1.442s] HEAD is now at 0f07757 Release 0.7-3
+[1.482s] [ 37%] No update step for 'foo_mem-ext'
+[1.482s] [ 50%] No patch step for 'foo_mem-ext'
+[1.505s] [ 62%] Performing configure step for 'foo_mem-ext'
+[1.523s] -- The C compiler identification is GNU 13.3.0
+[1.553s] -- The CXX compiler identification is GNU 13.3.0
+[1.561s] -- Detecting C compiler ABI info
+[1.606s] -- Detecting C compiler ABI info - done
+[1.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.612s] -- Detecting C compile features
+[1.612s] -- Detecting C compile features - done
+[1.617s] -- Detecting CXX compiler ABI info
+[1.667s] -- Detecting CXX compiler ABI info - done
+[1.672s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.673s] -- Detecting CXX compile features
+[1.673s] -- Detecting CXX compile features - done
+[1.675s] -- Performing Test HAVE_CXX_ATOMIC_NOFLAG
+[1.745s] -- Performing Test HAVE_CXX_ATOMIC_NOFLAG - Success
+[1.746s] -- Getting container node sizes
+[7.137s] -- Configuring done (5.6s)
+[7.148s] -- Generating done (0.0s)
+[7.154s] -- Build files have been written to: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext-build
+[7.177s] [ 75%] Performing build step for 'foo_mem-ext'
+[7.225s] [  4%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/align.cpp.o
+[7.226s] [ 13%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/assert.cpp.o
+[7.227s] [ 13%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/debug_helpers.cpp.o
+[7.229s] [ 18%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/free_list.cpp.o
+[7.230s] [ 22%] Building CXX object tool/CMakeFiles/foonathan_memory_node_size_debugger.dir/node_size_debugger.cpp.o
+[7.241s] [ 27%] Building CXX object src/CMakeFiles/foonathan_memory.dir/debugging.cpp.o
+[7.241s] [ 31%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/free_list_array.cpp.o
+[7.241s] [ 36%] Building CXX object src/CMakeFiles/foonathan_memory.dir/detail/small_free_list.cpp.o
+[7.241s] [ 40%] Building CXX object src/CMakeFiles/foonathan_memory.dir/error.cpp.o
+[7.248s] [ 50%] Building CXX object src/CMakeFiles/foonathan_memory.dir/malloc_allocator.cpp.o
+[7.248s] [ 54%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_arena.cpp.o
+[7.249s] [ 54%] Building CXX object src/CMakeFiles/foonathan_memory.dir/heap_allocator.cpp.o
+[7.249s] [ 59%] Building CXX object src/CMakeFiles/foonathan_memory.dir/iteration_allocator.cpp.o
+[7.251s] [ 63%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_pool.cpp.o
+[7.256s] [ 68%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_pool_collection.cpp.o
+[7.270s] [ 72%] Building CXX object src/CMakeFiles/foonathan_memory.dir/memory_stack.cpp.o
+[7.277s] [ 81%] Building CXX object src/CMakeFiles/foonathan_memory.dir/virtual_memory.cpp.o
+[7.277s] [ 81%] Building CXX object src/CMakeFiles/foonathan_memory.dir/new_allocator.cpp.o
+[7.277s] [ 86%] Building CXX object src/CMakeFiles/foonathan_memory.dir/temporary_allocator.cpp.o
+[7.279s] [ 90%] Building CXX object src/CMakeFiles/foonathan_memory.dir/static_allocator.cpp.o
+[7.524s] [ 95%] Linking CXX static library libfoonathan_memory-0.7.3.a
+[7.548s] [ 95%] Built target foonathan_memory
+[9.066s] [100%] Linking CXX executable nodesize_dbg
+[9.134s] [100%] Built target foonathan_memory_node_size_debugger
+[9.147s] [ 87%] Performing install step for 'foo_mem-ext'
+[9.167s] [  9%] Built target foonathan_memory_node_size_debugger
+[9.173s] [100%] Built target foonathan_memory
+[9.181s] Install the project...
+[9.184s] -- Install configuration: ""
+[9.185s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/libfoonathan_memory-0.7.3.a
+[9.185s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/config_impl.hpp
+[9.185s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes_impl.hpp
+[9.185s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/aligned_allocator.hpp
+[9.185s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/allocator_storage.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/allocator_traits.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/config.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/container.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/debugging.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/default_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/deleter.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/error.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/fallback_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/malloc_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/heap_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/iteration_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/joint_allocator.hpp
+[9.186s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_arena.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool_collection.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_pool_type.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_resource_adapter.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/memory_stack.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/namespace_alias.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/new_allocator.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/segregator.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/smart_ptr.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/static_allocator.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/std_allocator.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/temporary_allocator.hpp
+[9.187s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/threading.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/tracking.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/virtual_memory.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/container_node_sizes_impl.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/align.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/assert.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/debug_helpers.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/ebo_storage.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/free_list.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/free_list_array.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/ilog2.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/lowlevel_allocator.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/memory_stack.hpp
+[9.188s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/small_free_list.hpp
+[9.189s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/include/foonathan_memory/foonathan/memory/detail/utility.hpp
+[9.189s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config-version.cmake
+[9.189s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/bin/nodesize_dbg
+[9.189s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/share/foonathan_memory/LICENSE
+[9.189s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/share/foonathan_memory/README.md
+[9.190s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config.cmake
+[9.190s] -- Installing: /workspace/jazzy_ws/build/foonathan_memory_vendor/foo_mem_ext_prj_install/lib/foonathan_memory/cmake/foonathan_memory-config-noconfig.cmake
+[9.199s] [100%] Completed 'foo_mem-ext'
+[9.214s] [100%] Built target foo_mem-ext
+[9.218s] Invoked command in '/workspace/jazzy_ws/build/foonathan_memory_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/foonathan_memory_vendor -- -j24 -l24
+[9.219s] Invoking command in '/workspace/jazzy_ws/build/foonathan_memory_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/foonathan_memory_vendor
+[9.222s] -- Install configuration: ""
+[9.223s] -- Up-to-date: /workspace/jazzy_ws/install
+[9.223s] -- Up-to-date: /workspace/jazzy_ws/install/lib
+[9.223s] -- Installing: /workspace/jazzy_ws/install/lib/libfoonathan_memory-0.7.3.a
+[9.223s] -- Installing: /workspace/jazzy_ws/install/lib/foonathan_memory
+[9.223s] -- Installing: /workspace/jazzy_ws/install/lib/foonathan_memory/cmake
+[9.223s] -- Installing: /workspace/jazzy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config-version.cmake
+[9.224s] -- Installing: /workspace/jazzy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config-noconfig.cmake
+[9.224s] -- Installing: /workspace/jazzy_ws/install/lib/foonathan_memory/cmake/foonathan_memory-config.cmake
+[9.224s] -- Up-to-date: /workspace/jazzy_ws/install/bin
+[9.224s] -- Installing: /workspace/jazzy_ws/install/bin/nodesize_dbg
+[9.224s] -- Up-to-date: /workspace/jazzy_ws/install/share
+[9.224s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory
+[9.224s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory/LICENSE
+[9.224s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory/README.md
+[9.225s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/memory_stack.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/free_list.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/free_list_array.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes_impl.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/debug_helpers.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/container_node_sizes.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/ebo_storage.hpp
+[9.225s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/assert.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/lowlevel_allocator.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/utility.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/ilog2.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/small_free_list.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/detail/align.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_stack.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/iteration_allocator.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/allocator_storage.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/allocator_traits.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool_type.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/config_impl.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/temporary_allocator.hpp
+[9.226s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_arena.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/aligned_allocator.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/threading.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/joint_allocator.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/smart_ptr.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/container.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/container_node_sizes_impl.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_pool_collection.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/config.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/default_allocator.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/error.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/memory_resource_adapter.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/new_allocator.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/debugging.hpp
+[9.227s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/fallback_allocator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/tracking.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/deleter.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/malloc_allocator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/static_allocator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/heap_allocator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/virtual_memory.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/std_allocator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/segregator.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/include/foonathan_memory/foonathan/memory/namespace_alias.hpp
+[9.228s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory_vendor/package.xml
+[9.228s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig.cmake
+[9.228s] -- Installing: /workspace/jazzy_ws/install/share/foonathan_memory_vendor/cmake/foonathan_memory_vendorConfig-version.cmake
+[9.228s] Invoked command in '/workspace/jazzy_ws/build/foonathan_memory_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/foonathan_memory_vendor

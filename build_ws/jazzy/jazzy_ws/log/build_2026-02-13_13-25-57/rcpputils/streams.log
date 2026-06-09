@@ -1,0 +1,163 @@
+[0.137s] Invoking command in '/workspace/jazzy_ws/build/rcpputils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcpputils -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.186s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.237s] -- Detecting C compiler ABI info
+[0.386s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.399s] -- Detecting C compile features
+[0.399s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.553s] -- Detecting CXX compile features
+[0.553s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.762s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.870s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.880s] -- Found rcutils: 6.7.5 (/workspace/jazzy_ws/install/share/rcutils/cmake)
+[0.889s] -- Found ament_cmake_copyright: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_copyright/cmake)
+[0.894s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.894s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.901s] -- Found ament_cmake_lint_cmake: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_lint_cmake/cmake)
+[0.901s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.901s] -- Found ament_cmake_xmllint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_xmllint/cmake)
+[0.908s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.033s] -- Found Threads: TRUE  
+[1.167s] -- Configuring done (1.0s)
+[1.208s] -- Generating done (0.0s)
+[1.226s] -- Build files have been written to: /workspace/jazzy_ws/build/rcpputils
+[1.236s] Invoked command in '/workspace/jazzy_ws/build/rcpputils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcpputils -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[1.236s] Invoking command in '/workspace/jazzy_ws/build/rcpputils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcpputils -- -j24 -l24
+[1.297s] [  1%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[1.313s] [  3%] Generating rcpputils/version.h
+[1.321s] [  5%] Building C object CMakeFiles/dummy_shared_library.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[1.321s] [  7%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.341s] [  7%] Built target ament_generate_version_header__rcpputils
+[1.362s] [  9%] Linking C shared library libdummy_shared_library.so
+[1.378s] [ 13%] Building CXX object CMakeFiles/rcpputils.dir/src/asserts.cpp.o
+[1.378s] [ 15%] Building CXX object CMakeFiles/rcpputils.dir/src/env.cpp.o
+[1.381s] [ 17%] Building CXX object CMakeFiles/rcpputils.dir/src/process.cpp.o
+[1.382s] [ 19%] Building CXX object CMakeFiles/rcpputils.dir/src/find_library.cpp.o
+[1.382s] [ 13%] Building CXX object CMakeFiles/rcpputils.dir/src/filesystem_helper.cpp.o
+[1.383s] [ 21%] Building CXX object CMakeFiles/rcpputils.dir/src/shared_library.cpp.o
+[1.409s] [ 21%] Built target dummy_shared_library
+[1.989s] [ 23%] Linking CXX shared library librcpputils.so
+[2.111s] [ 23%] Built target rcpputils
+[2.143s] [ 25%] Building CXX object CMakeFiles/test_library.dir/test/test_library.cpp.o
+[2.177s] [ 26%] Linking CXX shared library libtest_library.so
+[2.180s] [ 28%] Linking CXX static library libgtest_main.a
+[2.230s] [ 28%] Built target gtest_main
+[2.284s] [ 28%] Built target test_library
+[5.365s] [ 30%] Linking CXX static library libgtest.a
+[5.446s] [ 30%] Built target gtest
+[5.477s] [ 32%] Building CXX object CMakeFiles/test_asserts_ndebug.dir/test/test_asserts.cpp.o
+[5.482s] [ 34%] Building CXX object CMakeFiles/test_thread_safety_annotations.dir/test/test_thread_safety_annotations.cpp.o
+[5.483s] [ 36%] Building CXX object CMakeFiles/test_asserts_debug.dir/test/test_asserts.cpp.o
+[5.485s] [ 38%] Building CXX object CMakeFiles/test_join.dir/test/test_join.cpp.o
+[5.488s] [ 40%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[5.488s] [ 42%] Building CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o
+[5.491s] [ 44%] Building CXX object CMakeFiles/test_filesystem_helper.dir/test/test_filesystem_helper.cpp.o
+[5.492s] [ 46%] Building CXX object CMakeFiles/test_find_and_replace.dir/test/test_find_and_replace.cpp.o
+[5.495s] [ 48%] Building CXX object CMakeFiles/test_scope_exit.dir/test/test_scope_exit.cpp.o
+[5.495s] [ 50%] Building CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o
+[5.514s] [ 51%] Building CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o
+[5.523s] [ 53%] Building CXX object CMakeFiles/test_find_library.dir/test/test_find_library.cpp.o
+[5.523s] [ 55%] Building CXX object CMakeFiles/test_pointer_traits.dir/test/test_pointer_traits.cpp.o
+[5.524s] [ 57%] Building CXX object CMakeFiles/test_shared_library.dir/test/test_shared_library.cpp.o
+[5.531s] [ 59%] Building CXX object CMakeFiles/test_clamp.dir/test/test_clamp.cpp.o
+[5.535s] [ 65%] Building CXX object CMakeFiles/test_unique_lock.dir/test/test_unique_lock.cpp.o
+[5.539s] [ 63%] Building CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o
+[5.540s] [ 61%] Building CXX object CMakeFiles/test_endian.dir/test/test_endian.cpp.o
+[6.472s] [ 67%] Linking CXX executable test_find_and_replace
+[6.674s] [ 69%] Linking CXX executable test_env
+[6.713s] [ 69%] Built target test_find_and_replace
+[6.735s] [ 71%] Linking CXX executable test_accumulator
+[6.861s] [ 73%] Linking CXX executable test_asserts_ndebug
+[6.875s] [ 75%] Linking CXX executable test_asserts_debug
+[6.891s] [ 75%] Built target test_env
+[6.905s] [ 76%] Linking CXX executable test_time
+[6.947s] [ 78%] Linking CXX executable test_thread_safety_annotations
+[6.953s] [ 80%] Linking CXX executable test_shared_library
+[6.962s] [ 80%] Built target test_accumulator
+[7.046s] [ 80%] Built target test_asserts_ndebug
+[7.064s] [ 80%] Built target test_asserts_debug
+[7.098s] [ 80%] Built target test_time
+[7.137s] [ 80%] Built target test_thread_safety_annotations
+[7.153s] [ 80%] Built target test_shared_library
+[7.183s] [ 82%] Linking CXX executable test_join
+[7.330s] [ 82%] Built target test_join
+[7.373s] [ 84%] Linking CXX executable test_find_library
+[7.385s] [ 86%] Linking CXX executable test_endian
+[7.422s] [ 88%] Linking CXX executable test_unique_lock
+[7.431s] [ 90%] Linking CXX executable test_scope_exit
+[7.546s] [ 90%] Built target test_unique_lock
+[7.574s] [ 92%] Linking CXX executable test_filesystem_helper
+[7.617s] [ 94%] Linking CXX executable test_pointer_traits
+[7.619s] [ 94%] Built target test_endian
+[7.619s] [ 94%] Built target test_find_library
+[7.634s] [ 94%] Built target test_scope_exit
+[7.640s] [ 96%] Linking CXX executable test_split
+[7.655s] [ 98%] Linking CXX executable test_process
+[7.691s] [ 98%] Built target test_filesystem_helper
+[7.752s] [ 98%] Built target test_pointer_traits
+[7.784s] [ 98%] Built target test_split
+[7.842s] [ 98%] Built target test_process
+[7.919s] [100%] Linking CXX executable test_clamp
+[8.028s] [100%] Built target test_clamp
+[8.035s] Invoked command in '/workspace/jazzy_ws/build/rcpputils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcpputils -- -j24 -l24
+[8.035s] Invoking command in '/workspace/jazzy_ws/build/rcpputils': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcpputils
+[8.078s] -- Install configuration: ""
+[8.078s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/library_path.sh
+[8.078s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/library_path.dsv
+[8.078s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcpputils
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcpputils
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/ament_prefix_path.sh
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/ament_prefix_path.dsv
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/path.sh
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/path.dsv
+[8.079s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.bash
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.sh
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.zsh
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.dsv
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/package.dsv
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcpputils
+[8.080s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsExport.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsExport-noconfig.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_libraries-extras.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_targets-extras.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.081s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsConfig.cmake
+[8.082s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsConfig-version.cmake
+[8.082s] -- Installing: /workspace/jazzy_ws/install/share/rcpputils/package.xml
+[8.082s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils
+[8.082s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath/clamp.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath/rolling_mean_accumulator.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/find_library.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/tl_expected
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/tl_expected/expected.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/get_env.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/pointer_traits.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/env.hpp
+[8.083s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/asserts.hpp
+[8.087s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/thread_safety_annotations.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/process.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/rolling_mean_accumulator.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/filesystem_helper.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/join.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/unique_lock.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/endian.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/time.hpp
+[8.094s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/visibility_control.hpp
+[8.095s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/shared_library.hpp
+[8.095s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/split.hpp
+[8.095s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/scope_exit.hpp
+[8.095s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/find_and_replace.hpp
+[8.097s] -- Installing: /workspace/jazzy_ws/install/lib/librcpputils.so
+[8.097s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcpputils.so" to ""
+[8.097s] -- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/version.h
+[8.097s] Invoked command in '/workspace/jazzy_ws/build/rcpputils' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcpputils

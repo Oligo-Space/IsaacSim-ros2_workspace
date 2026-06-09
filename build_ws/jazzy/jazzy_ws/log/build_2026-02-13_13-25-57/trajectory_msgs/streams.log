@@ -1,0 +1,337 @@
+[0.100s] Invoking command in '/workspace/jazzy_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.167s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.438s] -- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+[0.455s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.514s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.519s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.892s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.893s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.894s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.895s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.652s] -- Found PythonExtra: /usr/bin/python3  
+[2.096s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.211s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.213s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.217s] -- Configuring done (2.1s)
+[2.249s] -- Generating done (0.0s)
+[2.280s] -- Build files have been written to: /workspace/jazzy_ws/build/trajectory_msgs
+[2.293s] Invoked command in '/workspace/jazzy_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.293s] Invoking command in '/workspace/jazzy_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/trajectory_msgs -- -j24 -l24
+[2.368s] [  1%] Generating type hashes for ROS interfaces
+[2.374s] [  1%] Built target ament_cmake_python_copy_trajectory_msgs
+[2.515s] running egg_info
+[2.522s] creating trajectory_msgs.egg-info
+[2.522s] writing trajectory_msgs.egg-info/PKG-INFO
+[2.522s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[2.522s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[2.522s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.543s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.544s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[2.565s] [  1%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[2.628s] [  1%] Built target trajectory_msgs__rosidl_generator_type_description
+[2.636s] [  3%] Generating C code for ROS interfaces
+[2.644s] [  4%] Generating C++ code for ROS interfaces
+[2.996s] [  4%] Built target trajectory_msgs__cpp
+[3.081s] [  6%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o
+[3.082s] [  7%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o
+[3.082s] [ 10%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__description.c.o
+[3.082s] [ 10%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c.o
+[3.082s] [ 12%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o
+[3.082s] [ 14%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o
+[3.082s] [ 15%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o
+[3.082s] [ 17%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o
+[3.086s] [ 20%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c.o
+[3.086s] [ 20%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o
+[3.086s] [ 21%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__description.c.o
+[3.092s] [ 23%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o
+[3.148s] [ 25%] Linking C shared library libtrajectory_msgs__rosidl_generator_c.so
+[3.182s] [ 25%] Built target trajectory_msgs__rosidl_generator_c
+[3.188s] [ 28%] Generating C type support dispatch for ROS interfaces
+[3.189s] [ 28%] Generating C introspection for ROS interfaces
+[3.192s] [ 29%] Generating C++ introspection for ROS interfaces
+[3.192s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[3.192s] [ 32%] Generating C++ type support for eProsima Fast-RTPS
+[3.196s] [ 34%] Generating C type support for eProsima Fast-RTPS
+[3.600s] [ 35%] Building C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o
+[3.608s] [ 39%] Building C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o
+[3.608s] [ 37%] Building C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o
+[3.609s] [ 40%] Building C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o
+[3.659s] [ 42%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o
+[3.669s] [ 43%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o
+[3.669s] [ 45%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o
+[3.681s] [ 46%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o
+[3.682s] [ 48%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o
+[3.692s] [ 51%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o
+[3.694s] [ 53%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o
+[3.697s] [ 54%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o
+[3.702s] [ 56%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o
+[3.702s] [ 50%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o
+[3.702s] [ 59%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o
+[3.709s] [ 57%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o
+[3.749s] [ 60%] Linking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[3.789s] [ 62%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o
+[3.796s] [ 64%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o
+[3.797s] [ 65%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o
+[3.802s] [ 67%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o
+[3.813s] [ 70%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o
+[3.814s] [ 71%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o
+[3.821s] [ 71%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o
+[3.821s] [ 73%] Building CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o
+[3.821s] [ 75%] Linking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so
+[3.824s] [ 75%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[3.932s] [ 75%] Built target trajectory_msgs__rosidl_typesupport_c
+[4.777s] [ 76%] Linking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so
+[4.878s] [ 76%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[5.023s] [ 78%] Linking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[5.027s] [ 79%] Linking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[5.118s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[5.180s] [ 79%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[5.207s] [ 81%] Linking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.387s] [ 81%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[5.419s] [ 81%] Built target trajectory_msgs
+[5.445s] [ 82%] Generating Python code for ROS interfaces
+[6.186s] [ 82%] Built target trajectory_msgs__py
+[6.244s] [ 84%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o
+[6.244s] [ 85%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o
+[6.246s] [ 87%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o
+[6.251s] [ 89%] Building C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o
+[6.738s] [ 90%] Linking C shared library libtrajectory_msgs__rosidl_generator_py.so
+[6.840s] [ 90%] Built target trajectory_msgs__rosidl_generator_py
+[6.881s] [ 92%] Building C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.881s] [ 93%] Building C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.896s] [ 95%] Building C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o
+[7.091s] [ 96%] Linking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[7.121s] [ 98%] Linking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.156s] [100%] Linking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[7.165s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_introspection_c
+[7.175s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_fastrtps_c
+[7.211s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_c
+[7.228s] Invoked command in '/workspace/jazzy_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/trajectory_msgs -- -j24 -l24
+[7.229s] Invoking command in '/workspace/jazzy_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/trajectory_msgs
+[7.242s] -- Install configuration: ""
+[7.245s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[7.245s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectory.json
+[7.245s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectoryPoint.json
+[7.245s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectory.json
+[7.245s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.json
+[7.245s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.245s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.245s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.246s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[7.246s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__description.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__description.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c
+[7.254s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.255s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[7.255s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/library_path.sh
+[7.255s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/library_path.dsv
+[7.259s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_generator_c.so
+[7.259s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.259s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[7.259s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.259s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[7.259s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[7.260s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[7.264s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[7.264s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.264s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.264s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.265s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[7.265s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.272s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.272s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.272s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.272s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.272s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[7.272s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.273s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[7.273s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.273s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[7.273s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[7.273s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs
+[7.273s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg
+[7.273s] -- Up-to-date: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[7.273s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[7.277s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[7.277s] -- Installing: /workspace/jazzy_ws/install/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[7.277s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[7.277s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[7.277s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/pythonpath.sh
+[7.277s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/pythonpath.dsv
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[7.277s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[7.279s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/__init__.py
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[7.280s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.364s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/__init__.py'...
+[7.364s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[7.364s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[7.375s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.376s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.377s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[7.377s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[7.377s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[7.377s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so" to ""
+[7.377s] -- Installing: /workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_generator_py.so
+[7.377s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[7.377s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectory.idl
+[7.377s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectory.msg
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[7.382s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/ament_prefix_path.sh
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/path.sh
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/environment/path.dsv
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/local_setup.bash
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/local_setup.sh
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/local_setup.zsh
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/local_setup.dsv
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/package.dsv
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/trajectory_msgs
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.385s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.386s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[7.390s] -- Installing: /workspace/jazzy_ws/install/share/trajectory_msgs/package.xml
+[7.390s] Invoked command in '/workspace/jazzy_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/trajectory_msgs

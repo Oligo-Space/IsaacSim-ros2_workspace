@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/ament_lint_auto
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_lint_auto
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_lint_auto
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_lint_auto
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake/ament_lint_autoConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/package.xml
+-- Up-to-date: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor-complete.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-build.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-configure.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-download.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-install.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-patch_disconnected.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-stamp/spdlog_vendor-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog_vendor"
+		],
+		"name" : "spdlog_vendor"
+	}
+}

@@ -1,0 +1,81 @@
+[0.063s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_spdlog': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl_logging/rcl_logging_spdlog -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.097s] -- The C compiler identification is GNU 13.3.0
+[0.132s] -- The CXX compiler identification is GNU 13.3.0
+[0.142s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.409s] -- Found rcl_logging_interface: 3.1.1 (/workspace/jazzy_ws/install/share/rcl_logging_interface/cmake)
+[0.416s] -- Found rcpputils: 2.11.3 (/workspace/jazzy_ws/install/share/rcpputils/cmake)
+[0.418s] -- Found spdlog_vendor: 1.6.1 (/workspace/jazzy_ws/install/share/spdlog_vendor/cmake)
+[0.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.473s] -- Found Threads: TRUE  
+[0.474s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.558s] -- Found gmock sources under '/workspace/jazzy_ws/install/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.559s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.562s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[0.568s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.570s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.570s] -- Configured cpplint exclude dirs and/or files: 
+[0.576s] -- Added test 'lint_cmake' to check CMake code style
+[0.576s] -- Added test 'uncrustify' to check C / C++ code style
+[0.576s] -- Configured uncrustify additional arguments: 
+[0.576s] -- Added test 'xmllint' to check XML markup files
+[0.579s] -- Configuring done (0.5s)
+[0.591s] -- Generating done (0.0s)
+[0.596s] -- Build files have been written to: /workspace/jazzy_ws/build/rcl_logging_spdlog
+[0.607s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_spdlog' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl_logging/rcl_logging_spdlog -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.610s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_spdlog': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_logging_spdlog -- -j24 -l24
+[0.660s] [  9%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[0.661s] [ 18%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[0.665s] [ 27%] Building CXX object CMakeFiles/rcl_logging_spdlog.dir/src/rcl_logging_spdlog.cpp.o
+[0.670s] [ 36%] Building CXX object gmock/CMakeFiles/gmock.dir/workspace/jazzy_ws/install/src/gtest_vendor/src/gtest-all.cc.o
+[1.528s] [ 45%] Linking CXX static library libgmock_main.a
+[1.562s] [ 45%] Built target gmock_main
+[1.735s] [ 54%] Linking CXX shared library librcl_logging_spdlog.so
+[1.819s] [ 54%] Built target rcl_logging_spdlog
+[1.837s] [ 63%] Building CXX object CMakeFiles/benchmark_logging_interface.dir/test/benchmark/benchmark_logging_interface.cpp.o
+[2.318s] [ 72%] Linking CXX executable benchmark_logging_interface
+[2.357s] [ 72%] Built target benchmark_logging_interface
+[3.331s] [ 81%] Linking CXX static library libgmock.a
+[3.370s] [ 81%] Built target gmock
+[3.382s] [ 90%] Building CXX object CMakeFiles/test_logging_interface.dir/test/test_logging_interface.cpp.o
+[4.138s] [100%] Linking CXX executable test_logging_interface
+[4.210s] [100%] Built target test_logging_interface
+[4.216s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_spdlog' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_logging_spdlog -- -j24 -l24
+[4.217s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_spdlog': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_logging_spdlog
+[4.221s] -- Install configuration: ""
+[4.221s] -- Installing: /workspace/jazzy_ws/install/lib/librcl_logging_spdlog.so
+[4.222s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcl_logging_spdlog.so" to ""
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/library_path.sh
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/library_path.dsv
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl_logging_spdlog
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl_logging_spdlog
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/ament_prefix_path.sh
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/ament_prefix_path.dsv
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/path.sh
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/path.dsv
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.bash
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.sh
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.zsh
+[4.222s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.dsv
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/package.dsv
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcl_logging_spdlog
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogExport.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogExport-noconfig.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_libraries-extras.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_targets-extras.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig-version.cmake
+[4.223s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/package.xml
+[4.224s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_spdlog' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_logging_spdlog

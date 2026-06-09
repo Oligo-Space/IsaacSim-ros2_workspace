@@ -1,0 +1,26 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/LoggerLevel.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:msg/SetLoggerLevelsResult.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/GetLoggerLevels.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/rcl_interfaces:srv/SetLoggerLevels.srv"
+  ]
+}

@@ -1,0 +1,359 @@
+[0.036s] Invoking command in '/workspace/jazzy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/spdlog_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.074s] -- The CXX compiler identification is GNU 13.3.0
+[0.083s] -- Detecting CXX compiler ABI info
+[0.137s] -- Detecting CXX compiler ABI info - done
+[0.142s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.142s] -- Detecting CXX compile features
+[0.143s] -- Detecting CXX compile features - done
+[0.143s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.214s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.275s] -- Found ament_cmake_vendor_package: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_vendor_package/cmake)
+[0.282s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.343s] -- Added test 'lint_cmake' to check CMake code style
+[0.345s] -- Added test 'xmllint' to check XML markup files
+[0.346s] -- Configuring done (0.3s)
+[0.348s] -- Generating done (0.0s)
+[0.349s] -- Build files have been written to: /workspace/jazzy_ws/build/spdlog_vendor
+[0.352s] Invoked command in '/workspace/jazzy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/spdlog_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.352s] Invoking command in '/workspace/jazzy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/spdlog_vendor -- -j24 -l24
+[0.378s] [ 12%] Creating directories for 'spdlog_vendor'
+[0.391s] [ 25%] Performing download step for 'spdlog_vendor'
+[0.467s] /usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+[0.467s]   from pkg_resources import load_entry_point
+[1.430s] === ./spdlog_vendor (git) ===
+[1.430s] hint: Using 'master' as the name for the initial branch. This default branch name
+[1.430s] hint: is subject to change. To configure the initial branch name to use in all
+[1.430s] hint: of your new repositories, which will suppress this warning, call:
+[1.430s] hint: 
+[1.430s] hint: 	git config --global init.defaultBranch <name>
+[1.431s] hint: 
+[1.431s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[1.431s] hint: 'development'. The just-created branch can be renamed via this command:
+[1.431s] hint: 
+[1.431s] hint: 	git branch -m <name>
+[1.431s] Initialized empty Git repository in /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor/.git/
+[1.431s] 
+[1.431s] From https://github.com/gabime/spdlog
+[1.431s]  * [new tag]         v1.12.0    -> v1.12.0
+[1.431s] Note: switching to 'v1.12.0'.
+[1.431s] 
+[1.431s] You are in 'detached HEAD' state. You can look around, make experimental
+[1.431s] changes and commit them, and you can discard any commits you make in this
+[1.431s] state without impacting any branches by switching back to a branch.
+[1.431s] 
+[1.431s] If you want to create a new branch to retain commits you create, you may
+[1.431s] do so (now or later) by using -c with the switch command. Example:
+[1.431s] 
+[1.431s]   git switch -c <new-branch-name>
+[1.431s] 
+[1.431s] Or undo this operation with:
+[1.431s] 
+[1.431s]   git switch -
+[1.431s] 
+[1.431s] Turn off this advice by setting config variable advice.detachedHead to false
+[1.431s] 
+[1.431s] HEAD is now at 7e635fc Fixed #2724 by excluding bin_to_hex sink if using std::format
+[1.431s] 
+[1.559s] [ 37%] No update_disconnected step for 'spdlog_vendor'
+[1.559s] [ 50%] No patch_disconnected step for 'spdlog_vendor'
+[1.565s] [ 62%] Performing configure step for 'spdlog_vendor'
+[1.573s] loading initial cache file /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-config.cmake
+[1.635s] -- The CXX compiler identification is GNU 13.3.0
+[1.709s] -- Detecting CXX compiler ABI info
+[1.801s] -- Detecting CXX compiler ABI info - done
+[1.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.815s] -- Detecting CXX compile features
+[1.815s] -- Detecting CXX compile features - done
+[1.815s] -- Build spdlog: 1.12.0
+[1.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.045s] -- Found Threads: TRUE  
+[2.045s] -- Build type: Release
+[2.045s] -- Generating install
+[2.045s] -- Configuring done (0.4s)
+[2.045s] -- Generating done (0.0s)
+[2.045s] -- Build files have been written to: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/src/spdlog_vendor-build
+[2.045s] [ 75%] Performing build step for 'spdlog_vendor'
+[2.077s] [ 12%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[2.077s] [ 25%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[2.083s] [ 37%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[2.083s] [ 50%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[2.084s] [ 62%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[2.088s] [ 75%] Building CXX object CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o
+[2.091s] [ 87%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[10.545s] [100%] Linking CXX shared library libspdlog.so
+[10.754s] [100%] Built target spdlog
+[10.795s] [ 87%] Performing install step for 'spdlog_vendor'
+[10.879s] [100%] Built target spdlog
+[10.909s] Install the project...
+[10.925s] -- Install configuration: "Release"
+[10.925s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include
+[10.925s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog
+[10.925s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fwd.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/tweakme.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/stopwatch.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/version.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/async_logger-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/pattern_formatter.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/std.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/fmt.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/ostr.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/xchar.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/ranges.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bin_to_hex.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/compile.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/chrono.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/async.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/qt_sinks.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/stdout_color_sinks-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/basic_file_sink-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/wincolor_sink-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/mongo_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/hourly_file_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/ansicolor_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/dup_filter_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/base_sink-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/kafka_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/sink-inl.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/stdout_color_sinks.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/daily_file_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/ostream_sink.h
+[10.926s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/ringbuffer_sink.h
+[10.927s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/msvc_sink.h
+[10.927s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/callback_sink.h
+[10.927s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/win_eventlog_sink.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/base_sink.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/syslog_sink.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/wincolor_sink.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/rotating_file_sink-inl.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/basic_file_sink.h
+[10.932s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/rotating_file_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/udp_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/dist_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/systemd_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/null_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/stdout_sinks.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/android_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/tcp_sink.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/stdout_sinks-inl.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/sinks/ansicolor_sink-inl.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/pattern_formatter-inl.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/logger-inl.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/spdlog.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/common.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/file_helper.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/registry.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/log_msg_buffer-inl.h
+[10.933s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/log_msg.h
+[10.934s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/console_globals.h
+[10.934s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/windows_include.h
+[10.934s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/circular_q.h
+[10.934s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/file_helper-inl.h
+[10.942s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/log_msg-inl.h
+[10.942s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/null_mutex.h
+[10.942s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/mpmc_blocking_q.h
+[10.942s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/synchronous_factory.h
+[10.942s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/fmt_helper.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/os.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/tcp_client-windows.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/udp_client-windows.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/backtracer-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/registry-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/backtracer.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/periodic_worker-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/thread_pool.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/thread_pool-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/periodic_worker.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/log_msg_buffer.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/os-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/tcp_client.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/details/udp_client.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/formatter.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/spdlog-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/common-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/async_logger.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/cfg
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/cfg/env.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/cfg/helpers.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/cfg/helpers-inl.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/cfg/argv.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/logger.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/libspdlog.so.1.12.0
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/libspdlog.so.1.12
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/libspdlog.so
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled/
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//std.h
+[10.943s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//fmt.license.rst
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//args.h
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//format.h
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//core.h
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//locale.h
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//xchar.h
+[10.944s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//ostream.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//os.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//ranges.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//printf.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//color.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//format-inl.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//compile.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/include/spdlog/fmt/bundled//chrono.h
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/pkgconfig/spdlog.pc
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/cmake/spdlog/spdlogConfig.cmake
+[10.951s] -- Installing: /workspace/jazzy_ws/build/spdlog_vendor/spdlog_vendor-prefix/install/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[10.985s] [100%] Completed 'spdlog_vendor'
+[11.034s] [100%] Built target spdlog_vendor
+[11.050s] Invoked command in '/workspace/jazzy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/spdlog_vendor -- -j24 -l24
+[11.055s] Invoking command in '/workspace/jazzy_ws/build/spdlog_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/spdlog_vendor
+[11.066s] -- Install configuration: ""
+[11.071s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor
+[11.071s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/libspdlog.so.1.12.0
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/libspdlog.so
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake/spdlog
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake/spdlog/spdlogConfig.cmake
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/libspdlog.so.1.12
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/pkgconfig
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/lib/pkgconfig/spdlog.pc
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fwd.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/tweakme.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/stopwatch.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/version.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/async_logger-inl.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/pattern_formatter.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/std.h
+[11.072s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/fmt.h
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/ostr.h
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/xchar.h
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/ranges.h
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/std.h
+[11.073s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/fmt.license.rst
+[11.078s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/args.h
+[11.078s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/format.h
+[11.078s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/core.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/locale.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/xchar.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/ostream.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/os.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/ranges.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/printf.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/color.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/format-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/compile.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bundled/chrono.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/bin_to_hex.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/compile.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/fmt/chrono.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/async.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/qt_sinks.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/stdout_color_sinks-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/basic_file_sink-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/wincolor_sink-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/mongo_sink.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/hourly_file_sink.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/ansicolor_sink.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/dup_filter_sink.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/base_sink-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/kafka_sink.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/sink-inl.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/stdout_color_sinks.h
+[11.079s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/daily_file_sink.h
+[11.080s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/ostream_sink.h
+[11.080s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/ringbuffer_sink.h
+[11.080s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/msvc_sink.h
+[11.080s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/callback_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/win_eventlog_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/base_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/syslog_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/wincolor_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/rotating_file_sink-inl.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/basic_file_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/rotating_file_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/udp_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/dist_sink.h
+[11.086s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/systemd_sink.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/null_sink.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/stdout_sinks.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/android_sink.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/sink.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/tcp_sink.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/stdout_sinks-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/sinks/ansicolor_sink-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/pattern_formatter-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/logger-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/spdlog.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/common.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/file_helper.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/registry.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/log_msg_buffer-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/log_msg.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/console_globals.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/windows_include.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/circular_q.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/file_helper-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/log_msg-inl.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/null_mutex.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/mpmc_blocking_q.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/synchronous_factory.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/fmt_helper.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/os.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/tcp_client-windows.h
+[11.087s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/udp_client-windows.h
+[11.088s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/backtracer-inl.h
+[11.088s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/registry-inl.h
+[11.088s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/backtracer.h
+[11.088s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/periodic_worker-inl.h
+[11.088s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/thread_pool.h
+[11.090s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/thread_pool-inl.h
+[11.090s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/periodic_worker.h
+[11.090s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/log_msg_buffer.h
+[11.090s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/os-inl.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/tcp_client.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/details/udp_client.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/formatter.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/spdlog-inl.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/common-inl.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/async_logger.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/cfg
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/cfg/env.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/cfg/helpers.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/cfg/helpers-inl.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/cfg/argv.h
+[11.091s] -- Installing: /workspace/jazzy_ws/install/opt/spdlog_vendor/include/spdlog/logger.h
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/vendor_package.bat
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/vendor_package.dsv
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/vendor_package.sh
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/vendor_packages/spdlog_vendor
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/spdlog_vendor
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/spdlog_vendor
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/ament_prefix_path.sh
+[11.093s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/ament_prefix_path.dsv
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/path.sh
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/environment/path.dsv
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/local_setup.bash
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/local_setup.sh
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/local_setup.zsh
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/local_setup.dsv
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/package.dsv
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/spdlog_vendor
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/cmake/vendor_package_cmake_prefix.cmake
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/cmake/spdlog_vendorConfig.cmake
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/cmake/spdlog_vendorConfig-version.cmake
+[11.094s] -- Installing: /workspace/jazzy_ws/install/share/spdlog_vendor/package.xml
+[11.099s] Invoked command in '/workspace/jazzy_ws/build/spdlog_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/spdlog_vendor

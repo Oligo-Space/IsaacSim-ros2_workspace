@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor/src/asm/mangling.h
+config.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor/src/asm/config.h
+
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor/src/asm/trampoline-x86_64-systemv.S
+mangling.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor/src/asm/mangling.h
+
+src/config.h
+

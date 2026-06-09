@@ -1,0 +1,13 @@
+# Target labels
+ uncrustify_vendor
+# Source files and their labels
+/workspace/jazzy_ws/build/uncrustify_vendor/CMakeFiles/uncrustify_vendor
+/workspace/jazzy_ws/build/uncrustify_vendor/CMakeFiles/uncrustify_vendor.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/CMakeFiles/uncrustify_vendor-complete.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-build.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-configure.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-download.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-install.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-mkdir.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-patch_disconnected.rule
+/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-stamp/uncrustify_vendor-update_disconnected.rule

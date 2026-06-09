@@ -1,0 +1,16 @@
+{
+  "package_name": "diagnostic_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_generator_type_description/diagnostic_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticArray.idl",
+    "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/DiagnosticStatus.idl",
+    "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:msg/KeyValue.idl",
+    "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/AddDiagnostics.idl",
+    "/workspace/jazzy_ws/build/diagnostic_msgs/rosidl_adapter/diagnostic_msgs:srv/SelfTest.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs"
+  ]
+}

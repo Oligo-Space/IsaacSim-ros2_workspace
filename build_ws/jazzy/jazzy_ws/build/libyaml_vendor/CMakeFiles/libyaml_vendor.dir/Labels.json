@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/CMakeFiles/libyaml_vendor"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/CMakeFiles/libyaml_vendor.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/CMakeFiles/libyaml_vendor-complete.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-build.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-configure.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-download.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-install.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-patch_disconnected.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-stamp/libyaml_vendor-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libyaml_vendor"
+		],
+		"name" : "libyaml_vendor"
+	}
+}

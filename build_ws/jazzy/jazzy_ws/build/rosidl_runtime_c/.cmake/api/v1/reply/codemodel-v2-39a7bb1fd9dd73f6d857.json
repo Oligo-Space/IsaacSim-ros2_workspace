@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-31929f56c63e90ed9b8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-660c6e890bd7bd2df20c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/workspace/jazzy_ws/install/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosidl_runtime_c",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_string_conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_string_conversion-79f704c645ffe126359a.json",
+					"name" : "benchmark_string_conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-726d65fe64d3fcdf0219.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-c74c314cca02abce4feb.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_runtime_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_runtime_c-c81a174623a0ebd89687.json",
+					"name" : "rosidl_runtime_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_runtime_c_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_runtime_c_uninstall-1bf3d8e8d3d5a7acc2b4.json",
+					"name" : "rosidl_runtime_c_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_message_type_support::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_message_type_support-01b2b5f9fc1561fc8b70.json",
+					"name" : "test_message_type_support",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_primitives_sequence_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_primitives_sequence_functions-9cb5f9091a16615927da.json",
+					"name" : "test_primitives_sequence_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sequence_bound::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sequence_bound-92d7b8d48ddcd8391238.json",
+					"name" : "test_sequence_bound",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_service_type_support::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_service_type_support-4afe489909f1d4fb024c.json",
+					"name" : "test_service_type_support",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_string_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_string_functions-d6741ffd183294b0d424.json",
+					"name" : "test_string_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_type_description_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_type_description_utils-631f4c80fa14654e796f.json",
+					"name" : "test_type_description_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_type_hash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_type_hash-c73f934478c696787e13.json",
+					"name" : "test_type_hash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_u16string_functions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_u16string_functions-f5b27d242c436bf4d4ee.json",
+					"name" : "test_u16string_functions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fec87a176c56f0a6f229.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/rosidl_runtime_c",
+		"source" : "/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

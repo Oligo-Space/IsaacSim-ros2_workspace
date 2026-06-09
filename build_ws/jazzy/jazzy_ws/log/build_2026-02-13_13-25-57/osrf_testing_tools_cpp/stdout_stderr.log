@@ -1,0 +1,128 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+-- Found Backward: /workspace/jazzy_ws/src/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+-- googletest version '1.14' selected, of versions: '1.14'
+-- building googletest from '/workspace/jazzy_ws/src/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/osrf_testing_tools_cpp/googletest-1.14-extracted
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (verify and extract) for 'googletest'
+-- verifying file...
+     file='/workspace/jazzy_ws/src/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+-- verifying file... done
+-- extracting...
+     src='/workspace/jazzy_ws/src/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+     dst='/workspace/jazzy_ws/build/osrf_testing_tools_cpp/googletest-1.14-extracted/googletest-1.14-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'googletest'
+[ 44%] No patch step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/osrf_testing_tools_cpp
+[ 20%] Building CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o
+[ 20%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o
+[ 24%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o
+[ 20%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o
+[ 20%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/implementation_monitoring_override.cpp.o
+[ 24%] Building CXX object googletest-1.14-extracted/googletest-1.14-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/register_hooks.cpp.o
+[ 32%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/testing_helpers.cpp.o
+[ 36%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/verbosity.cpp.o
+[ 40%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o
+[ 44%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/monitoring.cpp.o
+[ 48%] Building CXX object src/memory_tools/CMakeFiles/memory_tools.dir/stack_trace.cpp.o
+[ 52%] Linking CXX executable test_runner
+[ 52%] Built target test_runner
+[ 56%] Linking CXX shared library libmemory_tools.so
+[ 56%] Built target memory_tools
+[ 60%] Building CXX object src/memory_tools/CMakeFiles/memory_tools_interpose.dir/memory_tools.cpp.o
+[ 64%] Linking CXX shared library libmemory_tools_interpose.so
+[ 64%] Built target memory_tools_interpose
+[ 68%] Linking CXX static library ../../../lib/libgtest.a
+[ 68%] Built target gtest
+[ 72%] Building CXX object googletest-1.14-extracted/googletest-1.14-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 76%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 76%] Built target gtest_main
+[ 84%] Building CXX object test/memory_tools/CMakeFiles/test_memory_tools.dir/test_memory_tools.cpp.o
+[ 84%] Building CXX object test/test_runner/CMakeFiles/assert_env_vars.dir/assert_env_vars.cpp.o
+[ 88%] Building CXX object test/test_runner/CMakeFiles/test_parse_environment_variable.dir/test_parse_environment_variable.cpp.o
+[ 92%] Linking CXX executable assert_env_vars
+[ 96%] Linking CXX executable test_parse_environment_variable
+[ 96%] Built target assert_env_vars
+[ 96%] Built target test_parse_environment_variable
+[100%] Linking CXX executable test_memory_tools
+[100%] Built target test_memory_tools
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfigVersion.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.8.1.tar.gz
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.tar.gz
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.7.0.tar.gz
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/googletest-external-project-add.cmake.in
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz
+-- Up-to-date: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_add_test.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_require_googletest.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_get_googletest_versions.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_extract_and_build_googletest.cmake
+-- Up-to-date: /workspace/jazzy_ws/install/include
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/demangle.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/macros.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/initialize.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/stack_trace.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/memory_tools_service.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/testing_helpers.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/verbosity.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/memory_tools.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/register_hooks.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/gtest_quickstart.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/visibility_control.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/memory_tools/monitoring.hpp
+-- Installing: /workspace/jazzy_ws/install/include/osrf_testing_tools_cpp/scope_exit.hpp
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/package.xml
+-- Installing: /workspace/jazzy_ws/install/lib/libmemory_tools.so
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/memory_toolsExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/memory_toolsExport-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/libmemory_tools_interpose.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libmemory_tools_interpose.so" to ""
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/lib/osrf_testing_tools_cpp/test_runner
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/test_runnerExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/osrf_testing_tools_cpp/cmake/test_runnerExport-noconfig.cmake

@@ -1,0 +1,10 @@
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/uninstall.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor_uninstall.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/spdlog_vendor.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/test.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/edit_cache.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/rebuild_cache.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/list_install_components.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/install.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/install/local.dir
+/workspace/jazzy_ws/build/spdlog_vendor/CMakeFiles/install/strip.dir

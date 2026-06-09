@@ -1,0 +1,138 @@
+[0.098s] Invoking command in '/workspace/jazzy_ws/build/tf2': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.165s] -- The CXX compiler identification is GNU 13.3.0
+[0.173s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.235s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.298s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.434s] -- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+[0.452s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.513s] -- Found ament_cmake_google_benchmark: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_google_benchmark/cmake)
+[0.514s] -- Found ament_cmake_copyright: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_copyright/cmake)
+[0.514s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.515s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.515s] -- Found ament_cmake_lint_cmake: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_lint_cmake/cmake)
+[0.516s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.516s] -- Found ament_cmake_xmllint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_xmllint/cmake)
+[0.518s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.574s] -- Found Threads: TRUE  
+[0.576s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[0.640s] -- Configuring done (0.5s)
+[0.656s] -- Generating done (0.0s)
+[0.661s] -- Build files have been written to: /workspace/jazzy_ws/build/tf2
+[0.665s] Invoked command in '/workspace/jazzy_ws/build/tf2' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/geometry2/tf2 -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.665s] Invoking command in '/workspace/jazzy_ws/build/tf2': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/tf2 -- -j24 -l24
+[0.695s] [ 28%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.695s] [ 28%] Building CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o
+[0.695s] [ 28%] Building CXX object CMakeFiles/tf2.dir/src/time.cpp.o
+[0.695s] [ 28%] Building CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o
+[0.695s] [ 28%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.695s] [ 28%] Building CXX object CMakeFiles/tf2.dir/src/cache.cpp.o
+[1.161s] [ 33%] Linking CXX static library libgtest_main.a
+[1.180s] [ 33%] Built target gtest_main
+[1.638s] [ 38%] Linking CXX shared library libtf2.so
+[1.705s] [ 38%] Built target tf2
+[1.718s] [ 42%] Building CXX object CMakeFiles/cache_benchmark.dir/test/cache_benchmark.cpp.o
+[2.461s] [ 47%] Linking CXX executable cache_benchmark
+[2.528s] [ 47%] Built target cache_benchmark
+[3.309s] [ 52%] Linking CXX static library libgtest.a
+[3.383s] [ 52%] Built target gtest
+[3.406s] [ 57%] Building CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o
+[3.411s] [ 61%] Building CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o
+[3.418s] [ 66%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[3.421s] [ 71%] Building CXX object CMakeFiles/test_simple_tf2_core.dir/test/simple_tf2_core.cpp.o
+[3.431s] [ 76%] Building CXX object CMakeFiles/test_storage.dir/test/test_storage.cpp.o
+[5.454s] [ 80%] Linking CXX executable test_storage
+[5.599s] [ 85%] Linking CXX executable test_static_cache_unittest
+[5.642s] [ 85%] Built target test_storage
+[5.743s] [ 90%] Linking CXX executable test_time
+[5.824s] [ 90%] Built target test_static_cache_unittest
+[5.885s] [ 90%] Built target test_time
+[6.265s] [ 95%] Linking CXX executable test_cache_unittest
+[6.662s] [ 95%] Built target test_cache_unittest
+[7.252s] [100%] Linking CXX executable test_simple_tf2_core
+[7.530s] [100%] Built target test_simple_tf2_core
+[7.554s] Invoked command in '/workspace/jazzy_ws/build/tf2' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/tf2 -- -j24 -l24
+[7.555s] Invoking command in '/workspace/jazzy_ws/build/tf2': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/tf2
+[7.565s] -- Install configuration: ""
+[7.565s] -- Installing: /workspace/jazzy_ws/install/lib/libtf2.so
+[7.566s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtf2.so" to ""
+[7.566s] -- Installing: /workspace/jazzy_ws/install/include/tf2
+[7.566s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2
+[7.567s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_storage.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time_cache.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/exceptions.hpp
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Transform.hpp
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Scalar.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Matrix3x3.hpp
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Vector3.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/QuadWord.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Matrix3x3.h
+[7.568s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Vector3.hpp
+[7.569s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Quaternion.hpp
+[7.569s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/QuadWord.hpp
+[7.569s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Transform.h
+[7.569s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/MinMax.hpp
+[7.570s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/MinMax.h
+[7.570s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Scalar.hpp
+[7.570s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Quaternion.h
+[7.570s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time.h
+[7.571s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_storage.hpp
+[7.571s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core.hpp
+[7.571s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/utils.h
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_datatypes.hpp
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/visibility_control.h
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core_interface.h
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/utils.h
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/utils.hpp
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/convert.hpp
+[7.572s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/convert.h
+[7.573s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time_cache.hpp
+[7.573s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/exceptions.h
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core.h
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/utils.hpp
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time.hpp
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/convert.hpp
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/convert.h
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_datatypes.h
+[7.574s] -- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core_interface.hpp
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/library_path.sh
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/library_path.dsv
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/tf2
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/tf2
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/ament_prefix_path.sh
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/ament_prefix_path.dsv
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/path.sh
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/environment/path.dsv
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.bash
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.sh
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.zsh
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.dsv
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/package.dsv
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/tf2
+[7.577s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/export_tf2Export.cmake
+[7.578s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/export_tf2Export-noconfig.cmake
+[7.578s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.578s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.579s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[7.579s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[7.579s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/tf2Config.cmake
+[7.579s] -- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/tf2Config-version.cmake
+[7.579s] -- Installing: /workspace/jazzy_ws/install/share/tf2/package.xml
+[7.581s] Invoked command in '/workspace/jazzy_ws/build/tf2' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/tf2

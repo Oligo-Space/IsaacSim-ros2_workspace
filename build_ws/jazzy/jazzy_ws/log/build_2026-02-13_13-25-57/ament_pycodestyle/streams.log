@@ -1,0 +1,51 @@
+[0.544s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_pycodestyle': PYTHONPATH=/workspace/jazzy_ws/build/ament_pycodestyle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /workspace/jazzy_ws/build/ament_pycodestyle/build install --record /workspace/jazzy_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data
+[0.598s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.598s]   warnings.warn(msg)
+[0.605s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.605s] !!
+[0.605s] 
+[0.605s]         ********************************************************************************
+[0.605s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.605s] 
+[0.605s]         License :: OSI Approved :: Apache Software License
+[0.605s] 
+[0.605s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.605s]         ********************************************************************************
+[0.605s] 
+[0.605s] !!
+[0.605s]   self._finalize_license_expression()
+[0.619s] running egg_info
+[0.622s] creating ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[0.622s] writing ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[0.622s] writing dependency_links to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[0.623s] writing entry points to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[0.623s] writing requirements to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[0.623s] writing top-level names to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[0.623s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[0.632s] reading manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[0.632s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] creating /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.632s] copying ament_pycodestyle/main.py -> /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.632s] copying ament_pycodestyle/__init__.py -> /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.632s] creating /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[0.632s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[0.632s] running install
+[0.633s] running install_lib
+[0.637s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle
+[0.637s] copying /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle
+[0.637s] copying /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle
+[0.637s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle/configuration
+[0.638s] copying /workspace/jazzy_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle/configuration
+[0.638s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle/main.py to main.cpython-312.pyc
+[0.639s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-312.pyc
+[0.639s] running install_data
+[0.639s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_pycodestyle
+[0.639s] copying resource/ament_pycodestyle -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.639s] running install_egg_info
+[0.642s] Copying ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_pycodestyle-0.17.4-py3.12.egg-info
+[0.642s] running install_scripts
+[0.650s] Installing ament_pycodestyle script to /workspace/jazzy_ws/install/bin
+[0.650s] writing list of installed files to '/workspace/jazzy_ws/build/ament_pycodestyle/install.log'
+[0.691s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/workspace/jazzy_ws/build/ament_pycodestyle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /workspace/jazzy_ws/build/ament_pycodestyle/build install --record /workspace/jazzy_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data

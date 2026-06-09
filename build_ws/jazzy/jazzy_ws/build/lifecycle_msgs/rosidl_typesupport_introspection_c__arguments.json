@@ -1,0 +1,41 @@
+{
+  "package_name": "lifecycle_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_typesupport_introspection_c/lifecycle_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetState.idl",
+    "/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

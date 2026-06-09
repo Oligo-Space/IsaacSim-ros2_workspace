@@ -1,0 +1,53 @@
+[0.271s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ament_uncrustify/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /workspace/jazzy_ws/build/ament_uncrustify/build install --record /workspace/jazzy_ws/build/ament_uncrustify/install.log --single-version-externally-managed install_data
+[0.345s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.345s]   warnings.warn(msg)
+[0.353s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.353s] !!
+[0.353s] 
+[0.353s]         ********************************************************************************
+[0.353s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.353s] 
+[0.353s]         License :: OSI Approved :: Apache Software License
+[0.353s] 
+[0.353s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.353s]         ********************************************************************************
+[0.353s] 
+[0.353s] !!
+[0.353s]   self._finalize_license_expression()
+[0.369s] running egg_info
+[0.373s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[0.373s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[0.373s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[0.373s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[0.373s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[0.373s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[0.373s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.382s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.383s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[0.383s] running build
+[0.383s] running build_py
+[0.383s] creating /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.383s] copying ament_uncrustify/main.py -> /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.383s] copying ament_uncrustify/__init__.py -> /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify
+[0.383s] creating /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.383s] copying ament_uncrustify/configuration/ament_code_style_0_72.cfg -> /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.383s] copying ament_uncrustify/configuration/ament_code_style_0_78.cfg -> /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[0.383s] running install
+[0.385s] running install_lib
+[0.389s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify
+[0.389s] copying /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify
+[0.389s] copying /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify
+[0.389s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify/configuration
+[0.390s] copying /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style_0_72.cfg -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify/configuration
+[0.390s] copying /workspace/jazzy_ws/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style_0_78.cfg -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify/configuration
+[0.390s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify/main.py to main.cpython-312.pyc
+[0.392s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify/__init__.py to __init__.cpython-312.pyc
+[0.392s] running install_data
+[0.392s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_uncrustify
+[0.392s] copying resource/ament_uncrustify -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.392s] running install_egg_info
+[0.396s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_uncrustify-0.17.4-py3.12.egg-info
+[0.397s] running install_scripts
+[0.406s] Installing ament_uncrustify script to /workspace/jazzy_ws/install/bin
+[0.406s] writing list of installed files to '/workspace/jazzy_ws/build/ament_uncrustify/install.log'
+[0.417s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ament_uncrustify/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /workspace/jazzy_ws/build/ament_uncrustify/build install --record /workspace/jazzy_ws/build/ament_uncrustify/install.log --single-version-externally-managed install_data

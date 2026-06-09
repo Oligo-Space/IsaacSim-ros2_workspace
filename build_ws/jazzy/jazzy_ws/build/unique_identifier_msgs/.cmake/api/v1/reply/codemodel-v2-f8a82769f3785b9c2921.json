@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-90a77461eded3fe8c49f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "unique_identifier_msgs__py",
+					"jsonFile" : "directory-unique_identifier_msgs__py-56482d3f5e86fbe26e97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/jazzy_ws/build/unique_identifier_msgs/unique_identifier_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "unique_identifier_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_unique_identifier_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_unique_identifier_msgs_egg-a00fa5966a135c304606.json",
+					"name" : "ament_cmake_python_build_unique_identifier_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_unique_identifier_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_unique_identifier_msgs-15551e3b836052e27ec6.json",
+					"name" : "ament_cmake_python_copy_unique_identifier_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-657204ffe8bca8ca91e7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs-91d209c845b951f800cb.json",
+					"name" : "unique_identifier_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__cpp-da691e3058481dd58b08.json",
+					"name" : "unique_identifier_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unique_identifier_msgs__py::@95dd87b89bd68cb4460c",
+					"jsonFile" : "target-unique_identifier_msgs__py-232b1d5f9724816beb1c.json",
+					"name" : "unique_identifier_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_c-a46d6137cec24fb971e8.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_py-44f8e0de76ddab367bee.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_generator_type_description-5d302b1acaeaabc67e5c.json",
+					"name" : "unique_identifier_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_c-f2d3bcc052d47e8958ac.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_cpp-2ee3a746b3649ba4f832.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_fastrtps_c-3339f0f555b433f520aa.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp-9bcef025d35d0d3b52a2.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_introspection_c-672ba868fa8b2744c549.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs__rosidl_typesupport_introspection_cpp-41777f75035311715e9a.json",
+					"name" : "unique_identifier_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_c-546a52938ae95fda2fe4.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c-b99a657832069193937d.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_s__rosidl_typesupport_introspection_c-aadba93cbe06218cac63.json",
+					"name" : "unique_identifier_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unique_identifier_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unique_identifier_msgs_uninstall-7fafdbbadd54ba1b59f3.json",
+					"name" : "unique_identifier_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/unique_identifier_msgs",
+		"source" : "/workspace/jazzy_ws/src/unique_identifier_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

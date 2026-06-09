@@ -1,0 +1,18 @@
+{
+  "package_name": "tf2_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/tf2_msgs/rosidl_generator_type_description/tf2_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:msg/TF2Error.idl",
+    "/workspace/jazzy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:msg/TFMessage.idl",
+    "/workspace/jazzy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:srv/FrameGraph.idl",
+    "/workspace/jazzy_ws/build/tf2_msgs/rosidl_adapter/tf2_msgs:action/LookupTransform.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/workspace/jazzy_ws/install/share/geometry_msgs",
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs",
+    "action_msgs:/workspace/jazzy_ws/install/share/action_msgs",
+    "unique_identifier_msgs:/workspace/jazzy_ws/install/share/unique_identifier_msgs"
+  ]
+}

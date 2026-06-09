@@ -1,0 +1,12 @@
+{
+  "package_name": "type_description_interfaces",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/Field.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/FieldType.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/IndividualTypeDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/KeyValue.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/TypeDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:msg/TypeSource.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces:srv/GetTypeDescription.srv"
+  ]
+}

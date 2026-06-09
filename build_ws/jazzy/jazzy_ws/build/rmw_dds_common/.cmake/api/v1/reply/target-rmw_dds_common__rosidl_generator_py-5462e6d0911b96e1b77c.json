@@ -1,0 +1,434 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "librmw_dds_common__rosidl_generator_py.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/workspace/jazzy_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsExport.cmake",
+			"/workspace/jazzy_ws/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/workspace/jazzy_ws/install/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsConfig.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 170,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 14
+			},
+			{
+				"file" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 7,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 20
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 12,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 21,
+				"parent" : 27
+			},
+			{
+				"file" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 29
+			},
+			{
+				"file" : 10,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 25,
+				"parent" : 31
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "ROS_PACKAGE_NAME=\"rmw_dds_common\""
+				},
+				{
+					"define" : "rmw_dds_common__rosidl_generator_py_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 33,
+					"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_py"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/workspace/jazzy_ws/install/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/workspace/jazzy_ws/install/include/rcutils"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/workspace/jazzy_ws/install/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/local/lib/python3.12/dist-packages/numpy/_core/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.12"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "rmw_dds_common__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "rmw_dds_common__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "rmw_dds_common__py::@4e4bb382d017f4b8e6ce"
+		}
+	],
+	"id" : "rmw_dds_common__rosidl_generator_py::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/workspace/jazzy_ws/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/workspace/jazzy_ws/build/rmw_dds_common:/workspace/jazzy_ws/install/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.12.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "librmw_dds_common__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "librmw_dds_common__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/workspace/jazzy_ws/install/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/workspace/jazzy_ws/install/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/workspace/jazzy_ws/install/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "rmw_dds_common__rosidl_generator_py",
+	"nameOnDisk" : "librmw_dds_common__rosidl_generator_py.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_py/rmw_dds_common/msg/_gid_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_py/rmw_dds_common/msg/_node_entities_info_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_py/rmw_dds_common/msg/_participant_entities_info_s.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

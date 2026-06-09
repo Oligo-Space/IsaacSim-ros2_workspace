@@ -1,0 +1,224 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-96470946c5f36d8f4fc5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "rosidl_generator_py_custom__py",
+					"jsonFile" : "directory-rosidl_generator_py_custom__py-b5d6800cabcb96da8ec0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py_custom__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rosidl_generator_py",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rosidl_generator_py_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rosidl_generator_py_egg-021fb193a19aff1ca1ad.json",
+					"name" : "ament_cmake_python_build_rosidl_generator_py_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosidl_generator_py-c1a211cfd72301cd995f.json",
+					"name" : "ament_cmake_python_copy_rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rosidl_generator_py_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rosidl_generator_py_setup-000cdb13ed39efc7df15.json",
+					"name" : "ament_cmake_python_copy_rosidl_generator_py_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom-e18aa7f824fbe28d000b.json",
+					"name" : "rosidl_generator_py_custom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__cpp-415d638f09271166621c.json",
+					"name" : "rosidl_generator_py_custom__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rosidl_generator_py_custom__py::@dbb7865f5f1482e9afe3",
+					"jsonFile" : "target-rosidl_generator_py_custom__py-cf43c8d8562f093ec6f1.json",
+					"name" : "rosidl_generator_py_custom__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_generator_c-35ebfb435cc240dc1e56.json",
+					"name" : "rosidl_generator_py_custom__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_generator_py-62a8d87641c629b5f355.json",
+					"name" : "rosidl_generator_py_custom__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_generator_type_description-d5366030b2481fd29ba6.json",
+					"name" : "rosidl_generator_py_custom__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_typesupport_c-65216b14d98f893421ca.json",
+					"name" : "rosidl_generator_py_custom__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c-94031a8e269459050f42.json",
+					"name" : "rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_custom__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_custom__rosidl_typesupport_introspection_c-054bcfc2dddc522df431.json",
+					"name" : "rosidl_generator_py_custom__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_s__rosidl_typesupport_c-5858af14df04847a39c1.json",
+					"name" : "rosidl_generator_py_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_s__rosidl_typesupport_fastrtps_c-1fc17fccb8dd64542c0c.json",
+					"name" : "rosidl_generator_py_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_s__rosidl_typesupport_introspection_c-562f2831775a12adcddf.json",
+					"name" : "rosidl_generator_py_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_generator_py_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_generator_py_uninstall-4d2bdbe4d8a2380b57f8.json",
+					"name" : "rosidl_generator_py_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-75a1a9b4c4df742a41b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/rosidl_generator_py",
+		"source" : "/workspace/jazzy_ws/src/rosidl_generator_py"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

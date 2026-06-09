@@ -1,0 +1,232 @@
+[0.092s] Invoking command in '/workspace/jazzy_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.160s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.470s] -- Found sensor_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/sensor_msgs/cmake)
+[0.947s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.948s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.949s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.950s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.745s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.813s] -- Found PythonExtra: /usr/bin/python3  
+[2.155s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.202s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.203s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.208s] -- Configuring done (2.1s)
+[2.235s] -- Generating done (0.0s)
+[2.243s] -- Build files have been written to: /workspace/jazzy_ws/build/stereo_msgs
+[2.248s] Invoked command in '/workspace/jazzy_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.249s] Invoking command in '/workspace/jazzy_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/stereo_msgs -- -j24 -l24
+[2.275s] [  2%] Generating type hashes for ROS interfaces
+[2.280s] [  2%] Built target ament_cmake_python_copy_stereo_msgs
+[2.379s] running egg_info
+[2.384s] creating stereo_msgs.egg-info
+[2.384s] writing stereo_msgs.egg-info/PKG-INFO
+[2.384s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[2.384s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[2.384s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.399s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.399s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.402s] [  2%] Built target stereo_msgs__rosidl_generator_type_description
+[2.408s] [  5%] Generating C code for ROS interfaces
+[2.413s] [  8%] Generating C++ code for ROS interfaces
+[2.415s] [  8%] Built target ament_cmake_python_build_stereo_msgs_egg
+[2.562s] [  8%] Built target stereo_msgs__cpp
+[2.562s] [ 11%] Building C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__description.c.o
+[2.562s] [ 17%] Building C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.o
+[2.562s] [ 17%] Building C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o
+[2.591s] [ 20%] Linking C shared library libstereo_msgs__rosidl_generator_c.so
+[2.611s] [ 20%] Built target stereo_msgs__rosidl_generator_c
+[2.618s] [ 32%] Generating C++ type support dispatch for ROS interfaces
+[2.618s] [ 32%] Generating C introspection for ROS interfaces
+[2.618s] [ 32%] Generating C type support dispatch for ROS interfaces
+[2.618s] [ 32%] Generating C type support for eProsima Fast-RTPS
+[2.618s] [ 38%] Generating C++ type support for eProsima Fast-RTPS
+[2.618s] [ 38%] Generating C++ introspection for ROS interfaces
+[2.760s] [ 44%] Building CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o
+[2.760s] [ 44%] Building CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o
+[2.770s] [ 47%] Building CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/detail/disparity_image__type_support.cpp.o
+[2.770s] [ 50%] Building C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o
+[2.772s] [ 52%] Building CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stereo_msgs/msg/detail/dds_fastrtps/disparity_image__type_support.cpp.o
+[2.780s] [ 55%] Building CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stereo_msgs/msg/detail/disparity_image__type_support_c.cpp.o
+[2.788s] [ 58%] Linking CXX shared library libstereo_msgs__rosidl_typesupport_c.so
+[2.794s] [ 61%] Linking C shared library libstereo_msgs__rosidl_typesupport_introspection_c.so
+[2.811s] [ 61%] Built target stereo_msgs__rosidl_typesupport_c
+[2.812s] [ 61%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[2.918s] [ 64%] Linking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so
+[2.929s] [ 67%] Linking CXX shared library libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[2.942s] [ 67%] Built target stereo_msgs__rosidl_typesupport_cpp
+[2.970s] [ 67%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[2.999s] [ 70%] Linking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.001s] [ 73%] Linking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[3.030s] [ 73%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[3.030s] [ 73%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[3.040s] [ 73%] Built target stereo_msgs
+[3.051s] [ 76%] Generating Python code for ROS interfaces
+[3.262s] [ 76%] Built target stereo_msgs__py
+[3.272s] [ 79%] Building C object CMakeFiles/stereo_msgs__rosidl_generator_py.dir/rosidl_generator_py/stereo_msgs/msg/_disparity_image_s.c.o
+[3.341s] [ 82%] Linking C shared library libstereo_msgs__rosidl_generator_py.so
+[3.369s] [ 82%] Built target stereo_msgs__rosidl_generator_py
+[3.379s] [ 88%] Building C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[3.379s] [ 88%] Building C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o
+[3.379s] [ 91%] Building C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[3.432s] [ 94%] Linking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[3.434s] [ 97%] Linking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[3.437s] [100%] Linking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.449s] [100%] Built target stereo_msgs_s__rosidl_typesupport_introspection_c
+[3.451s] [100%] Built target stereo_msgs_s__rosidl_typesupport_c
+[3.454s] [100%] Built target stereo_msgs_s__rosidl_typesupport_fastrtps_c
+[3.460s] Invoked command in '/workspace/jazzy_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/stereo_msgs -- -j24 -l24
+[3.460s] Invoking command in '/workspace/jazzy_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/stereo_msgs
+[3.464s] -- Install configuration: ""
+[3.464s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[3.464s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/msg/DisparityImage.json
+[3.464s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.464s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.464s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.464s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[3.464s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__description.c
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/library_path.sh
+[3.465s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/library_path.dsv
+[3.465s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_generator_c.so
+[3.465s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_generator_c.so" to ""
+[3.465s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.465s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.465s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.465s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[3.466s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.466s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[3.466s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.466s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[3.466s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.466s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_c.so
+[3.466s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.466s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.466s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[3.466s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.467s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.467s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg
+[3.467s] -- Up-to-date: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[3.467s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[3.468s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.468s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[3.468s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+[3.468s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/pythonpath.sh
+[3.468s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/pythonpath.dsv
+[3.468s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info
+[3.468s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image_s.c
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/__init__.py
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[3.469s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[3.491s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs'...
+[3.491s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/__init__.py'...
+[3.491s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg'...
+[3.491s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py'...
+[3.491s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py'...
+[3.494s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.494s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.495s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[3.495s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[3.495s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[3.495s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so" to ""
+[3.495s] -- Installing: /workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_generator_py.so
+[3.495s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+[3.495s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/msg/DisparityImage.idl
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/msg/DisparityImage.msg
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/ament_prefix_path.sh
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/ament_prefix_path.dsv
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/path.sh
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/environment/path.dsv
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/local_setup.bash
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/local_setup.sh
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/local_setup.zsh
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/local_setup.dsv
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/package.dsv
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/stereo_msgs
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[3.496s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.497s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[3.498s] -- Installing: /workspace/jazzy_ws/install/share/stereo_msgs/package.xml
+[3.500s] Invoked command in '/workspace/jazzy_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/stereo_msgs

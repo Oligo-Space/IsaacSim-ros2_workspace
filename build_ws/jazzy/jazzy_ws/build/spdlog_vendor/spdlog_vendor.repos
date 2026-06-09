@@ -1,0 +1,5 @@
+repositories:
+  spdlog_vendor:
+    type: git
+    url: https://github.com/gabime/spdlog.git
+    version: v1.12.0

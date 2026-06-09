@@ -1,0 +1,5 @@
+repositories:
+  uncrustify_vendor:
+    type: git
+    url: https://github.com/uncrustify/uncrustify.git
+    version: uncrustify-0.78.1

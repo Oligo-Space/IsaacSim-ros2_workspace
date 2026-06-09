@@ -1,0 +1,85 @@
+/usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/osrf_pycommon/osrf_pycommon.egg-info
+writing ../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+writing dependency_links to ../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+writing requirements to ../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+writing top-level names to ../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+writing manifest file '../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+reading manifest file '../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file '../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+copying osrf_pycommon/terminal_utils.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+copying osrf_pycommon/__init__.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon
+creating /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+copying osrf_pycommon/terminal_color/ansi_re.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+copying osrf_pycommon/terminal_color/__init__.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+copying osrf_pycommon/terminal_color/impl.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+copying osrf_pycommon/terminal_color/windows.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+creating /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+copying osrf_pycommon/cli_utils/__init__.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+copying osrf_pycommon/cli_utils/verb_pattern.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+copying osrf_pycommon/cli_utils/common.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+creating /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/async_execute_process.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/__init__.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/impl.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/execute_process_nopty.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/get_loop_impl.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+copying osrf_pycommon/process_utils/execute_process_pty.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+creating /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+copying osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+copying osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+running install
+running install_lib
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_utils.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/ansi_re.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/impl.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/windows.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/verb_pattern.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/common.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/impl.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_nopty.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/get_loop_impl.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+copying /workspace/jazzy_ws/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_pty.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_utils.py to terminal_utils.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color/ansi_re.py to ansi_re.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color/impl.py to impl.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/terminal_color/windows.py to windows.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils/verb_pattern.py to verb_pattern.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/cli_utils/common.py to common.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process.py to async_execute_process.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py to impl.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/impl.py to impl.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/execute_process_nopty.py to execute_process_nopty.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/get_loop_impl.py to get_loop_impl.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon/process_utils/execute_process_pty.py to execute_process_pty.cpython-312.pyc
+running install_data
+copying package.xml -> /workspace/jazzy_ws/install/share/osrf_pycommon
+copying resource/osrf_pycommon -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/osrf_pycommon/osrf_pycommon.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/osrf_pycommon-2.1.7-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspace/jazzy_ws/build/osrf_pycommon/install.log'

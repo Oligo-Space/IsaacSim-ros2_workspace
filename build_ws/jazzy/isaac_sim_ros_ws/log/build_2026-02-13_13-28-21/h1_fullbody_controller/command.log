@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake /workspace/build_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/h1_fullbody_controller
+Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake /workspace/build_ws/src/humanoid_locomotion_policy_example/h1_fullbody_controller -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/h1_fullbody_controller
+Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake --build /workspace/build_ws/build/h1_fullbody_controller -- -j24 -l24
+Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake --build /workspace/build_ws/build/h1_fullbody_controller -- -j24 -l24
+Invoking command in '/workspace/build_ws/build/h1_fullbody_controller': /usr/bin/cmake --install /workspace/build_ws/build/h1_fullbody_controller
+Invoked command in '/workspace/build_ws/build/h1_fullbody_controller' returned '0': /usr/bin/cmake --install /workspace/build_ws/build/h1_fullbody_controller

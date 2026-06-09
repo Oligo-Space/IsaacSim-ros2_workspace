@@ -1,0 +1,23 @@
+{
+  "package_name": "service_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/service_msgs/rosidl_typesupport_c/service_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/service_msgs/rosidl_adapter/service_msgs:msg/ServiceEventInfo.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/workspace/jazzy_ws/build/service_msgs/rosidl_adapter/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

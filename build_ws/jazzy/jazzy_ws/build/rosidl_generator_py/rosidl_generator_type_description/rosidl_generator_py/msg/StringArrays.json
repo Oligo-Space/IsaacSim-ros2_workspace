@@ -1,0 +1,126 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rosidl_generator_py/msg/StringArrays",
+      "fields": [
+        {
+          "name": "ub_string_static_array_value",
+          "type": {
+            "type_id": 69,
+            "capacity": 3,
+            "string_capacity": 5,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "ub_string_ub_array_value",
+          "type": {
+            "type_id": 117,
+            "capacity": 10,
+            "string_capacity": 5,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "ub_string_dynamic_array_value",
+          "type": {
+            "type_id": 165,
+            "capacity": 0,
+            "string_capacity": 5,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "string_dynamic_array_value",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "string_static_array_value",
+          "type": {
+            "type_id": 65,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "string_bounded_array_value",
+          "type": {
+            "type_id": 113,
+            "capacity": 10,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "def_string_dynamic_array_value",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('What', 'a', 'wonderful', 'world', '!')"
+        },
+        {
+          "name": "def_string_static_array_value",
+          "type": {
+            "type_id": 65,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('Hello', 'World', '!')"
+        },
+        {
+          "name": "def_string_bounded_array_value",
+          "type": {
+            "type_id": 113,
+            "capacity": 10,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('Hello', 'World', '!')"
+        },
+        {
+          "name": "def_various_quotes",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('H\"el\\'lo', 'Wo\\'r\"ld')"
+        },
+        {
+          "name": "def_various_commas",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('Hel,lo', ',World', 'abcd', '!,')"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rosidl_generator_py/msg/StringArrays",
+      "hash_string": "RIHS01_696ffea199bfa1d6fb01dd1bae69d3d7373690b6e118d90a25cb69332086d611"
+    }
+  ]
+}

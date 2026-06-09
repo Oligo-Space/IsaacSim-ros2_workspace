@@ -1,0 +1,42 @@
+{
+  "package_name": "geometry_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/geometry_msgs/rosidl_generator_type_description/geometry_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Accel.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovariance.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovarianceStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Inertia.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/InertiaStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point32.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PointStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Polygon.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstance.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstanceStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose2D.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseArray.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovariance.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovarianceStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Quaternion.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/QuaternionStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Transform.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TransformStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Twist.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovariance.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovarianceStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3Stamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/VelocityStamped.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Wrench.idl",
+    "/workspace/jazzy_ws/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/WrenchStamped.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces"
+  ]
+}

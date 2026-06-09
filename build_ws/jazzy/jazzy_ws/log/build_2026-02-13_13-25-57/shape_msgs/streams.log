@@ -1,0 +1,336 @@
+[0.095s] Invoking command in '/workspace/jazzy_ws/build/shape_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.127s] -- The C compiler identification is GNU 13.3.0
+[0.162s] -- The CXX compiler identification is GNU 13.3.0
+[0.171s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.428s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.507s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.512s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.876s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.878s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.879s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.880s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.542s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.619s] -- Found PythonExtra: /usr/bin/python3  
+[2.059s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.116s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.130s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.160s] -- Configuring done (2.1s)
+[2.213s] -- Generating done (0.0s)
+[2.222s] -- Build files have been written to: /workspace/jazzy_ws/build/shape_msgs
+[2.230s] Invoked command in '/workspace/jazzy_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.231s] Invoking command in '/workspace/jazzy_ws/build/shape_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/shape_msgs -- -j24 -l24
+[2.291s] [  1%] Generating type hashes for ROS interfaces
+[2.312s] [  1%] Built target ament_cmake_python_copy_shape_msgs
+[2.471s] running egg_info
+[2.478s] creating shape_msgs.egg-info
+[2.478s] writing shape_msgs.egg-info/PKG-INFO
+[2.478s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[2.478s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[2.478s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[2.499s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[2.499s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[2.521s] [  1%] Built target ament_cmake_python_build_shape_msgs_egg
+[2.561s] [  1%] Built target shape_msgs__rosidl_generator_type_description
+[2.568s] [  3%] Generating C code for ROS interfaces
+[2.575s] [  4%] Generating C++ code for ROS interfaces
+[2.977s] [  4%] Built target shape_msgs__cpp
+[3.026s] [  6%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__type_support.c.o
+[3.029s] [  7%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o
+[3.030s] [  9%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o
+[3.030s] [ 12%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__description.c.o
+[3.030s] [ 12%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o
+[3.030s] [ 14%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__type_support.c.o
+[3.030s] [ 15%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__description.c.o
+[3.031s] [ 17%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o
+[3.031s] [ 18%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__description.c.o
+[3.031s] [ 20%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__description.c.o
+[3.032s] [ 21%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o
+[3.035s] [ 23%] Building C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o
+[3.097s] [ 25%] Linking C shared library libshape_msgs__rosidl_generator_c.so
+[3.154s] [ 25%] Built target shape_msgs__rosidl_generator_c
+[3.162s] [ 26%] Generating C type support for eProsima Fast-RTPS
+[3.163s] [ 28%] Generating C++ type support for eProsima Fast-RTPS
+[3.165s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[3.166s] [ 31%] Generating C introspection for ROS interfaces
+[3.166s] [ 32%] Generating C++ introspection for ROS interfaces
+[3.169s] [ 34%] Generating C type support dispatch for ROS interfaces
+[3.580s] [ 35%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o
+[3.592s] [ 37%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o
+[3.596s] [ 39%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o
+[3.597s] [ 40%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o
+[3.597s] [ 42%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o
+[3.603s] [ 43%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o
+[3.611s] [ 46%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o
+[3.611s] [ 45%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o
+[3.635s] [ 48%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o
+[3.643s] [ 50%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o
+[3.643s] [ 51%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o
+[3.644s] [ 53%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o
+[3.648s] [ 54%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o
+[3.651s] [ 56%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o
+[3.661s] [ 57%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o
+[3.661s] [ 59%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o
+[3.662s] [ 60%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o
+[3.662s] [ 62%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o
+[3.672s] [ 64%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o
+[3.672s] [ 65%] Building CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o
+[3.683s] [ 67%] Building C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o
+[3.686s] [ 68%] Building C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o
+[3.705s] [ 70%] Building C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o
+[3.708s] [ 71%] Building C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o
+[3.769s] [ 73%] Linking CXX shared library libshape_msgs__rosidl_typesupport_c.so
+[3.817s] [ 75%] Linking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so
+[3.845s] [ 75%] Built target shape_msgs__rosidl_typesupport_c
+[3.886s] [ 75%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[4.459s] [ 76%] Linking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so
+[4.543s] [ 76%] Built target shape_msgs__rosidl_typesupport_cpp
+[4.634s] [ 78%] Linking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[4.891s] [ 79%] Linking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[4.939s] [ 79%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[4.984s] [ 79%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[5.248s] [ 81%] Linking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.417s] [ 81%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[5.452s] [ 81%] Built target shape_msgs
+[5.483s] [ 82%] Generating Python code for ROS interfaces
+[6.790s] [ 82%] Built target shape_msgs__py
+[6.829s] [ 84%] Building C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o
+[6.841s] [ 87%] Building C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o
+[6.841s] [ 89%] Building C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o
+[6.841s] [ 85%] Building C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o
+[7.274s] [ 90%] Linking C shared library libshape_msgs__rosidl_generator_py.so
+[7.357s] [ 90%] Built target shape_msgs__rosidl_generator_py
+[7.378s] [ 92%] Building C object CMakeFiles/shape_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[7.389s] [ 93%] Building C object CMakeFiles/shape_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o
+[7.429s] [ 95%] Building C object CMakeFiles/shape_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[7.543s] [ 96%] Linking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.553s] [ 98%] Linking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[7.618s] [ 98%] Built target shape_msgs_s__rosidl_typesupport_fastrtps_c
+[7.618s] [100%] Linking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[7.618s] [100%] Built target shape_msgs_s__rosidl_typesupport_c
+[7.646s] [100%] Built target shape_msgs_s__rosidl_typesupport_introspection_c
+[7.668s] Invoked command in '/workspace/jazzy_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/shape_msgs -- -j24 -l24
+[7.669s] Invoking command in '/workspace/jazzy_ws/build/shape_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/shape_msgs
+[7.684s] -- Install configuration: ""
+[7.684s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[7.685s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Mesh.json
+[7.685s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/MeshTriangle.json
+[7.685s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Plane.json
+[7.685s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/SolidPrimitive.json
+[7.685s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.685s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.685s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.685s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__description.c
+[7.689s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[7.689s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__description.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__description.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__description.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/mesh.h
+[7.692s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[7.693s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[7.693s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/plane.h
+[7.693s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.693s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/library_path.sh
+[7.693s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/library_path.dsv
+[7.696s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_generator_c.so
+[7.696s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[7.696s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.696s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.696s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.696s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[7.696s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[7.696s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[7.696s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[7.696s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.697s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[7.697s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.697s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[7.697s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[7.697s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[7.697s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[7.697s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[7.698s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[7.698s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[7.698s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[7.701s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[7.701s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/plane.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[7.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[7.702s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.702s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.702s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.703s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.703s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[7.703s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[7.704s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[7.704s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[7.705s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.705s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[7.705s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.705s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_c.so
+[7.705s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[7.705s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs
+[7.705s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg
+[7.705s] -- Up-to-date: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail
+[7.705s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[7.706s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[7.706s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[7.707s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[7.707s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[7.707s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[7.707s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[7.707s] -- Installing: /workspace/jazzy_ws/install/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[7.708s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[7.708s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[7.708s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/pythonpath.sh
+[7.708s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/pythonpath.dsv
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[7.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[7.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs
+[7.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg
+[7.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py
+[7.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_plane.py
+[7.710s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh_s.c
+[7.710s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py
+[7.710s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/__init__.py
+[7.710s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle_s.c
+[7.710s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive_s.c
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_plane_s.c
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/__init__.py
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.712s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.795s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs'...
+[7.795s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/__init__.py'...
+[7.796s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg'...
+[7.796s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/__init__.py'...
+[7.796s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py'...
+[7.796s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py'...
+[7.796s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_plane.py'...
+[7.796s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py'...
+[7.811s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.811s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.811s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[7.811s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[7.812s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[7.817s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so" to ""
+[7.817s] -- Installing: /workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_generator_py.so
+[7.817s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Mesh.idl
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/MeshTriangle.idl
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Plane.idl
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/SolidPrimitive.idl
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Mesh.msg
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/MeshTriangle.msg
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/Plane.msg
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/msg/SolidPrimitive.msg
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/ament_prefix_path.sh
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/ament_prefix_path.dsv
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/path.sh
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/environment/path.dsv
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/local_setup.bash
+[7.817s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/local_setup.sh
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/local_setup.zsh
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/local_setup.dsv
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/package.dsv
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/shape_msgs
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.818s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.824s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.825s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.829s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[7.829s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[7.831s] -- Installing: /workspace/jazzy_ws/install/share/shape_msgs/package.xml
+[7.831s] Invoked command in '/workspace/jazzy_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/shape_msgs

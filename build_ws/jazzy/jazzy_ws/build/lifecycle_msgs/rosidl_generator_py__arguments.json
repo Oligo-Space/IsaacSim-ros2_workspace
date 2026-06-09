@@ -1,0 +1,46 @@
+{
+  "package_name": "lifecycle_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_py/lifecycle_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_generator_py/__init__.py",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetState.idl",
+    "/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

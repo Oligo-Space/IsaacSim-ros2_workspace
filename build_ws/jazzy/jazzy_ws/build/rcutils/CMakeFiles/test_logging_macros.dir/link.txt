@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_logging_macros.dir/test/test_logging_macros.cpp.o -o test_logging_macros  -Wl,-rpath,/workspace/jazzy_ws/build/rcutils gmock/libgmock_main.a gmock/libgmock.a librcutils.so -pthread -ldl -latomic 

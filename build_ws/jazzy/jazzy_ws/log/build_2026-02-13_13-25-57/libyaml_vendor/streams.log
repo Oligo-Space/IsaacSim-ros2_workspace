@@ -1,0 +1,161 @@
+[0.348s] Invoking command in '/workspace/jazzy_ws/build/libyaml_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/libyaml_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.421s] -- The C compiler identification is GNU 13.3.0
+[0.500s] -- The CXX compiler identification is GNU 13.3.0
+[0.521s] -- Detecting C compiler ABI info
+[0.623s] -- Detecting C compiler ABI info - done
+[0.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.633s] -- Detecting C compile features - done
+[0.647s] -- Detecting CXX compiler ABI info
+[0.797s] -- Detecting CXX compiler ABI info - done
+[0.808s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.810s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.814s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.968s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.055s] -- Found ament_cmake_vendor_package: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_vendor_package/cmake)
+[1.067s] -- Checking for module 'yaml-0.1'
+[1.083s] --   Package 'yaml-0.1', required by 'virtual:world', not found
+[1.114s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[1.349s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.351s] -- Found Threads: TRUE  
+[1.356s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[1.360s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.367s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.367s] -- Configured cppcheck include dirs: /workspace/jazzy_ws/install/include
+[1.367s] -- Configured cppcheck exclude dirs and/or files: 
+[1.367s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.367s] -- Configured cpplint exclude dirs and/or files: 
+[1.372s] -- Added test 'uncrustify' to check C / C++ code style
+[1.372s] -- Configured uncrustify additional arguments: 
+[1.373s] -- Added test 'xmllint' to check XML markup files
+[1.375s] -- Configuring done (1.0s)
+[1.385s] -- Generating done (0.0s)
+[1.388s] -- Build files have been written to: /workspace/jazzy_ws/build/libyaml_vendor
+[1.392s] Invoked command in '/workspace/jazzy_ws/build/libyaml_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/libyaml_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[1.393s] Invoking command in '/workspace/jazzy_ws/build/libyaml_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/libyaml_vendor -- -j24 -l24
+[1.438s] [  6%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[1.444s] [ 12%] Creating directories for 'libyaml_vendor'
+[1.447s] [ 18%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.479s] [ 25%] Performing download step for 'libyaml_vendor'
+[1.596s] /usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+[1.596s]   from pkg_resources import load_entry_point
+[2.132s] [ 31%] Linking CXX static library libgtest_main.a
+[2.148s] [ 31%] Built target gtest_main
+[2.422s] === ./libyaml_vendor (git) ===
+[2.422s] hint: Using 'master' as the name for the initial branch. This default branch name
+[2.422s] hint: is subject to change. To configure the initial branch name to use in all
+[2.422s] hint: of your new repositories, which will suppress this warning, call:
+[2.422s] hint: 
+[2.422s] hint: 	git config --global init.defaultBranch <name>
+[2.422s] hint: 
+[2.422s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[2.422s] hint: 'development'. The just-created branch can be renamed via this command:
+[2.423s] hint: 
+[2.423s] hint: 	git branch -m <name>
+[2.423s] Initialized empty Git repository in /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor/.git/
+[2.423s] 
+[2.423s] From https://github.com/yaml/libyaml
+[2.423s]  * [new tag]         0.2.5      -> 0.2.5
+[2.423s] Note: switching to '0.2.5'.
+[2.423s] 
+[2.423s] You are in 'detached HEAD' state. You can look around, make experimental
+[2.423s] changes and commit them, and you can discard any commits you make in this
+[2.423s] state without impacting any branches by switching back to a branch.
+[2.423s] 
+[2.423s] If you want to create a new branch to retain commits you create, you may
+[2.423s] do so (now or later) by using -c with the switch command. Example:
+[2.423s] 
+[2.423s]   git switch -c <new-branch-name>
+[2.423s] 
+[2.423s] Or undo this operation with:
+[2.423s] 
+[2.423s]   git switch -
+[2.423s] 
+[2.423s] Turn off this advice by setting config variable advice.detachedHead to false
+[2.423s] 
+[2.423s] HEAD is now at 2c891fc Changes for v0.2.5 release
+[2.423s] 
+[2.469s] [ 37%] No update_disconnected step for 'libyaml_vendor'
+[2.494s] [ 43%] No patch_disconnected step for 'libyaml_vendor'
+[2.523s] [ 50%] Performing configure step for 'libyaml_vendor'
+[2.541s] loading initial cache file /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-config.cmake
+[2.609s] -- The C compiler identification is GNU 13.3.0
+[2.632s] -- Detecting C compiler ABI info
+[2.741s] -- Detecting C compiler ABI info - done
+[2.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.759s] -- Detecting C compile features
+[2.759s] -- Detecting C compile features - done
+[2.759s] -- Configuring done (0.2s)
+[2.765s] -- Generating done (0.0s)
+[2.769s] -- Build files have been written to: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/src/libyaml_vendor-build
+[2.802s] [ 56%] Performing build step for 'libyaml_vendor'
+[2.863s] [ 11%] Building C object CMakeFiles/yaml.dir/src/api.c.o
+[2.863s] [ 22%] Building C object CMakeFiles/yaml.dir/src/parser.c.o
+[2.865s] [ 44%] Building C object CMakeFiles/yaml.dir/src/reader.c.o
+[2.868s] [ 44%] Building C object CMakeFiles/yaml.dir/src/emitter.c.o
+[2.868s] [ 55%] Building C object CMakeFiles/yaml.dir/src/dumper.c.o
+[2.869s] [ 66%] Building C object CMakeFiles/yaml.dir/src/loader.c.o
+[2.877s] [ 77%] Building C object CMakeFiles/yaml.dir/src/scanner.c.o
+[2.877s] [ 88%] Building C object CMakeFiles/yaml.dir/src/writer.c.o
+[3.212s] [100%] Linking C shared library libyaml.so
+[3.266s] [100%] Built target yaml
+[3.290s] [ 62%] Performing install step for 'libyaml_vendor'
+[3.344s] [100%] Built target yaml
+[3.382s] Install the project...
+[3.382s] -- Install configuration: ""
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/include/yaml.h
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/lib/libyaml.so
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/cmake/yamlConfig.cmake
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/cmake/yamlTargets.cmake
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/cmake/yamlTargets-noconfig.cmake
+[3.382s] -- Installing: /workspace/jazzy_ws/build/libyaml_vendor/libyaml_vendor-prefix/install/cmake/yamlConfigVersion.cmake
+[3.405s] [ 68%] Completed 'libyaml_vendor'
+[3.446s] [ 68%] Built target libyaml_vendor
+[3.477s] [ 75%] Building CXX object CMakeFiles/benchmark_reader.dir/test/benchmark/benchmark_reader.cpp.o
+[4.285s] [ 81%] Linking CXX executable benchmark_reader
+[4.418s] [ 81%] Built target benchmark_reader
+[5.176s] [ 87%] Linking CXX static library libgtest.a
+[5.247s] [ 87%] Built target gtest
+[5.274s] [ 93%] Building CXX object CMakeFiles/test_yaml_reader.dir/test/test_reader.cpp.o
+[5.994s] [100%] Linking CXX executable test_yaml_reader
+[6.114s] [100%] Built target test_yaml_reader
+[6.123s] Invoked command in '/workspace/jazzy_ws/build/libyaml_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/libyaml_vendor -- -j24 -l24
+[6.123s] Invoking command in '/workspace/jazzy_ws/build/libyaml_vendor': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/libyaml_vendor
+[6.130s] -- Install configuration: ""
+[6.130s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor
+[6.130s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/lib
+[6.130s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/lib/libyaml.so
+[6.133s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/cmake
+[6.133s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/cmake/yamlTargets-noconfig.cmake
+[6.133s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/cmake/yamlConfigVersion.cmake
+[6.133s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/cmake/yamlConfig.cmake
+[6.133s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/cmake/yamlTargets.cmake
+[6.137s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/include
+[6.137s] -- Installing: /workspace/jazzy_ws/install/opt/libyaml_vendor/include/yaml.h
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/vendor_package.bat
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/vendor_package.dsv
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/vendor_package.sh
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/vendor_packages/libyaml_vendor
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/Modules
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/Modules/Findyaml.cmake
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/libyaml_vendor
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/libyaml_vendor
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/ament_prefix_path.sh
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/ament_prefix_path.dsv
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/path.sh
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/environment/path.dsv
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/local_setup.bash
+[6.137s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/local_setup.sh
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/local_setup.zsh
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/local_setup.dsv
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/package.dsv
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/libyaml_vendor
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/vendor_package_cmake_prefix.cmake
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake
+[6.138s] -- Installing: /workspace/jazzy_ws/install/share/libyaml_vendor/package.xml
+[6.138s] Invoked command in '/workspace/jazzy_ws/build/libyaml_vendor' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/libyaml_vendor

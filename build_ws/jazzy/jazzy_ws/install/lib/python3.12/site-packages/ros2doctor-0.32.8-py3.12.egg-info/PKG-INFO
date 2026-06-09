@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: ros2doctor
+Version: 0.32.8
+Summary: The doctor command for ROS 2 command line tools
+Home-page: 
+Download-URL: 
+Author: Claire Wang
+Author-email: clairewang@openrobotics.org
+Maintainer: Audrow Nash, Geoffrey Biggs
+Maintainer-email: audrow@openrobotics.org, geoff@openrobotics.org
+License: Apache License, Version 2.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Requires-Dist: ros2cli
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+    The package provides a cli tool to check potential issues in a ROS 2 system

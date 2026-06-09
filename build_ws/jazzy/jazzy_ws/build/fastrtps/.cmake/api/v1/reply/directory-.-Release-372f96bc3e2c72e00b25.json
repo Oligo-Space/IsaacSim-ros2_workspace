@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 573,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 579,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 584,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "licenses",
+			"destination" : "share/fastrtps",
+			"paths" : 
+			[
+				"LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "xsd",
+			"destination" : "share",
+			"paths" : 
+			[
+				"resources/xsd/fastRTPS_profiles.xsd"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "xsd",
+			"destination" : "share",
+			"paths" : 
+			[
+				"resources/xsd/fastdds_static_discovery.xsd"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

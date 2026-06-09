@@ -1,0 +1,157 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+-- Found rcutils: 6.7.5 (/workspace/jazzy_ws/install/share/rcutils/cmake)
+-- Found ament_cmake_copyright: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_xmllint/cmake)
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/rcpputils
+[  1%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[  3%] Generating rcpputils/version.h
+[  5%] Building C object CMakeFiles/dummy_shared_library.dir/test/dummy_shared_library/dummy_shared_library.c.o
+[  7%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  7%] Built target ament_generate_version_header__rcpputils
+[  9%] Linking C shared library libdummy_shared_library.so
+[ 13%] Building CXX object CMakeFiles/rcpputils.dir/src/asserts.cpp.o
+[ 15%] Building CXX object CMakeFiles/rcpputils.dir/src/env.cpp.o
+[ 17%] Building CXX object CMakeFiles/rcpputils.dir/src/process.cpp.o
+[ 19%] Building CXX object CMakeFiles/rcpputils.dir/src/find_library.cpp.o
+[ 13%] Building CXX object CMakeFiles/rcpputils.dir/src/filesystem_helper.cpp.o
+[ 21%] Building CXX object CMakeFiles/rcpputils.dir/src/shared_library.cpp.o
+[ 21%] Built target dummy_shared_library
+[ 23%] Linking CXX shared library librcpputils.so
+[ 23%] Built target rcpputils
+[ 25%] Building CXX object CMakeFiles/test_library.dir/test/test_library.cpp.o
+[ 26%] Linking CXX shared library libtest_library.so
+[ 28%] Linking CXX static library libgtest_main.a
+[ 28%] Built target gtest_main
+[ 28%] Built target test_library
+[ 30%] Linking CXX static library libgtest.a
+[ 30%] Built target gtest
+[ 32%] Building CXX object CMakeFiles/test_asserts_ndebug.dir/test/test_asserts.cpp.o
+[ 34%] Building CXX object CMakeFiles/test_thread_safety_annotations.dir/test/test_thread_safety_annotations.cpp.o
+[ 36%] Building CXX object CMakeFiles/test_asserts_debug.dir/test/test_asserts.cpp.o
+[ 38%] Building CXX object CMakeFiles/test_join.dir/test/test_join.cpp.o
+[ 40%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[ 42%] Building CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o
+[ 44%] Building CXX object CMakeFiles/test_filesystem_helper.dir/test/test_filesystem_helper.cpp.o
+[ 46%] Building CXX object CMakeFiles/test_find_and_replace.dir/test/test_find_and_replace.cpp.o
+[ 48%] Building CXX object CMakeFiles/test_scope_exit.dir/test/test_scope_exit.cpp.o
+[ 50%] Building CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o
+[ 51%] Building CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o
+[ 53%] Building CXX object CMakeFiles/test_find_library.dir/test/test_find_library.cpp.o
+[ 55%] Building CXX object CMakeFiles/test_pointer_traits.dir/test/test_pointer_traits.cpp.o
+[ 57%] Building CXX object CMakeFiles/test_shared_library.dir/test/test_shared_library.cpp.o
+[ 59%] Building CXX object CMakeFiles/test_clamp.dir/test/test_clamp.cpp.o
+[ 65%] Building CXX object CMakeFiles/test_unique_lock.dir/test/test_unique_lock.cpp.o
+[ 63%] Building CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o
+[ 61%] Building CXX object CMakeFiles/test_endian.dir/test/test_endian.cpp.o
+[ 67%] Linking CXX executable test_find_and_replace
+[ 69%] Linking CXX executable test_env
+[ 69%] Built target test_find_and_replace
+[ 71%] Linking CXX executable test_accumulator
+[ 73%] Linking CXX executable test_asserts_ndebug
+[ 75%] Linking CXX executable test_asserts_debug
+[ 75%] Built target test_env
+[ 76%] Linking CXX executable test_time
+[ 78%] Linking CXX executable test_thread_safety_annotations
+[ 80%] Linking CXX executable test_shared_library
+[ 80%] Built target test_accumulator
+[ 80%] Built target test_asserts_ndebug
+[ 80%] Built target test_asserts_debug
+[ 80%] Built target test_time
+[ 80%] Built target test_thread_safety_annotations
+[ 80%] Built target test_shared_library
+[ 82%] Linking CXX executable test_join
+[ 82%] Built target test_join
+[ 84%] Linking CXX executable test_find_library
+[ 86%] Linking CXX executable test_endian
+[ 88%] Linking CXX executable test_unique_lock
+[ 90%] Linking CXX executable test_scope_exit
+[ 90%] Built target test_unique_lock
+[ 92%] Linking CXX executable test_filesystem_helper
+[ 94%] Linking CXX executable test_pointer_traits
+[ 94%] Built target test_endian
+[ 94%] Built target test_find_library
+[ 94%] Built target test_scope_exit
+[ 96%] Linking CXX executable test_split
+[ 98%] Linking CXX executable test_process
+[ 98%] Built target test_filesystem_helper
+[ 98%] Built target test_pointer_traits
+[ 98%] Built target test_split
+[ 98%] Built target test_process
+[100%] Linking CXX executable test_clamp
+[100%] Built target test_clamp
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/library_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/library_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcpputils
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcpputils
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcpputils
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsExport-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/cmake/rcpputilsConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcpputils/package.xml
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath/clamp.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcppmath/rolling_mean_accumulator.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/find_library.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/tl_expected
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/tl_expected/expected.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/get_env.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/pointer_traits.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/env.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/asserts.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/thread_safety_annotations.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/process.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/rolling_mean_accumulator.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/filesystem_helper.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/join.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/unique_lock.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/endian.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/time.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/visibility_control.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/shared_library.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/split.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/scope_exit.hpp
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/find_and_replace.hpp
+-- Installing: /workspace/jazzy_ws/install/lib/librcpputils.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcpputils.so" to ""
+-- Installing: /workspace/jazzy_ws/install/include/rcpputils/rcpputils/version.h

@@ -1,0 +1,15 @@
+/workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+/workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+/workspace/jazzy_ws/install/share/common_interfaces/environment/ament_prefix_path.sh
+/workspace/jazzy_ws/install/share/common_interfaces/environment/ament_prefix_path.dsv
+/workspace/jazzy_ws/install/share/common_interfaces/environment/path.sh
+/workspace/jazzy_ws/install/share/common_interfaces/environment/path.dsv
+/workspace/jazzy_ws/install/share/common_interfaces/local_setup.bash
+/workspace/jazzy_ws/install/share/common_interfaces/local_setup.sh
+/workspace/jazzy_ws/install/share/common_interfaces/local_setup.zsh
+/workspace/jazzy_ws/install/share/common_interfaces/local_setup.dsv
+/workspace/jazzy_ws/install/share/common_interfaces/package.dsv
+/workspace/jazzy_ws/install/share/ament_index/resource_index/packages/common_interfaces
+/workspace/jazzy_ws/install/share/common_interfaces/cmake/common_interfacesConfig.cmake
+/workspace/jazzy_ws/install/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+/workspace/jazzy_ws/install/share/common_interfaces/package.xml

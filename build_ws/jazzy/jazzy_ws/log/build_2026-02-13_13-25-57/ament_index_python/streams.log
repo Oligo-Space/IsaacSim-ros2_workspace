@@ -1,0 +1,64 @@
+[0.728s] Invoking command in '/workspace/jazzy_ws/src/ament_index/ament_index_python': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_index_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /workspace/jazzy_ws/build/ament_index_python/build install --record /workspace/jazzy_ws/build/ament_index_python/install.log --single-version-externally-managed install_data
+[0.806s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.806s]   warnings.warn(msg)
+[0.813s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.813s] !!
+[0.813s] 
+[0.814s]         ********************************************************************************
+[0.814s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.814s] 
+[0.814s]         License :: OSI Approved :: Apache Software License
+[0.814s] 
+[0.814s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.814s]         ********************************************************************************
+[0.814s] 
+[0.814s] !!
+[0.814s]   self._finalize_license_expression()
+[0.830s] running egg_info
+[0.834s] creating ../../../build/ament_index_python/ament_index_python.egg-info
+[0.834s] writing ../../../build/ament_index_python/ament_index_python.egg-info/PKG-INFO
+[0.834s] writing dependency_links to ../../../build/ament_index_python/ament_index_python.egg-info/dependency_links.txt
+[0.834s] writing entry points to ../../../build/ament_index_python/ament_index_python.egg-info/entry_points.txt
+[0.834s] writing requirements to ../../../build/ament_index_python/ament_index_python.egg-info/requires.txt
+[0.835s] writing top-level names to ../../../build/ament_index_python/ament_index_python.egg-info/top_level.txt
+[0.835s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.845s] reading manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.845s] creating /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/search_paths.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/resources.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/cli.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/__init__.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/packages.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.845s] copying ament_index_python/constants.py -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.846s] copying ament_index_python/py.typed -> /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python
+[0.846s] running install
+[0.863s] running install_lib
+[0.863s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/search_paths.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/resources.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/cli.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/packages.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/py.typed -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] copying /workspace/jazzy_ws/build/ament_index_python/build/lib/ament_index_python/constants.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/search_paths.py to search_paths.cpython-312.pyc
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/resources.py to resources.cpython-312.pyc
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/cli.py to cli.cpython-312.pyc
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/__init__.py to __init__.cpython-312.pyc
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/packages.py to packages.cpython-312.pyc
+[0.863s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python/constants.py to constants.cpython-312.pyc
+[0.863s] running install_data
+[0.863s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_index_python
+[0.863s] creating /workspace/jazzy_ws/install/share/ament_index_python/environment
+[0.863s] copying completion/ament_index-argcomplete.bash -> /workspace/jazzy_ws/install/share/ament_index_python/environment
+[0.863s] copying completion/ament_index-argcomplete.zsh -> /workspace/jazzy_ws/install/share/ament_index_python/environment
+[0.863s] copying resource/ament_index_python -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.863s] running install_egg_info
+[0.863s] Copying ../../../build/ament_index_python/ament_index_python.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_index_python-1.8.3-py3.12.egg-info
+[0.863s] running install_scripts
+[0.868s] Installing ament_index script to /workspace/jazzy_ws/install/bin
+[0.868s] writing list of installed files to '/workspace/jazzy_ws/build/ament_index_python/install.log'
+[0.897s] Invoked command in '/workspace/jazzy_ws/src/ament_index/ament_index_python' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_index_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_index_python build --build-base /workspace/jazzy_ws/build/ament_index_python/build install --record /workspace/jazzy_ws/build/ament_index_python/install.log --single-version-externally-managed install_data

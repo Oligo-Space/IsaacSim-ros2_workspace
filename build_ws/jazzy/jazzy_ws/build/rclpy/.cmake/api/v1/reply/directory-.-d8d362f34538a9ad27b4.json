@@ -1,0 +1,551 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_environment_hooks",
+			"_ament_cmake_python_register_environment_hook",
+			"ament_python_install_package",
+			"_ament_cmake_python_install_package",
+			"configure_build_install_location",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"CMakeLists.txt",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 39,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 157,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 184,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 69,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 66,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 5,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 47,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 29,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 20
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 48,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 20,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 26,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 107,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 120,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 11,
+				"parent" : 38
+			},
+			{
+				"command" : 13,
+				"file" : 11,
+				"line" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 29,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 41
+			},
+			{
+				"command" : 14,
+				"file" : 7,
+				"line" : 68,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 150,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 157,
+				"parent" : 43
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/pythonpath.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/pythonpath.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/workspace/jazzy_ws/build/rclpy/ament_cmake_python/rclpy/rclpy.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/python3.12/site-packages/rclpy",
+			"paths" : 
+			[
+				{
+					"from" : "rclpy",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/python3.12/site-packages/rclpy",
+			"paths" : 
+			[
+				"test_rclpy/_rclpy_pybind11.cpython-312-x86_64-linux-gnu.so"
+			],
+			"targetId" : "_rclpy_pybind11::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "_rclpy_pybind11::@6890427a1f51a3e7e1df",
+				"index" : 0
+			},
+			"destination" : "lib/python3.12/site-packages/rclpy",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rclpy"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rclpy"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_index/share/ament_index/resource_index/packages/rclpy"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_core/rclpyConfig.cmake",
+				"/workspace/jazzy_ws/build/rclpy/ament_cmake_core/rclpyConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/rclpy",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

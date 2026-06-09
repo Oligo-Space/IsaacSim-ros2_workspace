@@ -1,0 +1,385 @@
+[0.098s] Invoking command in '/workspace/jazzy_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.165s] -- The CXX compiler identification is GNU 13.3.0
+[0.175s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.301s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.434s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.476s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.477s] -- Found std_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/std_msgs/cmake)
+[0.853s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.854s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.855s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.856s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.479s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.556s] -- Found PythonExtra: /usr/bin/python3  
+[1.978s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.045s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.051s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.060s] -- Configuring done (2.0s)
+[2.126s] -- Generating done (0.0s)
+[2.137s] -- Build files have been written to: /workspace/jazzy_ws/build/diagnostic_msgs
+[2.144s] Invoked command in '/workspace/jazzy_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.144s] Invoking command in '/workspace/jazzy_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/diagnostic_msgs -- -j24 -l24
+[2.219s] [  1%] Generating type hashes for ROS interfaces
+[2.233s] [  1%] Built target ament_cmake_python_copy_diagnostic_msgs
+[2.371s] running egg_info
+[2.377s] creating diagnostic_msgs.egg-info
+[2.378s] writing diagnostic_msgs.egg-info/PKG-INFO
+[2.378s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[2.378s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[2.378s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[2.398s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[2.399s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[2.419s] [  1%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[2.527s] [  1%] Built target diagnostic_msgs__rosidl_generator_type_description
+[2.534s] [  2%] Generating C code for ROS interfaces
+[2.541s] [  4%] Generating C++ code for ROS interfaces
+[2.951s] [  4%] Built target diagnostic_msgs__cpp
+[3.101s] [  5%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__description.c.o
+[3.101s] [  6%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o
+[3.104s] [  8%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__functions.c.o
+[3.107s] [ 10%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o
+[3.108s] [ 12%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__functions.c.o
+[3.108s] [ 13%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__functions.c.o
+[3.111s] [ 14%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__functions.c.o
+[3.111s] [ 16%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__description.c.o
+[3.116s] [ 18%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__description.c.o
+[3.117s] [  9%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__description.c.o
+[3.119s] [ 17%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o
+[3.130s] [ 20%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o
+[3.133s] [ 21%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__functions.c.o
+[3.138s] [ 22%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o
+[3.139s] [ 24%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__description.c.o
+[3.213s] [ 25%] Linking C shared library libdiagnostic_msgs__rosidl_generator_c.so
+[3.252s] [ 25%] Built target diagnostic_msgs__rosidl_generator_c
+[3.265s] [ 28%] Generating C introspection for ROS interfaces
+[3.269s] [ 27%] Generating C++ type support dispatch for ROS interfaces
+[3.273s] [ 29%] Generating C type support for eProsima Fast-RTPS
+[3.273s] [ 32%] Generating C++ introspection for ROS interfaces
+[3.273s] [ 32%] Generating C type support dispatch for ROS interfaces
+[3.279s] [ 33%] Generating C++ type support for eProsima Fast-RTPS
+[3.868s] [ 35%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o
+[3.869s] [ 37%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o
+[3.877s] [ 39%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o
+[3.878s] [ 36%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o
+[3.882s] [ 40%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o
+[3.985s] [ 41%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/add_diagnostics__type_support.cpp.o
+[3.991s] [ 43%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_status__type_support.cpp.o
+[3.991s] [ 44%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o
+[3.991s] [ 45%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_array__type_support.cpp.o
+[4.007s] [ 47%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/self_test__type_support.cpp.o
+[4.028s] [ 48%] Linking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so
+[4.051s] [ 50%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support_c.cpp.o
+[4.057s] [ 51%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/key_value__type_support_c.cpp.o
+[4.064s] [ 52%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support_c.cpp.o
+[4.065s] [ 54%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support_c.cpp.o
+[4.065s] [ 55%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/self_test__type_support_c.cpp.o
+[4.089s] [ 56%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp.o
+[4.089s] [ 58%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp.o
+[4.096s] [ 59%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/key_value__type_support.cpp.o
+[4.096s] [ 60%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp.o
+[4.114s] [ 62%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/self_test__type_support.cpp.o
+[4.121s] [ 62%] Built target diagnostic_msgs__rosidl_typesupport_c
+[4.213s] [ 64%] Building C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o
+[4.223s] [ 67%] Building C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o
+[4.223s] [ 63%] Building C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o
+[4.227s] [ 70%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o
+[4.227s] [ 70%] Building C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o
+[4.227s] [ 70%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o
+[4.228s] [ 71%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o
+[4.232s] [ 74%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o
+[4.238s] [ 72%] Building C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o
+[4.307s] [ 75%] Building CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o
+[4.391s] [ 77%] Linking C shared library libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[4.445s] [ 77%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[4.991s] [ 78%] Linking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[5.062s] [ 78%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[5.253s] [ 79%] Linking CXX shared library libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[5.384s] [ 79%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[5.420s] [ 81%] Linking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[5.517s] [ 82%] Linking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.611s] [ 82%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[5.656s] [ 82%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[5.689s] [ 82%] Built target diagnostic_msgs
+[5.733s] [ 83%] Generating Python code for ROS interfaces
+[7.484s] [ 83%] Built target diagnostic_msgs__py
+[7.507s] [ 85%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_array_s.c.o
+[7.514s] [ 86%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_status_s.c.o
+[7.520s] [ 89%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_self_test_s.c.o
+[7.529s] [ 89%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_add_diagnostics_s.c.o
+[7.529s] [ 90%] Building C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_key_value_s.c.o
+[7.835s] [ 91%] Linking C shared library libdiagnostic_msgs__rosidl_generator_py.so
+[7.880s] [ 91%] Built target diagnostic_msgs__rosidl_generator_py
+[7.882s] [ 93%] Building C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[7.890s] [ 94%] Building C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[7.895s] [ 95%] Building C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c.o
+[7.988s] [ 97%] Linking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[7.992s] [ 98%] Linking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.008s] [100%] Linking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[8.013s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_introspection_c
+[8.017s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_fastrtps_c
+[8.032s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_c
+[8.041s] Invoked command in '/workspace/jazzy_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/diagnostic_msgs -- -j24 -l24
+[8.042s] Invoking command in '/workspace/jazzy_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/diagnostic_msgs
+[8.049s] -- Install configuration: ""
+[8.049s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[8.049s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticArray.json
+[8.049s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticStatus.json
+[8.049s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/KeyValue.json
+[8.050s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/AddDiagnostics.json
+[8.050s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/SelfTest.json
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[8.050s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__description.c
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[8.051s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__description.c
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__description.c
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__description.c
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[8.052s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__description.c
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[8.053s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[8.054s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[8.054s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/library_path.sh
+[8.054s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/library_path.dsv
+[8.054s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[8.054s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_generator_c.so" to ""
+[8.054s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.054s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.054s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.054s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[8.055s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[8.055s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[8.055s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.055s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.055s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.055s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[8.055s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[8.055s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[8.055s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.055s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.056s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.056s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.056s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.056s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[8.056s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[8.057s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[8.057s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[8.057s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.057s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[8.057s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[8.057s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.058s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.058s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[8.058s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[8.059s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.059s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[8.059s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[8.060s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.060s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.060s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.060s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.061s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.061s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[8.061s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[8.061s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.062s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.062s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs
+[8.062s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg
+[8.062s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[8.062s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv
+[8.062s] -- Up-to-date: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[8.062s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[8.063s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[8.063s] -- Installing: /workspace/jazzy_ws/install/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[8.063s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[8.063s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.063s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[8.064s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[8.064s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/pythonpath.sh
+[8.064s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/pythonpath.dsv
+[8.064s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info
+[8.064s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[8.064s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value_s.c
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py
+[8.065s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/__init__.py
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test_s.c
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[8.066s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[8.067s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[8.106s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/__init__.py'...
+[8.106s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py'...
+[8.106s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py'...
+[8.106s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py'...
+[8.111s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.111s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.111s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[8.112s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.112s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[8.112s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so" to ""
+[8.112s] -- Installing: /workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[8.112s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[8.112s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/KeyValue.idl
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/SelfTest.idl
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/msg/KeyValue.msg
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[8.113s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/srv/SelfTest.srv
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/path.sh
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/environment/path.dsv
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/local_setup.bash
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/local_setup.sh
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/local_setup.zsh
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/local_setup.dsv
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/package.dsv
+[8.114s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/diagnostic_msgs
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.115s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[8.116s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[8.117s] -- Installing: /workspace/jazzy_ws/install/share/diagnostic_msgs/package.xml
+[8.119s] Invoked command in '/workspace/jazzy_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/diagnostic_msgs

@@ -1,0 +1,270 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found lifecycle_msgs: 2.0.3 (/workspace/jazzy_ws/install/share/lifecycle_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rcl: 9.2.9 (/workspace/jazzy_ws/install/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 7.3.3 (/workspace/jazzy_ws/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/workspace/jazzy_ws/install/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /workspace/jazzy_ws/install/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rcl_action: 9.2.9 (/workspace/jazzy_ws/install/share/rcl_action/cmake)
+-- Found rcl_lifecycle: 9.2.9 (/workspace/jazzy_ws/install/share/rcl_lifecycle/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pybind11_vendor: 3.1.3 (/workspace/jazzy_ws/install/share/pybind11_vendor/cmake)
+-- Performing Test HAS_FLTO_AUTO
+-- Performing Test HAS_FLTO_AUTO - Success
+-- Found pybind11: /usr/local/include (found version "3.0.1")
+-- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/rclpy
+[  2%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[  4%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  6%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_logging.cpp.o
+[  9%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/_rclpy_pybind11.cpp.o
+[ 11%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/clock.cpp.o
+[ 15%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/client.cpp.o
+[ 15%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_server.cpp.o
+[ 20%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_goal_handle.cpp.o
+[ 20%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/action_client.cpp.o
+[ 22%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/context.cpp.o
+[ 25%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/destroyable.cpp.o
+[ 29%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/clock_event.cpp.o
+[ 29%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/events_executor/delayed_event_thread.cpp.o
+[ 31%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/duration.cpp.o
+[ 34%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/events_executor/events_executor.cpp.o
+[ 38%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/events_executor/events_queue.cpp.o
+[ 38%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/events_executor/rcl_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/events_executor/timers_manager.cpp.o
+[ 43%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/exceptions.cpp.o
+[ 43%] Built target ament_cmake_python_copy_rclpy
+[ 45%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/guard_condition.cpp.o
+[ 47%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/graph.cpp.o
+running egg_info
+creating rclpy.egg-info
+writing rclpy.egg-info/PKG-INFO
+writing dependency_links to rclpy.egg-info/dependency_links.txt
+writing top-level names to rclpy.egg-info/top_level.txt
+writing manifest file 'rclpy.egg-info/SOURCES.txt'
+[ 50%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/logging.cpp.o
+reading manifest file 'rclpy.egg-info/SOURCES.txt'
+writing manifest file 'rclpy.egg-info/SOURCES.txt'
+[ 52%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/names.cpp.o
+[ 52%] Built target ament_cmake_python_build_rclpy_egg
+[ 54%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/publisher.cpp.o
+[ 56%] Linking CXX static library libgtest_main.a
+[ 56%] Built target gtest_main
+[ 59%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/serialization.cpp.o
+[ 63%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/event_handle.cpp.o
+[ 63%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/node.cpp.o
+[ 65%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/lifecycle.cpp.o
+[ 68%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/qos.cpp.o
+[ 70%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/service.cpp.o
+[ 72%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/service_info.cpp.o
+[ 75%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/service_introspection.cpp.o
+[ 77%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/signal_handler.cpp.o
+[ 79%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/subscription.cpp.o
+[ 81%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/time_point.cpp.o
+[ 84%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/timer.cpp.o
+[ 86%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/type_description_service.cpp.o
+[ 88%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/utils.cpp.o
+[ 90%] Building CXX object CMakeFiles/_rclpy_pybind11.dir/src/rclpy/wait_set.cpp.o
+[ 93%] Linking CXX static library libgtest.a
+[ 93%] Built target gtest
+[ 95%] Building CXX object CMakeFiles/test_python_allocator.dir/test/test_python_allocator.cpp.o
+[ 97%] Linking CXX shared module test_rclpy/_rclpy_pybind11.cpython-312-x86_64-linux-gnu.so
+[100%] Linking CXX executable test_python_allocator
+[100%] Built target test_python_allocator
+[100%] Built target _rclpy_pybind11
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/pythonpath.sh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/pythonpath.dsv
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info/PKG-INFO
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy-7.1.10-py3.12.egg-info/dependency_links.txt
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_topic_name.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental/__init__.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental/events_executor.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_client.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_description_service.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/time.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/destroyable.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/task.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/utilities.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/client.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/time_source.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/serialization.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/node.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/logging.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/logging_service.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos_event.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/__init__.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_parameter_name.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/logging_severity.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/rcutils_logger.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/__init__.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/implementation_singleton.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/managed_entity.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/node.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/__init__.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/publisher.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/subscription_content_filter_options.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/event_handler.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/executors.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/duration.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/guard_condition.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/clock.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/topic_or_service_is_hidden.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_service.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/service.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/subscription.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/callback_groups.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_event_handler.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/waitable.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/timer.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_full_topic_name.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_node_name.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos_overriding_options.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/client.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/__init__.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/graph.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/server.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/exceptions.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_hash.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/topic_endpoint_info.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/wait_for_message.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/signals.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/py.typed
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/publisher.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/expand_topic_name.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/constants.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_namespace.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/service_introspection.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/context.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/clock_type.py
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_support.py
+Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/__init__.py'...
+Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/__init__.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/client.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/graph.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/action/server.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/callback_groups.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/client.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/clock.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/clock_type.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/constants.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/context.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/destroyable.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/duration.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/event_handler.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/exceptions.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/executors.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/expand_topic_name.py'...
+Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental/__init__.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/experimental/events_executor.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/guard_condition.py'...
+Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/__init__.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/implementation_singleton.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/logging_severity.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/impl/rcutils_logger.py'...
+Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/__init__.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/managed_entity.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/node.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/lifecycle/publisher.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/logging.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/logging_service.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/node.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_client.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_event_handler.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/parameter_service.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/publisher.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos_event.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/qos_overriding_options.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/serialization.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/service.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/service_introspection.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/signals.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/subscription.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/subscription_content_filter_options.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/task.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/time.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/time_source.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/timer.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/topic_endpoint_info.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/topic_or_service_is_hidden.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_description_service.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_hash.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/type_support.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/utilities.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_full_topic_name.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_namespace.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_node_name.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_parameter_name.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/validate_topic_name.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/wait_for_message.py'...
+Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/waitable.py'...
+-- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/_rclpy_pybind11.cpython-312-x86_64-linux-gnu.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rclpy/_rclpy_pybind11.cpython-312-x86_64-linux-gnu.so" to ""
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/library_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/library_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rclpy
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rclpy
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rclpy
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/cmake/rclpyConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/cmake/rclpyConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rclpy/package.xml

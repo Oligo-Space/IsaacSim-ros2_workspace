@@ -1,0 +1,266 @@
+[0.368s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_hoofs': /usr/bin/cmake /workspace/jazzy_ws/src/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.411s] -- The C compiler identification is GNU 13.3.0
+[0.433s] -- The CXX compiler identification is GNU 13.3.0
+[0.443s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.556s] -- Detecting CXX compile features - done
+[0.559s] -- Configuring done (0.2s)
+[0.564s] -- Generating done (0.0s)
+[0.566s] -- Build files have been written to: /workspace/jazzy_ws/build/iceoryx_hoofs
+[0.568s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_hoofs' returned '0': /usr/bin/cmake /workspace/jazzy_ws/src/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.568s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_hoofs': /usr/bin/cmake --build /workspace/jazzy_ws/build/iceoryx_hoofs -- -j24 -l24
+[0.592s] [  6%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/grp.cpp.o
+[0.592s] [  6%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/file.cpp.o
+[0.592s] [  6%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/fnctl.cpp.o
+[0.592s] [  8%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/socket.cpp.o
+[0.592s] [ 11%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/mqueue.cpp.o
+[0.592s] [ 13%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/mman.cpp.o
+[0.592s] [ 15%] Building CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/unistd.cpp.o
+[0.612s] [ 17%] Linking CXX shared library libiceoryx_platform.so
+[0.638s] [ 17%] Built target iceoryx_platform
+[0.648s] [ 31%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/requires.cpp.o
+[0.648s] [ 31%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/concurrent/active_object.cpp.o
+[0.648s] [ 31%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/helplets.cpp.o
+[0.648s] [ 33%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/error_handling/error_handling.cpp.o
+[0.649s] [ 35%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/file_reader/file_reader.cpp.o
+[0.650s] [ 35%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/filesystem.cpp.o
+[0.650s] [ 40%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/unique_id.cpp.o
+[0.650s] [ 31%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/concurrent/loffli.cpp.o
+[0.650s] [ 40%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/generic_raii.cpp.o
+[0.650s] [ 31%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/deadline_timer.cpp.o
+[0.650s] [ 42%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logcommon.cpp.o
+[0.651s] [ 46%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logging.cpp.o
+[0.651s] [ 46%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logger.cpp.o
+[0.651s] [ 48%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/access_control.cpp.o
+[0.652s] [ 51%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logging_internal.cpp.o
+[0.652s] [ 53%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logmanager.cpp.o
+[0.652s] [ 55%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logstream.cpp.o
+[0.652s] [ 57%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/mutex.cpp.o
+[0.652s] [ 60%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/file_lock.cpp.o
+[0.652s] [ 62%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/semaphore.cpp.o
+[0.653s] [ 64%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/timer.cpp.o
+[0.679s] [ 66%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/signal_watcher.cpp.o
+[0.679s] [ 68%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/signal_handler.cpp.o
+[0.679s] [ 71%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object.cpp.o
+[0.723s] [ 73%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/message_queue.cpp.o
+[0.894s] [ 75%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/named_pipe.cpp.o
+[0.894s] [ 77%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/unix_domain_socket.cpp.o
+[0.894s] [ 80%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/allocator.cpp.o
+[0.894s] [ 82%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/memory_map.cpp.o
+[0.897s] [ 84%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/shared_memory.cpp.o
+[0.903s] [ 86%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/system_configuration.cpp.o
+[0.914s] [ 88%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/posix_access_rights.cpp.o
+[0.914s] [ 91%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/thread.cpp.o
+[0.917s] [ 93%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/units/duration.cpp.o
+[0.922s] [ 95%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/relocatable_pointer/base_relative_pointer.cpp.o
+[0.925s] [ 97%] Building CXX object CMakeFiles/iceoryx_hoofs.dir/source/relocatable_pointer/relative_pointer_data.cpp.o
+[1.266s] [100%] Linking CXX shared library libiceoryx_hoofs.so
+[1.474s] [100%] Built target iceoryx_hoofs
+[1.476s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --build /workspace/jazzy_ws/build/iceoryx_hoofs -- -j24 -l24
+[1.476s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_hoofs': /usr/bin/cmake --install /workspace/jazzy_ws/build/iceoryx_hoofs
+[1.586s] -- Install configuration: ""
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/file.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/types.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/fcntl.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/errno.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/platform_settings.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/getopt.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/pthread.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/pwd.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/grp.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/semaphore.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/acl.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/un.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/mqueue.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/stat.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/mman.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/unistd.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/wait.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/platform_correction.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/socket.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/resource.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/time.hpp
+[1.587s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/dlfcn.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/inet.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/signal.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/lib/libiceoryx_hoofs.so
+[1.588s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libiceoryx_hoofs.so" to ""
+[1.588s] -- Installing: /workspace/jazzy_ws/install/lib/libiceoryx_platform.so
+[1.588s] -- Up-to-date: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6
+[1.588s] -- Up-to-date: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/scoped_static.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/function_ref.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/types.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/filesystem.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/variant_queue.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/helplets.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/algorithm.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/expected.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/stack.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/newtype.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/poor_mans_heap.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/type_traits.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/method_callback.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/string.hpp
+[1.588s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/function.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/vector.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/generic_raii.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/list.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/requires.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/serialization.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/functional_interface.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/attributes.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/convert.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/unique_ptr.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/optional.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/forward_list.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/deadline_timer.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/variant.hpp
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/.clang-tidy
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/error_handling
+[1.589s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/error_handling/error_handling.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/timer.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/signal_handler.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/named_pipe.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/signal_watcher.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/semaphore.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/posix_call.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/file_lock.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/posix_access_rights.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/thread.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent/lockfree_queue.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent/resizeable_lockfree_queue.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/design_pattern
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/design_pattern/creation.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/reference_counter.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant_internal.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/serialization.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/reference_counter.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/stack.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/functional_interface.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/optional.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/static_storage.hpp
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/scoped_static.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/static_storage.inl
+[1.590s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/function_ref.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/list.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/unique_id.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/string.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/algorithm.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/poor_mans_heap.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/set.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/storable_function.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/unique_ptr.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/comparable.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/constructor.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/convertable.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/protected_constructor.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/assignment.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/sortable.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/internal.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/string_internal.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/convert.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/helplets.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/forward_list.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/vector.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/method_callback.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/storable_function.hpp
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant.inl
+[1.591s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/expected.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/.clang-tidy
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/pair.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant_queue.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/ipc_channel.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/mutex.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/posix_call.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/system_configuration.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/message_queue.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/access_control.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/memory_map.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/shared_memory.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/allocator.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/unix_domain_socket.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/pointer_repository.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/pointer_repository.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relocatable_ptr.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/atomic_relocatable_pointer.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/atomic_relocatable_pointer.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer_data.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/base_relative_pointer.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer_data.inl
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer.hpp
+[1.592s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relocatable_ptr.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs/directed_graph.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs/directed_acyclic_graph.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units/duration.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units/duration.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/smart_lock.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/periodic_task.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/fifo.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/periodic_task.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/resizeable_lockfree_queue.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/cyclic_index.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/index_queue.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/buffer.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/lockfree_queue.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/cyclic_index.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/buffer.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/index_queue.inl
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/taco.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/trigger_queue.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/loffli.hpp
+[1.593s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/trigger_queue.inl
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/active_object.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/sofi.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/fifo.inl
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/sofi.inl
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/loffli.inl
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/smart_lock.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/objectpool
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/objectpool/objectpool.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/file_reader
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/file_reader/file_reader.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/design_pattern
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/design_pattern/creation.inl
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logger.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logmanager.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logging.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logcommon.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logging_free_function_building_block.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logstream.hpp
+[1.594s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/iceoryx_hoofsConfigVersion.cmake
+[1.594s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/iceoryx_hoofsConfig.cmake
+[1.594s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/iceoryx_hoofsTargets.cmake
+[1.594s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/iceoryx_hoofsTargets-noconfig.cmake
+[1.594s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/IceoryxPackageHelper.cmake
+[1.595s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/IceoryxPlatform.cmake
+[1.595s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_hoofs/IceoryxVersion.cmake
+[1.595s] -- Installing: /workspace/jazzy_ws/install/share/doc/iceoryx_hoofs/LICENSE
+[1.595s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --install /workspace/jazzy_ws/build/iceoryx_hoofs

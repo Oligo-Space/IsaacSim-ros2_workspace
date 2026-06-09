@@ -1,0 +1,5 @@
+repositories:
+  mimick_vendor:
+    type: git
+    url: https://github.com/ros2/Mimick.git
+    version: 4dbd495e9f3d87a83c3201ef9d851e85f7133db7

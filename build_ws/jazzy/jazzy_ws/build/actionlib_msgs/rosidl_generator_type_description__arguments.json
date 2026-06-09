@@ -1,0 +1,13 @@
+{
+  "package_name": "actionlib_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/actionlib_msgs/rosidl_generator_type_description/actionlib_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalID.idl",
+    "/workspace/jazzy_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatus.idl",
+    "/workspace/jazzy_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatusArray.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs"
+  ]
+}

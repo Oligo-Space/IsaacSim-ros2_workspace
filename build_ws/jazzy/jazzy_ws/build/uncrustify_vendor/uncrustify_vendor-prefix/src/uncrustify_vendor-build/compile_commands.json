@@ -1,0 +1,542 @@
+[
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_add.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_add.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_add.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_add.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_asm_colon.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_asm_colon.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_assign.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_assign.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_assign.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_assign.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_braced_init_list.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_braced_init_list.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_braced_init_list.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_braced_init_list.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_eigen_comma_init.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_eigen_comma_init.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_eigen_comma_init.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_eigen_comma_init.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_func_params.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_func_params.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_func_proto.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_func_proto.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_init_brace.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_init_brace.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_left_shift.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_left_shift.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_log_al.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_log_al.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_nl_cont.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_nl_cont.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_decl_colon.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_decl_colon.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_msg_colons.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_msg_colons.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_msg_spec.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_oc_msg_spec.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_preprocessor.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_preprocessor.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_same_func_call_params.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_same_func_call_params.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_stack.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_stack.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_stack.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_stack.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_struct_initializers.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_struct_initializers.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_tab_column.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_tab_column.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_tools.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_tools.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_tools.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_tools.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_trailing_comments.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_trailing_comments.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_typedefs.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_typedefs.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_var_def_brace.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/align_var_def_brace.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/args.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/args.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/args.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/args.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/backup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/backup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/backup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/backup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/brace_cleanup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/brace_cleanup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/braces.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/braces.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/braces.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/braces.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/calculate_closing_brace_position.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/calculate_closing_brace_position.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/calculate_closing_brace_position.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/calculate_closing_brace_position.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/change_int_types.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/change_int_types.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/change_int_types.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/change_int_types.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/check_template.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/check_template.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/check_template.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/check_template.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/chunk.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/chunk.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/chunk.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/chunk.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/ChunkStack.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/ChunkStack.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/combine.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/combine.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/combine_fix_mark.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_fix_mark.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_fix_mark.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/combine_fix_mark.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_labels.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_labels.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/combine_tools.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_tools.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_tools.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/combine_tools.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/combine_skip.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_skip.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/combine_skip.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/combine_skip.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/compat_posix.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/compat_posix.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/compat_win32.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/compat_win32.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/cs_top_is_question.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/cs_top_is_question.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/detect.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/detect.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/detect.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/detect.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/enum_cleanup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/enum_cleanup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/EnumStructUnionParser.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/EnumStructUnionParser.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/EnumStructUnionParser.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/EnumStructUnionParser.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/flag_braced_init_list.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_braced_init_list.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_braced_init_list.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/flag_braced_init_list.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/flag_decltype.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_decltype.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_decltype.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/flag_decltype.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_parens.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/flag_parens.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/indent.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/indent.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/indent.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/indent.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/keywords.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/keywords.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/keywords.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/keywords.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/lang_pawn.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/lang_pawn.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/language_names.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/language_names.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/language_names.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/language_names.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/language_tools.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/language_tools.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/language_tools.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/language_tools.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/logger.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/logger.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/logger.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/logger.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/logmask.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/logmask.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/logmask.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/logmask.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/log_rules.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/log_rules.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/log_rules.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/log_rules.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/mark_functor.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/mark_functor.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/mark_functor.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/mark_functor.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/mark_question_colon.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/mark_question_colon.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/mark_question_colon.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/mark_question_colon.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/md5.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/md5.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/md5.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/md5.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/newlines.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/newlines.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/newlines.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/newlines.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/option.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/option.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/option.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/option.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/options_for_QT.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/options_for_QT.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/output.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/output.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/output.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/output.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/parameter_pack_cleanup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parameter_pack_cleanup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parameter_pack_cleanup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/parameter_pack_cleanup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/parens.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parens.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parens.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/parens.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/parent_for_pp.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parent_for_pp.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parent_for_pp.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/parent_for_pp.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/parsing_frame.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parsing_frame.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parsing_frame.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/parsing_frame.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/parsing_frame_stack.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parsing_frame_stack.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/parsing_frame_stack.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/parsing_frame_stack.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/pragma_cleanup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/pragma_cleanup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/pragma_cleanup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/pragma_cleanup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/pcf_flags.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/pcf_flags.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/pcf_flags.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/pcf_flags.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/punctuators.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/punctuators.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/punctuators.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/punctuators.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/quick_align_again.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/quick_align_again.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/remove_duplicate_include.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/remove_duplicate_include.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/remove_duplicate_include.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/remove_duplicate_include.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/remove_extra_returns.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/remove_extra_returns.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/remove_extra_returns.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/remove_extra_returns.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/rewrite_infinite_loops.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/rewrite_infinite_loops.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/rewrite_infinite_loops.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/rewrite_infinite_loops.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/semicolons.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/semicolons.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/semicolons.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/semicolons.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/sorting.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/sorting.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/sorting.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/sorting.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/space.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/space.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/space.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/space.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/tokenize_cleanup.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/tokenize_cleanup.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/tokenize.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/tokenize.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/tokenize.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/tokenize.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/uncrustify_emscripten.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify_emscripten.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify_emscripten.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/uncrustify_emscripten.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify_types.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/uncrustify_types.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/unc_ctype.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_ctype.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_ctype.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/unc_ctype.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/unc_text.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_text.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_text.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/unc_text.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_tools.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unc_tools.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/unicode.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unicode.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/unicode.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/unicode.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/universalindentgui.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/universalindentgui.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/width.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/width.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src/width.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/width.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/options.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src/options.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src/options.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/options.cpp.o"
+},
+{
+  "directory": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build",
+  "command": "/usr/bin/c++ -DDEBUG -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/src -I/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build  -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wc++11-extensions -std=gnu++11 -o CMakeFiles/uncrustify.dir/src/option_enum.cpp.o -c /workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src/option_enum.cpp",
+  "file": "/workspace/jazzy_ws/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build/src/option_enum.cpp",
+  "output": "CMakeFiles/uncrustify.dir/src/option_enum.cpp.o"
+}
+]

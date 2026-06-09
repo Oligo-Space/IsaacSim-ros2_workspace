@@ -1,0 +1,639 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_targets",
+			"ament_generate_version_header",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_export_targets/cmake/ament_export_targets.cmake",
+			"CMakeLists.txt",
+			"/workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/workspace/jazzy_ws/install/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 167,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 193,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 66,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 47,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 29,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 43,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 20,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 107,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 120,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 16,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 29,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 38
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 13,
+				"parent" : 40
+			},
+			{
+				"command" : 0,
+				"file" : 13,
+				"line" : 28,
+				"parent" : 41
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 68,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 150,
+				"parent" : 43
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 157,
+				"parent" : 43
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/tracetools/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_generate_version_header/tracetools/tracetools/version.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libtracetools_status.so"
+			],
+			"targetId" : "tracetools_status::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "tracetools_status::@6890427a1f51a3e7e1df",
+				"index" : 6
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/tracetools",
+			"paths" : 
+			[
+				"status"
+			],
+			"targetId" : "status::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "status::@6890427a1f51a3e7e1df",
+				"index" : 3
+			},
+			"destination" : "lib/tracetools",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/tracetools",
+			"paths" : 
+			[
+				{
+					"from" : "/workspace/jazzy_ws/build/tracetools/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libtracetools.so"
+			],
+			"targetId" : "tracetools::@6890427a1f51a3e7e1df",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tracetools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/tracetools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/environment",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_index/share/ament_index/resource_index/packages/tracetools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"exportName" : "tracetools_export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "tracetools::@6890427a1f51a3e7e1df",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/8ac7724d94f801b53d77ca3d86d5c134/tracetools_exportExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_export_link_flags/ament_cmake_export_link_flags-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools/cmake",
+			"paths" : 
+			[
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_core/tracetoolsConfig.cmake",
+				"/workspace/jazzy_ws/build/tracetools/ament_cmake_core/tracetoolsConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "share/tracetools",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

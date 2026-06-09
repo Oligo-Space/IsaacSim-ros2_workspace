@@ -1,0 +1,55 @@
+/usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+creating ../../../build/launch_yaml/launch_yaml.egg-info
+writing ../../../build/launch_yaml/launch_yaml.egg-info/PKG-INFO
+writing dependency_links to ../../../build/launch_yaml/launch_yaml.egg-info/dependency_links.txt
+writing entry points to ../../../build/launch_yaml/launch_yaml.egg-info/entry_points.txt
+writing requirements to ../../../build/launch_yaml/launch_yaml.egg-info/requires.txt
+writing top-level names to ../../../build/launch_yaml/launch_yaml.egg-info/top_level.txt
+writing manifest file '../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+reading manifest file '../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+writing manifest file '../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/__init__.py -> /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/entity.py -> /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/parser.py -> /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml
+creating /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+copying launch_yaml/launch_description_sources/yaml_launch_description_source.py -> /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+copying launch_yaml/launch_description_sources/__init__.py -> /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+running install
+running install_lib
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml
+copying /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/launch_description_sources
+copying /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/launch_description_sources/yaml_launch_description_source.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/launch_description_sources
+copying /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/launch_description_sources/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/launch_description_sources
+copying /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/entity.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml
+copying /workspace/jazzy_ws/build/launch_yaml/build/lib/launch_yaml/parser.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/launch_description_sources/yaml_launch_description_source.py to yaml_launch_description_source.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/launch_description_sources/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/entity.py to entity.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml/parser.py to parser.cpython-312.pyc
+running install_data
+copying package.xml -> /workspace/jazzy_ws/install/share/launch_yaml
+copying resource/launch_yaml -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/launch_yaml/launch_yaml.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/launch_yaml-3.4.10-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspace/jazzy_ws/build/launch_yaml/install.log'

@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -Wall -Wextra -Wno-unused-parameter -pedantic -Werror CMakeFiles/mmk_test_c.dir/test.c.o -o mmk_test_c  -Wl,-rpath,/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-build/test ../libmimick.a libfoo.so 

@@ -1,0 +1,23 @@
+{
+  "package_name": "test_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Arrays.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/BasicTypes.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/BoundedPlainSequences.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/BoundedSequences.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Constants.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Defaults.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Empty.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/MultiNested.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Nested.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/Strings.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/UnboundedSequences.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:msg/WStrings.msg",
+    "/workspace/jazzy_ws/install/share/test_interface_files:srv/Arrays.srv",
+    "/workspace/jazzy_ws/install/share/test_interface_files:srv/BasicTypes.srv",
+    "/workspace/jazzy_ws/install/share/test_interface_files:srv/Empty.srv",
+    "/workspace/jazzy_ws/install/share/test_interface_files:action/Fibonacci.action",
+    "/workspace/jazzy_ws/src/rcl_interfaces/test_msgs:msg/Builtins.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/test_msgs:action/NestedMessage.action"
+  ]
+}

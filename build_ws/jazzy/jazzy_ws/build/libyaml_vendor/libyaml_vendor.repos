@@ -1,0 +1,5 @@
+repositories:
+  libyaml_vendor:
+    type: git
+    url: https://github.com/yaml/libyaml.git
+    version: 0.2.5

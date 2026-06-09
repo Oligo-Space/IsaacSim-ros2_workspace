@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_logging_custom_env.dir/test/test_logging_custom_env.cpp.o -o test_logging_custom_env  -Wl,-rpath,/workspace/jazzy_ws/build/rcutils:/workspace/jazzy_ws/install/lib gtest/libgtest_main.a gtest/libgtest.a librcutils.so /workspace/jazzy_ws/install/lib/libmemory_tools.so /workspace/jazzy_ws/install/opt/mimick_vendor/lib/libmimick.a -pthread -latomic -ldl 

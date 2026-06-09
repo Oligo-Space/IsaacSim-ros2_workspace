@@ -1,0 +1,57 @@
+[0.681s] Invoking command in '/workspace/jazzy_ws/src/rosidl_runtime_py': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/rosidl_runtime_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /workspace/jazzy_ws/build/rosidl_runtime_py/build install --record /workspace/jazzy_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed install_data
+[0.790s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.790s]   warnings.warn(msg)
+[0.804s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.804s] !!
+[0.804s] 
+[0.804s]         ********************************************************************************
+[0.804s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.804s] 
+[0.804s]         License :: OSI Approved :: Apache Software License
+[0.804s] 
+[0.804s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.804s]         ********************************************************************************
+[0.804s] 
+[0.804s] !!
+[0.804s]   self._finalize_license_expression()
+[0.837s] running egg_info
+[0.843s] creating ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info
+[0.843s] writing ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/PKG-INFO
+[0.846s] writing dependency_links to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/dependency_links.txt
+[0.846s] writing top-level names to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/top_level.txt
+[0.846s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[0.861s] reading manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[0.861s] adding license file 'LICENSE'
+[0.861s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[0.861s] running build
+[0.861s] running build_py
+[0.861s] creating /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.861s] copying rosidl_runtime_py/get_interfaces.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] copying rosidl_runtime_py/utilities.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] copying rosidl_runtime_py/__init__.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] copying rosidl_runtime_py/set_message.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] copying rosidl_runtime_py/import_message.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] copying rosidl_runtime_py/convert.py -> /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[0.865s] running install
+[0.865s] running install_lib
+[0.873s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.873s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/get_interfaces.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.874s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/utilities.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.874s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.874s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/set_message.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.874s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/import_message.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.874s] copying /workspace/jazzy_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/convert.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py
+[0.875s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/get_interfaces.py to get_interfaces.cpython-312.pyc
+[0.876s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/utilities.py to utilities.cpython-312.pyc
+[0.877s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/__init__.py to __init__.cpython-312.pyc
+[0.877s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/set_message.py to set_message.cpython-312.pyc
+[0.878s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/import_message.py to import_message.cpython-312.pyc
+[0.878s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py/convert.py to convert.cpython-312.pyc
+[0.880s] running install_data
+[0.880s] copying package.xml -> /workspace/jazzy_ws/install/share/rosidl_runtime_py
+[0.880s] copying resource/rosidl_runtime_py -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.881s] running install_egg_info
+[0.890s] Copying ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_runtime_py-0.13.1-py3.12.egg-info
+[0.890s] running install_scripts
+[0.909s] writing list of installed files to '/workspace/jazzy_ws/build/rosidl_runtime_py/install.log'
+[0.928s] Invoked command in '/workspace/jazzy_ws/src/rosidl_runtime_py' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/rosidl_runtime_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /workspace/jazzy_ws/build/rosidl_runtime_py/build install --record /workspace/jazzy_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed install_data

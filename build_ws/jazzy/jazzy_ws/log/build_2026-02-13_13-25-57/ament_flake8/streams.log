@@ -1,0 +1,54 @@
+[0.439s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /workspace/jazzy_ws/build/ament_flake8/build install --record /workspace/jazzy_ws/build/ament_flake8/install.log --single-version-externally-managed install_data
+[0.534s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.534s]   warnings.warn(msg)
+[0.543s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.543s] !!
+[0.543s] 
+[0.543s]         ********************************************************************************
+[0.543s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.543s] 
+[0.543s]         License :: OSI Approved :: Apache Software License
+[0.543s] 
+[0.543s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.543s]         ********************************************************************************
+[0.543s] 
+[0.543s] !!
+[0.543s]   self._finalize_license_expression()
+[0.568s] running egg_info
+[0.574s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.574s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.574s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.574s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.574s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.574s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.574s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.587s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.588s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.588s] running build_py
+[0.588s] creating /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+[0.588s] copying ament_flake8/pytest_marker.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+[0.588s] copying ament_flake8/main.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+[0.588s] copying ament_flake8/__init__.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+[0.589s] creating /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.589s] copying ament_flake8/configuration/ament_flake8.ini -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.589s] running install
+[0.592s] running install_lib
+[0.598s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+[0.598s] copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+[0.598s] copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+[0.598s] copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+[0.598s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/configuration
+[0.598s] copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/configuration
+[0.599s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-312.pyc
+[0.599s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/main.py to main.cpython-312.pyc
+[0.601s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/__init__.py to __init__.cpython-312.pyc
+[0.601s] running install_data
+[0.601s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_flake8
+[0.601s] copying resource/ament_flake8 -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.601s] running install_egg_info
+[0.608s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8-0.17.4-py3.12.egg-info
+[0.608s] running install_scripts
+[0.622s] Installing ament_flake8 script to /workspace/jazzy_ws/install/bin
+[0.623s] writing list of installed files to '/workspace/jazzy_ws/build/ament_flake8/install.log'
+[0.651s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /workspace/jazzy_ws/build/ament_flake8/build install --record /workspace/jazzy_ws/build/ament_flake8/install.log --single-version-externally-managed install_data

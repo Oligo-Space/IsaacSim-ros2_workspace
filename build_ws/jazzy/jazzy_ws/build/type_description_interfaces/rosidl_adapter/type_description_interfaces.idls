@@ -1,0 +1,7 @@
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl
+/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl

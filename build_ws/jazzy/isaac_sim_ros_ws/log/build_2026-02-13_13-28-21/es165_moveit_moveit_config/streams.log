@@ -1,0 +1,40 @@
+[0.507s] Invoking command in '/workspace/build_ws/src/es165_moveit_moveit_config': PYTHONPATH=/workspace/build_ws/build/es165_moveit_moveit_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/es165_moveit_moveit_config build --build-base /workspace/build_ws/build/es165_moveit_moveit_config/build install --record /workspace/build_ws/build/es165_moveit_moveit_config/install.log --single-version-externally-managed install_data
+[0.616s] running egg_info
+[0.620s] creating ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info
+[0.620s] writing ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/PKG-INFO
+[0.621s] writing dependency_links to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/dependency_links.txt
+[0.621s] writing requirements to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/top_level.txt
+[0.621s] writing manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+[0.632s] reading manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+[0.632s] writing manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.633s] creating /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config
+[0.633s] copying es165_moveit_moveit_config/__init__.py -> /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config
+[0.633s] running install
+[0.635s] running install_lib
+[0.640s] creating /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config
+[0.640s] copying /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config/__init__.py -> /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config
+[0.640s] byte-compiling /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config/__init__.py to __init__.cpython-312.pyc
+[0.640s] running install_data
+[0.640s] creating /workspace/build_ws/install/es165_moveit_moveit_config/share/ament_index/resource_index/packages
+[0.641s] copying resource/es165_moveit_moveit_config -> /workspace/build_ws/install/es165_moveit_moveit_config/share/ament_index/resource_index/packages
+[0.641s] copying package.xml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config
+[0.641s] creating /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/rw2_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/controller.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/rw1_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/ros2_controllers.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/rw3_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/joint_limits.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/rw4_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.641s] copying config/es165.xacro -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.642s] copying config/kinematics.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.642s] copying config/es165d.srdf -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+[0.642s] running install_egg_info
+[0.647s] Copying ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info to /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config-0.0.0-py3.12.egg-info
+[0.647s] running install_scripts
+[0.659s] writing list of installed files to '/workspace/build_ws/build/es165_moveit_moveit_config/install.log'
+[0.671s] Invoked command in '/workspace/build_ws/src/es165_moveit_moveit_config' returned '0': PYTHONPATH=/workspace/build_ws/build/es165_moveit_moveit_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/es165_moveit_moveit_config build --build-base /workspace/build_ws/build/es165_moveit_moveit_config/build install --record /workspace/build_ws/build/es165_moveit_moveit_config/install.log --single-version-externally-managed install_data

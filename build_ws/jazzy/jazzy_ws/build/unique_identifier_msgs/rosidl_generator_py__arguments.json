@@ -1,0 +1,24 @@
+{
+  "package_name": "unique_identifier_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/unique_identifier_msgs/rosidl_generator_py/unique_identifier_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/unique_identifier_msgs/rosidl_adapter/unique_identifier_msgs:msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_generator_py/__init__.py",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/workspace/jazzy_ws/build/unique_identifier_msgs/rosidl_adapter/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

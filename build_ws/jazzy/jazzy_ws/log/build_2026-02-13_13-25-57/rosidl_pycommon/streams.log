@@ -1,0 +1,27 @@
+[1.622s] Invoking command in '/workspace/jazzy_ws/src/rosidl/rosidl_pycommon': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/rosidl_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /workspace/jazzy_ws/build/rosidl_pycommon/build install --record /workspace/jazzy_ws/build/rosidl_pycommon/install.log --single-version-externally-managed install_data
+[1.813s] running egg_info
+[1.819s] creating ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info
+[1.819s] writing ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/PKG-INFO
+[1.819s] writing dependency_links to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/dependency_links.txt
+[1.819s] writing requirements to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/requires.txt
+[1.820s] writing top-level names to ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/top_level.txt
+[1.820s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[1.837s] reading manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[1.840s] writing manifest file '../../../build/rosidl_pycommon/rosidl_pycommon.egg-info/SOURCES.txt'
+[1.840s] running build
+[1.841s] running build_py
+[1.841s] creating /workspace/jazzy_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[1.841s] copying rosidl_pycommon/__init__.py -> /workspace/jazzy_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon
+[1.841s] running install
+[1.842s] running install_lib
+[1.848s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_pycommon
+[1.848s] copying /workspace/jazzy_ws/build/rosidl_pycommon/build/lib/rosidl_pycommon/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_pycommon
+[1.849s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_pycommon/__init__.py to __init__.cpython-312.pyc
+[1.850s] running install_data
+[1.850s] copying resource/rosidl_pycommon -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[1.850s] copying package.xml -> /workspace/jazzy_ws/install/share/rosidl_pycommon
+[1.851s] running install_egg_info
+[1.859s] Copying ../../../build/rosidl_pycommon/rosidl_pycommon.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_pycommon-4.6.7-py3.12.egg-info
+[1.859s] running install_scripts
+[1.876s] writing list of installed files to '/workspace/jazzy_ws/build/rosidl_pycommon/install.log'
+[1.905s] Invoked command in '/workspace/jazzy_ws/src/rosidl/rosidl_pycommon' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/rosidl_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_pycommon build --build-base /workspace/jazzy_ws/build/rosidl_pycommon/build install --record /workspace/jazzy_ws/build/rosidl_pycommon/install.log --single-version-externally-managed install_data

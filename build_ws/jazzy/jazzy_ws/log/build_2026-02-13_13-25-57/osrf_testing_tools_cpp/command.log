@@ -1,0 +1,6 @@
+Invoking command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake /workspace/jazzy_ws/src/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+Invoked command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake /workspace/jazzy_ws/src/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+Invoking command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /workspace/jazzy_ws/build/osrf_testing_tools_cpp -- -j24 -l24
+Invoked command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --build /workspace/jazzy_ws/build/osrf_testing_tools_cpp -- -j24 -l24
+Invoking command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp': /usr/bin/cmake --install /workspace/jazzy_ws/build/osrf_testing_tools_cpp
+Invoked command in '/workspace/jazzy_ws/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --install /workspace/jazzy_ws/build/osrf_testing_tools_cpp

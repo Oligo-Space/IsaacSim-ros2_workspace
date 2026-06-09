@@ -1,0 +1,558 @@
+[0.105s] Invoking command in '/workspace/jazzy_ws/build/nav_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.138s] -- The C compiler identification is GNU 13.3.0
+[0.172s] -- The CXX compiler identification is GNU 13.3.0
+[0.182s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.444s] -- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+[0.461s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.522s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.526s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.922s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.923s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.924s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.925s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.611s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.690s] -- Found PythonExtra: /usr/bin/python3  
+[2.216s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.305s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.306s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.318s] -- Configuring done (2.2s)
+[2.387s] -- Generating done (0.0s)
+[2.395s] -- Build files have been written to: /workspace/jazzy_ws/build/nav_msgs
+[2.403s] Invoked command in '/workspace/jazzy_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.403s] Invoking command in '/workspace/jazzy_ws/build/nav_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/nav_msgs -- -j24 -l24
+[2.439s] [  1%] Generating type hashes for ROS interfaces
+[2.444s] [  1%] Built target ament_cmake_python_copy_nav_msgs
+[2.576s] running egg_info
+[2.582s] creating nav_msgs.egg-info
+[2.582s] writing nav_msgs.egg-info/PKG-INFO
+[2.583s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[2.583s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[2.583s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[2.604s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[2.604s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[2.628s] [  1%] Built target ament_cmake_python_build_nav_msgs_egg
+[2.882s] [  1%] Built target nav_msgs__rosidl_generator_type_description
+[2.890s] [  2%] Generating C code for ROS interfaces
+[2.897s] [  2%] Generating C++ code for ROS interfaces
+[4.325s] [  2%] Built target nav_msgs__cpp
+[4.602s] [  3%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__description.c.o
+[4.606s] [  4%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o
+[4.607s] [  6%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__type_support.c.o
+[4.607s] [  6%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__functions.c.o
+[4.607s] [  6%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__type_support.c.o
+[4.616s] [  7%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o
+[4.616s] [  8%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o
+[4.616s] [  9%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__description.c.o
+[4.616s] [ 10%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__description.c.o
+[4.616s] [ 11%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o
+[4.616s] [  8%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__type_support.c.o
+[4.618s] [ 13%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__description.c.o
+[4.623s] [ 13%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__description.c.o
+[4.623s] [ 12%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o
+[4.625s] [ 14%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__description.c.o
+[4.627s] [ 15%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o
+[4.678s] [ 16%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__type_support.c.o
+[4.688s] [ 17%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__description.c.o
+[4.694s] [ 18%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__description.c.o
+[4.696s] [ 19%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__type_support.c.o
+[4.702s] [ 19%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o
+[4.702s] [ 20%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o
+[4.706s] [ 21%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__type_support.c.o
+[4.724s] [ 21%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o
+[4.736s] [ 22%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__description.c.o
+[4.749s] [ 24%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__description.c.o
+[4.754s] [ 23%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__type_support.c.o
+[4.758s] [ 24%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__type_support.c.o
+[4.759s] [ 25%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o
+[4.774s] [ 26%] Building C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o
+[4.886s] [ 27%] Linking C shared library libnav_msgs__rosidl_generator_c.so
+[4.958s] [ 27%] Built target nav_msgs__rosidl_generator_c
+[4.964s] [ 28%] Generating C type support for eProsima Fast-RTPS
+[4.968s] [ 28%] Generating C type support dispatch for ROS interfaces
+[4.972s] [ 29%] Generating C++ introspection for ROS interfaces
+[4.973s] [ 30%] Generating C++ type support dispatch for ROS interfaces
+[4.975s] [ 31%] Generating C introspection for ROS interfaces
+[4.977s] [ 31%] Generating C++ type support for eProsima Fast-RTPS
+[5.686s] [ 32%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/goals__type_support.cpp.o
+[5.687s] [ 34%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o
+[5.687s] [ 35%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o
+[5.688s] [ 35%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o
+[5.689s] [ 33%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o
+[5.695s] [ 36%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o
+[5.697s] [ 37%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o
+[5.703s] [ 38%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o
+[5.723s] [ 39%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o
+[5.728s] [ 39%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o
+[5.848s] [ 40%] Linking CXX shared library libnav_msgs__rosidl_typesupport_c.so
+[5.857s] [ 40%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o
+[5.857s] [ 41%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o
+[5.858s] [ 42%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/goals__type_support.cpp.o
+[5.859s] [ 43%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/goals__type_support.c.o
+[5.859s] [ 44%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o
+[5.859s] [ 45%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o
+[5.860s] [ 46%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o
+[5.861s] [ 47%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o
+[5.868s] [ 49%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o
+[5.868s] [ 49%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o
+[5.868s] [ 49%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o
+[5.870s] [ 50%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o
+[5.871s] [ 51%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o
+[5.871s] [ 52%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o
+[5.872s] [ 49%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o
+[5.873s] [ 53%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o
+[5.873s] [ 40%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o
+[5.874s] [ 54%] Building C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o
+[5.875s] [ 55%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o
+[5.877s] [ 56%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o
+[5.955s] [ 56%] Built target nav_msgs__rosidl_typesupport_c
+[6.014s] [ 57%] Linking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so
+[6.068s] [ 60%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/goals__type_support_c.cpp.o
+[6.068s] [ 60%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o
+[6.068s] [ 58%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o
+[6.068s] [ 61%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o
+[6.068s] [ 61%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o
+[6.068s] [ 62%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o
+[6.069s] [ 63%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o
+[6.073s] [ 63%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o
+[6.073s] [ 63%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[6.105s] [ 64%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o
+[6.151s] [ 65%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o
+[6.185s] [ 66%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/goals__type_support.cpp.o
+[6.190s] [ 67%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/goals__type_support.cpp.o
+[6.193s] [ 68%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o
+[6.201s] [ 69%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o
+[6.263s] [ 70%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o
+[6.293s] [ 70%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o
+[6.565s] [ 71%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o
+[6.578s] [ 72%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o
+[6.607s] [ 73%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o
+[6.669s] [ 74%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o
+[6.684s] [ 75%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o
+[6.690s] [ 75%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o
+[6.711s] [ 76%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o
+[6.733s] [ 77%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o
+[6.740s] [ 78%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o
+[6.749s] [ 79%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o
+[6.759s] [ 79%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o
+[6.792s] [ 80%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o
+[6.830s] [ 81%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o
+[6.918s] [ 82%] Building CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o
+[7.269s] [ 83%] Linking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[7.388s] [ 84%] Linking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[7.433s] [ 84%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[7.622s] [ 84%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[7.696s] [ 85%] Linking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so
+[7.810s] [ 85%] Built target nav_msgs__rosidl_typesupport_cpp
+[8.014s] [ 85%] Linking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.090s] [ 85%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[8.105s] [ 85%] Built target nav_msgs
+[8.132s] [ 86%] Generating Python code for ROS interfaces
+[9.110s] [ 86%] Built target nav_msgs__py
+[9.122s] [ 87%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_goals_s.c.o
+[9.122s] [ 88%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o
+[9.122s] [ 88%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o
+[9.122s] [ 89%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o
+[9.122s] [ 90%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o
+[9.123s] [ 91%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o
+[9.123s] [ 92%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o
+[9.123s] [ 92%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o
+[9.124s] [ 93%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o
+[9.124s] [ 94%] Building C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o
+[9.218s] [ 95%] Linking C shared library libnav_msgs__rosidl_generator_py.so
+[9.249s] [ 95%] Built target nav_msgs__rosidl_generator_py
+[9.263s] [ 96%] Building C object CMakeFiles/nav_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[9.263s] [ 97%] Building C object CMakeFiles/nav_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[9.263s] [ 97%] Building C object CMakeFiles/nav_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o
+[9.372s] [ 98%] Linking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[9.373s] [ 99%] Linking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[9.387s] [100%] Linking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.395s] [100%] Built target nav_msgs_s__rosidl_typesupport_introspection_c
+[9.397s] [100%] Built target nav_msgs_s__rosidl_typesupport_c
+[9.412s] [100%] Built target nav_msgs_s__rosidl_typesupport_fastrtps_c
+[9.420s] Invoked command in '/workspace/jazzy_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/nav_msgs -- -j24 -l24
+[9.421s] Invoking command in '/workspace/jazzy_ws/build/nav_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/nav_msgs
+[9.428s] -- Install configuration: ""
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Goals.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/GridCells.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/MapMetaData.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/OccupancyGrid.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Odometry.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Path.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetMap.json
+[9.428s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetPlan.json
+[9.429s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/LoadMap.json
+[9.429s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/SetMap.json
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.h
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[9.429s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__functions.c
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__struct.h
+[9.430s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__description.c
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__description.c
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__functions.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__description.c
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__description.c
+[9.431s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[9.432s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__description.c
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__description.c
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/odometry.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/path.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/goals.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.433s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__description.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__description.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__description.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[9.434s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__description.c
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[9.435s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/set_map.h
+[9.436s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/load_map.h
+[9.436s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/get_map.h
+[9.436s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/get_plan.h
+[9.436s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/library_path.sh
+[9.436s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/library_path.dsv
+[9.436s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_generator_c.so
+[9.437s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[9.437s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.437s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.437s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[9.437s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_c.h
+[9.438s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.438s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.438s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.438s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[9.438s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[9.438s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[9.438s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[9.438s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[9.439s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.439s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.439s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.439s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.439s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.hpp
+[9.439s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
+[9.440s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.hpp
+[9.440s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[9.442s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__traits.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.443s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/goals.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/path.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[9.444s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.444s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.hpp
+[9.444s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[9.447s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[9.448s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.448s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.448s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[9.448s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.448s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.448s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[9.449s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.449s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.449s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.449s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.449s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_c.h
+[9.449s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.450s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.450s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[9.450s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[9.451s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.451s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_c.so
+[9.451s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[9.451s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs
+[9.451s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg
+[9.451s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_cpp.hpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[9.451s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[9.452s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv
+[9.452s] -- Up-to-date: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[9.452s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[9.453s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[9.454s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[9.454s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/pythonpath.sh
+[9.454s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/pythonpath.dsv
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg
+[9.454s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells_s.c
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_path.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_odometry_s.c
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data_s.c
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/__init__.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_goals_s.c
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_goals.py
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_path_s.c
+[9.455s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid_s.c
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/__init__.py
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_load_map_s.c
+[9.456s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py
+[9.457s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_map_s.c
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/__init__.py
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_set_map_s.c
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_plan_s.c
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.458s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[9.505s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/__init__.py'...
+[9.506s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/__init__.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_goals.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/msg/_path.py'...
+[9.506s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/__init__.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py'...
+[9.506s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py'...
+[9.510s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.511s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.511s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[9.511s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[9.511s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[9.511s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so" to ""
+[9.511s] -- Installing: /workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_generator_py.so
+[9.512s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Goals.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/GridCells.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/MapMetaData.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/OccupancyGrid.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Odometry.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Path.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetMap.idl
+[9.512s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetPlan.idl
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/LoadMap.idl
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/SetMap.idl
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Goals.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/GridCells.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/MapMetaData.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/OccupancyGrid.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Odometry.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/msg/Path.msg
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetMap.srv
+[9.513s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/GetPlan.srv
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/LoadMap.srv
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/srv/SetMap.srv
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/ament_prefix_path.sh
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/ament_prefix_path.dsv
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/path.sh
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/environment/path.dsv
+[9.514s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/local_setup.bash
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/local_setup.sh
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/local_setup.zsh
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/local_setup.dsv
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/package.dsv
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/nav_msgs
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.515s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.516s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.517s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.518s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.518s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[9.518s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[9.518s] -- Installing: /workspace/jazzy_ws/install/share/nav_msgs/package.xml
+[9.519s] Invoked command in '/workspace/jazzy_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/nav_msgs

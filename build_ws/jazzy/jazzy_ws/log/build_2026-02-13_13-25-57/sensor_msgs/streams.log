@@ -1,0 +1,1207 @@
+[0.098s] Invoking command in '/workspace/jazzy_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.131s] -- The C compiler identification is GNU 13.3.0
+[0.167s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.376s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.437s] -- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+[0.455s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+[0.514s] -- Found rosidl_default_generators: 1.6.0 (/workspace/jazzy_ws/install/share/rosidl_default_generators/cmake)
+[0.520s] -- Found rosidl_adapter: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_adapter/cmake)
+[0.969s] -- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+[0.970s] -- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+[0.971s] -- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+[0.973s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.666s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[1.757s] -- Found PythonExtra: /usr/bin/python3  
+[2.295s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.374s] -- Found ament_cmake_flake8: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_flake8/cmake)
+[2.374s] -- Found ament_cmake_pep257: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_pep257/cmake)
+[2.377s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[2.381s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.441s] -- Found Threads: TRUE  
+[2.450s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.450s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/jazzy_ws/src/common_interfaces/sensor_msgs/include>
+[2.450s] -- Configured cppcheck exclude dirs and/or files: 
+[2.454s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.454s] -- Configured cpplint exclude dirs and/or files: 
+[2.458s] -- Added test 'uncrustify' to check C / C++ code style
+[2.458s] -- Configured uncrustify additional arguments: 
+[2.459s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.460s] -- Added test 'lint_cmake' to check CMake code style
+[2.461s] -- Added test 'xmllint' to check XML markup files
+[2.463s] -- Configuring done (2.4s)
+[2.537s] -- Generating done (0.1s)
+[2.550s] -- Build files have been written to: /workspace/jazzy_ws/build/sensor_msgs
+[2.561s] Invoked command in '/workspace/jazzy_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[2.561s] Invoking command in '/workspace/jazzy_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/sensor_msgs -- -j24 -l24
+[2.610s] [  1%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[2.611s] [  1%] Generating type hashes for ROS interfaces
+[2.611s] [  1%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[2.617s] [  1%] Built target ament_cmake_python_copy_sensor_msgs
+[2.763s] running egg_info
+[2.770s] creating sensor_msgs.egg-info
+[2.770s] writing sensor_msgs.egg-info/PKG-INFO
+[2.770s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[2.770s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[2.770s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[2.793s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[2.794s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[2.818s] [  1%] Built target ament_cmake_python_build_sensor_msgs_egg
+[3.304s] [  2%] Linking CXX static library libgtest_main.a
+[3.368s] [  2%] Built target gtest_main
+[6.509s] [  2%] Built target sensor_msgs__rosidl_generator_type_description
+[6.546s] [  3%] Generating C code for ROS interfaces
+[6.548s] [  3%] Generating C++ code for ROS interfaces
+[8.147s] [  3%] Linking CXX static library libgtest.a
+[8.186s] [  3%] Built target gtest
+[9.715s] [  3%] Built target sensor_msgs__cpp
+[9.831s] [  3%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__description.c.o
+[9.831s] [  3%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o
+[9.831s] [  4%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__description.c.o
+[9.832s] [  4%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__type_support.c.o
+[9.832s] [  4%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o
+[9.832s] [  5%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o
+[9.832s] [  6%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__type_support.c.o
+[9.832s] [  6%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__description.c.o
+[9.832s] [  7%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o
+[9.832s] [  7%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o
+[9.832s] [  7%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__description.c.o
+[9.832s] [  7%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o
+[9.832s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o
+[9.832s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__description.c.o
+[9.833s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o
+[9.833s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__description.c.o
+[9.833s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__description.c.o
+[9.833s] [  8%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o
+[9.833s] [  9%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__type_support.c.o
+[9.834s] [  9%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o
+[9.850s] [  9%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__type_support.c.o
+[9.853s] [ 10%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o
+[9.853s] [ 10%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__description.c.o
+[9.854s] [ 10%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__type_support.c.o
+[9.854s] [ 11%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__description.c.o
+[9.856s] [ 12%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__description.c.o
+[9.856s] [ 12%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o
+[9.856s] [ 12%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__type_support.c.o
+[9.856s] [ 12%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o
+[9.859s] [ 12%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o
+[9.859s] [ 13%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__description.c.o
+[9.860s] [ 13%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o
+[9.861s] [ 13%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o
+[9.861s] [ 14%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__description.c.o
+[9.863s] [ 14%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o
+[9.863s] [ 14%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o
+[9.866s] [ 15%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__description.c.o
+[9.866s] [ 15%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o
+[9.868s] [ 16%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__description.c.o
+[9.868s] [ 16%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o
+[9.869s] [ 16%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o
+[9.876s] [ 16%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o
+[9.876s] [ 16%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__description.c.o
+[9.877s] [ 17%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o
+[9.880s] [ 17%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o
+[9.883s] [ 17%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c.o
+[9.883s] [ 18%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__description.c.o
+[9.885s] [ 19%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o
+[9.885s] [ 19%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o
+[9.885s] [ 20%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o
+[9.886s] [ 20%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__description.c.o
+[9.886s] [ 20%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o
+[9.890s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o
+[9.890s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__description.c.o
+[9.890s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o
+[9.891s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__description.c.o
+[9.894s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__description.c.o
+[9.894s] [ 21%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o
+[9.898s] [ 22%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o
+[9.899s] [ 22%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o
+[9.903s] [ 22%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__description.c.o
+[9.904s] [ 23%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o
+[9.904s] [ 23%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__type_support.c.o
+[9.905s] [ 23%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__description.c.o
+[9.905s] [ 24%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o
+[9.909s] [ 24%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__type_support.c.o
+[9.910s] [ 24%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__type_support.c.o
+[9.910s] [ 25%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o
+[9.911s] [ 25%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o
+[9.915s] [ 26%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o
+[9.915s] [ 26%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__description.c.o
+[9.916s] [ 27%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o
+[9.918s] [ 27%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__description.c.o
+[9.919s] [ 27%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o
+[9.922s] [ 28%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__description.c.o
+[9.922s] [ 28%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__type_support.c.o
+[9.922s] [ 28%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o
+[9.925s] [ 29%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__type_support.c.o
+[9.925s] [ 29%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o
+[9.926s] [ 29%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o
+[9.930s] [ 30%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o
+[9.930s] [ 30%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__description.c.o
+[9.933s] [ 30%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__description.c.o
+[9.934s] [ 30%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o
+[9.979s] [ 30%] Linking C shared library libsensor_msgs__rosidl_generator_c.so
+[10.013s] [ 30%] Built target sensor_msgs__rosidl_generator_c
+[10.020s] [ 32%] Generating C introspection for ROS interfaces
+[10.020s] [ 32%] Generating C type support for eProsima Fast-RTPS
+[10.020s] [ 32%] Generating C++ type support dispatch for ROS interfaces
+[10.020s] [ 32%] Generating C++ type support for eProsima Fast-RTPS
+[10.020s] [ 32%] Generating C type support dispatch for ROS interfaces
+[10.020s] [ 32%] Generating C++ introspection for ROS interfaces
+[11.693s] [ 33%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o
+[11.693s] [ 33%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o
+[11.698s] [ 33%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o
+[11.698s] [ 34%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o
+[11.698s] [ 34%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o
+[11.702s] [ 35%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o
+[11.702s] [ 35%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o
+[11.706s] [ 36%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o
+[11.707s] [ 33%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o
+[11.707s] [ 35%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o
+[11.707s] [ 36%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o
+[11.707s] [ 36%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o
+[11.708s] [ 36%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o
+[11.709s] [ 37%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o
+[11.709s] [ 37%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o
+[11.709s] [ 36%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o
+[11.710s] [ 35%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o
+[11.720s] [ 38%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o
+[11.731s] [ 38%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o
+[11.745s] [ 38%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o
+[11.752s] [ 38%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o
+[11.758s] [ 38%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o
+[11.761s] [ 39%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o
+[11.795s] [ 39%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o
+[11.796s] [ 39%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o
+[11.796s] [ 39%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o
+[11.797s] [ 39%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o
+[11.799s] [ 40%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o
+[11.808s] [ 40%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o
+[11.813s] [ 41%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o
+[11.819s] [ 42%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o
+[11.826s] [ 42%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o
+[11.826s] [ 42%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o
+[11.831s] [ 43%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o
+[11.836s] [ 43%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o
+[11.841s] [ 44%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o
+[11.841s] [ 44%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o
+[11.874s] [ 44%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o
+[11.885s] [ 44%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o
+[11.891s] [ 45%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o
+[11.893s] [ 45%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o
+[11.910s] [ 45%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o
+[11.922s] [ 45%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o
+[11.924s] [ 46%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o
+[11.951s] [ 46%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o
+[11.987s] [ 46%] Linking CXX shared library libsensor_msgs__rosidl_typesupport_c.so
+[12.033s] [ 46%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o
+[12.066s] [ 47%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o
+[12.066s] [ 46%] Built target sensor_msgs__rosidl_typesupport_c
+[12.080s] [ 47%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o
+[12.244s] [ 47%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o
+[12.262s] [ 48%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o
+[12.300s] [ 48%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o
+[12.330s] [ 49%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o
+[12.330s] [ 49%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o
+[12.347s] [ 50%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o
+[12.374s] [ 50%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o
+[12.376s] [ 51%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o
+[12.390s] [ 51%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o
+[12.392s] [ 51%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o
+[12.393s] [ 51%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o
+[12.408s] [ 51%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o
+[12.426s] [ 51%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o
+[12.451s] [ 52%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o
+[12.487s] [ 53%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o
+[12.491s] [ 53%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o
+[12.492s] [ 53%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o
+[12.496s] [ 54%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o
+[12.501s] [ 54%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o
+[12.556s] [ 54%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o
+[12.556s] [ 54%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o
+[12.582s] [ 54%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o
+[12.582s] [ 55%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o
+[12.583s] [ 56%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o
+[12.608s] [ 56%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o
+[12.633s] [ 56%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o
+[12.646s] [ 57%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o
+[12.677s] [ 57%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o
+[12.693s] [ 57%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o
+[12.697s] [ 57%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o
+[12.745s] [ 58%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o
+[12.767s] [ 58%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o
+[12.826s] [ 58%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o
+[12.826s] [ 58%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o
+[12.834s] [ 59%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o
+[12.843s] [ 60%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o
+[12.852s] [ 60%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o
+[12.879s] [ 60%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o
+[12.881s] [ 60%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o
+[12.899s] [ 60%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o
+[12.901s] [ 61%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o
+[12.914s] [ 62%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o
+[12.914s] [ 61%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o
+[12.914s] [ 62%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o
+[12.937s] [ 62%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o
+[12.957s] [ 62%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o
+[12.965s] [ 63%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o
+[12.999s] [ 63%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o
+[13.004s] [ 63%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o
+[13.012s] [ 63%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o
+[13.023s] [ 64%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o
+[13.030s] [ 64%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o
+[13.048s] [ 64%] Linking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so
+[13.055s] [ 64%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o
+[13.057s] [ 65%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o
+[13.076s] [ 66%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o
+[13.091s] [ 66%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o
+[13.147s] [ 66%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o
+[13.192s] [ 66%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o
+[13.266s] [ 67%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o
+[13.277s] [ 67%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o
+[13.280s] [ 67%] Built target sensor_msgs__rosidl_typesupport_cpp
+[13.281s] [ 67%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o
+[13.300s] [ 68%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o
+[13.300s] [ 68%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o
+[13.328s] [ 69%] Building CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o
+[13.340s] [ 69%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o
+[13.340s] [ 69%] Building C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o
+[13.352s] [ 69%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o
+[13.362s] [ 70%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o
+[13.362s] [ 70%] Building CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o
+[13.364s] [ 70%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o
+[13.372s] [ 70%] Building CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o
+[13.372s] [ 71%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o
+[13.379s] [ 70%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o
+[13.379s] [ 71%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o
+[13.388s] [ 71%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o
+[13.411s] [ 72%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o
+[13.431s] [ 72%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o
+[13.439s] [ 73%] Linking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so
+[13.510s] [ 73%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o
+[13.510s] [ 73%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[13.529s] [ 74%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o
+[13.649s] [ 74%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o
+[13.723s] [ 75%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o
+[13.738s] [ 75%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o
+[13.743s] [ 75%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o
+[13.798s] [ 76%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o
+[13.820s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o
+[13.821s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o
+[13.917s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o
+[14.003s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o
+[14.019s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o
+[14.032s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o
+[14.074s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o
+[14.119s] [ 77%] Linking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[14.212s] [ 77%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o
+[14.236s] [ 78%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o
+[14.239s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o
+[14.266s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o
+[14.287s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o
+[14.328s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o
+[14.331s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o
+[14.346s] [ 79%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o
+[14.349s] [ 80%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o
+[14.397s] [ 80%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[14.413s] [ 81%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o
+[14.421s] [ 81%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o
+[14.460s] [ 82%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o
+[14.541s] [ 82%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o
+[14.655s] [ 82%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o
+[14.660s] [ 83%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o
+[14.674s] [ 83%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o
+[14.677s] [ 84%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o
+[14.732s] [ 84%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o
+[14.745s] [ 84%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o
+[14.805s] [ 84%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o
+[14.826s] [ 84%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o
+[14.866s] [ 85%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o
+[14.892s] [ 85%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o
+[14.966s] [ 86%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o
+[14.971s] [ 86%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o
+[15.016s] [ 86%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o
+[15.044s] [ 86%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o
+[15.068s] [ 86%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o
+[15.139s] [ 87%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o
+[15.159s] [ 87%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o
+[15.182s] [ 87%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o
+[15.217s] [ 88%] Building CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o
+[15.846s] [ 88%] Linking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[15.977s] [ 88%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[16.049s] [ 88%] Linking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.148s] [ 88%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[16.154s] [ 89%] Linking CXX executable test_sensor_msgs
+[16.167s] [ 89%] Built target sensor_msgs
+[16.186s] [ 89%] Generating Python code for ROS interfaces
+[16.296s] [ 89%] Built target test_sensor_msgs
+[19.318s] [ 89%] Built target sensor_msgs__py
+[19.329s] [ 89%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o
+[19.330s] [ 90%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o
+[19.330s] [ 90%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o
+[19.330s] [ 90%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o
+[19.330s] [ 91%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o
+[19.331s] [ 91%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o
+[19.331s] [ 91%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o
+[19.331s] [ 92%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o
+[19.331s] [ 92%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o
+[19.333s] [ 93%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o
+[19.333s] [ 93%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o
+[19.333s] [ 93%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o
+[19.334s] [ 93%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o
+[19.341s] [ 93%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o
+[19.400s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o
+[19.406s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o
+[19.406s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o
+[19.406s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o
+[19.409s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o
+[19.409s] [ 94%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o
+[19.409s] [ 95%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o
+[19.414s] [ 96%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o
+[19.418s] [ 96%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o
+[19.418s] [ 96%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o
+[19.419s] [ 97%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o
+[19.422s] [ 97%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o
+[19.423s] [ 97%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o
+[19.424s] [ 98%] Building C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o
+[19.504s] [ 98%] Linking C shared library libsensor_msgs__rosidl_generator_py.so
+[19.534s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[19.544s] [ 99%] Building C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[19.544s] [ 99%] Building C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[19.544s] [ 99%] Building C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o
+[19.636s] [ 99%] Linking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[19.638s] [100%] Linking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[19.640s] [100%] Linking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[19.655s] [100%] Built target sensor_msgs_s__rosidl_typesupport_introspection_c
+[19.656s] [100%] Built target sensor_msgs_s__rosidl_typesupport_fastrtps_c
+[19.657s] [100%] Built target sensor_msgs_s__rosidl_typesupport_c
+[19.663s] Invoked command in '/workspace/jazzy_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/sensor_msgs -- -j24 -l24
+[19.663s] Invoking command in '/workspace/jazzy_ws/build/sensor_msgs': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/sensor_msgs
+[19.668s] -- Install configuration: ""
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/BatteryState.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CameraInfo.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/ChannelFloat32.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CompressedImage.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/FluidPressure.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Illuminance.json
+[19.668s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Image.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Imu.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JointState.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Joy.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedback.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedbackArray.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserEcho.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserScan.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MagneticField.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiDOFJointState.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiEchoLaserScan.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatFix.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatStatus.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud.json
+[19.669s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud2.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointField.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Range.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RegionOfInterest.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RelativeHumidity.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Temperature.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/TimeReference.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/srv/SetCameraInfo.json
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[19.670s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__description.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__description.c
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[19.671s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__description.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__description.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__description.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__description.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[19.672s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__description.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__description.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__description.c
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[19.673s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[19.674s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__description.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[19.675s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__description.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__description.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__description.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__description.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[19.676s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__description.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__description.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__description.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[19.677s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__description.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__description.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[19.678s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__description.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__description.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__description.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__description.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[19.679s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__description.c
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__description.c
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[19.680s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__description.c
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[19.681s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/image.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/imu.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[19.682s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/range.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[19.683s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[19.684s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[19.684s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__description.c
+[19.684s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[19.684s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[19.684s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/library_path.sh
+[19.684s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/library_path.dsv
+[19.684s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_generator_c.so
+[19.684s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[19.685s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.685s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.685s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[19.685s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[19.686s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.687s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.687s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[19.687s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[19.687s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.687s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.687s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.687s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[19.687s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.hpp
+[19.688s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[19.689s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[19.690s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[19.691s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.hpp
+[19.692s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[19.693s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[19.694s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[19.695s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[19.696s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.696s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[19.696s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[19.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.697s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[19.697s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.698s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.698s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.698s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[19.698s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.698s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.698s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.699s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.699s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[19.699s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[19.700s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.701s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.701s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[19.701s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[19.701s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[19.702s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.702s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_c.so
+[19.702s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[19.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg
+[19.702s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[19.702s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[19.703s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[19.704s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[19.704s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv
+[19.705s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail
+[19.705s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[19.705s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[19.705s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[19.705s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.705s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[19.705s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[19.706s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/pythonpath.sh
+[19.706s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/pythonpath.dsv
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_s.c
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan_s.c
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_field.py
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state.py
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32.py
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure.py
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2.py
+[19.706s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_imu_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_range_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_image_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_image.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/__init__.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status.py
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info_s.c
+[19.707s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_temperature_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_imu.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_temperature.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_range.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32_s.c
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state.py
+[19.708s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity.py
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_s.c
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest_s.c
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_field_s.c
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image.py
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/__init__.py
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info.py
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv/__init__.py
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info_s.c
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[19.709s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[19.758s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs'...
+[19.758s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/__init__.py'...
+[19.758s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg'...
+[19.758s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/__init__.py'...
+[19.758s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_image.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_imu.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_point_field.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_range.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_temperature.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference.py'...
+[19.759s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv/__init__.py'...
+[19.759s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info.py'...
+[19.762s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[19.762s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[19.762s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[19.762s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[19.762s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[19.762s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so" to ""
+[19.762s] -- Installing: /workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_generator_py.so
+[19.762s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[19.762s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/BatteryState.idl
+[19.762s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CameraInfo.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/ChannelFloat32.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CompressedImage.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/FluidPressure.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Illuminance.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Image.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Imu.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JointState.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Joy.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedback.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserEcho.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserScan.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MagneticField.idl
+[19.763s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiDOFJointState.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatFix.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatStatus.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud2.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointField.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Range.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RegionOfInterest.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RelativeHumidity.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Temperature.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/TimeReference.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/srv/SetCameraInfo.idl
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/BatteryState.msg
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CameraInfo.msg
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/ChannelFloat32.msg
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/CompressedImage.msg
+[19.764s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/FluidPressure.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Illuminance.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Image.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Imu.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JointState.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Joy.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedback.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserEcho.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/LaserScan.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MagneticField.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiDOFJointState.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatFix.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/NavSatStatus.msg
+[19.765s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointCloud2.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/PointField.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Range.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RegionOfInterest.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/RelativeHumidity.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/Temperature.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/msg/TimeReference.msg
+[19.766s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/srv/SetCameraInfo.srv
+[19.766s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs
+[19.766s] -- Up-to-date: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/impl
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[19.766s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[19.767s] -- Installing: /workspace/jazzy_ws/install/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/ament_prefix_path.sh
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/ament_prefix_path.dsv
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/path.sh
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/environment/path.dsv
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/local_setup.bash
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/local_setup.sh
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/local_setup.zsh
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/local_setup.dsv
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/package.dsv
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/sensor_msgs
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[19.767s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[19.768s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[19.769s] -- Installing: /workspace/jazzy_ws/install/share/sensor_msgs/package.xml
+[19.771s] Invoked command in '/workspace/jazzy_ws/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/sensor_msgs

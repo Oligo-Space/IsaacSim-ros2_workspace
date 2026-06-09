@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build_ws/build/custom_message': /usr/bin/cmake /workspace/build_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/custom_message
+Invoked command in '/workspace/build_ws/build/custom_message' returned '0': /usr/bin/cmake /workspace/build_ws/src/custom_message -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/custom_message
+Invoking command in '/workspace/build_ws/build/custom_message': /usr/bin/cmake --build /workspace/build_ws/build/custom_message -- -j24 -l24
+Invoked command in '/workspace/build_ws/build/custom_message' returned '0': /usr/bin/cmake --build /workspace/build_ws/build/custom_message -- -j24 -l24
+Invoking command in '/workspace/build_ws/build/custom_message': /usr/bin/cmake --install /workspace/build_ws/build/custom_message
+Invoked command in '/workspace/build_ws/build/custom_message' returned '0': /usr/bin/cmake --install /workspace/build_ws/build/custom_message

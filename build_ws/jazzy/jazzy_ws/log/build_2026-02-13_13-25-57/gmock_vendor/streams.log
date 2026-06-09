@@ -1,0 +1,40 @@
+[0.003s] Invoking command in '/workspace/jazzy_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/googletest/gmock_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.011s] -- Configuring done (0.0s)
+[0.011s] -- Generating done (0.0s)
+[0.012s] -- Build files have been written to: /workspace/jazzy_ws/build/gmock_vendor
+[0.012s] Invoked command in '/workspace/jazzy_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/googletest/gmock_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.013s] Invoking command in '/workspace/jazzy_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/gmock_vendor -- -j24 -l24
+[0.033s] Invoked command in '/workspace/jazzy_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/gmock_vendor -- -j24 -l24
+[0.033s] Invoking command in '/workspace/jazzy_ws/build/gmock_vendor': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/gmock_vendor
+[0.035s] -- Install configuration: ""
+[0.035s] -- Installing: /workspace/jazzy_ws/install/share/gmock_vendor/cmake/gmock_vendorConfig.cmake
+[0.035s] -- Installing: /workspace/jazzy_ws/install/share/gmock_vendor/package.xml
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/CMakeLists.txt
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-nice-strict.h
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-function-mocker.h
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-cardinalities.h
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-matchers.h
+[0.035s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-spec-builders.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-more-actions.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-more-matchers.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/gmock-port.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/gmock-pp.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/custom
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/custom/gmock-port.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/custom/gmock-matchers.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/custom/README.md
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/include/gmock/gmock-actions.h
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src
+[0.036s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock-all.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock-internal-utils.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock_main.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock-cardinalities.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock-spec-builders.cc
+[0.037s] -- Installing: /workspace/jazzy_ws/install/src/gmock_vendor/src/gmock-matchers.cc
+[0.038s] Invoked command in '/workspace/jazzy_ws/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/gmock_vendor

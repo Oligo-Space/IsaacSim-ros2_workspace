@@ -1,0 +1,146 @@
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rcutils: 6.7.5 (/workspace/jazzy_ws/install/share/rcutils/cmake)
+-- Found rosidl_typesupport_interface: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_typesupport_interface/cmake)
+-- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+-- Found performance_test_fixture: 0.2.1 (/workspace/jazzy_ws/install/share/performance_test_fixture/cmake)
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /workspace/jazzy_ws/install/include;$<BUILD_INTERFACE:/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include>
+-- Configured cppcheck exclude dirs and/or files: /workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field_type__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field_type__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/key_value__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/key_value__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_description__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_description__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_source__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_source__functions.c
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: /workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__functions.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field_type__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/field_type__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/key_value__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/key_value__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_description__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_description__functions.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_source__description.c;/workspace/jazzy_ws/src/rosidl/rosidl_runtime_c/src/type_description/type_source__functions.c
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/rosidl_runtime_c
+[  2%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[  4%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.o
+[  6%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  9%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.o
+[ 11%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.o
+[ 13%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.o
+[ 18%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_hash.c.o
+[ 20%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.o
+[ 18%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.o
+[ 23%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description_utils.c.o
+[ 25%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field__functions.c.o
+[ 27%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/individual_type_description__functions.c.o
+[ 30%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/key_value__description.c.o
+[ 34%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/key_value__functions.c.o
+[ 34%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field_type__functions.c.o
+[ 37%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/individual_type_description__description.c.o
+[ 39%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field__description.c.o
+[ 41%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field_type__description.c.o
+[ 44%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_description__description.c.o
+[ 46%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_description__functions.c.o
+[ 48%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_source__description.c.o
+[ 51%] Building C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_source__functions.c.o
+[ 53%] Linking C shared library librosidl_runtime_c.so
+[ 53%] Built target rosidl_runtime_c
+[ 55%] Building CXX object CMakeFiles/benchmark_string_conversion.dir/test/benchmark/benchmark_string_conversion.cpp.o
+[ 58%] Linking CXX static library libgtest_main.a
+[ 60%] Linking CXX executable benchmark_string_conversion
+[ 60%] Built target gtest_main
+[ 60%] Built target benchmark_string_conversion
+[ 62%] Linking CXX static library libgtest.a
+[ 62%] Built target gtest
+[ 65%] Building CXX object CMakeFiles/test_sequence_bound.dir/test/test_sequence_bound.cpp.o
+[ 67%] Building CXX object CMakeFiles/test_message_type_support.dir/test/test_message_type_support.cpp.o
+[ 69%] Building CXX object CMakeFiles/test_service_type_support.dir/test/test_service_type_support.cpp.o
+[ 72%] Building CXX object CMakeFiles/test_type_hash.dir/test/test_type_hash.cpp.o
+[ 74%] Building CXX object CMakeFiles/test_primitives_sequence_functions.dir/test/test_primitives_sequence_functions.cpp.o
+[ 76%] Building CXX object CMakeFiles/test_string_functions.dir/test/test_string_functions.cpp.o
+[ 79%] Building CXX object CMakeFiles/test_type_description_utils.dir/test/test_type_description_utils.cpp.o
+[ 81%] Building CXX object CMakeFiles/test_u16string_functions.dir/test/test_u16string_functions.cpp.o
+[ 83%] Linking CXX executable test_message_type_support
+[ 83%] Built target test_message_type_support
+[ 86%] Linking CXX executable test_type_hash
+[ 88%] Linking CXX executable test_u16string_functions
+[ 88%] Built target test_type_hash
+[ 88%] Built target test_u16string_functions
+[ 90%] Linking CXX executable test_type_description_utils
+[ 90%] Built target test_type_description_utils
+[ 93%] Linking CXX executable test_sequence_bound
+[ 93%] Built target test_sequence_bound
+[ 95%] Linking CXX executable test_primitives_sequence_functions
+[ 97%] Linking CXX executable test_service_type_support
+[ 97%] Built target test_primitives_sequence_functions
+[100%] Linking CXX executable test_string_functions
+[100%] Built target test_service_type_support
+[100%] Built target test_string_functions
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/library_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/library_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/key_value__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/key_value__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_bound.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_description_utils.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h
+-- Installing: /workspace/jazzy_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h
+-- Installing: /workspace/jazzy_ws/install/lib/librosidl_runtime_c.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librosidl_runtime_c.so" to ""
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rosidl_runtime_c
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rosidl_runtime_c/package.xml

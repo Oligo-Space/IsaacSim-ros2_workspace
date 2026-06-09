@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found builtin_interfaces: 2.0.3 (/workspace/jazzy_ws/install/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.3.6 (/workspace/jazzy_ws/install/share/geometry_msgs/cmake)
+-- Found ament_cmake_google_benchmark: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_google_benchmark/cmake)
+-- Found ament_cmake_copyright: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_xmllint/cmake)
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/tf2
+[ 28%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 28%] Building CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o
+[ 28%] Building CXX object CMakeFiles/tf2.dir/src/time.cpp.o
+[ 28%] Building CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o
+[ 28%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Building CXX object CMakeFiles/tf2.dir/src/cache.cpp.o
+[ 33%] Linking CXX static library libgtest_main.a
+[ 33%] Built target gtest_main
+[ 38%] Linking CXX shared library libtf2.so
+[ 38%] Built target tf2
+[ 42%] Building CXX object CMakeFiles/cache_benchmark.dir/test/cache_benchmark.cpp.o
+[ 47%] Linking CXX executable cache_benchmark
+[ 47%] Built target cache_benchmark
+[ 52%] Linking CXX static library libgtest.a
+[ 52%] Built target gtest
+[ 57%] Building CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o
+[ 61%] Building CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o
+[ 66%] Building CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o
+[ 71%] Building CXX object CMakeFiles/test_simple_tf2_core.dir/test/simple_tf2_core.cpp.o
+[ 76%] Building CXX object CMakeFiles/test_storage.dir/test/test_storage.cpp.o
+[ 80%] Linking CXX executable test_storage
+[ 85%] Linking CXX executable test_static_cache_unittest
+[ 85%] Built target test_storage
+[ 90%] Linking CXX executable test_time
+[ 90%] Built target test_static_cache_unittest
+[ 90%] Built target test_time
+[ 95%] Linking CXX executable test_cache_unittest
+[ 95%] Built target test_cache_unittest
+[100%] Linking CXX executable test_simple_tf2_core
+[100%] Built target test_simple_tf2_core
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/lib/libtf2.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libtf2.so" to ""
+-- Installing: /workspace/jazzy_ws/install/include/tf2
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_storage.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time_cache.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/exceptions.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Transform.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Scalar.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Matrix3x3.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Vector3.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/QuadWord.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Matrix3x3.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Vector3.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Quaternion.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/QuadWord.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Transform.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/MinMax.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/MinMax.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Scalar.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/LinearMath/Quaternion.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_storage.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/utils.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_datatypes.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/visibility_control.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core_interface.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/utils.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/utils.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/convert.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/impl/convert.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time_cache.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/exceptions.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/utils.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/time.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/convert.hpp
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/convert.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/transform_datatypes.h
+-- Installing: /workspace/jazzy_ws/install/include/tf2/tf2/buffer_core_interface.hpp
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/library_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/library_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/tf2
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/tf2
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/tf2/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/tf2/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/tf2/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/tf2
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/export_tf2Export.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/export_tf2Export-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/tf2Config.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/cmake/tf2Config-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/tf2/package.xml

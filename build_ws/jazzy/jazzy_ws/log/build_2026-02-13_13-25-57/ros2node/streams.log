@@ -1,0 +1,52 @@
+[0.695s] Invoking command in '/workspace/jazzy_ws/src/ros2cli/ros2node': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2node build --build-base /workspace/jazzy_ws/build/ros2node/build install --record /workspace/jazzy_ws/build/ros2node/install.log --single-version-externally-managed install_data
+[0.800s] running egg_info
+[0.805s] creating ../../../build/ros2node/ros2node.egg-info
+[0.805s] writing ../../../build/ros2node/ros2node.egg-info/PKG-INFO
+[0.806s] writing dependency_links to ../../../build/ros2node/ros2node.egg-info/dependency_links.txt
+[0.806s] writing entry points to ../../../build/ros2node/ros2node.egg-info/entry_points.txt
+[0.806s] writing requirements to ../../../build/ros2node/ros2node.egg-info/requires.txt
+[0.806s] writing top-level names to ../../../build/ros2node/ros2node.egg-info/top_level.txt
+[0.806s] writing manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[0.817s] reading manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[0.818s] writing manifest file '../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.818s] creating /workspace/jazzy_ws/build/ros2node/build/lib/ros2node
+[0.819s] copying ros2node/__init__.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node
+[0.819s] creating /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb
+[0.819s] copying ros2node/verb/__init__.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb
+[0.819s] copying ros2node/verb/info.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb
+[0.820s] copying ros2node/verb/list.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb
+[0.820s] creating /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/command
+[0.820s] copying ros2node/command/node.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/command
+[0.820s] copying ros2node/command/__init__.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/command
+[0.820s] creating /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/api
+[0.820s] copying ros2node/api/__init__.py -> /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/api
+[0.820s] running install
+[0.820s] running install_lib
+[0.825s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node
+[0.825s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb/info.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/verb/list.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node
+[0.825s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/command
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/command/node.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/command
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/command/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/command
+[0.825s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/api
+[0.825s] copying /workspace/jazzy_ws/build/ros2node/build/lib/ros2node/api/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/api
+[0.826s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb/__init__.py to __init__.cpython-312.pyc
+[0.826s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb/info.py to info.cpython-312.pyc
+[0.827s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/verb/list.py to list.cpython-312.pyc
+[0.827s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/__init__.py to __init__.cpython-312.pyc
+[0.827s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/command/node.py to node.cpython-312.pyc
+[0.828s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/command/__init__.py to __init__.cpython-312.pyc
+[0.828s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node/api/__init__.py to __init__.cpython-312.pyc
+[0.828s] running install_data
+[0.828s] copying package.xml -> /workspace/jazzy_ws/install/share/ros2node
+[0.828s] copying resource/ros2node -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.828s] running install_egg_info
+[0.833s] Copying ../../../build/ros2node/ros2node.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2node-0.32.8-py3.12.egg-info
+[0.833s] running install_scripts
+[0.845s] writing list of installed files to '/workspace/jazzy_ws/build/ros2node/install.log'
+[0.857s] Invoked command in '/workspace/jazzy_ws/src/ros2cli/ros2node' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2node build --build-base /workspace/jazzy_ws/build/ros2node/build install --record /workspace/jazzy_ws/build/ros2node/install.log --single-version-externally-managed install_data

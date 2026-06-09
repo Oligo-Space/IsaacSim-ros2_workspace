@@ -1,0 +1,98 @@
+running egg_info
+creating ../../build/ament_package/ament_package.egg-info
+writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+writing requirements to ../../build/ament_package/ament_package.egg-info/requires.txt
+writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/jazzy_ws/build/ament_package/build/lib/ament_package
+copying ament_package/templates.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package
+copying ament_package/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package
+creating /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template
+copying ament_package/template/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template
+creating /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/_local_setup_util.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+creating /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+creating /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/package_level/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/library_path.sh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/path.bat -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/path.sh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+copying ament_package/template/package_level/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/package_level/local_setup.sh.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/package_level/local_setup.zsh.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/package_level/local_setup.bat.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/package_level/local_setup.bash.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level
+copying ament_package/template/prefix_level/local_setup.bash -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/__init__.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/setup.bash -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/local_setup.sh.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/setup.bat.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/_local_setup_util.py -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/setup.sh.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/setup.zsh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/local_setup.bat.in -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+copying ament_package/template/prefix_level/local_setup.zsh -> /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+running install
+running install_lib
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/templates.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+copying /workspace/jazzy_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/templates.py to templates.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /workspace/jazzy_ws/install/share/ament_package
+copying resource/ament_package -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/ament_package/ament_package.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_package-0.16.5-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspace/jazzy_ws/build/ament_package/install.log'

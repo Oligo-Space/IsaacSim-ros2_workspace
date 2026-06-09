@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build_ws/build/carter_navigation': /usr/bin/cmake /workspace/build_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/carter_navigation
+Invoked command in '/workspace/build_ws/build/carter_navigation' returned '0': /usr/bin/cmake /workspace/build_ws/src/navigation/carter_navigation -DCMAKE_INSTALL_PREFIX=/workspace/build_ws/install/carter_navigation
+Invoking command in '/workspace/build_ws/build/carter_navigation': /usr/bin/cmake --build /workspace/build_ws/build/carter_navigation -- -j24 -l24
+Invoked command in '/workspace/build_ws/build/carter_navigation' returned '0': /usr/bin/cmake --build /workspace/build_ws/build/carter_navigation -- -j24 -l24
+Invoking command in '/workspace/build_ws/build/carter_navigation': /usr/bin/cmake --install /workspace/build_ws/build/carter_navigation
+Invoked command in '/workspace/build_ws/build/carter_navigation' returned '0': /usr/bin/cmake --install /workspace/build_ws/build/carter_navigation

@@ -1,0 +1,35 @@
+{
+  "package_name": "action_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/action_msgs/rosidl_typesupport_fastrtps_cpp/action_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/workspace/jazzy_ws/install/share/unique_identifier_msgs/msg/UUID.idl",
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalInfo.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatus.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatusArray.idl",
+    "/workspace/jazzy_ws/build/action_msgs/rosidl_adapter/action_msgs/srv/CancelGoal.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "/workspace/jazzy_ws/install/share/unique_identifier_msgs/msg/UUID.idl",
+    "/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl"
+  ]
+}

@@ -1,0 +1,16 @@
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/alloc.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/assert.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/literal.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/matcher.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/mock.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/preprocess.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/string.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/unmocked.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/va.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/verify.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/when.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/mimick.h
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/lib/libmimick.a
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimick-targets.cmake
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimick-targets-noconfig.cmake
+/workspace/jazzy_ws/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimickConfig.cmake

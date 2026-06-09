@@ -1,0 +1,44 @@
+[0.010s] Invoking command in '/workspace/jazzy_ws/build/test_interface_files': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/test_interface_files -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.019s] -- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+[0.112s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.266s] -- Configuring done (0.2s)
+[0.266s] -- Generating done (0.0s)
+[0.266s] -- Build files have been written to: /workspace/jazzy_ws/build/test_interface_files
+[0.274s] Invoked command in '/workspace/jazzy_ws/build/test_interface_files' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/test_interface_files -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.274s] Invoking command in '/workspace/jazzy_ws/build/test_interface_files': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/test_interface_files -- -j24 -l24
+[0.394s] Invoked command in '/workspace/jazzy_ws/build/test_interface_files' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/test_interface_files -- -j24 -l24
+[0.394s] Invoking command in '/workspace/jazzy_ws/build/test_interface_files': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/test_interface_files
+[0.406s] -- Install configuration: ""
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Arrays.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/BasicTypes.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/BoundedPlainSequences.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/BoundedSequences.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Constants.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Defaults.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Empty.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/MultiNested.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Nested.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/Strings.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/UnboundedSequences.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/msg/WStrings.msg
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/srv/Arrays.srv
+[0.406s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/srv/BasicTypes.srv
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/srv/Empty.srv
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/action/Fibonacci.action
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/environment/ament_prefix_path.sh
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/environment/ament_prefix_path.dsv
+[0.407s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/environment/path.sh
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/environment/path.dsv
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/local_setup.bash
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/local_setup.sh
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/local_setup.zsh
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/local_setup.dsv
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/package.dsv
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/test_interface_files
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/cmake/test_interface_files-extras.cmake
+[0.408s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+[0.470s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+[0.470s] -- Installing: /workspace/jazzy_ws/install/share/test_interface_files/package.xml
+[0.496s] Invoked command in '/workspace/jazzy_ws/build/test_interface_files' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/test_interface_files

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_c.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/_rosidl_generator_py_s.ep.rosidl_typesupport_introspection_c.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/__init__.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_arrays.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_arrays_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_basic_types.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_basic_types_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_bounded_plain_sequences.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_bounded_plain_sequences_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_bounded_sequences.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_bounded_sequences_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_builtin_type_sequences_idl.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_builtin_type_sequences_idl_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_constants.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_constants_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_defaults.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_defaults_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_empty.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_empty_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_multi_nested.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_multi_nested_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_nested.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_nested_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_property.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_property_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_string_arrays.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_string_arrays_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_strings.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_strings_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_unbounded_sequences.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_unbounded_sequences_s.c"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_w_strings.py"
+  "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py/rosidl_generator_py/msg/_w_strings_s.c"
+  "CMakeFiles/rosidl_generator_py_custom__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/rosidl_generator_py_custom__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

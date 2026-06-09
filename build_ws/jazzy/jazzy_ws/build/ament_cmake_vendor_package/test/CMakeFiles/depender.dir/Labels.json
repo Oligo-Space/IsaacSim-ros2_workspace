@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/depender"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/depender.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/CMakeFiles/depender-complete.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-build.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-configure.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-download.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-install.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-patch_disconnected.rule"
+		},
+		{
+			"file" : "/workspace/jazzy_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"depender"
+		],
+		"name" : "depender"
+	}
+}

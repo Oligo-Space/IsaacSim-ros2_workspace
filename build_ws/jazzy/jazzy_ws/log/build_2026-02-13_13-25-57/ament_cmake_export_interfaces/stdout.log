@@ -1,0 +1,26 @@
+-- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/ament_cmake_export_interfaces
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_interfaces
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_interfaces
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_cmake_export_interfaces
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/package.xml
+-- Up-to-date: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake.in
+-- Installing: /workspace/jazzy_ws/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces_package_hook.cmake

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  -std=c99 -Wall -Wextra -Wno-unused-parameter -pedantic -Werror -shared -Wl,-soname,libfoo.so -o libfoo.so CMakeFiles/foo.dir/libfoo.c.o 

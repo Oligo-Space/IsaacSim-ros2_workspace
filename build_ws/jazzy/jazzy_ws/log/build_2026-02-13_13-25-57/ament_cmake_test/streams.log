@@ -1,0 +1,54 @@
+[0.050s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_test': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake/ament_cmake_test -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.057s] -- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+[0.134s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.180s] -- Found ament_cmake_python: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_python/cmake)
+[0.324s] -- Configuring done (0.2s)
+[0.324s] -- Generating done (0.0s)
+[0.324s] -- Build files have been written to: /workspace/jazzy_ws/build/ament_cmake_test
+[0.325s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake/ament_cmake_test -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.325s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_test': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_test -- -j24 -l24
+[0.362s] Built target ament_cmake_python_copy_ament_cmake_test
+[0.436s] running egg_info
+[0.439s] creating ament_cmake_test.egg-info
+[0.439s] writing ament_cmake_test.egg-info/PKG-INFO
+[0.439s] writing dependency_links to ament_cmake_test.egg-info/dependency_links.txt
+[0.439s] writing top-level names to ament_cmake_test.egg-info/top_level.txt
+[0.439s] writing manifest file 'ament_cmake_test.egg-info/SOURCES.txt'
+[0.450s] reading manifest file 'ament_cmake_test.egg-info/SOURCES.txt'
+[0.451s] writing manifest file 'ament_cmake_test.egg-info/SOURCES.txt'
+[0.467s] Built target ament_cmake_python_build_ament_cmake_test_egg
+[0.472s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_test -- -j24 -l24
+[0.473s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_test': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_test
+[0.477s] -- Install configuration: ""
+[0.477s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/pythonpath.sh
+[0.477s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/pythonpath.dsv
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test-2.5.5-py3.12.egg-info
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test-2.5.5-py3.12.egg-info/PKG-INFO
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test-2.5.5-py3.12.egg-info/SOURCES.txt
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test-2.5.5-py3.12.egg-info/top_level.txt
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test-2.5.5-py3.12.egg-info/dependency_links.txt
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test
+[0.477s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test/__init__.py
+[0.500s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test'...
+[0.500s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cmake_test/__init__.py'...
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_test
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_test
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/ament_prefix_path.sh
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/ament_prefix_path.dsv
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/path.sh
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/environment/path.dsv
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/local_setup.bash
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/local_setup.sh
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/local_setup.zsh
+[0.503s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/local_setup.dsv
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/package.dsv
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_cmake_test
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/ament_cmake_testConfig-version.cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/package.xml
+[0.504s] -- Up-to-date: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/ament_add_test_label.cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/ament_add_test.cmake
+[0.504s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_test/cmake/run_test.py
+[0.505s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_test' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_test

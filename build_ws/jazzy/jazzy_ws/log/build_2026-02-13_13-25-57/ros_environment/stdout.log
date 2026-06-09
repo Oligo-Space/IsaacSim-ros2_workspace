@@ -1,0 +1,30 @@
+-- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/ros_environment
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_distro.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_distro.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_discovery.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_discovery.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_python_version.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_python_version.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_version.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/1.ros_version.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/0.ros_distro_check.sh
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ros_environment
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ros_environment
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ros_environment
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/cmake/ros_environmentConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/cmake/ros_environmentConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/ros_environment/package.xml

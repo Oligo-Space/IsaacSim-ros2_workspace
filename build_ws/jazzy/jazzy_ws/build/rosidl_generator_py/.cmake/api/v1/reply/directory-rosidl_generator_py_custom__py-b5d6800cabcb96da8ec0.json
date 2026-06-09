@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rosidl_generator_py_custom__py",
+		"source" : "/workspace/jazzy_ws/build/rosidl_generator_py/rosidl_generator_py_custom__py"
+	}
+}

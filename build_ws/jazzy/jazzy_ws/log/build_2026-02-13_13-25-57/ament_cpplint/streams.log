@@ -1,0 +1,50 @@
+[0.729s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /workspace/jazzy_ws/build/ament_cpplint/build install --record /workspace/jazzy_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data
+[0.804s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.804s]   warnings.warn(msg)
+[0.812s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.812s] !!
+[0.812s] 
+[0.812s]         ********************************************************************************
+[0.812s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.812s] 
+[0.812s]         License :: OSI Approved :: Apache Software License
+[0.812s] 
+[0.812s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.812s]         ********************************************************************************
+[0.812s] 
+[0.812s] !!
+[0.812s]   self._finalize_license_expression()
+[0.829s] running egg_info
+[0.833s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[0.833s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[0.833s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[0.833s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[0.833s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[0.843s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] creating /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint
+[0.843s] copying ament_cpplint/main.py -> /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint
+[0.843s] copying ament_cpplint/__init__.py -> /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint
+[0.843s] copying ament_cpplint/cpplint.py -> /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint
+[0.843s] running install
+[0.846s] running install_lib
+[0.865s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint
+[0.865s] copying /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint
+[0.865s] copying /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint
+[0.865s] copying /workspace/jazzy_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint
+[0.865s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint/main.py to main.cpython-312.pyc
+[0.865s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint/__init__.py to __init__.cpython-312.pyc
+[0.865s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-312.pyc
+[0.869s] running install_data
+[0.869s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_cpplint
+[0.870s] copying resource/ament_cpplint -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.870s] running install_egg_info
+[0.874s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cpplint-0.17.4-py3.12.egg-info
+[0.875s] running install_scripts
+[0.891s] Installing ament_cpplint script to /workspace/jazzy_ws/install/bin
+[0.891s] writing list of installed files to '/workspace/jazzy_ws/build/ament_cpplint/install.log'
+[0.923s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /workspace/jazzy_ws/build/ament_cpplint/build install --record /workspace/jazzy_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data

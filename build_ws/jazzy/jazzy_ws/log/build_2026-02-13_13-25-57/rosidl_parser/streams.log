@@ -1,0 +1,61 @@
+[0.060s] Invoking command in '/workspace/jazzy_ws/build/rosidl_parser': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rosidl/rosidl_parser -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.070s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.154s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.277s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.344s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.344s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.345s] -- Added test 'lint_cmake' to check CMake code style
+[0.345s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.347s] -- Added test 'xmllint' to check XML markup files
+[0.437s] -- Configuring done (0.4s)
+[0.442s] -- Generating done (0.0s)
+[0.443s] -- Build files have been written to: /workspace/jazzy_ws/build/rosidl_parser
+[0.444s] Invoked command in '/workspace/jazzy_ws/build/rosidl_parser' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rosidl/rosidl_parser -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.445s] Invoking command in '/workspace/jazzy_ws/build/rosidl_parser': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rosidl_parser -- -j24 -l24
+[0.476s] Built target ament_cmake_python_copy_rosidl_parser
+[0.622s] running egg_info
+[0.633s] creating rosidl_parser.egg-info
+[0.633s] writing rosidl_parser.egg-info/PKG-INFO
+[0.633s] writing dependency_links to rosidl_parser.egg-info/dependency_links.txt
+[0.633s] writing top-level names to rosidl_parser.egg-info/top_level.txt
+[0.633s] writing manifest file 'rosidl_parser.egg-info/SOURCES.txt'
+[0.665s] reading manifest file 'rosidl_parser.egg-info/SOURCES.txt'
+[0.671s] writing manifest file 'rosidl_parser.egg-info/SOURCES.txt'
+[0.741s] Built target ament_cmake_python_build_rosidl_parser_egg
+[0.758s] Invoked command in '/workspace/jazzy_ws/build/rosidl_parser' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rosidl_parser -- -j24 -l24
+[0.758s] Invoking command in '/workspace/jazzy_ws/build/rosidl_parser': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rosidl_parser
+[0.774s] -- Install configuration: ""
+[0.774s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/pythonpath.sh
+[0.774s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/pythonpath.dsv
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser-4.6.7-py3.12.egg-info
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser-4.6.7-py3.12.egg-info/PKG-INFO
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser-4.6.7-py3.12.egg-info/SOURCES.txt
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser-4.6.7-py3.12.egg-info/top_level.txt
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser-4.6.7-py3.12.egg-info/dependency_links.txt
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/__init__.py
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/grammar.lark
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/definition.py
+[0.774s] -- Installing: /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/parser.py
+[0.832s] Listing '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser'...
+[0.832s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/__init__.py'...
+[0.832s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/definition.py'...
+[0.832s] Compiling '/workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_parser/parser.py'...
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_parser
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_parser
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/ament_prefix_path.sh
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/ament_prefix_path.dsv
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/path.sh
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/environment/path.dsv
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/local_setup.bash
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/local_setup.sh
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/local_setup.zsh
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/local_setup.dsv
+[0.842s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/package.dsv
+[0.843s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rosidl_parser
+[0.843s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/cmake/rosidl_parserConfig.cmake
+[0.843s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/cmake/rosidl_parserConfig-version.cmake
+[0.843s] -- Installing: /workspace/jazzy_ws/install/share/rosidl_parser/package.xml
+[0.843s] -- Installing: /workspace/jazzy_ws/install/lib/rosidl_parser/idl2png
+[0.844s] Invoked command in '/workspace/jazzy_ws/build/rosidl_parser' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rosidl_parser

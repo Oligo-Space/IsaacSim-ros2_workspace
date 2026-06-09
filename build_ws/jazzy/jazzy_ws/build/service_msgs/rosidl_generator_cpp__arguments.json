@@ -1,0 +1,39 @@
+{
+  "package_name": "service_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/service_msgs/rosidl_generator_cpp/service_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/service_msgs/rosidl_adapter/service_msgs:msg/ServiceEventInfo.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../../../lib/python3.12/site-packages/rosidl_generator_cpp/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
+    "/workspace/jazzy_ws/build/service_msgs/rosidl_adapter/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/ServiceEventInfo.idl:/workspace/jazzy_ws/build/service_msgs/rosidl_generator_type_description/service_msgs/msg/ServiceEventInfo.json"
+  ]
+}

@@ -4,8 +4,6 @@ humble_ws/log
 jazzy_ws/build
 jazzy_ws/install
 jazzy_ws/log
-build_ws/jazzy
-build_ws/humble
 .vscode/
 .*.pyc
 jazzy_ws/.claude

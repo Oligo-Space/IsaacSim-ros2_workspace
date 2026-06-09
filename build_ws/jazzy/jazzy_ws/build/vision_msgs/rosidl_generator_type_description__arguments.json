@@ -1,0 +1,27 @@
+{
+  "package_name": "vision_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/vision_msgs/rosidl_generator_type_description/vision_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox2D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox2DArray.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox3D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/BoundingBox3DArray.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Classification.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection2DArray.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection2D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection3DArray.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Detection3D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/LabelInfo.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/ObjectHypothesis.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/ObjectHypothesisWithPose.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/VisionClass.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Point2D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/Pose2D.idl",
+    "/workspace/jazzy_ws/build/vision_msgs/rosidl_adapter/vision_msgs:msg/VisionInfo.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/workspace/jazzy_ws/install/share/geometry_msgs"
+  ]
+}

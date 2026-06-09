@@ -1,0 +1,86 @@
+[0.564s] Invoking command in '/workspace/jazzy_ws/src/rosidl/rosidl_cli': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /workspace/jazzy_ws/build/rosidl_cli/build install --record /workspace/jazzy_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[0.966s] running egg_info
+[0.979s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[0.979s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[0.990s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[0.990s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[1.001s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.081s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.081s] running build
+[1.081s] running build_py
+[1.081s] creating /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] copying rosidl_cli/cli.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] copying rosidl_cli/__init__.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] copying rosidl_cli/entry_points.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] copying rosidl_cli/extensions.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] copying rosidl_cli/common.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.081s] creating /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.081s] copying rosidl_cli/command/__init__.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.081s] copying rosidl_cli/command/helpers.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.081s] creating /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.081s] copying rosidl_cli/command/generate/api.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.081s] copying rosidl_cli/command/generate/__init__.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.081s] copying rosidl_cli/command/generate/extensions.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.081s] creating /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.101s] copying rosidl_cli/command/translate/api.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.101s] copying rosidl_cli/command/translate/__init__.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.101s] copying rosidl_cli/command/translate/extensions.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.101s] creating /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.101s] copying rosidl_cli/command/hash/api.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.101s] copying rosidl_cli/command/hash/__init__.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.101s] copying rosidl_cli/command/hash/extensions.py -> /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash
+[1.101s] running install
+[1.121s] running install_lib
+[1.155s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.155s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command
+[1.155s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate
+[1.155s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.155s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command
+[1.156s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/api.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/hash/extensions.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.156s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.157s] copying /workspace/jazzy_ws/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli
+[1.157s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/cli.py to cli.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/__init__.py to __init__.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate/api.py to api.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate/api.py to api.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash/api.py to api.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash/__init__.py to __init__.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/hash/extensions.py to extensions.cpython-312.pyc
+[1.177s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-312.pyc
+[1.192s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-312.pyc
+[1.192s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/extensions.py to extensions.cpython-312.pyc
+[1.192s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli/common.py to common.cpython-312.pyc
+[1.192s] running install_data
+[1.192s] copying resource/rosidl_cli -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[1.192s] copying package.xml -> /workspace/jazzy_ws/install/share/rosidl_cli
+[1.192s] copying resource/package.dsv -> /workspace/jazzy_ws/install/share/rosidl_cli
+[1.192s] creating /workspace/jazzy_ws/install/share/rosidl_cli/environment
+[1.192s] copying completion/rosidl-argcomplete.bash -> /workspace/jazzy_ws/install/share/rosidl_cli/environment
+[1.192s] copying completion/rosidl-argcomplete.zsh -> /workspace/jazzy_ws/install/share/rosidl_cli/environment
+[1.192s] running install_egg_info
+[1.229s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/rosidl_cli-4.6.7-py3.12.egg-info
+[1.246s] running install_scripts
+[1.317s] Installing rosidl script to /workspace/jazzy_ws/install/bin
+[1.317s] writing list of installed files to '/workspace/jazzy_ws/build/rosidl_cli/install.log'
+[1.708s] Invoked command in '/workspace/jazzy_ws/src/rosidl/rosidl_cli' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /workspace/jazzy_ws/build/rosidl_cli/build install --record /workspace/jazzy_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data

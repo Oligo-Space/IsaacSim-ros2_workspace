@@ -1,0 +1,193 @@
+[0.367s] Invoking command in '/workspace/jazzy_ws/build/google_benchmark_vendor': /usr/bin/cmake /workspace/jazzy_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.412s] -- The CXX compiler identification is GNU 13.3.0
+[0.417s] -- Detecting CXX compiler ABI info
+[0.468s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.489s] -- Configuring done (0.1s)
+[0.490s] -- Generating done (0.0s)
+[0.491s] -- Build files have been written to: /workspace/jazzy_ws/build/google_benchmark_vendor
+[0.492s] Invoked command in '/workspace/jazzy_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /workspace/jazzy_ws/src/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.493s] Invoking command in '/workspace/jazzy_ws/build/google_benchmark_vendor': /usr/bin/cmake --build /workspace/jazzy_ws/build/google_benchmark_vendor -- -j24 -l24
+[0.519s] [ 12%] Creating directories for 'benchmark-1.8.3'
+[0.542s] [ 25%] Performing download step (git clone) for 'benchmark-1.8.3'
+[0.542s] Cloning into 'benchmark-1.8.3'...
+[1.475s] HEAD is now at 3441176 bump version to 1.8.3
+[1.475s] [ 37%] No update step for 'benchmark-1.8.3'
+[1.475s] [ 50%] Performing patch step for 'benchmark-1.8.3'
+[1.475s] [ 62%] Performing configure step for 'benchmark-1.8.3'
+[1.587s] -- The CXX compiler identification is GNU 13.3.0
+[1.587s] -- Detecting CXX compiler ABI info
+[1.587s] -- Detecting CXX compiler ABI info - done
+[1.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.587s] -- Detecting CXX compile features
+[1.587s] -- Detecting CXX compile features - done
+[1.587s] -- Failed to find LLVM FileCheck
+[1.587s] -- Found Git: /usr/bin/git (found version "2.43.0") 
+[1.587s] -- git version: v1.8.3-dirty normalized to 1.8.3
+[1.587s] -- Google Benchmark version: 1.8.3
+[1.587s] -- Looking for shm_open in rt
+[1.707s] -- Looking for shm_open in rt - found
+[1.707s] -- Performing Test HAVE_CXX_FLAG_WALL
+[1.738s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[1.738s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[1.741s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[1.742s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[1.786s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[1.786s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+[1.837s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+[1.837s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+[1.887s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+[1.887s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[2.016s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[2.017s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+[2.017s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+[2.017s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC
+[2.039s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+[2.040s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+[2.092s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+[2.092s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[2.114s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[2.115s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[2.163s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[2.163s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[2.214s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[2.214s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[2.259s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[2.259s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[2.308s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[2.308s] -- Performing Test HAVE_CXX_FLAG_WD654
+[2.333s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[2.333s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[2.618s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[2.618s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[2.618s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[2.618s] -- Compiling and running to test HAVE_STD_REGEX
+[3.450s] -- Performing Test HAVE_STD_REGEX -- success
+[3.450s] -- Compiling and running to test HAVE_GNU_POSIX_REGEX
+[3.450s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[3.450s] -- Compiling and running to test HAVE_POSIX_REGEX
+[3.549s] -- Performing Test HAVE_POSIX_REGEX -- success
+[3.549s] -- Compiling and running to test HAVE_STEADY_CLOCK
+[3.568s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[3.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.657s] -- Found Threads: TRUE  
+[3.657s] -- Compiling and running to test HAVE_PTHREAD_AFFINITY
+[3.799s] -- Performing Test HAVE_PTHREAD_AFFINITY -- success
+[3.806s] -- Configuring done (2.3s)
+[3.812s] -- Generating done (0.0s)
+[3.813s] -- Build files have been written to: /workspace/jazzy_ws/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build
+[3.838s] [ 75%] Performing build step for 'benchmark-1.8.3'
+[3.883s] [  4%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[3.889s] [  9%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[3.889s] [ 13%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[3.890s] [ 18%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[3.895s] [ 22%] Building CXX object src/CMakeFiles/benchmark.dir/check.cc.o
+[3.898s] [ 27%] Building CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[3.906s] [ 31%] Building CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[3.914s] [ 36%] Building CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[3.914s] [ 40%] Building CXX object src/CMakeFiles/benchmark.dir/counter.cc.o
+[3.915s] [ 50%] Building CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[3.919s] [ 50%] Building CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[3.919s] [ 54%] Building CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[3.921s] [ 59%] Building CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o
+[3.927s] [ 63%] Building CXX object src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[4.008s] [ 68%] Building CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o
+[4.008s] [ 72%] Building CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o
+[4.008s] [ 77%] Building CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o
+[4.009s] [ 81%] Building CXX object src/CMakeFiles/benchmark.dir/timers.cc.o
+[4.009s] [ 86%] Building CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[6.130s] [ 90%] Linking CXX shared library libbenchmark.so
+[6.216s] [ 90%] Built target benchmark
+[6.226s] [ 95%] Building CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[6.359s] [100%] Linking CXX shared library libbenchmark_main.so
+[6.391s] [100%] Built target benchmark_main
+[6.404s] [ 87%] Performing install step for 'benchmark-1.8.3'
+[6.435s] [ 90%] Built target benchmark
+[6.446s] [100%] Built target benchmark_main
+[6.455s] Install the project...
+[6.460s] -- Install configuration: ""
+[6.460s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.8.3
+[6.461s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[6.461s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[6.461s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[6.462s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3" to ""
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/export.h
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/index.md
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/releasing.md
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/perf_counters.md
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/platform_specific_build_instructions.md
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/dependencies.md
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/_config.yml
+[6.462s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/user_guide.md
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/random_interleaving.md
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/AssemblyTests.md
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.png
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.xcf
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.xcf
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.png
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/python_bindings.md
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/reducing_variance.md
+[6.463s] -- Installing: /workspace/jazzy_ws/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/tools.md
+[6.472s] [100%] Completed 'benchmark-1.8.3'
+[6.487s] [100%] Built target benchmark-1.8.3
+[6.492s] Invoked command in '/workspace/jazzy_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /workspace/jazzy_ws/build/google_benchmark_vendor -- -j24 -l24
+[6.492s] Invoking command in '/workspace/jazzy_ws/build/google_benchmark_vendor': /usr/bin/cmake --install /workspace/jazzy_ws/build/google_benchmark_vendor
+[6.495s] -- Install configuration: ""
+[6.495s] -- Up-to-date: /workspace/jazzy_ws/install
+[6.495s] -- Up-to-date: /workspace/jazzy_ws/install/lib
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so.1
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so
+[6.496s] -- Up-to-date: /workspace/jazzy_ws/install/lib/cmake
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkConfig.cmake
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/benchmark/benchmarkTargets.cmake
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so.1.8.3
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark_main.so.1
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/pkgconfig
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/pkgconfig/benchmark.pc
+[6.496s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so.1.8.3
+[6.497s] -- Installing: /workspace/jazzy_ws/install/lib/libbenchmark.so
+[6.497s] -- Up-to-date: /workspace/jazzy_ws/install/share
+[6.497s] -- Up-to-date: /workspace/jazzy_ws/install/share/doc
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/index.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/releasing.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/perf_counters.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/platform_specific_build_instructions.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/dependencies.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/_config.yml
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/user_guide.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/random_interleaving.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/AssemblyTests.md
+[6.497s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon_black.png
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon_black.xcf
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon.xcf
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/assets/images/icon.png
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/python_bindings.md
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/reducing_variance.md
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/doc/benchmark/tools.md
+[6.498s] -- Up-to-date: /workspace/jazzy_ws/install/include
+[6.498s] -- Installing: /workspace/jazzy_ws/install/include/benchmark
+[6.498s] -- Installing: /workspace/jazzy_ws/install/include/benchmark/benchmark.h
+[6.498s] -- Installing: /workspace/jazzy_ws/install/include/benchmark/export.h
+[6.498s] -- Installing: /workspace/jazzy_ws/install/share/google_benchmark_vendor/package.xml
+[6.499s] Invoked command in '/workspace/jazzy_ws/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /workspace/jazzy_ws/build/google_benchmark_vendor

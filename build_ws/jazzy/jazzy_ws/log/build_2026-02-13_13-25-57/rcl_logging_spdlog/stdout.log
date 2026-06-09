@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rcl_logging_interface: 3.1.1 (/workspace/jazzy_ws/install/share/rcl_logging_interface/cmake)
+-- Found rcpputils: 2.11.3 (/workspace/jazzy_ws/install/share/rcpputils/cmake)
+-- Found spdlog_vendor: 1.6.1 (/workspace/jazzy_ws/install/share/spdlog_vendor/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/workspace/jazzy_ws/install/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jazzy_ws/build/rcl_logging_spdlog
+[  9%] Building CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 18%] Building CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 27%] Building CXX object CMakeFiles/rcl_logging_spdlog.dir/src/rcl_logging_spdlog.cpp.o
+[ 36%] Building CXX object gmock/CMakeFiles/gmock.dir/workspace/jazzy_ws/install/src/gtest_vendor/src/gtest-all.cc.o
+[ 45%] Linking CXX static library libgmock_main.a
+[ 45%] Built target gmock_main
+[ 54%] Linking CXX shared library librcl_logging_spdlog.so
+[ 54%] Built target rcl_logging_spdlog
+[ 63%] Building CXX object CMakeFiles/benchmark_logging_interface.dir/test/benchmark/benchmark_logging_interface.cpp.o
+[ 72%] Linking CXX executable benchmark_logging_interface
+[ 72%] Built target benchmark_logging_interface
+[ 81%] Linking CXX static library libgmock.a
+[ 81%] Built target gmock
+[ 90%] Building CXX object CMakeFiles/test_logging_interface.dir/test/test_logging_interface.cpp.o
+[100%] Linking CXX executable test_logging_interface
+[100%] Built target test_logging_interface
+-- Install configuration: ""
+-- Installing: /workspace/jazzy_ws/install/lib/librcl_logging_spdlog.so
+-- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcl_logging_spdlog.so" to ""
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/library_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/library_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl_logging_spdlog
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl_logging_spdlog
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/ament_prefix_path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/ament_prefix_path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/path.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/environment/path.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.bash
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.sh
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.zsh
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/local_setup.dsv
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/package.dsv
+-- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcl_logging_spdlog
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogExport.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogExport-noconfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/cmake/rcl_logging_spdlogConfig-version.cmake
+-- Installing: /workspace/jazzy_ws/install/share/rcl_logging_spdlog/package.xml

@@ -1,0 +1,134 @@
+running egg_info
+creating ../../build/es165_moveit/es165_moveit.egg-info
+writing ../../build/es165_moveit/es165_moveit.egg-info/PKG-INFO
+writing dependency_links to ../../build/es165_moveit/es165_moveit.egg-info/dependency_links.txt
+writing entry points to ../../build/es165_moveit/es165_moveit.egg-info/entry_points.txt
+writing requirements to ../../build/es165_moveit/es165_moveit.egg-info/requires.txt
+writing top-level names to ../../build/es165_moveit/es165_moveit.egg-info/top_level.txt
+writing manifest file '../../build/es165_moveit/es165_moveit.egg-info/SOURCES.txt'
+reading manifest file '../../build/es165_moveit/es165_moveit.egg-info/SOURCES.txt'
+writing manifest file '../../build/es165_moveit/es165_moveit.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/torque_pub_test.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/publish_torque_profile.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/__init__.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/angle_intercepter.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/control_rw.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/publish_scene_mesh.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/zero_g_servo.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/visualize_pcd.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/gui.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/rw_model.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/calculate_free_space.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/deprecated_trajectory_reference.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+copying es165_moveit/pub_angular_acc.py -> /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit
+running install
+running install_lib
+creating /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/torque_pub_test.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/publish_torque_profile.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/__init__.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/angle_intercepter.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/control_rw.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/publish_scene_mesh.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/zero_g_servo.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/visualize_pcd.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/gui.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/rw_model.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/calculate_free_space.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/deprecated_trajectory_reference.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+copying /workspace/build_ws/build/es165_moveit/build/lib/es165_moveit/pub_angular_acc.py -> /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/torque_pub_test.py to torque_pub_test.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/publish_torque_profile.py to publish_torque_profile.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/__init__.py to __init__.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/angle_intercepter.py to angle_intercepter.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/control_rw.py to control_rw.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/publish_scene_mesh.py to publish_scene_mesh.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/zero_g_servo.py to zero_g_servo.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/visualize_pcd.py to visualize_pcd.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/gui.py to gui.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/rw_model.py to rw_model.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/calculate_free_space.py to calculate_free_space.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/deprecated_trajectory_reference.py to deprecated_trajectory_reference.cpython-312.pyc
+byte-compiling /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit/pub_angular_acc.py to pub_angular_acc.cpython-312.pyc
+running install_data
+creating /workspace/build_ws/install/es165_moveit/share/ament_index/resource_index/packages
+copying resource/es165_moveit -> /workspace/build_ws/install/es165_moveit/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/build_ws/install/es165_moveit/share/es165_moveit
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/control_with_rw.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/manual_control_rviz.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/robot_servo.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/main.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/rw_with_visualization.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/pcd_visualization_rviz.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+copying launch/get_occupancy.launch.py -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/launch
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/rviz
+copying rviz/default.rviz -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/rviz
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/profile_sumtozero.profile -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/example_torque_profile.profile -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/full_profile_detumble.profile -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/tumble.profile -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/joint_velocities_dx100.yaml -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+copying config/genAI_mock_mission.profile -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/config
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/urdf
+copying urdf/es_165.ros2_control.xacro -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/urdf
+copying urdf/es165_macro.xacro -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/urdf
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw3.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_t.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_l.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw1.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/balancer_rod.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw1_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_r.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/balancer_piston.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw2_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw3_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_s.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/base_link.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw2.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/ee_base_link.usd -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw4.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/ee_base_link.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_u.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/rw4_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+copying meshes/visual/link_b.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/visual_meshes
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw3.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_t.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_l.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw1.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/balancer_rod.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw1_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_r.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/balancer_piston.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw2_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw3_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_s.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/base_link.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw2.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw4.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/ee_base_link.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_u.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/rw4_base.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+copying meshes/collision/link_b.stl -> /workspace/build_ws/install/es165_moveit/share/es165_moveit/collision_meshes
+creating /workspace/build_ws/install/es165_moveit/share/es165_moveit/usd
+running install_egg_info
+Copying ../../build/es165_moveit/es165_moveit.egg-info to /workspace/build_ws/install/es165_moveit/lib/python3.12/site-packages/es165_moveit-0.0.0-py3.12.egg-info
+running install_scripts
+Installing angle_intercepter script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing control_rw script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing gui script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing point_move script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing pub_angular_acc script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing publish_scene_mesh script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing publish_torque_profile script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing torque_from_rw script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing torque_publisher script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing visualize_pcd script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+Installing zero_g_servo script to /workspace/build_ws/install/es165_moveit/lib/es165_moveit
+writing list of installed files to '/workspace/build_ws/build/es165_moveit/install.log'

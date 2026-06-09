@@ -1,0 +1,7 @@
+{
+  "package_name": "ackermann_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/ackermann_msgs:msg/AckermannDrive.msg",
+    "/workspace/jazzy_ws/src/ackermann_msgs:msg/AckermannDriveStamped.msg"
+  ]
+}

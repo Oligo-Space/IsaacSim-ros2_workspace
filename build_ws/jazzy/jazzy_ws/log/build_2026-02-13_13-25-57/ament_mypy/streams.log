@@ -1,0 +1,54 @@
+[0.401s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /workspace/jazzy_ws/build/ament_mypy/build install --record /workspace/jazzy_ws/build/ament_mypy/install.log --single-version-externally-managed install_data
+[0.481s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.481s]   warnings.warn(msg)
+[0.489s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.489s] !!
+[0.489s] 
+[0.489s]         ********************************************************************************
+[0.489s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.489s] 
+[0.489s]         License :: OSI Approved :: Apache Software License
+[0.489s] 
+[0.489s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.489s]         ********************************************************************************
+[0.489s] 
+[0.489s] !!
+[0.489s]   self._finalize_license_expression()
+[0.505s] running egg_info
+[0.509s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[0.509s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[0.509s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[0.509s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.517s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.518s] running build_py
+[0.518s] creating /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy
+[0.518s] copying ament_mypy/pytest_marker.py -> /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy
+[0.518s] copying ament_mypy/main.py -> /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy
+[0.518s] copying ament_mypy/__init__.py -> /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy
+[0.518s] creating /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.518s] copying ament_mypy/configuration/ament_mypy.ini -> /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[0.518s] running install
+[0.520s] running install_lib
+[0.525s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy
+[0.525s] copying /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy
+[0.525s] copying /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy
+[0.525s] copying /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy
+[0.525s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy/configuration
+[0.525s] copying /workspace/jazzy_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy/configuration
+[0.525s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-312.pyc
+[0.526s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy/main.py to main.cpython-312.pyc
+[0.526s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy/__init__.py to __init__.cpython-312.pyc
+[0.526s] running install_data
+[0.526s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_mypy
+[0.526s] copying resource/ament_mypy -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.526s] running install_egg_info
+[0.531s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_mypy-0.17.4-py3.12.egg-info
+[0.531s] running install_scripts
+[0.540s] Installing ament_mypy script to /workspace/jazzy_ws/install/bin
+[0.540s] writing list of installed files to '/workspace/jazzy_ws/build/ament_mypy/install.log'
+[0.553s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /workspace/jazzy_ws/build/ament_mypy/build install --record /workspace/jazzy_ws/build/ament_mypy/install.log --single-version-externally-managed install_data

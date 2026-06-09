@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: launch_ros
+Version: 0.26.11
+Summary: ROS specific extensions to `launch`.
+Home-page: https://github.com/ros2/launch_ros
+Download-URL: https://github.com/ros2/launch_ros/releases
+Author: William Woodall
+Author-email: william@osrfoundation.org
+Maintainer: Aditya Pande, Brandon Ong
+Maintainer-email: aditya.pande@openrobotics.org, brandon@openrobotics.org
+License: Apache License, Version 2.0
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools
+Requires-Dist: ament_index_python
+Requires-Dist: launch
+Requires-Dist: osrf_pycommon
+Requires-Dist: pyyaml
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+This package provides ROS specific extensions to the launch package.

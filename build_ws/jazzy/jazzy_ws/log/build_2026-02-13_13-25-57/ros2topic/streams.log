@@ -1,0 +1,73 @@
+[0.817s] Invoking command in '/workspace/jazzy_ws/src/ros2cli/ros2topic': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2topic build --build-base /workspace/jazzy_ws/build/ros2topic/build install --record /workspace/jazzy_ws/build/ros2topic/install.log --single-version-externally-managed install_data
+[0.921s] running egg_info
+[0.926s] creating ../../../build/ros2topic/ros2topic.egg-info
+[0.926s] writing ../../../build/ros2topic/ros2topic.egg-info/PKG-INFO
+[0.926s] writing dependency_links to ../../../build/ros2topic/ros2topic.egg-info/dependency_links.txt
+[0.926s] writing entry points to ../../../build/ros2topic/ros2topic.egg-info/entry_points.txt
+[0.926s] writing requirements to ../../../build/ros2topic/ros2topic.egg-info/requires.txt
+[0.926s] writing top-level names to ../../../build/ros2topic/ros2topic.egg-info/top_level.txt
+[0.926s] writing manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+[0.937s] reading manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+[0.937s] writing manifest file '../../../build/ros2topic/ros2topic.egg-info/SOURCES.txt'
+[0.937s] running build
+[0.937s] running build_py
+[0.937s] creating /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic
+[0.937s] copying ros2topic/__init__.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic
+[0.937s] creating /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.937s] copying ros2topic/verb/__init__.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.937s] copying ros2topic/verb/info.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.937s] copying ros2topic/verb/find.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/list.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/echo.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/bw.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/delay.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/hz.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/type.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] copying ros2topic/verb/pub.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb
+[0.938s] creating /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/command
+[0.938s] copying ros2topic/command/topic.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/command
+[0.938s] copying ros2topic/command/__init__.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/command
+[0.938s] creating /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/api
+[0.938s] copying ros2topic/api/__init__.py -> /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/api
+[0.938s] running install
+[0.941s] running install_lib
+[0.946s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic
+[0.946s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/info.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/find.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/list.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/echo.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/bw.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/delay.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/hz.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/type.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/verb/pub.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic
+[0.946s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/command
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/command/topic.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/command
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/command/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/command
+[0.946s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/api
+[0.946s] copying /workspace/jazzy_ws/build/ros2topic/build/lib/ros2topic/api/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/api
+[0.946s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/__init__.py to __init__.cpython-312.pyc
+[0.946s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/info.py to info.cpython-312.pyc
+[0.947s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/find.py to find.cpython-312.pyc
+[0.947s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/list.py to list.cpython-312.pyc
+[0.947s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/echo.py to echo.cpython-312.pyc
+[0.949s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/bw.py to bw.cpython-312.pyc
+[0.949s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/delay.py to delay.cpython-312.pyc
+[0.950s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/hz.py to hz.cpython-312.pyc
+[0.951s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/type.py to type.cpython-312.pyc
+[0.951s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/verb/pub.py to pub.cpython-312.pyc
+[0.951s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/__init__.py to __init__.cpython-312.pyc
+[0.952s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/command/topic.py to topic.cpython-312.pyc
+[0.952s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/command/__init__.py to __init__.cpython-312.pyc
+[0.952s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic/api/__init__.py to __init__.cpython-312.pyc
+[0.953s] running install_data
+[0.953s] copying package.xml -> /workspace/jazzy_ws/install/share/ros2topic
+[0.953s] copying resource/ros2topic -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.953s] running install_egg_info
+[0.959s] Copying ../../../build/ros2topic/ros2topic.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2topic-0.32.8-py3.12.egg-info
+[0.959s] running install_scripts
+[0.970s] writing list of installed files to '/workspace/jazzy_ws/build/ros2topic/install.log'
+[0.981s] Invoked command in '/workspace/jazzy_ws/src/ros2cli/ros2topic' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2topic build --build-base /workspace/jazzy_ws/build/ros2topic/build install --record /workspace/jazzy_ws/build/ros2topic/install.log --single-version-externally-managed install_data

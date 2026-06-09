@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info
+writing ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/dependency_links.txt
+writing requirements to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/requires.txt
+writing top-level names to ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/top_level.txt
+writing manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+reading manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+writing manifest file '../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config
+copying es165_moveit_moveit_config/__init__.py -> /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config
+running install
+running install_lib
+creating /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config
+copying /workspace/build_ws/build/es165_moveit_moveit_config/build/lib/es165_moveit_moveit_config/__init__.py -> /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config
+byte-compiling /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /workspace/build_ws/install/es165_moveit_moveit_config/share/ament_index/resource_index/packages
+copying resource/es165_moveit_moveit_config -> /workspace/build_ws/install/es165_moveit_moveit_config/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config
+creating /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/rw2_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/controller.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/rw1_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/ros2_controllers.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/rw3_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/joint_limits.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/rw4_servo_params.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/es165.xacro -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/kinematics.yaml -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+copying config/es165d.srdf -> /workspace/build_ws/install/es165_moveit_moveit_config/share/es165_moveit_moveit_config/config
+running install_egg_info
+Copying ../../build/es165_moveit_moveit_config/es165_moveit_moveit_config.egg-info to /workspace/build_ws/install/es165_moveit_moveit_config/lib/python3.12/site-packages/es165_moveit_moveit_config-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/workspace/build_ws/build/es165_moveit_moveit_config/install.log'

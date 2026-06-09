@@ -1,0 +1,136 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rosidl_generator_py/msg/Strings",
+      "fields": [
+        {
+          "name": "string_value",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "string_value_default1",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello world!"
+        },
+        {
+          "name": "string_value_default2",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello'world!"
+        },
+        {
+          "name": "string_value_default3",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello\"world!"
+        },
+        {
+          "name": "string_value_default4",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello'world!"
+        },
+        {
+          "name": "string_value_default5",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello\"world!"
+        },
+        {
+          "name": "bounded_string_value",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "bounded_string_value_default1",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello world!"
+        },
+        {
+          "name": "bounded_string_value_default2",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello'world!"
+        },
+        {
+          "name": "bounded_string_value_default3",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello\"world!"
+        },
+        {
+          "name": "bounded_string_value_default4",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello'world!"
+        },
+        {
+          "name": "bounded_string_value_default5",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 22,
+            "nested_type_name": ""
+          },
+          "default_value": "Hello\"world!"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rosidl_generator_py/msg/Strings",
+      "hash_string": "RIHS01_1b85dfea3f7a1ee5f281e66152e6c5adac2cc9f526cd57586057cbc638f8116c"
+    }
+  ]
+}

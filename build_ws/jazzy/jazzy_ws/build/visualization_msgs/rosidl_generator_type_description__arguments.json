@@ -1,0 +1,26 @@
+{
+  "package_name": "visualization_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/visualization_msgs/rosidl_generator_type_description/visualization_msgs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MeshFile.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/UVCoordinate.idl",
+    "/workspace/jazzy_ws/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "geometry_msgs:/workspace/jazzy_ws/install/share/geometry_msgs",
+    "std_msgs:/workspace/jazzy_ws/install/share/std_msgs",
+    "sensor_msgs:/workspace/jazzy_ws/install/share/sensor_msgs",
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs"
+  ]
+}

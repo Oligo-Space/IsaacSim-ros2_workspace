@@ -1,0 +1,45 @@
+[0.047s] Invoking command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/launch/launch_testing_ament_cmake -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.240s] -- Detecting CXX compile features
+[0.240s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.445s] -- Found ament_cmake_copyright: 0.17.4 (/workspace/jazzy_ws/install/share/ament_cmake_copyright/cmake)
+[0.446s] -- Found python_cmake_module: 0.11.1 (/workspace/jazzy_ws/install/share/python_cmake_module/cmake)
+[0.522s] -- Found PythonExtra: /usr/bin/python3  
+[0.522s] -- Configuring done (0.5s)
+[0.525s] -- Generating done (0.0s)
+[0.526s] -- Build files have been written to: /workspace/jazzy_ws/build/launch_testing_ament_cmake
+[0.528s] Invoked command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/launch/launch_testing_ament_cmake -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.529s] Invoking command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/launch_testing_ament_cmake -- -j24 -l24
+[0.553s] Invoked command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/launch_testing_ament_cmake -- -j24 -l24
+[0.554s] Invoking command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/launch_testing_ament_cmake
+[0.559s] -- Install configuration: ""
+[0.559s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/launch_testing_ament_cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/launch_testing_ament_cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/environment/ament_prefix_path.sh
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/environment/ament_prefix_path.dsv
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/environment/path.sh
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/environment/path.dsv
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/local_setup.bash
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/local_setup.sh
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/local_setup.zsh
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/local_setup.dsv
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/package.dsv
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/launch_testing_ament_cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig-version.cmake
+[0.560s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/package.xml
+[0.561s] -- Up-to-date: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/cmake
+[0.561s] -- Installing: /workspace/jazzy_ws/install/share/launch_testing_ament_cmake/cmake/add_launch_test.cmake
+[0.562s] Invoked command in '/workspace/jazzy_ws/build/launch_testing_ament_cmake' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/launch_testing_ament_cmake

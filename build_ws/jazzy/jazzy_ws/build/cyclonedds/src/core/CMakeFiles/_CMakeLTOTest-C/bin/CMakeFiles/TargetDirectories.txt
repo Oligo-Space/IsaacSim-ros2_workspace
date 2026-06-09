@@ -1,0 +1,4 @@
+/workspace/jazzy_ws/build/cyclonedds/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/workspace/jazzy_ws/build/cyclonedds/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/workspace/jazzy_ws/build/cyclonedds/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/workspace/jazzy_ws/build/cyclonedds/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

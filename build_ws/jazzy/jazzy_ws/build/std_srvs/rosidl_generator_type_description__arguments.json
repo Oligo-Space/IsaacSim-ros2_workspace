@@ -1,0 +1,13 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/workspace/jazzy_ws/build/std_srvs/rosidl_generator_type_description/std_srvs",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/workspace/jazzy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/workspace/jazzy_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,71 @@
+[0.015s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.082s] -- The CXX compiler identification is GNU 13.3.0
+[0.091s] -- Detecting C compiler ABI info
+[0.143s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.225s] -- Found ament_cmake_core: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_core/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.515s] -- Found ament_cmake_gtest: 2.5.5 (/workspace/jazzy_ws/install/share/ament_cmake_gtest/cmake)
+[0.515s] -- Create new version file for version 2.5.5
+[0.515s] -- Create new version file for version 2.5.5
+[0.515s] -- Create new version file for version 2.5.5
+[0.614s] -- Create new version file for version 2.5.5
+[0.614s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.614s] -- Found Threads: TRUE  
+[0.741s] -- Configuring done (0.7s)
+[0.757s] -- Generating done (0.0s)
+[0.763s] -- Build files have been written to: /workspace/jazzy_ws/build/ament_cmake_gen_version_h
+[0.768s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/ament_cmake/ament_cmake_gen_version_h -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.768s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_gen_version_h -- -j24 -l24
+[0.832s] [  8%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.833s] [ 16%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.833s] [ 25%] Generating ament_generate_version_header/version.hpp
+[0.851s] [ 25%] Built target ament_generate_version_header__some_lib
+[2.264s] [ 33%] Linking CXX static library libgtest_main.a
+[2.274s] [ 33%] Built target gtest_main
+[3.527s] [ 41%] Linking CXX static library libgtest.a
+[3.556s] [ 41%] Built target gtest
+[3.576s] [ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_custom.cpp.o
+[3.576s] [ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version2_h.cpp.o
+[3.576s] [ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version1_h.cpp.o
+[3.576s] [ 83%] Building CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_h.cpp.o
+[3.576s] [ 83%] Building CXX object CMakeFiles/test_ament_generate_version_header.dir/test/test_version_hpp.cpp.o
+[3.972s] [ 91%] Linking CXX executable test_ament_generate_version_header
+[3.974s] [100%] Linking CXX executable test_ament_cmake_gen_version_h
+[4.039s] [100%] Built target test_ament_generate_version_header
+[4.041s] [100%] Built target test_ament_cmake_gen_version_h
+[4.057s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/ament_cmake_gen_version_h -- -j24 -l24
+[4.058s] Invoking command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_gen_version_h
+[4.061s] -- Install configuration: ""
+[4.061s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/path.sh
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/environment/path.dsv
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.bash
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.sh
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.zsh
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/local_setup.dsv
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/package.dsv
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+[4.062s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/package.xml
+[4.063s] -- Up-to-date: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake
+[4.063s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/version.h.in
+[4.063s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+[4.063s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in
+[4.063s] -- Installing: /workspace/jazzy_ws/install/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake
+[4.063s] Invoked command in '/workspace/jazzy_ws/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/ament_cmake_gen_version_h

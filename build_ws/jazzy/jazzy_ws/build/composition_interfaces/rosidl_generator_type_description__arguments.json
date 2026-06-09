@@ -1,0 +1,14 @@
+{
+  "package_name": "composition_interfaces",
+  "output_dir": "/workspace/jazzy_ws/build/composition_interfaces/rosidl_generator_type_description/composition_interfaces",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/LoadNode.idl",
+    "/workspace/jazzy_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/ListNodes.idl",
+    "/workspace/jazzy_ws/build/composition_interfaces/rosidl_adapter/composition_interfaces:srv/UnloadNode.idl"
+  ],
+  "include_paths": [
+    "rcl_interfaces:/workspace/jazzy_ws/install/share/rcl_interfaces",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces",
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs"
+  ]
+}

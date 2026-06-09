@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9b7d4d5da5bd2e1a1a0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosidl_dynamic_typesupport_fastrtps",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_dynamic_typesupport_fastrtps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_dynamic_typesupport_fastrtps-d25271b9348529b88ecb.json",
+					"name" : "rosidl_dynamic_typesupport_fastrtps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosidl_dynamic_typesupport_fastrtps_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosidl_dynamic_typesupport_fastrtps_uninstall-937df59498a57b18d331.json",
+					"name" : "rosidl_dynamic_typesupport_fastrtps_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9a908702d70950a43c9d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/jazzy_ws/build/rosidl_dynamic_typesupport_fastrtps",
+		"source" : "/workspace/jazzy_ws/src/rosidl_dynamic_typesupport_fastrtps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

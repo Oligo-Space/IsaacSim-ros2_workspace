@@ -1,0 +1,12 @@
+[console_scripts]
+angle_intercepter = es165_moveit.angle_intercepter:main
+control_rw = es165_moveit.control_rw:main
+gui = es165_moveit.gui:main
+point_move = es165_moveit.deprecated_trajectory_reference:main
+pub_angular_acc = es165_moveit.pub_angular_acc:main
+publish_scene_mesh = es165_moveit.publish_scene_mesh:main
+publish_torque_profile = es165_moveit.publish_torque_profile:main
+torque_from_rw = es165_moveit.rw_model:main
+torque_publisher = es165_moveit.torque_pub_test:main
+visualize_pcd = es165_moveit.visualize_pcd:main
+zero_g_servo = es165_moveit.zero_g_servo:main

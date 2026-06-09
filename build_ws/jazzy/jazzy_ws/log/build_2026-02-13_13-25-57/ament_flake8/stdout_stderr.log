@@ -1,0 +1,52 @@
+/usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+running egg_info
+creating ../../../build/ament_flake8/ament_flake8.egg-info
+writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/pytest_marker.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/main.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+copying ament_flake8/__init__.py -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8
+creating /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+copying ament_flake8/configuration/ament_flake8.ini -> /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+running install
+running install_lib
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8
+creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/configuration
+copying /workspace/jazzy_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/configuration
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/main.py to main.cpython-312.pyc
+byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /workspace/jazzy_ws/install/share/ament_flake8
+copying resource/ament_flake8 -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../build/ament_flake8/ament_flake8.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_flake8-0.17.4-py3.12.egg-info
+running install_scripts
+Installing ament_flake8 script to /workspace/jazzy_ws/install/bin
+writing list of installed files to '/workspace/jazzy_ws/build/ament_flake8/install.log'

@@ -1,0 +1,8 @@
+{
+  "package_name": "actionlib_msgs",
+  "non_idl_tuples": [
+    "/workspace/jazzy_ws/src/common_interfaces/actionlib_msgs:msg/GoalID.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/actionlib_msgs:msg/GoalStatus.msg",
+    "/workspace/jazzy_ws/src/common_interfaces/actionlib_msgs:msg/GoalStatusArray.msg"
+  ]
+}

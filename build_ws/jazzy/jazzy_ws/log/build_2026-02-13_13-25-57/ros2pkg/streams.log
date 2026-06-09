@@ -1,0 +1,150 @@
+[0.703s] Invoking command in '/workspace/jazzy_ws/src/ros2cli/ros2pkg': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2pkg build --build-base /workspace/jazzy_ws/build/ros2pkg/build install --record /workspace/jazzy_ws/build/ros2pkg/install.log --single-version-externally-managed install_data
+[0.805s] running egg_info
+[0.810s] creating ../../../build/ros2pkg/ros2pkg.egg-info
+[0.810s] writing ../../../build/ros2pkg/ros2pkg.egg-info/PKG-INFO
+[0.810s] writing dependency_links to ../../../build/ros2pkg/ros2pkg.egg-info/dependency_links.txt
+[0.810s] writing entry points to ../../../build/ros2pkg/ros2pkg.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../../build/ros2pkg/ros2pkg.egg-info/requires.txt
+[0.810s] writing top-level names to ../../../build/ros2pkg/ros2pkg.egg-info/top_level.txt
+[0.810s] writing manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+[0.822s] reading manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg
+[0.823s] copying ros2pkg/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg
+[0.823s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.823s] copying ros2pkg/verb/create.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.823s] copying ros2pkg/verb/executables.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.824s] copying ros2pkg/verb/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.824s] copying ros2pkg/verb/list.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.824s] copying ros2pkg/verb/prefix.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.824s] copying ros2pkg/verb/xml.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb
+[0.824s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+[0.824s] copying ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+[0.824s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+[0.824s] copying ros2pkg/command/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+[0.824s] copying ros2pkg/command/pkg.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command
+[0.824s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+[0.824s] copying ros2pkg/api/create.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+[0.824s] copying ros2pkg/api/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+[0.825s] copying ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.825s] copying ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+[0.825s] copying ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+[0.825s] copying ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+[0.825s] copying ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+[0.825s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.826s] copying ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.826s] creating /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.826s] copying ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.826s] copying ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource
+[0.826s] copying ros2pkg/resource/package_environment/package.xml.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+[0.826s] copying ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+[0.826s] copying ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.826s] copying ros2pkg/resource/cpp/visibility_control.h.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.826s] copying ros2pkg/resource/cpp/main.cpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.826s] copying ros2pkg/resource/cpp/header.hpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.827s] copying ros2pkg/resource/cpp/library.cpp.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+[0.827s] copying ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+[0.827s] copying ros2pkg/resource/ament_cargo/Cargo.toml.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo
+[0.827s] copying ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+[0.827s] copying ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+[0.827s] copying ros2pkg/resource/rust/main.rs.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+[0.827s] copying ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust
+[0.827s] copying ros2pkg/resource/cmake/Config.cmake.in.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.827s] copying ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.828s] copying ros2pkg/resource/cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.828s] copying ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+[0.828s] copying ros2pkg/resource/ament_python/main.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/setup.cfg.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/test_pep257.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/init.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/resource_file.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/test_flake8.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/setup.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] copying ros2pkg/resource/ament_python/test_copyright.py.em -> /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+[0.828s] running install
+[0.829s] running install_lib
+[0.833s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg
+[0.834s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/create.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/executables.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/list.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/prefix.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/verb/xml.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb
+[0.834s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource
+[0.834s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment/package.xml.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+[0.834s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/package_environment/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment
+[0.835s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/visibility_control.h.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/main.cpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/header.hpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cpp/library.cpp.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp
+[0.835s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cargo/Cargo.toml.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo
+[0.835s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource
+[0.835s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust/main.rs.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+[0.835s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/rust/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust
+[0.835s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/Config.cmake.in.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/CMakeLists.txt.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake
+[0.836s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/main.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.cfg.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_pep257.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/init.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/resource_file.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_flake8.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_copyright.py.em -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg
+[0.836s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/command/pkg.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command
+[0.836s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api/create.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+[0.836s] copying /workspace/jazzy_ws/build/ros2pkg/build/lib/ros2pkg/api/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api
+[0.836s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/create.py to create.cpython-312.pyc
+[0.836s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/executables.py to executables.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/__init__.py to __init__.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/list.py to list.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/prefix.py to prefix.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/verb/xml.py to xml.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/package_environment/__init__.py to __init__.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cpp/__init__.py to __init__.cpython-312.pyc
+[0.837s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cargo/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_cmake/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/rust/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/cmake/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/resource/ament_python/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command/__init__.py to __init__.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/command/pkg.py to pkg.cpython-312.pyc
+[0.838s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api/create.py to create.cpython-312.pyc
+[0.839s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg/api/__init__.py to __init__.cpython-312.pyc
+[0.839s] running install_data
+[0.839s] copying package.xml -> /workspace/jazzy_ws/install/share/ros2pkg
+[0.840s] copying resource/ros2pkg -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.840s] running install_egg_info
+[0.845s] Copying ../../../build/ros2pkg/ros2pkg.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ros2pkg-0.32.8-py3.12.egg-info
+[0.846s] running install_scripts
+[0.857s] writing list of installed files to '/workspace/jazzy_ws/build/ros2pkg/install.log'
+[0.871s] Invoked command in '/workspace/jazzy_ws/src/ros2cli/ros2pkg' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/build/ros2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2pkg build --build-base /workspace/jazzy_ws/build/ros2pkg/build install --record /workspace/jazzy_ws/build/ros2pkg/install.log --single-version-externally-managed install_data

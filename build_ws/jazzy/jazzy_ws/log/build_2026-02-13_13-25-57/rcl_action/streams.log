@@ -1,0 +1,160 @@
+[0.122s] Invoking command in '/workspace/jazzy_ws/build/rcl_action': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl/rcl_action -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.151s] -- The C compiler identification is GNU 13.3.0
+[0.181s] -- The CXX compiler identification is GNU 13.3.0
+[0.188s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.420s] -- Found action_msgs: 2.0.3 (/workspace/jazzy_ws/install/share/action_msgs/cmake)
+[0.438s] -- Found rosidl_generator_c: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_generator_cpp: 4.6.7 (/workspace/jazzy_ws/install/share/rosidl_generator_cpp/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rcl: 9.2.9 (/workspace/jazzy_ws/install/share/rcl/cmake)
+[0.512s] -- Found rmw_implementation_cmake: 7.3.3 (/workspace/jazzy_ws/install/share/rmw_implementation_cmake/cmake)
+[0.513s] -- Found rmw_fastrtps_cpp: 8.4.3 (/workspace/jazzy_ws/install/share/rmw_fastrtps_cpp/cmake)
+[0.550s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.558s] -- Found FastRTPS: /workspace/jazzy_ws/install/include (Required is at least version "2.13") 
+[0.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.579s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[0.581s] -- Found test_msgs: 2.0.3 (/workspace/jazzy_ws/install/share/test_msgs/cmake)
+[0.648s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.694s] -- Found Threads: TRUE  
+[0.695s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/workspace/jazzy_ws/install/share/rmw_cyclonedds_cpp/cmake)
+[0.703s] -- Found rmw_fastrtps_dynamic_cpp: 8.4.3 (/workspace/jazzy_ws/install/share/rmw_fastrtps_dynamic_cpp/cmake)
+[0.737s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.740s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.741s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/jazzy_ws/src/rcl/rcl_action/include>;/workspace/jazzy_ws/src/rcl/rcl_action/src
+[0.741s] -- Configured cppcheck exclude dirs and/or files: 
+[0.743s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.744s] -- Configured cpplint exclude dirs and/or files: 
+[0.745s] -- Added test 'lint_cmake' to check CMake code style
+[0.748s] -- Added test 'uncrustify' to check C / C++ code style
+[0.749s] -- Configured uncrustify additional arguments: 
+[0.749s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done (0.6s)
+[0.782s] -- Generating done (0.0s)
+[0.792s] -- Build files have been written to: /workspace/jazzy_ws/build/rcl_action
+[0.800s] Invoked command in '/workspace/jazzy_ws/build/rcl_action' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl/rcl_action -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.800s] Invoking command in '/workspace/jazzy_ws/build/rcl_action': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_action -- -j24 -l24
+[0.829s] [  2%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[0.830s] [  4%] Generating rcl_action/version.h
+[0.830s] [  6%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[0.839s] [  6%] Built target ament_generate_version_header__rcl_action
+[0.850s] [ 17%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.o
+[0.850s] [ 17%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.o
+[0.850s] [ 17%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.o
+[0.850s] [ 17%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/graph.c.o
+[0.850s] [ 17%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.o
+[0.850s] [ 19%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/names.c.o
+[0.850s] [ 21%] Building C object CMakeFiles/rcl_action.dir/src/rcl_action/types.c.o
+[0.926s] [ 23%] Linking C shared library librcl_action.so
+[0.955s] [ 23%] Built target rcl_action
+[1.219s] [ 25%] Linking CXX static library libgtest_main.a
+[1.236s] [ 25%] Built target gtest_main
+[2.601s] [ 27%] Linking CXX static library libgtest.a
+[2.631s] [ 27%] Built target gtest
+[2.644s] [ 36%] Building CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_interaction.cpp.o
+[2.644s] [ 36%] Building CXX object CMakeFiles/test_action_interaction__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_interaction.cpp.o
+[2.644s] [ 36%] Building CXX object CMakeFiles/test_graph__rmw_cyclonedds_cpp.dir/test/rcl_action/test_graph.cpp.o
+[2.644s] [ 36%] Building CXX object CMakeFiles/test_action_communication__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_communication.cpp.o
+[2.644s] [ 42%] Building CXX object CMakeFiles/test_graph__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_graph.cpp.o
+[2.644s] [ 42%] Building CXX object CMakeFiles/test_graph__rmw_fastrtps_cpp.dir/test/rcl_action/test_graph.cpp.o
+[2.644s] [ 44%] Building CXX object CMakeFiles/test_action_communication__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_communication.cpp.o
+[2.644s] [ 42%] Building CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_interaction.cpp.o
+[2.644s] [ 46%] Building CXX object CMakeFiles/test_action_communication__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_communication.cpp.o
+[2.644s] [ 48%] Building CXX object CMakeFiles/test_action_client.dir/test/rcl_action/test_action_client.cpp.o
+[2.644s] [ 51%] Building CXX object CMakeFiles/test_goal_handle.dir/test/rcl_action/test_goal_handle.cpp.o
+[2.645s] [ 53%] Building CXX object CMakeFiles/test_types.dir/test/rcl_action/test_types.cpp.o
+[2.645s] [ 55%] Building CXX object CMakeFiles/test_goal_state_machine.dir/test/rcl_action/test_goal_state_machine.cpp.o
+[2.645s] [ 57%] Building CXX object CMakeFiles/test_action_server.dir/test/rcl_action/test_action_server.cpp.o
+[3.335s] [ 59%] Linking CXX executable test_action_interaction__rmw_fastrtps_cpp
+[3.370s] [ 61%] Linking CXX executable test_goal_state_machine
+[3.379s] [ 63%] Linking CXX executable test_action_client
+[3.427s] [ 65%] Linking CXX executable test_action_communication__rmw_fastrtps_cpp
+[3.474s] [ 65%] Built target test_action_interaction__rmw_fastrtps_cpp
+[3.481s] [ 68%] Linking CXX executable test_types
+[3.488s] [ 74%] Building CXX object CMakeFiles/test_wait.dir/test/rcl_action/test_wait.cpp.o
+[3.488s] [ 74%] Building CXX object CMakeFiles/test_names.dir/test/rcl_action/test_names.cpp.o
+[3.488s] [ 74%] Building CXX object CMakeFiles/test_action_name_remapping.dir/test/rcl_action/test_action_name_remapping.cpp.o
+[3.493s] [ 74%] Built target test_goal_state_machine
+[3.521s] [ 74%] Built target test_action_client
+[3.543s] [ 76%] Linking CXX executable test_action_server
+[3.559s] [ 76%] Built target test_action_communication__rmw_fastrtps_cpp
+[3.572s] [ 78%] Linking CXX executable test_graph__rmw_fastrtps_cpp
+[3.586s] [ 80%] Linking CXX executable test_action_interaction__rmw_fastrtps_dynamic_cpp
+[3.586s] [ 82%] Linking CXX executable test_action_interaction__rmw_cyclonedds_cpp
+[3.591s] [ 85%] Linking CXX executable test_goal_handle
+[3.593s] [ 87%] Linking CXX executable test_action_communication__rmw_fastrtps_dynamic_cpp
+[3.595s] [ 87%] Built target test_types
+[3.630s] [ 89%] Linking CXX executable test_graph__rmw_fastrtps_dynamic_cpp
+[3.633s] [ 91%] Linking CXX executable test_action_communication__rmw_cyclonedds_cpp
+[3.647s] [ 93%] Linking CXX executable test_graph__rmw_cyclonedds_cpp
+[3.674s] [ 93%] Built target test_action_server
+[3.713s] [ 93%] Built target test_graph__rmw_fastrtps_cpp
+[3.717s] [ 93%] Built target test_action_interaction__rmw_cyclonedds_cpp
+[3.719s] [ 93%] Built target test_goal_handle
+[3.719s] [ 93%] Built target test_action_interaction__rmw_fastrtps_dynamic_cpp
+[3.729s] [ 93%] Built target test_action_communication__rmw_fastrtps_dynamic_cpp
+[3.757s] [ 93%] Built target test_graph__rmw_fastrtps_dynamic_cpp
+[3.761s] [ 93%] Built target test_action_communication__rmw_cyclonedds_cpp
+[3.769s] [ 93%] Built target test_graph__rmw_cyclonedds_cpp
+[4.127s] [ 95%] Linking CXX executable test_action_name_remapping
+[4.191s] [ 97%] Linking CXX executable test_wait
+[4.204s] [100%] Linking CXX executable test_names
+[4.216s] [100%] Built target test_action_name_remapping
+[4.279s] [100%] Built target test_wait
+[4.289s] [100%] Built target test_names
+[4.297s] Invoked command in '/workspace/jazzy_ws/build/rcl_action' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_action -- -j24 -l24
+[4.297s] Invoking command in '/workspace/jazzy_ws/build/rcl_action': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_action
+[4.301s] -- Install configuration: ""
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/goal_handle.h
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/action_server.h
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/types.h
+[4.301s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/visibility_control.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/goal_state_machine.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/graph.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/names.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/default_qos.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/action_client.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/rcl_action.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/wait.h
+[4.302s] -- Installing: /workspace/jazzy_ws/install/lib/librcl_action.so
+[4.304s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcl_action.so" to ""
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/library_path.sh
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/library_path.dsv
+[4.304s] -- Installing: /workspace/jazzy_ws/install/include/rcl_action/rcl_action/version.h
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl_action
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl_action
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/ament_prefix_path.sh
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/ament_prefix_path.dsv
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/path.sh
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/environment/path.dsv
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/local_setup.bash
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/local_setup.sh
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/local_setup.zsh
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/local_setup.dsv
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/package.dsv
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcl_action
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/rcl_actionExport.cmake
+[4.304s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/rcl_actionExport-noconfig.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/ament_cmake_export_libraries-extras.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/rcl_actionConfig.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/cmake/rcl_actionConfig-version.cmake
+[4.305s] -- Installing: /workspace/jazzy_ws/install/share/rcl_action/package.xml
+[4.309s] Invoked command in '/workspace/jazzy_ws/build/rcl_action' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/libyaml_vendor/lib:/workspace/jazzy_ws/install/opt/spdlog_vendor/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_action

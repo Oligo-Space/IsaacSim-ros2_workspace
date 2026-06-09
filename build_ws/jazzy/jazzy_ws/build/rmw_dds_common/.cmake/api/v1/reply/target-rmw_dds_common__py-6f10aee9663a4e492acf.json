@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/workspace/jazzy_ws/build/rmw_dds_common/rmw_dds_common__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "rmw_dds_common::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rmw_dds_common__py::@4e4bb382d017f4b8e6ce",
+	"name" : "rmw_dds_common__py",
+	"paths" : 
+	{
+		"build" : "rmw_dds_common__py",
+		"source" : "/workspace/jazzy_ws/build/rmw_dds_common/rmw_dds_common__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rmw_dds_common__py/CMakeFiles/rmw_dds_common__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rmw_dds_common__py/CMakeFiles/rmw_dds_common__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspace/jazzy_ws/build/rmw_dds_common/rosidl_generator_py/rmw_dds_common/_rmw_dds_common_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

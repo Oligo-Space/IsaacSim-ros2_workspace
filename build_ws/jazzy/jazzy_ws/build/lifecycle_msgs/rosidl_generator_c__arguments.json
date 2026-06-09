@@ -1,0 +1,72 @@
+{
+  "package_name": "lifecycle_msgs",
+  "output_dir": "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_c/lifecycle_msgs",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl"
+  ],
+  "ros_interface_files": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/msg/State.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/msg/Transition.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/msg/TransitionDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/msg/TransitionEvent.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/srv/ChangeState.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/srv/GetAvailableStates.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/srv/GetAvailableTransitions.srv",
+    "/workspace/jazzy_ws/src/rcl_interfaces/lifecycle_msgs/srv/GetState.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/State.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/Transition.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionDescription.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/msg/TransitionEvent.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/ChangeState.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableStates.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetAvailableTransitions.idl",
+    "/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs/srv/GetState.idl",
+    "/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/State.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/msg/State.json",
+    "msg/Transition.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/msg/Transition.json",
+    "msg/TransitionDescription.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/msg/TransitionDescription.json",
+    "msg/TransitionEvent.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/msg/TransitionEvent.json",
+    "srv/ChangeState.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/srv/ChangeState.json",
+    "srv/GetAvailableStates.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/srv/GetAvailableStates.json",
+    "srv/GetAvailableTransitions.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/srv/GetAvailableTransitions.json",
+    "srv/GetState.idl:/workspace/jazzy_ws/build/lifecycle_msgs/rosidl_generator_type_description/lifecycle_msgs/srv/GetState.json"
+  ]
+}

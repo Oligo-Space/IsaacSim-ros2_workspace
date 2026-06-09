@@ -1,0 +1,78 @@
+[0.456s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_interface': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl_logging/rcl_logging_interface -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.559s] -- The C compiler identification is GNU 13.3.0
+[0.595s] -- The CXX compiler identification is GNU 13.3.0
+[0.609s] -- Detecting C compiler ABI info
+[0.688s] -- Detecting C compiler ABI info - done
+[0.701s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.703s] -- Detecting C compile features
+[0.706s] -- Detecting C compile features - done
+[0.718s] -- Detecting CXX compiler ABI info
+[0.850s] -- Detecting CXX compiler ABI info - done
+[0.868s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.868s] -- Detecting CXX compile features
+[0.868s] -- Detecting CXX compile features - done
+[0.868s] -- Found ament_cmake_ros: 0.12.0 (/workspace/jazzy_ws/install/share/ament_cmake_ros/cmake)
+[1.019s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.112s] -- Found rcutils: 6.7.5 (/workspace/jazzy_ws/install/share/rcutils/cmake)
+[1.120s] -- Found ament_lint_auto: 0.17.4 (/workspace/jazzy_ws/install/share/ament_lint_auto/cmake)
+[1.218s] -- Found gtest sources under '/workspace/jazzy_ws/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.286s] -- Found Threads: TRUE  
+[1.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.298s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.298s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/jazzy_ws/src/rcl_logging/rcl_logging_interface/include>
+[1.298s] -- Configured cppcheck exclude dirs and/or files: 
+[1.301s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.302s] -- Configured cpplint exclude dirs and/or files: 
+[1.305s] -- Added test 'lint_cmake' to check CMake code style
+[1.310s] -- Added test 'uncrustify' to check C / C++ code style
+[1.311s] -- Configured uncrustify additional arguments: 
+[1.313s] -- Added test 'xmllint' to check XML markup files
+[1.315s] -- Configuring done (0.8s)
+[1.329s] -- Generating done (0.0s)
+[1.337s] -- Build files have been written to: /workspace/jazzy_ws/build/rcl_logging_interface
+[1.343s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_interface' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/rcl_logging/rcl_logging_interface -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[1.344s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_interface': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_logging_interface -- -j24 -l24
+[1.396s] [ 25%] Building C object CMakeFiles/rcl_logging_interface.dir/src/logging_dir.c.o
+[1.396s] [ 25%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[1.397s] [ 37%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.442s] [ 50%] Linking C shared library librcl_logging_interface.so
+[1.481s] [ 50%] Built target rcl_logging_interface
+[2.192s] [ 62%] Linking CXX static library libgtest_main.a
+[2.241s] [ 62%] Built target gtest_main
+[4.328s] [ 75%] Linking CXX static library libgtest.a
+[4.369s] [ 75%] Built target gtest
+[4.382s] [ 87%] Building CXX object CMakeFiles/test_get_logging_directory.dir/test/test_get_logging_directory.cpp.o
+[5.068s] [100%] Linking CXX executable test_get_logging_directory
+[5.145s] [100%] Built target test_get_logging_directory
+[5.151s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_interface' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/rcl_logging_interface -- -j24 -l24
+[5.152s] Invoking command in '/workspace/jazzy_ws/build/rcl_logging_interface': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_logging_interface
+[5.157s] -- Install configuration: ""
+[5.157s] -- Installing: /workspace/jazzy_ws/install/include/rcl_logging_interface
+[5.157s] -- Installing: /workspace/jazzy_ws/install/include/rcl_logging_interface/rcl_logging_interface
+[5.157s] -- Installing: /workspace/jazzy_ws/install/include/rcl_logging_interface/rcl_logging_interface/visibility_control.h
+[5.157s] -- Installing: /workspace/jazzy_ws/install/include/rcl_logging_interface/rcl_logging_interface/rcl_logging_interface.h
+[5.158s] -- Installing: /workspace/jazzy_ws/install/lib/librcl_logging_interface.so
+[5.158s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/librcl_logging_interface.so" to ""
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl_logging_interface
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl_logging_interface
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/environment/ament_prefix_path.sh
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/environment/ament_prefix_path.dsv
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/environment/path.sh
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/environment/path.dsv
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/local_setup.bash
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/local_setup.sh
+[5.158s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/local_setup.zsh
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/local_setup.dsv
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/package.dsv
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/ament_index/resource_index/packages/rcl_logging_interface
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport-noconfig.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig-version.cmake
+[5.159s] -- Installing: /workspace/jazzy_ws/install/share/rcl_logging_interface/package.xml
+[5.160s] Invoked command in '/workspace/jazzy_ws/build/rcl_logging_interface' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib:/workspace/jazzy_ws/install/opt/mimick_vendor/lib PATH=/workspace/jazzy_ws/install/bin:/workspace/jazzy_ws/install/opt/uncrustify_vendor/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/rcl_logging_interface

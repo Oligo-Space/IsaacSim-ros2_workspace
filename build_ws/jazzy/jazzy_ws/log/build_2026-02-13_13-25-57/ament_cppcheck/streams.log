@@ -1,0 +1,47 @@
+[0.729s] Invoking command in '/workspace/jazzy_ws/src/ament_lint/ament_cppcheck': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /workspace/jazzy_ws/build/ament_cppcheck/build install --record /workspace/jazzy_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[0.807s] /usr/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.807s]   warnings.warn(msg)
+[0.815s] /usr/local/lib/python3.12/dist-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.815s] !!
+[0.815s] 
+[0.815s]         ********************************************************************************
+[0.815s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.815s] 
+[0.815s]         License :: OSI Approved :: Apache Software License
+[0.815s] 
+[0.815s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.815s]         ********************************************************************************
+[0.815s] 
+[0.815s] !!
+[0.815s]   self._finalize_license_expression()
+[0.832s] running egg_info
+[0.836s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[0.836s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[0.836s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[0.836s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[0.836s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[0.836s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[0.836s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.845s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.846s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.846s] running build
+[0.846s] running build_py
+[0.846s] creating /workspace/jazzy_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.846s] copying ament_cppcheck/main.py -> /workspace/jazzy_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.846s] copying ament_cppcheck/__init__.py -> /workspace/jazzy_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.846s] running install
+[0.849s] running install_lib
+[0.867s] creating /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck
+[0.867s] copying /workspace/jazzy_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck
+[0.867s] copying /workspace/jazzy_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck
+[0.867s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck/main.py to main.cpython-312.pyc
+[0.867s] byte-compiling /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck/__init__.py to __init__.cpython-312.pyc
+[0.867s] running install_data
+[0.867s] copying package.xml -> /workspace/jazzy_ws/install/share/ament_cppcheck
+[0.867s] copying resource/ament_cppcheck -> /workspace/jazzy_ws/install/share/ament_index/resource_index/packages
+[0.867s] running install_egg_info
+[0.867s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /workspace/jazzy_ws/install/lib/python3.12/site-packages/ament_cppcheck-0.17.4-py3.12.egg-info
+[0.867s] running install_scripts
+[0.869s] Installing ament_cppcheck script to /workspace/jazzy_ws/install/bin
+[0.869s] writing list of installed files to '/workspace/jazzy_ws/build/ament_cppcheck/install.log'
+[0.893s] Invoked command in '/workspace/jazzy_ws/src/ament_lint/ament_cppcheck' returned '0': AMENT_PREFIX_PATH=/workspace/jazzy_ws/install CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PYTHONPATH=/workspace/jazzy_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/jazzy_ws/install/lib/python3.12/site-packages:/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /workspace/jazzy_ws/build/ament_cppcheck/build install --record /workspace/jazzy_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data

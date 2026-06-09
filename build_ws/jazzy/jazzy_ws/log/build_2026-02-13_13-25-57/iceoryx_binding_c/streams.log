@@ -1,0 +1,92 @@
+[0.003s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/iceoryx/iceoryx_binding_c -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.031s] -- The C compiler identification is GNU 13.3.0
+[0.061s] -- The CXX compiler identification is GNU 13.3.0
+[0.069s] -- Detecting C compiler ABI info
+[0.110s] -- Detecting C compiler ABI info - done
+[0.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.116s] -- Detecting C compile features
+[0.116s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.168s] -- Detecting CXX compiler ABI info - done
+[0.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.173s] -- Detecting CXX compile features
+[0.174s] -- Detecting CXX compile features - done
+[0.177s] -- [i] <<<<<<<<<<<<< Start iceoryx_posh configuration: >>>>>>>>>>>>>
+[0.177s] -- [i] Using m:n communication!
+[0.177s] -- [i] IOX_MAX_PUBLISHERS:512
+[0.177s] -- [i] IOX_MAX_SUBSCRIBERS:1024
+[0.177s] -- [i] IOX_MAX_INTERFACE_NUMBER:4
+[0.177s] -- [i] IOX_MAX_SUBSCRIBERS_PER_PUBLISHER:256
+[0.177s] -- [i] IOX_MAX_CHUNKS_ALLOCATED_PER_PUBLISHER_SIMULTANEOUSLY:8
+[0.177s] -- [i] IOX_MAX_PUBLISHER_HISTORY:16
+[0.177s] -- [i] IOX_MAX_CHUNKS_HELD_PER_SUBSCRIBER_SIMULTANEOUSLY:256
+[0.177s] -- [i] <<<<<<<<<<<<<< End iceoryx_posh configuration: >>>>>>>>>>>>>>
+[0.177s] -- Configuring done (0.2s)
+[0.180s] -- Generating done (0.0s)
+[0.181s] -- Build files have been written to: /workspace/jazzy_ws/build/iceoryx_binding_c
+[0.183s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake /workspace/jazzy_ws/src/iceoryx/iceoryx_binding_c -DCMAKE_INSTALL_PREFIX=/workspace/jazzy_ws/install
+[0.183s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/iceoryx_binding_c -- -j24 -l24
+[0.206s] [  9%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_client.cpp.o
+[0.206s] [  9%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_config.cpp.o
+[0.206s] [ 22%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_notification_info.cpp.o
+[0.206s] [ 22%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_listener.cpp.o
+[0.206s] [ 22%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_node.cpp.o
+[0.207s] [ 27%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_request_header.cpp.o
+[0.207s] [ 31%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_publisher.cpp.o
+[0.207s] [ 36%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_response_header.cpp.o
+[0.207s] [ 45%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_server.cpp.o
+[0.207s] [ 45%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_subscriber.cpp.o
+[0.207s] [ 50%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_user_trigger.cpp.o
+[0.208s] [ 54%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_runtime.cpp.o
+[0.209s] [ 59%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_publisher.cpp.o
+[0.211s] [ 68%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_service_discovery.cpp.o
+[0.211s] [ 68%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_subscriber.cpp.o
+[0.211s] [ 81%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_chunk.cpp.o
+[0.211s] [ 81%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c2cpp_enum_translation.cpp.o
+[0.211s] [ 81%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_wait_set.cpp.o
+[0.211s] [ 86%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_log.cpp.o
+[0.211s] [ 90%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_enum_translation.cpp.o
+[0.212s] [ 95%] Building CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_service_description_translation.cpp.o
+[0.810s] [100%] Linking CXX shared library libiceoryx_binding_c.so
+[0.875s] [100%] Built target iceoryx_binding_c
+[0.880s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --build /workspace/jazzy_ws/build/iceoryx_binding_c -- -j24 -l24
+[0.881s] Invoking command in '/workspace/jazzy_ws/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/iceoryx_binding_c
+[0.884s] -- Install configuration: ""
+[0.884s] -- Installing: /workspace/jazzy_ws/install/lib/libiceoryx_binding_c.so
+[0.884s] -- Set non-toolchain portion of runtime path of "/workspace/jazzy_ws/install/lib/libiceoryx_binding_c.so" to ""
+[0.885s] -- Up-to-date: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/subscriber.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/types.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/service_discovery.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/log.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/server.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/user_trigger.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/publisher.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/notification_info.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/node.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/wait_set.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/request_header.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/enums.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/service_description.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/client.h
+[0.885s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/config.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/api.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_subscriber.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_publisher.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_enum_translation.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_waitset.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_enum_translation.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_service_description_translation.hpp
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_binding.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/chunk.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/runtime.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/response_header.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/include/iceoryx/v2.0.6/iceoryx_binding_c/listener.h
+[0.886s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfigVersion.cmake
+[0.886s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfig.cmake
+[0.887s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets.cmake
+[0.887s] -- Installing: /workspace/jazzy_ws/install/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets-noconfig.cmake
+[0.887s] -- Installing: /workspace/jazzy_ws/install/share/doc/iceoryx_binding_c/LICENSE
+[0.887s] Invoked command in '/workspace/jazzy_ws/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/workspace/jazzy_ws/install LD_LIBRARY_PATH=/workspace/jazzy_ws/install/lib PATH=/workspace/jazzy_ws/install/bin:${PATH} PKG_CONFIG_PATH=/workspace/jazzy_ws/install/lib/x86_64-linux-gnu/pkgconfig:/workspace/jazzy_ws/install/lib/pkgconfig PYTHONPATH=/workspace/jazzy_ws/install/lib/python3.12/site-packages /usr/bin/cmake --install /workspace/jazzy_ws/build/iceoryx_binding_c

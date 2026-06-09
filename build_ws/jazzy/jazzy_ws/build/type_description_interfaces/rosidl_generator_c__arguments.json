@@ -1,0 +1,68 @@
+{
+  "package_name": "type_description_interfaces",
+  "output_dir": "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_c/type_description_interfaces",
+  "template_dir": "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl"
+  ],
+  "ros_interface_files": [
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/Field.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/FieldType.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/IndividualTypeDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/KeyValue.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/TypeDescription.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/msg/TypeSource.msg",
+    "/workspace/jazzy_ws/src/rcl_interfaces/type_description_interfaces/srv/GetTypeDescription.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/workspace/jazzy_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/Field.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/FieldType.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/IndividualTypeDescription.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/KeyValue.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/TypeDescription.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/msg/TypeSource.idl",
+    "/workspace/jazzy_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces/srv/GetTypeDescription.idl",
+    "/workspace/jazzy_ws/install/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/workspace/jazzy_ws/install/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Field.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/Field.json",
+    "msg/FieldType.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/FieldType.json",
+    "msg/IndividualTypeDescription.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/IndividualTypeDescription.json",
+    "msg/KeyValue.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/KeyValue.json",
+    "msg/TypeDescription.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/TypeDescription.json",
+    "msg/TypeSource.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/msg/TypeSource.json",
+    "srv/GetTypeDescription.idl:/workspace/jazzy_ws/build/type_description_interfaces/rosidl_generator_type_description/type_description_interfaces/srv/GetTypeDescription.json"
+  ]
+}
