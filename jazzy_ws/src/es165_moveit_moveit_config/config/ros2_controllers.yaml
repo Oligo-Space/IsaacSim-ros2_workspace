@@ -1,0 +1,42 @@
+#Sets up the individual controllers for the robot arm
+controller_manager:
+  ros__parameters:
+    update_rate: 200  # Hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+joint_state_broadcaster:
+  ros__parameters:
+    use_sim_time: true
+
+arm_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - joint_1_s
+      - joint_2_l
+      - joint_3_u
+      - joint_4_r
+      - joint_5_b
+      - joint_6_t
+    command_interfaces:
+      - position  # For MoveIt trajectory execution (plan & execute)
+      - velocity  # For MoveIt Servo velocity commands
+    state_interfaces: # Tracks the current position and velocity of the joints
+      - position
+      - velocity
+    # Open-loop control - trust the trajectory, don't fight current state
+    open_loop_control: true
+    # Allow non-zero velocity at trajectory start
+    allow_nonzero_velocity_at_trajectory_start: true
+    allow_nonzero_velocity_at_trajectory_end: true
+    # Interpolation for smooth commands
+    interpolate_at_configured_rate: true
+    allow_partial_joints_goal: true
+

@@ -1,0 +1,112 @@
+format: "xrdf"
+
+format_version: 1.0
+
+default_joint_positions: 
+  joint_1_s: -0.19
+  joint_2_l: -1.06
+  joint_3_u: 0.33
+  joint_4_r: -0.13
+  joint_5_b: -0.8
+  joint_6_t: 1.902
+
+cspace: 
+  joint_names: 
+    - "joint_1_s"
+    - "joint_2_l"
+    - "joint_3_u"
+    - "joint_4_r"
+    - "joint_5_b"
+    - "joint_6_t"
+  acceleration_limits: [10, 10, 10, 10, 10, 10]
+  jerk_limits: [10000, 10000, 10000, 10000, 10000, 10000]
+
+collision: 
+  geometry: "auto_generated_collision_sphere_group"
+
+self_collision: 
+  geometry: "auto_generated_collision_sphere_group"
+  ignore: 
+    base_link: 
+      - "link_s"
+    link_s: 
+      - "link_l"
+    link_l: 
+      - "link_u"
+    link_u: 
+      - "link_r"
+    link_r: 
+      - "link_b"
+    link_b: 
+      - "link_t"
+    link_t: 
+      - "ee_base_link"
+
+geometry: 
+  auto_generated_collision_sphere_group: 
+    spheres: 
+      base_link: 
+        - center: [0.032, -0.037, 0.155]
+          radius: 0.4454
+      link_l: 
+        - center: [0.309, -0.198, -0.119]
+          radius: 0.2022
+        - center: [0.738, -0.259, -0.008]
+          radius: 0.1776
+        - center: [0.502, -0.214, -0.088]
+          radius: 0.1776
+      link_r: 
+        - center: [0.002, -0.087, -1.24]
+          radius: 0.0809
+        - center: [-0.0, 0.01, -1.365]
+          radius: 0.1009
+        - center: [0.0, 0.006, -1.087]
+          radius: 0.0704
+        - center: [-0.019, -0.091, -1.193]
+          radius: 0.0765
+      link_b: 
+        - center: [-0.003, 0.007, -0.148]
+          radius: 0.0761
+      link_t: 
+        - center: [-0.025, 0.036, 0.013]
+          radius: 0.0625
+      link_u: 
+        - center: [-0.003, -0.142, 0.003]
+          radius: 0.1867
+        - center: [0.251, 0.002, -0.364]
+          radius: 0.1778
+        - center: [0.006, -0.013, 0.0]
+          radius: 0.183
+        - center: [0.222, 0.046, -0.243]
+          radius: 0.1756
+        - center: [0.25, -0.001, -0.696]
+          radius: 0.1689
+        - center: [0.25, -0.001, -0.871]
+          radius: 0.1689
+      ee_base_link: 
+        - center: [-0.5, -0.3, 0.1]
+          radius: 0.1
+        - center: [-0.5, -0.2, 0.1]
+          radius: 0.1
+        - center: [-0.5, -0.1, 0.1]
+          radius: 0.1
+        - center: [-0.5, 0.0, 0.1]
+          radius: 0.1
+        - center: [-0.5, 0.1, 0.1]
+          radius: 0.1
+        - center: [-0.5, 0.2, 0.1]
+          radius: 0.1
+        - center: [0.5, 0.2, 0.1]
+          radius: 0.1
+        - center: [0.5, 0.1, 0.1]
+          radius: 0.1
+        - center: [0.5, 0.0, 0.1]
+          radius: 0.1
+        - center: [0.5, -0.1, 0.1]
+          radius: 0.1
+        - center: [0.011, 0.179, 0.092]
+          radius: 0.1164
+        - center: [-0.155, 0.094, 0.092]
+          radius: 0.1164
+        - center: [0.167, 0.127, 0.117]
+          radius: 0.1077

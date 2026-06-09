@@ -1,0 +1,49 @@
+## Properties of outgoing commands
+publish_period: 0.0167  # 1/Nominal publish rate [seconds]
+max_expected_latency: 0.0501  # delay between sending a command and the robot executing it [seconds]
+# incoming_command_timeout: 0.1
+
+command_in_type: "speed_units"  # "unitless"> in the range [-1:1], as if from joystick. "speed_units"> cmds are in m/s and rad/s
+scale:
+  linear: 1.0
+  rotational: 1.0
+  joint: 1.0
+
+# What type of topic does your robot driver expect?
+# Currently supported are std_msgs/Float64MultiArray or trajectory_msgs/JointTrajectory
+command_out_type: trajectory_msgs/JointTrajectory
+command_out_topic: /arm_controller/joint_trajectory  # Publish outgoing commands here
+
+# What to publish? Can save some bandwidth as most robots only require positions or velocities
+publish_joint_positions: true
+publish_joint_velocities: true
+publish_joint_accelerations: false
+
+## Plugins for smoothing outgoing commands
+use_smoothing: true
+smoothing_filter_plugin_name: "online_signal_smoothing::RuckigFilterPlugin"
+
+# Since move_group is the primary planning scene monitor, this must be false
+is_primary_planning_scene_monitor: false
+check_octomap_collisions: false
+
+## MoveIt properties
+move_group_name: arm
+
+## Configure handling of singularities and joint limits
+lower_singularity_threshold: 50.0
+hard_stop_singularity_threshold: 200.0
+leaving_singularity_threshold_multiplier: 1.5
+joint_limit_margins: [0.001]
+
+## Topic names
+cartesian_command_in_topic: ~/delta_twist_cmds
+joint_command_in_topic: ~/delta_joint_cmds
+joint_topic: /joint_states
+status_topic: ~/status
+
+## Collision checking for the entire robot body
+check_collisions: true
+collision_check_rate: 60.0
+self_collision_proximity_threshold: 0.01
+scene_collision_proximity_threshold: 0.01

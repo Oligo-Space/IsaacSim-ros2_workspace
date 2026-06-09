@@ -1,0 +1,185 @@
+# The robot description defines the generalized coordinates and how to map those
+# to the underlying URDF dofs.
+
+robot_cfg:
+    kinematics:
+        usd_path: "/home/oligo/IsaacSim-ros_workspaces/humble_ws/src/es165_moveit/urdf/es165_isaac/es165_isaac.usd"
+        usd_robot_root: "/es165d"
+        isaac_usd_path: ""
+        usd_flip_joints: {}
+        usd_flip_joint_limits: [] 
+
+        urdf_path: "/home/oligo/IsaacSim-ros_workspaces/humble_ws/src/es165_moveit/urdf/es165.urdf"
+        asset_root_path: ""
+
+        base_link: "base_link"
+        ee_link: "tool0"
+        link_names: ["base_link", "link_s", "link_l", "link_u", "link_r", "link_b", "link_t", "tool0","ee_base_link"]
+        lock_joints: null
+        extra_links: null
+
+
+        collision_link_names: ["link_l", "link_u", "link_r", "link_b", "ee_base_link"] # List[str]
+        # Collision spheres for the robot links
+
+        
+        collision_spheres:
+            # base_link:
+            #   - "center": [0.032, -0.037, 0.155]
+            #     "radius": 0.44537
+            # link_s: 
+            #   - center: [0.006, 0.159, 0.044]
+            #     radius: 0.2877
+            #   - center: [0.778, 0.004, -0.014]
+            #     radius: 0.2822
+            link_l: 
+              - center: [0.309, -0.198, -0.119]
+                radius: 0.2022
+              - center: [0.738, -0.259, -0.008]
+                radius: 0.1776
+              - center: [0.502, -0.214, -0.088]
+                radius: 0.1776
+              - center: [0.318, -0.19, -0.008]
+                radius: 0.1886
+              - center: [0.597, -0.23, 0.037]
+                radius: 0.175
+              - center: [0.923, -0.332, 0.038]
+                radius: 0.1623
+            link_u: 
+              - center: [-0.003, -0.142, 0.003]
+                radius: 0.1867
+              - center: [0.251, 0.002, -0.364]
+                radius: 0.1778
+              - center: [0.006, -0.013, 0.0]
+                radius: 0.183
+              - center: [0.222, 0.046, -0.243]
+                radius: 0.1756
+              - center: [0.25, -0.001, -0.696]
+                radius: 0.1689
+              - center: [0.25, -0.001, -0.871]
+                radius: 0.1689
+              - center: [0.246, -0.003, -0.474]
+                radius: 0.1748
+              - center: [0.042, 0.019, -0.187]
+                radius: 0.1659
+            link_r: 
+              - center: [0.002, -0.087, -1.24]
+                radius: 0.1559
+              - center: [-0.0, 0.01, -1.365]
+                radius: 0.1759
+              - center: [0.0, 0.006, -1.087]
+                radius: 0.1454
+            link_b: 
+              - center: [-0.003, 0.007, -0.148]
+                radius: 0.1511
+              - center: [0.009, 0.076, -0.093]
+                radius: 0.1326
+            ee_base_link: 
+              - center: [0.6, 0.0, 0.1]
+                radius: 0.1
+              - center: [0.6, 0.1, 0.1]
+                radius: 0.1
+              - center: [0.6, 0.2, 0.1]
+                radius: 0.1
+              - center: [0.6, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.5, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.4, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.3, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.2, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.1, 0.3, 0.1]
+                radius: 0.1
+              - center: [0.0, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.1, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.2, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.3, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.4, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.5, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.6, 0.3, 0.1]
+                radius: 0.1
+              - center: [-0.6, 0.2, 0.1]
+                radius: 0.1
+              - center: [-0.6, 0.1, 0.1]
+                radius: 0.1
+              - center: [-0.6, 0.0, 0.1]
+                radius: 0.1
+              - center: [-0.6, -0.1, 0.1]
+                radius: 0.1
+              - center: [-0.6, -0.2, 0.1]
+                radius: 0.1
+              - center: [-0.6, -0.3, 0.1]
+                radius: 0.1
+              - center: [-0.5, -0.3, 0.1]
+                radius: 0.1
+              - center: [-0.4, -0.3, 0.1]
+                radius: 0.1
+              - center: [-0.3, -0.3, 0.1]
+                radius: 0.1
+              - center: [-0.2, -0.3, 0.1]
+                radius: 0.1
+              - center: [-0.1, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.0, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.1, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.2, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.3, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.4, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.5, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.6, -0.3, 0.1]
+                radius: 0.1
+              - center: [0.6, -0.2, 0.1]
+                radius: 0.1
+              - center: [0.6, -0.1, 0.1]
+                radius: 0.1
+
+        collision_sphere_buffer: 0.004
+        extra_collision_spheres: {}
+        self_collision_ignore: #set to not collide with adjacent links, joint limits will handle this
+         {
+          # "base_link": ["link_s"],
+          # "link_s": ["link_l","base_link"],
+          "link_l": ["link_b", "link_r","link_u"],
+          "link_u": ["link_l", "link_r","link_b"],
+          "link_r": ["link_l", "link_b","link_u"],
+          "link_b": ["link_l", "link_r","link_u"],
+          # "link_t": ["ee_base_link", "link_b"],
+          "ee_base_link": [],
+         } # Dict[str, List[str]]
+        self_collision_buffer: 
+         {
+          # "base_link": 0.005,
+          # "link_s": 0.005,
+          "link_l": 0.005,
+          "link_u": 0.005,
+          "link_r": 0.005,
+          "link_b": 0.005,
+          # "link_t": 0.005,
+          "ee_base_link": 0.005,
+         } # Dict[str, float]
+
+        use_global_cumul: True
+        mesh_link_names: ["base_link", "link_s", "link_l", "link_u", "link_r", "link_b", "link_t", "ee_base_link"] # List[str]
+
+        cspace:
+          joint_names: ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t","tool0_ee_base_link"] # List[str]
+          retract_config: [-0.19198622, -1.06465084,  0.33161256, -0.13962634, -0.80285146,  1.90240888, 0.0] # List[float]
+          null_space_weight: [1,1,1,1,1,1,1] # List[str]
+          cspace_distance_weight: [1,1,1,1,1,1,1]  # List[str]
+          max_jerk: 500.0
+          max_acceleration: 15.0
