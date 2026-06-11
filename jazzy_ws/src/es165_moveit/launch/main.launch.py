@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_directory
 from launch_param_builder import ParameterBuilder
 import os
 
-LOG_LEVEL = "ERROR"
+LOG_LEVEL = "WARN"
 UPDATE_RATE = 30 #Hz
 
 def generate_launch_description():
@@ -55,7 +55,7 @@ def generate_launch_description():
     # Declare use_sim_time argument, this allows the robot to interface with the Isaac Sim sim time publisher
     sim_time = DeclareLaunchArgument(
         "use_sim_time",
-        default_value="false",
+        default_value="true",
         description="Use simulation clock if true",
     )
 
@@ -192,10 +192,15 @@ def generate_launch_description():
     )
 
 
+    # use_sim_time so the profile's sleep_for paces on the same clock the
+    # controllers consume torque on; otherwise the torque queue drifts at RTF != 1
     torque_profile_pub = Node(
         package="es165_moveit",
         executable="publish_torque_profile",
-        output="screen"
+        output="screen",
+        parameters=[
+            {'use_sim_time': LaunchConfiguration('use_sim_time')},
+        ],
     )
 
     gui = Node(

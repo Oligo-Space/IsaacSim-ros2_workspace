@@ -7,7 +7,7 @@ from moveit_msgs.action import MoveGroup
 from geometry_msgs.msg import Pose, PoseStamped
 from tf2_ros import Buffer, TransformBroadcaster
 from tf2_msgs.msg import TFMessage
-from tf_transformations import euler_from_quaternion, quaternion_from_euler
+from tf_transformations import euler_from_quaternion, quaternion_from_euler, quaternion_multiply, quaternion_inverse
 from geometry_msgs.msg import TwistStamped, TransformStamped
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from sensor_msgs.msg import JointState
@@ -32,7 +32,9 @@ class ZeroGController(Node):
         self.create_subscription(Float32MultiArray, '/torque_input', self.update_speed, 10)
         self.create_subscription(Bool, '/reset', self.reset_position, 10)
         self.create_subscription(Float32MultiArray, "/update_position", self.reset_position,10)
-        self.create_subscription(JointState, '/joint_states', self.check_joint_states, 10)
+        # /joint_states subscription removed: check_joint_states is unused and the
+        # 200 Hz callback starved the 60 Hz control timer (measured median twist
+        # gap 21.9 ms vs 16.7 ms target, gaps up to 1.26 s)
         self.create_subscription(Bool, "reset_speed", self.reset_speed, 10)
 
         # Telemetry subcriber
@@ -42,7 +44,6 @@ class ZeroGController(Node):
         self.twist_publisher = self.create_publisher(TwistStamped, "/servo_node/delta_twist_cmds", 10)
         self.init_position_publisher = self.create_publisher(JointTrajectory, "/arm_controller/joint_trajectory", 10)
         self.arm_initialized_pub = self.create_publisher(Bool, '/arm_initialized', 10)
-        self.joint_state_publisher = self.create_publisher(JointState, "/isaac_joint_commands", 10)
 
         # Telemetry Publisher
         self.ee_pose_pub = self.create_publisher(Float32MultiArray, '/ee_pose', 10)
@@ -79,14 +80,17 @@ class ZeroGController(Node):
 
         self.halt_timer = False
         self.timer=None
+        self.last_tick_t = None
 
-        self.ee_inertia = np.array(
-            [
-                [0.669, 0.0, 0.0],
-                [0.0, 2.609, 0.0],
-                [0.0, 0.0, 3.261]
-            ]
-        )
+        # self.ee_inertia = np.array(
+        #     [
+        #         [0.669, 0.0, 0.0],
+        #         [0.0, 2.609, 0.0],
+        #         [0.0, 0.0, 3.261]
+        #     ]
+        # )
+
+        self.ee_inertia = np.eye(3)
 
         self.init_position()
         self.create_timer(0.1, self.check_servo_status)
@@ -195,23 +199,50 @@ class ZeroGController(Node):
 
     def update_ee_pose(self, msg):
         '''
-        Updates the EE pose
+        Updates the EE pose. Publishes [x,y,z, r,p,yaw, vx,vy,vz, wx,wy,wz] where
+        w is the body-frame angular velocity from the quaternion delta (euler-angle
+        rates are NOT angular velocity and read unequal even for equal body rates).
         '''
+        # Select the EE transform by frame name; transforms[0] is whatever link
+        # Isaac happens to list first
+        transform = None
+        for tf in msg.transforms:
+            if "ee_base_link" in tf.child_frame_id:
+                transform = tf
+                break
+        if transform is None:
+            if not getattr(self, "_warned_no_ee_tf", False):
+                self._warned_no_ee_tf = True
+                self.get_logger().warn(
+                    f"No ee_base_link in /tf_sim (frames: {[t.child_frame_id for t in msg.transforms]}), "
+                    "falling back to transforms[0]")
+            transform = msg.transforms[0]
 
-        transform = msg.transforms[0]
         x,y,z = (transform.transform.translation.x, transform.transform.translation.y, transform.transform.translation.z)
-        r,p,yaw = euler_from_quaternion([transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w])
-        t = msg.transforms[0].header.stamp.sec + msg.transforms[0].header.stamp.nanosec/1e9
+        q = np.array([transform.transform.rotation.x, transform.transform.rotation.y, transform.transform.rotation.z, transform.transform.rotation.w])
+        r,p,yaw = euler_from_quaternion(q)
+        t = transform.header.stamp.sec + transform.header.stamp.nanosec/1e9
+
         if self.last_t and len(self.last_ee_poses) < self.window_size and len(self.last_ee_poses) > 0:
             dt = t - self.last_t
-            vx,vy,vz,wx,wy,wz = (self.last_ee_poses[-1][:6] - np.array([x,y,z,r,p,yaw])) / dt
-            self.last_ee_poses.append(np.array([x,y,z,r,p,yaw,vx,vy,vz,wx,wy,wz]))
+            if dt <= 0:
+                return
+            vx,vy,vz = (np.array([x,y,z]) - self.last_ee_poses[-1][:3]) / dt
+            # Body-frame angular velocity: q_rel = q_prev^-1 * q_curr, w = axis*angle/dt
+            q_rel = quaternion_multiply(quaternion_inverse(self.last_q), q)
+            if q_rel[3] < 0:
+                q_rel = tuple(-np.array(q_rel))  # shortest rotation
+            v_norm = np.linalg.norm(q_rel[:3])
+            angle = 2.0 * np.arctan2(v_norm, q_rel[3])
+            w_body = (q_rel[:3] / v_norm) * angle / dt if v_norm > 1e-9 else np.zeros(3)
+            self.last_ee_poses.append(np.array([x,y,z,r,p,yaw,vx,vy,vz,*w_body]))
         elif len(self.last_ee_poses) == self.window_size:
             self.ee_pose_pub.publish(Float32MultiArray(data=np.mean(self.last_ee_poses, axis=0)))
             self.last_ee_poses = []
         else:
             self.last_ee_poses.append(np.array([x,y,z,r,p,yaw,0,0,0,0,0,0]))
         self.last_t = t
+        self.last_q = q
 
 
     def init_position(self,pos=None):
@@ -229,7 +260,7 @@ class ZeroGController(Node):
             self.halt_timer = True
             msg = JointTrajectory()
             msg.header.stamp = self.get_clock().now().to_msg()
-            msg.header.frame_id = "ee_base_link"
+            msg.header.frame_id = "base_link"
             msg.joint_names = ["joint_1_s", "joint_2_l", "joint_3_u", "joint_4_r", "joint_5_b", "joint_6_t"]
             msg.points = [
                 JointTrajectoryPoint(positions=list(np.deg2rad(self.start_pos_deg)), velocities=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], time_from_start=Duration(sec=0, nanosec=100000000))
@@ -241,6 +272,10 @@ class ZeroGController(Node):
                 ]
                 self.init_position_publisher.publish(msg)
                 time.sleep(0.1) #sleeping with rclpy clock kills the node since there is a timer running i think
+            # A reset discards pending torques; replaying them from the new pose
+            # makes no physical sense and keeps the arm moving after a reset
+            self.apply.clear()
+            self.last_tick_t = None
             if self.timer is None:
                 self.timer = self.create_timer(self.dt,self.update_vis)
             self.halt_timer = False
@@ -257,7 +292,8 @@ class ZeroGController(Node):
             torque = msg.data
             apply_time = self.apply_time
         
-        self.apply.extend([torque]*int(apply_time/self.dt))
+        # round, not int: truncation drops up to one tick of impulse per command
+        self.apply.extend([torque]*round(apply_time/self.dt))
 
     def update_vis(self):
         if not self.is_enabled or self.halt_timer:
@@ -265,17 +301,35 @@ class ZeroGController(Node):
             return
         # Publish twist command in the end effector body frame
         # This will propogate using the IK plugin and ensure proper servo motion
+
+        # Consume queued torque ticks by elapsed clock time, not timer fires: each
+        # queued tick represents dt of torque, so a late/starved timer must drain
+        # several ticks to keep the torque schedule aligned with the clock
+        # (otherwise the queue backs up and torques execute late and stretched)
+        now = self.get_clock().now().nanoseconds / 1e9
+        if self.last_tick_t is None:
+            n_ticks = 1
+            self.last_tick_t = now
+        else:
+            # floor + advance by consumed ticks so fractional time carries over
+            n_ticks = min(int((now - self.last_tick_t) / self.dt), 60)
+            self.last_tick_t += n_ticks * self.dt
+        impulse = np.zeros(3)
         with self.lock:
-            if len(self.apply)>0:
-                torque = self.apply.popleft()
-            else:
-                torque = np.zeros(3)
-        
-        self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ torque*self.dt + self.curr_velocity)
+            for _ in range(n_ticks):
+                if len(self.apply) == 0:
+                    break
+                impulse += np.asarray(self.apply.popleft(), dtype=float)
+            if len(self.apply) == 0:
+                # no backlog left: drop any accumulated time deficit so a future
+                # command ramps over its ticks instead of being consumed in a burst
+                self.last_tick_t = now
+
+        self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ impulse*self.dt + self.curr_velocity)
         speed = self.curr_velocity
         twist = TwistStamped()
         twist.header.stamp = self.get_clock().now().to_msg() #timestamp of current time
-        twist.header.frame_id = "ee_base_link"
+        twist.header.frame_id = "base_link"
         twist.twist.angular.x = speed[0]
         twist.twist.angular.y = speed[1]
         twist.twist.angular.z = speed[2]

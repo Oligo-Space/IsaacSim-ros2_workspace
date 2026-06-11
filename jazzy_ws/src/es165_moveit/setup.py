@@ -21,8 +21,13 @@ setup(
         #Finds all files in folder and subfolders
         (os.path.join('share', package_name, 'config'),
             [f for f in glob('config/**/*',recursive=True) if os.path.isfile(f)]),
-        (os.path.join('share', package_name, 'urdf'),
-            [f for f in glob('urdf/**/*',recursive=True) if os.path.isfile(f)]),
+    ] + [
+        # One entry per file so subdirectories (urdf/meshes/, urdf/arm_w_mm/, ...)
+        # keep their structure in the share dir; a single flat list would install
+        # urdf/meshes/foo.stl as urdf/foo.stl and break package:// mesh URIs
+        (os.path.join('share', package_name, os.path.dirname(f)), [f])
+        for f in glob('urdf/**/*', recursive=True) if os.path.isfile(f)
+    ] + [
 
         # Parse between visual and collision meshes as they have the same underlying names
         # Xacro file uses the visual meshes & collision_meshes shared folders to launch
@@ -47,9 +52,8 @@ setup(
     entry_points={
         'console_scripts': [
             'zero_g_servo = es165_moveit.zero_g_servo:main',
-            'controller_pinnochio = es165_moveit.controller_pinnochio:main',
+            'joint6_wrap_watcher = es165_moveit.joint6_wrap_watcher:main',
             'torque_publisher = es165_moveit.torque_pub_test:main',
-            'point_move = es165_moveit.deprecated_trajectory_reference:main',
             'control_rw = es165_moveit.control_rw:main',
             'pub_angular_acc = es165_moveit.pub_angular_acc:main',
             'torque_from_rw = es165_moveit.rw_model:main',

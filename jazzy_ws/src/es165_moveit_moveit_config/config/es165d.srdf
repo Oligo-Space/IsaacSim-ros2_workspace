@@ -50,8 +50,6 @@
     <!-- End effector collision exclusions (adjacent links) -->
     <disable_collisions link1="ee_base_link" link2="link_t" reason="Adjacent"/>
     <disable_collisions link1="ee_base_link" link2="link_b" reason="Never"/>
-    <disable_collisions link1="testing_json_output_obj_file" link2="ee_base_link" reason="Adjacent"/>
-    <disable_collisions link1="testing_json_output_obj_file" link2="link_t" reason="Never"/>
 
       <!-- Add static collision objects -->
   <collision_object id="ground_plane">

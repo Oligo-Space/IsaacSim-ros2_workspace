@@ -70,6 +70,15 @@ class PublishTorqueProfile(Node):
     
     def run_profile(self,msg):
         if msg.data:
+            if self.profile_running:
+                self.get_logger().warn("Profile already running, ignoring start request")
+                return
+            # Run in a worker thread: blocking inside the subscription callback
+            # stalls the node's callback group, which blocks /stop_profile AND
+            # (under sim time) the /clock updates that sleep_for depends on
+            threading.Thread(target=self._run_profile_loop, daemon=True).start()
+
+    def _run_profile_loop(self):
             self.profile_running = True
             self.stop_profile = False
             check_applied = (False,None)

@@ -11,6 +11,15 @@
         <plugin>topic_based_ros2_control/TopicBasedSystem</plugin>
         <param name="joint_commands_topic">isaac_joint_commands</param>
         <param name="joint_states_topic">isaac_joint_states</param>
+        <!-- Negative threshold: always publish commands. The default 1e-5 deadband
+             suppresses velocity commands together with position, leaving Isaac's
+             articulation PD tracking a stale velocity target. -->
+        <param name="trigger_joint_command_threshold">-1.0</param>
+        <!-- Do NOT enable sum_wrapped_joint_states: this Isaac version publishes
+             UNWRAPPED positions (observed beyond ±2pi), and the accumulator's
+             swapped-limit bug aliases any >pi state jump by 2pi, making Isaac
+             wind joints a full turn (seen as joint_4_r at -362.7deg + arm jiggle) -->
+        <param name="sum_wrapped_joint_states">false</param>
       </hardware>
 
       <!-- Joint interfaces -->

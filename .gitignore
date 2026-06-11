@@ -11,3 +11,7 @@ jazzy_ws/.claudeignore
 jazzy_ws/CLAUDE.md
 jazzy_ws/graphify-out
 jazzy_ws/src/es165_moveit/urdf/es165_blender/configuration
+jazzy_ws/*.usda
+jazzy_ws/src/es165_moveit/es165_moveit/__pycache__
+jazzy_ws/jitter_onset/
+
