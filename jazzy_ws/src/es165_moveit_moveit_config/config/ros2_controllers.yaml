@@ -1,9 +1,7 @@
 #Sets up the individual controllers for the robot arm
 controller_manager:
   ros__parameters:
-    update_rate: 200  # Hz
-    # use_sim_time comes from the launch file argument (default true); the launch
-    # parameter dict overrides anything set here, so don't set it in this file
+    update_rate: 60  # Hz
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster

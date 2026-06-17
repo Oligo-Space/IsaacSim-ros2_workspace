@@ -81,7 +81,7 @@ class ZeroGController(Node):
         self.halt_timer = False
         self.timer=None
         self.last_tick_t = None
-
+        self.last_ts = None
         # self.ee_inertia = np.array(
         #     [
         #         [0.669, 0.0, 0.0],
@@ -246,7 +246,7 @@ class ZeroGController(Node):
 
 
     def init_position(self,pos=None):
-        '''
+        '''0
         Initializes robot to non-zero state
         '''
         if pos is not None:
@@ -302,11 +302,8 @@ class ZeroGController(Node):
         # Publish twist command in the end effector body frame
         # This will propogate using the IK plugin and ensure proper servo motion
 
-        # Consume queued torque ticks by elapsed clock time, not timer fires: each
-        # queued tick represents dt of torque, so a late/starved timer must drain
-        # several ticks to keep the torque schedule aligned with the clock
-        # (otherwise the queue backs up and torques execute late and stretched)
-        now = self.get_clock().now().nanoseconds / 1e9
+        now_clock = self.get_clock().now()
+        now = now_clock.nanoseconds / 1e9
         if self.last_tick_t is None:
             n_ticks = 1
             self.last_tick_t = now
@@ -325,19 +322,24 @@ class ZeroGController(Node):
                 # command ramps over its ticks instead of being consumed in a burst
                 self.last_tick_t = now
 
-        self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ impulse*self.dt + self.curr_velocity)
-        speed = self.curr_velocity
-        twist = TwistStamped()
-        twist.header.stamp = self.get_clock().now().to_msg() #timestamp of current time
-        twist.header.frame_id = "base_link"
-        twist.twist.angular.x = speed[0]
-        twist.twist.angular.y = speed[1]
-        twist.twist.angular.z = speed[2]
-        # Keep linear velocity 0 so ee stays in place
-        twist.twist.linear.x = 0.0
-        twist.twist.linear.y = 0.0
-        twist.twist.linear.z = 0.0
-        self.twist_publisher.publish(twist)
+        ts = self.get_clock().now().to_msg()
+        
+        if self.last_ts is None or ts != self.last_ts:
+            self.curr_velocity = (np.linalg.inv(self.ee_inertia) @ impulse*self.dt + self.curr_velocity)
+            speed = self.curr_velocity
+            twist = TwistStamped()
+            twist.header.stamp = ts #timestamp of current time
+            twist.header.frame_id = "base_link"
+            twist.twist.angular.x = speed[0]
+            twist.twist.angular.y = speed[1]
+            twist.twist.angular.z = speed[2]
+            # Keep linear velocity 0 so ee stays in place
+            twist.twist.linear.x = 0.0
+            twist.twist.linear.y = 0.0
+            twist.twist.linear.z = 0.0
+            self.twist_publisher.publish(twist)
+
+        self.last_ts = ts
 
 def main(args=None):
     rclpy.init(args=args)
