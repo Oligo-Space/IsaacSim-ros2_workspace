@@ -47,6 +47,6 @@ status_topic: ~/status
 
 ## Collision checking for the entire robot body
 check_collisions: true
-collision_check_rate: 60.0
-self_collision_proximity_threshold: 0.01
-scene_collision_proximity_threshold: 0.01
+collision_check_rate: 30.0
+self_collision_proximity_threshold: 0.001
+scene_collision_proximity_threshold: 0.001

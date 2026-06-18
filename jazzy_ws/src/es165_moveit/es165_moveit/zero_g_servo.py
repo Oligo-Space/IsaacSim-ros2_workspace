@@ -246,7 +246,7 @@ class ZeroGController(Node):
 
 
     def init_position(self,pos=None):
-        '''0
+        '''
         Initializes robot to non-zero state
         '''
         if pos is not None:
@@ -272,8 +272,7 @@ class ZeroGController(Node):
                 ]
                 self.init_position_publisher.publish(msg)
                 time.sleep(0.1) #sleeping with rclpy clock kills the node since there is a timer running i think
-            # A reset discards pending torques; replaying them from the new pose
-            # makes no physical sense and keeps the arm moving after a reset
+
             self.apply.clear()
             self.last_tick_t = None
             if self.timer is None:
@@ -283,8 +282,7 @@ class ZeroGController(Node):
                 self.start_servo()
 
     def update_speed(self,msg):
-        # update current velocity based on torque
-        # self.get_logger().info(f'{msg}')
+
         if len(msg.data) == 4:
             torque = msg.data[:3]
             apply_time = msg.data[-1]

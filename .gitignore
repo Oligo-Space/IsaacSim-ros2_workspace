@@ -18,3 +18,5 @@ jazzy_ws/rosbag*
 jazzy_ws/*.txt
 jazzy_ws/*.png
 jazzy_ws/src/es165_moveit/es165_moveit/__pycache__/
+jazzy_ws/src/es165_moveit/__pycache__/
+jazzy_ws/src/es165_moveit/es165_moveit/__pycache__/*

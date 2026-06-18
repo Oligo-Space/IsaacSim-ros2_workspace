@@ -34,6 +34,9 @@ class PublishTorqueProfile(Node):
         self.torque_publisher = self.create_publisher(Float32MultiArray, "/torque_input", 10)
         self.loaded_publisher = self.create_publisher(Bool, "/profile_loaded",10)
 
+
+
+        self.initial_angular = np.array([0.035,0.035,0.035])
         # Publish false on startup
         self.loaded_publisher.publish(Bool(data=False))
     
@@ -61,7 +64,7 @@ class PublishTorqueProfile(Node):
         self.profile_loaded = False
         self.profile = []
         try:
-            self.profile = deque(self.get_queue(msg.data))
+            self.profile = deque(self.get_queue(msg.data)) # Create a dequeue queue ( O(1) popping )
             self.profile_loaded = True
             self.loaded_publisher.publish(Bool(data=True))
             self.get_logger().info("Profile loaded!")
@@ -73,12 +76,17 @@ class PublishTorqueProfile(Node):
             if self.profile_running:
                 self.get_logger().warn("Profile already running, ignoring start request")
                 return
-            # Run in a worker thread: blocking inside the subscription callback
-            # stalls the node's callback group, which blocks /stop_profile AND
-            # (under sim time) the /clock updates that sleep_for depends on
+
             threading.Thread(target=self._run_profile_loop, daemon=True).start()
 
     def _run_profile_loop(self):
+            if not self.profile_running:
+                msg = Float32MultiArray()
+                torque = 100*self.initial_angular
+                msg.data = [torque[0], torque[1], torque[2], 0.01]
+                self.torque_publisher.publish(msg)
+                self.get_clock().sleep_for(Duration(seconds=0.01))
+
             self.profile_running = True
             self.stop_profile = False
             check_applied = (False,None)
@@ -99,7 +107,7 @@ class PublishTorqueProfile(Node):
                         self.torque_publisher.publish(msg)
                         self.get_clock().sleep_for(Duration(seconds=float(task[1])))
                         continue
-                    else:
+                    else: # Default torque applies for 0.1s (arbitrary, can be changed)
                         msg.data = torques
                         self.torque_publisher.publish(msg)
                         self.get_clock().sleep_for(Duration(seconds=0.1))
